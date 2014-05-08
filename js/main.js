@@ -13,6 +13,8 @@ function loadSongPage(event) {
 		return(true); }
 	// it was, we need to load this page
 	getHTMLName($('#tags').filter(':input').val());
+	// so by this time we should be re-directing, so don;t any more
+	return(false);
 };
 
 function getHTMLName(string) {
@@ -26,6 +28,28 @@ function getHTMLName(string) {
 		if(regx.test(string[i])) {
 			new_string += string[i]; }
 	};
-	alert('http://www.gdsongs.info/' + new_string);
+	new_string += '.html';
+	// grab the current window location
+
+	alert(getCurrentName() + new_string);
+
+	location.assign(getCurrentName() + new_string);
+};
+
+function getCurrentName() {
+	// get the current name of out location
+	// if xxx/ -> return xxx/
+	// if xxx/yyy.html -> return xxx/
+	// if xxx -> return xxx/
+	var current = window.location.href;
+	// makes it easy to just always drop the '/'
+	if(current[current.length - 1] == '/') {
+		current.pop(); }
+	// end in .html?
+	if(current.substr(current.length - 5).toLowerCase() == '.html') {
+		var index = current.lastIndexOf('/') - 1;
+		current = current.substr(0, index);
+	}
+	return(current + '/');
 };
 
