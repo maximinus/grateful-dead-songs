@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0.0515729757607, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Tennessee Jed", "number":"1"}, ],
     "top_five_out":[{"name":"Chinatown Shuffle", "number":"1"}, ],
+    "first_five":[{"date":"2nd Jan 1972", "venue":"Winterland Arena, San Francisco"}, ],
+    "last_five":[{"date":"2nd Jan 1972", "venue":"Winterland Arena, San Francisco"}, ],
 }

@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0616522811344, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Highway 61 Revisited", "number":"1"}, ],
     "top_five_out":[{"name":"Stuck Inside Of Mobile With The Memphis Blues Again", "number":"1"}, ],
+    "first_five":[{"date":"12th Jul 1987", "venue":"Giants Stadium, East Rutherford"}, ],
+    "last_five":[{"date":"12th Jul 1987", "venue":"Giants Stadium, East Rutherford"}, ],
 }

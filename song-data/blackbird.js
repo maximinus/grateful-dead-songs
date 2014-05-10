@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.137457044674, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Brokedown Palace", "number":"2"}, ],
     "top_five_out":[{"name":"start3", "number":"2"}, ],
+    "first_five":[{"date":"23rd Jun 1988", "venue":"Alpine Valley Music Theatre, East Troy"}, {"date":"17th Jul 1988", "venue":"Greek Theatre, Berkeley"}, ],
+    "last_five":[{"date":"17th Jul 1988", "venue":"Greek Theatre, Berkeley"}, {"date":"23rd Jun 1988", "venue":"Alpine Valley Music Theatre, East Troy"}, ],
 }

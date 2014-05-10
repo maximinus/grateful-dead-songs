@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0.126262626263, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"end1", "number":"1"}, ],
     "top_five_out":[{"name":"Katie Mae", "number":"1"}, ],
+    "first_five":[{"date":"15th May 1970 Second Show", "venue":"Fillmore East, New York"}, ],
+    "last_five":[{"date":"15th May 1970 Second Show", "venue":"Fillmore East, New York"}, ],
 }

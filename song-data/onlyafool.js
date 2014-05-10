@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0834028356964, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Drums", "number":"1"}, ],
     "top_five_out":[{"name":"Uncle John's Band", "number":"1"}, ],
+    "first_five":[{"date":"23rd Apr 1984", "venue":"Veterans Memorial Coliseum, New Haven"}, ],
+    "last_five":[{"date":"23rd Apr 1984", "venue":"Veterans Memorial Coliseum, New Haven"}, ],
 }

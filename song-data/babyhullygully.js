@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0570450656018, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"The Wheel", "number":"1"}, ],
     "top_five_out":[{"name":"Playing In The Band", "number":"1"}, ],
+    "first_five":[{"date":"16th Oct 1981", "venue":"Melk Weg, Amsterdam"}, ],
+    "last_five":[{"date":"16th Oct 1981", "venue":"Melk Weg, Amsterdam"}, ],
 }

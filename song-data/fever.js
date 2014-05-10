@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0616522811344, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Stagger Lee", "number":"1"}, ],
     "top_five_out":[{"name":"Brown Eyed Women", "number":"1"}, ],
+    "first_five":[{"date":"13th Sep 1987", "venue":"Capital Centre, Landover`"}, ],
+    "last_five":[{"date":"13th Sep 1987", "venue":"Capital Centre, Landover`"}, ],
 }

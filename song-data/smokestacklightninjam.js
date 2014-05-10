@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.080971659919, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Drums", "number":"1"}, ],
     "top_five_out":[{"name":"Truckin'", "number":"1"}, ],
+    "first_five":[{"date":"9th Apr 1983", "venue":"Hampton Coliseum, Hampton"}, ],
+    "last_five":[{"date":"9th Apr 1983", "venue":"Hampton Coliseum, Hampton"}, ],
 }

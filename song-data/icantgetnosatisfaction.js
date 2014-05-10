@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.100502512563, 0.456360524815, 0.73589533933, 0.242914979757, 0.166805671393, 0.231481481481, 0.123304562269, 0, 0, 0, 0, 0, 0.208768267223, 0, 0.0706214689266, 0, ],
     "top_five_into":[{"name":"end3", "number":"18"}, {"name":"Brokedown Palace", "number":"7"}, {"name":"end2", "number":"3"}, {"name":"It's All Over Now, Baby Blue", "number":"3"}, ],
     "top_five_out":[{"name":"start3", "number":"23"}, {"name":"U.S. Blues", "number":"4"}, {"name":"start4", "number":"1"}, {"name":"Stella Blue", "number":"1"}, {"name":"Black Peter", "number":"1"}, ],
+    "first_five":[{"date":"26th Nov 1980", "venue":"Sportatorium, Pembroke Pines"}, {"date":"31st Dec 1980", "venue":"Oakland Auditorium Arena, Oakland"}, {"date":"10th Mar 1981", "venue":"Madison Square Garden, New York"}, {"date":"11th May 1981", "venue":"Veterans Memorial Coliseum, New Haven"}, {"date":"17th May 1981", "venue":"Onondaga County War Memorial, Syracuse"}, ],
+    "last_five":[{"date":"9th Mar 1992", "venue":"Capital Centre, Landover`"}, {"date":"18th Jun 1992", "venue":"Charlotte Coliseum, Charlotte"}, {"date":"1st Aug 1994", "venue":"The Palace, Auburn Hills"}, ],
 }

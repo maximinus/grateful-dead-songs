@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0.126262626263, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Uncle John's Band", "number":"1"}, ],
     "top_five_out":[{"name":"Turn On Your Lovelight", "number":"1"}, ],
+    "first_five":[{"date":"3rd May 1970", "venue":"Field House, Middletown"}, ],
+    "last_five":[{"date":"3rd May 1970", "venue":"Field House, Middletown"}, ],
 }

@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0.126262626263, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"El Paso", "number":"1"}, ],
     "top_five_out":[{"name":"Big Railroad Blues", "number":"1"}, ],
+    "first_five":[{"date":"7th Nov 1970", "venue":"Capitol Theater, Port Chester"}, ],
+    "last_five":[{"date":"7th Nov 1970", "venue":"Capitol Theater, Port Chester"}, ],
 }

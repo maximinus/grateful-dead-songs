@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0.0515729757607, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Morning Dew", "number":"1"}, ],
     "top_five_out":[{"name":"Drums", "number":"1"}, ],
+    "first_five":[{"date":"2nd Oct 1972", "venue":"Springfield Civic Center Arena, Springfield"}, ],
+    "last_five":[{"date":"2nd Oct 1972", "venue":"Springfield Civic Center Arena, Springfield"}, ],
 }

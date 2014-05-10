@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0.378787878788, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Dupree's Diamond Blues", "number":"1"}, ],
     "top_five_out":[{"name":"start1", "number":"1"}, ],
+    "first_five":[{"date":"11th Jul 1969", "venue":"NY State Pavilion, Queens"}, ],
+    "last_five":[{"date":"11th Jul 1969", "venue":"NY State Pavilion, Queens"}, ],
 }

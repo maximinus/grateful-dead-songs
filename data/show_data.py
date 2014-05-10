@@ -34,6 +34,9 @@ class Show(object):
 		self.getSets(show)
 		self.number = 0
 	
+	def getLocation(self):
+		return('%s, %s' % (self.venue, self.city))
+	
 	def storeDate(self, date):
 		# day / month / year stored as their literal value,
 		# i.e. 3rd June 1993 is  3 - 6 - 1993
@@ -97,8 +100,8 @@ class Show(object):
 	def storeShow(self, show):
 		self.venue = show[':venue']
 		self.country = show[':country']
-		self.state = [':state']
-		self.city = [':city']
+		self.state = show[':state']
+		self.city = show[':city']
 
 	def getSets(self, show):
 		self.sets = []

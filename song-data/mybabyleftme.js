@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.123304562269, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"That's All Right, Mama", "number":"1"}, ],
     "top_five_out":[{"name":"Tons Of Steel", "number":"1"}, ],
+    "first_five":[{"date":"18th Apr 1986", "venue":"Berkeley Community Theatre, Berkeley"}, ],
+    "last_five":[{"date":"18th Apr 1986", "venue":"Berkeley Community Theatre, Berkeley"}, ],
 }

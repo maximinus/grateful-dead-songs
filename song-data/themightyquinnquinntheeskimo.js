@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0771604938272, 1.10974106042, 0.801479654747, 0.618556701031, 0.447093889717, 0.22539444027, 0.49191848208, 0.208768267223, 0, 0.141242937853, 0.508259212198, ],
     "top_five_into":[{"name":"end3", "number":"52"}, {"name":"Samson And Delilah", "number":"2"}, {"name":"Dancing In The Street", "number":"1"}, {"name":"Greatest Story Ever Told", "number":"1"}, ],
     "top_five_out":[{"name":"start3", "number":"49"}, {"name":"start2", "number":"3"}, {"name":"Not Fade Away", "number":"3"}, {"name":"start1", "number":"1"}, ],
+    "first_five":[{"date":"30th Dec 1985", "venue":"Oakland Coliseum Arena, Oakland"}, {"date":"9th Feb 1986", "venue":"Henry J. Kaiser Convention Center, Oakland"}, {"date":"19th Mar 1986", "venue":"Hampton Coliseum, Hampton"}, {"date":"30th Mar 1986", "venue":"Providence Civic Center, Providence"}, {"date":"12th Apr 1986", "venue":"Irvine Meadows Amphitheatre, Irvine"}, ],
+    "last_five":[{"date":"4th Apr 1995", "venue":"Birmingham Jefferson Convention Complex Coliseum, Birmingham"}, {"date":"25th May 1995", "venue":"Seattle Center Memorial Stadium, Seattle"}, {"date":"2nd Jul 1995", "venue":"Deer Creek Music Center, Noblesville"}, ],
 }

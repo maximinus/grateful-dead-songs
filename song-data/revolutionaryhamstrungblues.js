@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.123304562269, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Bertha", "number":"1"}, ],
     "top_five_out":[{"name":"New Minglewood Blues", "number":"1"}, ],
+    "first_five":[{"date":"27th Mar 1986", "venue":"Cumberland County Civic Center, Portland"}, ],
+    "last_five":[{"date":"27th Mar 1986", "venue":"Cumberland County Civic Center, Portland"}, ],
 }

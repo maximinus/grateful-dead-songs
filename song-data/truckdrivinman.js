@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0.126262626263, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Fair Chance To Know", "number":"1"}, ],
     "top_five_out":[{"name":"Last Lonely Eagle", "number":"1"}, ],
+    "first_five":[{"date":"3rd May 1970", "venue":"Field House, Middletown"}, ],
+    "last_five":[{"date":"3rd May 1970", "venue":"Field House, Middletown"}, ],
 }

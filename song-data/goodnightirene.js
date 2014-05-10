@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.080971659919, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"end4", "number":"1"}, ],
     "top_five_out":[{"name":"In The Midnight Hour", "number":"1"}, ],
+    "first_five":[{"date":"31st Dec 1983", "venue":"San Francisco Civic Auditorium, San Francisco"}, ],
+    "last_five":[{"date":"31st Dec 1983", "venue":"San Francisco Civic Auditorium, San Francisco"}, ],
 }

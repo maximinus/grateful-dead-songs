@@ -39,6 +39,13 @@ def getFiveJson(array):
 	string += '],'
 	return(string)
 
+def getOrderFive(songs):
+	string = '['
+	for i in songs:
+		string += '{"date":"' + str(i[0]) + '", "venue":"' + str(i[1]) + '"}, '
+	string += '],'
+	return(string)
+
 def getArrayJson(name, array):
 	# len(array) != 0
 	string = '    "' + name + '":['
@@ -87,6 +94,8 @@ class SongData(object):
 		strings.append(getArrayJson('popular_years', self.popular_years))
 		strings.append('    "top_five_into":' + getFiveJson(self.top_five_into))
 		strings.append('    "top_five_out":' + getFiveJson(self.top_five_out))
+		strings.append('    "first_five":' + getOrderFive(self.first_five))
+		strings.append('    "last_five":' + getOrderFive(self.last_five))
 		strings.append('}')
 		for i in strings:
 			fileobj.write(i)
@@ -108,7 +117,7 @@ class SongData(object):
 			for j in i.sets:
 				for k in j.songs:
 					if(k.name == self.name):
-						self.first_five.append(i.getDate())
+						self.first_five.append([i.getDate(), i.getLocation()])
 						if(len(self.first_five) == 5):
 							return
 
@@ -118,7 +127,7 @@ class SongData(object):
 			for j in reversed(i.sets):
 				for k in reversed(j.songs):
 					if(k.name == self.name):
-						self.last_five.append(i.getDate())
+						self.last_five.append([i.getDate(), i.getLocation()])
 						if(len(self.last_five) == 3):
 							self.last_five.reverse()
 							return
@@ -320,6 +329,8 @@ def buildData(shows):
 	print('Writing to file....')
 	for i in song_list:
 		i.writeJson()
+	#i = getSongData(songs[12], shows)
+	#i.writeJson()
 
 if __name__ == '__main__':
 	data_file = open(FILENAME, 'rb')

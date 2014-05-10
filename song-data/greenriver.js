@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0702740688686, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Bad Moon Rising", "number":"1"}, ],
     "top_five_out":[{"name":"Born On The Bayou", "number":"1"}, ],
+    "first_five":[{"date":"3rd Nov 1991", "venue":"Polo Field, San Francisco"}, ],
+    "last_five":[{"date":"3rd Nov 1991", "venue":"Polo Field, San Francisco"}, ],
 }

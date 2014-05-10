@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0.378787878788, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Beat It On Down The Line", "number":"1"}, ],
     "top_five_out":[{"name":"Me And My Uncle", "number":"1"}, ],
+    "first_five":[{"date":"6th Jun 1969", "venue":"Fillmore West, San Francisco"}, ],
+    "last_five":[{"date":"6th Jun 1969", "venue":"Fillmore West, San Francisco"}, ],
 }

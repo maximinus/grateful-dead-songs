@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.123304562269, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"end3", "number":"1"}, {"name":"I'll Be Your Baby Tonight", "number":"1"}, ],
     "top_five_out":[{"name":"start2", "number":"1"}, {"name":"Highway 61 Revisited", "number":"1"}, ],
+    "first_five":[{"date":"10th Jul 1987", "venue":"John F. Kennedy Stadium, Philadelphia"}, {"date":"19th Jul 1987", "venue":"Autzen Stadium, Eugene"}, ],
+    "last_five":[{"date":"19th Jul 1987", "venue":"Autzen Stadium, Eugene"}, {"date":"10th Jul 1987", "venue":"John F. Kennedy Stadium, Philadelphia"}, ],
 }

@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0.252525252525, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Candyman", "number":"1"}, {"name":"Seasons Of My Heart", "number":"1"}, ],
     "top_five_out":[{"name":"Hard To Handle", "number":"1"}, {"name":"Friend Of The Devil", "number":"1"}, ],
+    "first_five":[{"date":"31st Jan 1970", "venue":"The Warehouse, New Orleans"}, {"date":"15th May 1970", "venue":"Fillmore East, New York"}, ],
+    "last_five":[{"date":"15th May 1970", "venue":"Fillmore East, New York"}, {"date":"31st Jan 1970", "venue":"The Warehouse, New Orleans"}, ],
 }

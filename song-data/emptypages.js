@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0.377358490566, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"end2", "number":"1"}, ],
     "top_five_out":[{"name":"Brokedown Palace", "number":"1"}, ],
+    "first_five":[{"date":"23rd Aug 1971", "venue":"Auditorium Theater, Chicago"}, ],
+    "last_five":[{"date":"23rd Aug 1971", "venue":"Auditorium Theater, Chicago"}, ],
 }

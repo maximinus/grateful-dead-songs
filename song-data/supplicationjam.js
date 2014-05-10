@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0702740688686, 0, 0, 0.0706214689266, 0, ],
     "top_five_into":[{"name":"Uncle John's Band", "number":"2"}, ],
     "top_five_out":[{"name":"Estimated Prophet", "number":"1"}, {"name":"Uncle John's Band", "number":"1"}, ],
+    "first_five":[{"date":"14th Aug 1991", "venue":"Cal Expo Amphitheatre, Sacramento"}, {"date":"27th Feb 1994", "venue":"Oakland Coliseum Arena, Oakland"}, ],
+    "last_five":[{"date":"27th Feb 1994", "venue":"Oakland Coliseum Arena, Oakland"}, {"date":"14th Aug 1991", "venue":"Cal Expo Amphitheatre, Sacramento"}, ],
 }

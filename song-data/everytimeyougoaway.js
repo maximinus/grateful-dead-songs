@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0687285223368, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"What's Going On?", "number":"1"}, ],
     "top_five_out":[{"name":"Man Smart (Woman Smarter)", "number":"1"}, ],
+    "first_five":[{"date":"24th Sep 1988", "venue":"Madison Square Garden, New York"}, ],
+    "last_five":[{"date":"24th Sep 1988", "venue":"Madison Square Garden, New York"}, ],
 }

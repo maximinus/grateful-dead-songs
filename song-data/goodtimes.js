@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0570450656018, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Estimated Prophet", "number":"1"}, ],
     "top_five_out":[{"name":"Bird Song", "number":"1"}, ],
+    "first_five":[{"date":"17th Oct 1981", "venue":"The Hippodrome, Paris"}, ],
+    "last_five":[{"date":"17th Oct 1981", "venue":"The Hippodrome, Paris"}, ],
 }

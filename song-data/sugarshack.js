@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0.0562746201463, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Dire Wolf", "number":"1"}, ],
     "top_five_out":[{"name":"Mexicali Blues", "number":"1"}, ],
+    "first_five":[{"date":"19th Dec 1973", "venue":"Curtis Hixon Convention Hall, Tampa"}, ],
+    "last_five":[{"date":"19th Dec 1973", "venue":"Curtis Hixon Convention Hall, Tampa"}, ],
 }

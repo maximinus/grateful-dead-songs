@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0.126262626263, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Not Fade Away", "number":"1"}, ],
     "top_five_out":[{"name":"Katie Mae", "number":"1"}, ],
+    "first_five":[{"date":"8th Mar 1970", "venue":"Star Theatre, Phoenix"}, ],
+    "last_five":[{"date":"8th Mar 1970", "venue":"Star Theatre, Phoenix"}, ],
 }

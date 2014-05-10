@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0.378787878788, 0.126262626263, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Cumberland Blues", "number":"1"}, {"name":"Good Lovin'", "number":"1"}, ],
     "top_five_out":[{"name":"Doin' That Rag", "number":"1"}, {"name":"Viola Lee Blues", "number":"1"}, ],
+    "first_five":[{"date":"28th Sep 1969", "venue":"Caf' au Go, New York"}, {"date":"21st Mar 1970", "venue":"Capitol Theater, Port Chester"}, ],
+    "last_five":[{"date":"21st Mar 1970", "venue":"Capitol Theater, Port Chester"}, {"date":"28th Sep 1969", "venue":"Caf' au Go, New York"}, ],
 }

@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0616522811344, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Peggy O", "number":"1"}, ],
     "top_five_out":[{"name":"Shakedown Street", "number":"1"}, ],
+    "first_five":[{"date":"28th Jan 1987", "venue":"San Francisco Civic Auditorium, San Francisco"}, ],
+    "last_five":[{"date":"28th Jan 1987", "venue":"San Francisco Civic Auditorium, San Francisco"}, ],
 }

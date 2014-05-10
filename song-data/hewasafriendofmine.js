@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0.378787878788, 0.126262626263, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Cryptical Envelopment", "number":"1"}, {"name":"Viola Lee Blues", "number":"1"}, ],
     "top_five_out":[{"name":"start1", "number":"1"}, {"name":"Big Boss Man", "number":"1"}, ],
+    "first_five":[{"date":"3rd May 1969 Second Show", "venue":"Winterland Arena, San Francisco"}, {"date":"21st Mar 1970", "venue":"Capitol Theater, Port Chester"}, ],
+    "last_five":[{"date":"21st Mar 1970", "venue":"Capitol Theater, Port Chester"}, {"date":"3rd May 1969 Second Show", "venue":"Winterland Arena, San Francisco"}, ],
 }

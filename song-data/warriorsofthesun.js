@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0570450656018, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Bye Bye Love", "number":"1"}, ],
     "top_five_out":[{"name":"Lucifer's Eyes", "number":"1"}, ],
+    "first_five":[{"date":"12th Dec 1981", "venue":"Fiesta Hall, San Mateo"}, ],
+    "last_five":[{"date":"12th Dec 1981", "venue":"Fiesta Hall, San Mateo"}, ],
 }

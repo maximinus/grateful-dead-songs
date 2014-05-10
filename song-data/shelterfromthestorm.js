@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0616522811344, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Slow Train", "number":"1"}, ],
     "top_five_out":[{"name":"Ballad Of A Thin Man", "number":"1"}, ],
+    "first_five":[{"date":"24th Jul 1987", "venue":"Oakland Coliseum Stadium, Oakland"}, ],
+    "last_five":[{"date":"24th Jul 1987", "venue":"Oakland Coliseum Stadium, Oakland"}, ],
 }

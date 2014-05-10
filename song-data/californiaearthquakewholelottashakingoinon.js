@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.149031296572, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"end1", "number":"1"}, {"name":"Feel Like A Stranger", "number":"1"}, ],
     "top_five_out":[{"name":"The Promised Land", "number":"1"}, {"name":"start1", "number":"1"}, ],
+    "first_five":[{"date":"20th Oct 1989", "venue":"The Spectrum, Philadelphia"}, {"date":"23rd Oct 1989", "venue":"Charlotte Coliseum, Charlotte"}, ],
+    "last_five":[{"date":"23rd Oct 1989", "venue":"Charlotte Coliseum, Charlotte"}, {"date":"20th Oct 1989", "venue":"The Spectrum, Philadelphia"}, ],
 }

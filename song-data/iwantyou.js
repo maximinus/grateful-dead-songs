@@ -7,4 +7,6 @@ song = {
     "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.123304562269, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Highway 61 Revisited", "number":"1"}, {"name":"Ballad Of A Thin Man", "number":"1"}, ],
     "top_five_out":[{"name":"John Brown", "number":"1"}, {"name":"I'll Be Your Baby Tonight", "number":"1"}, ],
+    "first_five":[{"date":"4th Jul 1987", "venue":"Sullivan Stadium, Foxboro"}, {"date":"24th Jul 1987", "venue":"Oakland Coliseum Stadium, Oakland"}, ],
+    "last_five":[{"date":"24th Jul 1987", "venue":"Oakland Coliseum Stadium, Oakland"}, {"date":"4th Jul 1987", "venue":"Sullivan Stadium, Foxboro"}, ],
 }
