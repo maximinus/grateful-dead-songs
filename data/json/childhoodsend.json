@@ -1,0 +1,10 @@
+{
+    "name":"Childhood's End",
+    "total_played":"10",
+    "show_distance":{"short":"2", "long":"30", "average":"8.8"},
+    "song_distance":{"short":"30", "long":"483", "average":"152.6"},
+    "years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 2, ],
+    "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.564971751412, 0.254129606099, ],
+    "top_five_into":[{"name":"Deal", "number":"2"}, {"name":"Don't Ease Me In", "number":"2"}, {"name":"Eternity", "number":"1"}, {"name":"Easy Answers", "number":"1"}, {"name":"The Music Never Stopped", "number":"1"}, ]
+    "top_five_out":[{"name":"When I Paint My Masterpiece", "number":"2"}, {"name":"Eternity", "number":"1"}, {"name":"Tennessee Jed", "number":"1"}, {"name":"Stagger Lee", "number":"1"}, {"name":"Little Red Rooster", "number":"1"}, ]
+}

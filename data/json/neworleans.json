@@ -1,0 +1,10 @@
+{
+    "name":"New Orleans",
+    "total_played":"2",
+    "show_distance":{"short":"886", "long":"886", "average":"443.0"},
+    "song_distance":{"short":"16954", "long":"16954", "average":"8477.0"},
+    "years":[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "popular_years":[0, 0, 0, 0, 0, 0.126262626263, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0834028356964, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "top_five_into":[{"name":"Cumberland Blues", "number":"1"}, {"name":"Big Boss Man", "number":"1"}, ]
+    "top_five_out":[{"name":"Candyman", "number":"1"}, {"name":"start3", "number":"1"}, ]
+}

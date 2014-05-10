@@ -1,0 +1,10 @@
+{
+    "name":"Children Of The Eighties",
+    "total_played":"2",
+    "show_distance":{"short":"5", "long":"5", "average":"2.5"},
+    "song_distance":{"short":"109", "long":"109", "average":"54.5"},
+    "years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.114090131204, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "top_five_into":[{"name":"Banks Of The Ohio", "number":"1"}, {"name":"Lucifer's Eyes", "number":"1"}, ]
+    "top_five_out":[{"name":"Me And Bobby Mcgee", "number":"1"}, {"name":"Lucifer's Eyes", "number":"1"}, ]
+}

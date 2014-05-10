@@ -29,7 +29,7 @@ class Distance(object):
 		string += str(self.average) + '"},'
 		return(string)
 
-def getThreeJson(array):
+def getFiveJson(array):
 	# len(array) < 6 and > 0
 	string = '['
 	for i in array:
@@ -65,7 +65,7 @@ class SongData(object):
 		"""The javascript code expects the name a certain way
 		   Convert to lower case and accept only [a-z0-9]
 		   Return the new name"""
-		lowercase = name.lower()
+		lowercase = self.name.lower()
 		new_name =''
 		for i in lowercase:
 			if(i.isalnum()):

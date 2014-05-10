@@ -1,0 +1,10 @@
+{
+    "name":"You Ain't Woman Enough",
+    "total_played":"13",
+    "show_distance":{"short":"1", "long":"7", "average":"3.53846153846"},
+    "song_distance":{"short":"28", "long":"173", "average":"85.7692307692"},
+    "years":[0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0.731570061902, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "top_five_into":[{"name":"Row Jimmy", "number":"2"}, {"name":"Box Of Rain", "number":"2"}, {"name":"Bird Song", "number":"1"}, {"name":"Casey Jones", "number":"1"}, {"name":"El Paso", "number":"1"}, ]
+    "top_five_out":[{"name":"El Paso", "number":"2"}, {"name":"Mississippi Half Step Uptown Toodeloo", "number":"1"}, {"name":"Big River", "number":"1"}, {"name":"The Race Is On", "number":"1"}, {"name":"China Doll", "number":"1"}, ]
+}
