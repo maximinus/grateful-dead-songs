@@ -1,0 +1,10 @@
+song = {
+    "name":"Willie & The Hand Jive",
+    "total_played":"6",
+    "show_distance":{"short":"4", "long":"22", "average":"10.0"},
+    "song_distance":{"short":"64", "long":"402", "average":"174.0"},
+    "years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.616522811344, 0.0616522811344, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "top_five_into":[{"name":"Candyman", "number":"1"}, {"name":"Row Jimmy", "number":"1"}, {"name":"Goin' Down The Road Feeling Bad", "number":"1"}, {"name":"Drums", "number":"1"}, {"name":"The Wheel", "number":"1"}, ],
+    "top_five_out":[{"name":"Drums", "number":"2"}, {"name":"Comes A Time", "number":"1"}, {"name":"Althea", "number":"1"}, {"name":"Deal", "number":"1"}, {"name":"Ship Of Fools", "number":"1"}, ],
+}

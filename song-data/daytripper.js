@@ -1,0 +1,10 @@
+song = {
+    "name":"Day Tripper",
+    "total_played":"5",
+    "show_distance":{"short":"5", "long":"17", "average":"8.4"},
+    "song_distance":{"short":"71", "long":"291", "average":"150.8"},
+    "years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0834028356964, 0.308641975309, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "top_five_into":[{"name":"end3", "number":"2"}, {"name":"West L.A. Fadeaway", "number":"2"}, {"name":"end2", "number":"1"}, ],
+    "top_five_out":[{"name":"start3", "number":"2"}, {"name":"start1", "number":"1"}, {"name":"Playing In The Band", "number":"1"}, {"name":"Cold Rain And Snow", "number":"1"}, ],
+}

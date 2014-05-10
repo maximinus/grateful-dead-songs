@@ -1,0 +1,10 @@
+song = {
+    "name":"Mr. Charlie",
+    "total_played":"33",
+    "show_distance":{"short":"1", "long":"32", "average":"2.12121212121"},
+    "song_distance":{"short":"10", "long":"92", "average":"26.8181818182"},
+    "years":[0, 0, 0, 0, 0, 0, 3, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "popular_years":[0, 0, 0, 0, 0, 0, 1.1320754717, 1.54718927282, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "top_five_into":[{"name":"Black Throated Wind", "number":"6"}, {"name":"Sugaree", "number":"5"}, {"name":"Beat It On Down The Line", "number":"5"}, {"name":"Jack Straw", "number":"4"}, {"name":"Deal", "number":"3"}, ],
+    "top_five_out":[{"name":"Sugaree", "number":"8"}, {"name":"Me And My Uncle", "number":"6"}, {"name":"Deal", "number":"3"}, {"name":"Loser", "number":"3"}, {"name":"Tennessee Jed", "number":"2"}, ],
+}

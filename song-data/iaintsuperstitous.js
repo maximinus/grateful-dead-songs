@@ -1,0 +1,10 @@
+song = {
+    "name":"I Ain't Superstitous",
+    "total_played":"8",
+    "show_distance":{"short":"3", "long":"10", "average":"4.875"},
+    "song_distance":{"short":"50", "long":"170", "average":"86.5"},
+    "years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.166805671393, 0.462962962963, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "top_five_into":[{"name":"Down In The Bottom", "number":"2"}, {"name":"Friend Of The Devil", "number":"1"}, {"name":"Row Jimmy", "number":"1"}, {"name":"Stagger Lee", "number":"1"}, {"name":"Dupree's Diamond Blues", "number":"1"}, ],
+    "top_five_out":[{"name":"Down In The Bottom", "number":"5"}, {"name":"Ramble On Rose", "number":"1"}, {"name":"I Need A Miracle", "number":"1"}, {"name":"Tennessee Jed", "number":"1"}, ],
+}

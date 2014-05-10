@@ -1,0 +1,10 @@
+song = {
+    "name":"Alabama Getaway",
+    "total_played":"138",
+    "show_distance":{"short":"1", "long":"440", "average":"8.31884057971"},
+    "song_distance":{"short":"1", "long":"7749", "average":"155.123188406"},
+    "years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 49, 23, 11, 10, 8, 6, 5, 3, 3, 1, 0, 0, 0, 0, 0, 4, ],
+    "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.996677740864, 2.46231155779, 1.31203650884, 0.899427636958, 0.80971659919, 0.667222685571, 0.462962962963, 0.616522811344, 0.184956843403, 0.20618556701, 0.0745156482861, 0, 0, 0, 0, 0, 0.508259212198, ],
+    "top_five_into":[{"name":"Greatest Story Ever Told", "number":"58"}, {"name":"The Promised Land", "number":"57"}, {"name":"end3", "number":"7"}, {"name":"Johnny B. Goode", "number":"3"}, {"name":"Feel Like A Stranger", "number":"2"}, ],
+    "top_five_out":[{"name":"start1", "number":"94"}, {"name":"start2", "number":"17"}, {"name":"start3", "number":"13"}, {"name":"Jack Straw", "number":"2"}, {"name":"Looks Like Rain", "number":"2"}, ],
+}

@@ -1,0 +1,10 @@
+song = {
+    "name":"Lazy Lightnin'",
+    "total_played":"110",
+    "show_distance":{"short":"1", "long":"46", "average":"5.61818181818"},
+    "song_distance":{"short":"15", "long":"957", "average":"113.363636364"},
+    "years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 19, 20, 14, 12, 6, 6, 6, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.66075388027, 1.54471544715, 1.2936610608, 0.93023255814, 0.603015075377, 0.342270393611, 0.490596892886, 0.485829959514, 0.250208507089, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
+    "top_five_into":[{"name":"Supplication", "number":"110"}, ],
+    "top_five_out":[{"name":"Brown Eyed Women", "number":"13"}, {"name":"Tennessee Jed", "number":"10"}, {"name":"Friend Of The Devil", "number":"8"}, {"name":"Loser", "number":"7"}, {"name":"Candyman", "number":"6"}, ],
+}

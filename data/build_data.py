@@ -5,6 +5,8 @@ from show_data import *
 from song_list import songs
 from extract import FILENAME
 
+FILE_LOCATION = '../song-data/'
+
 class Distance(object):
 	def __init__(self):
 		self.average = 0
@@ -34,7 +36,7 @@ def getFiveJson(array):
 	string = '['
 	for i in array:
 		string += '{"name":"' + str(i[0]) + '", "number":"' + str(i[1]) + '"}, '
-	string += ']'
+	string += '],'
 	return(string)
 
 def getArrayJson(name, array):
@@ -73,10 +75,10 @@ class SongData(object):
 		return(new_name)
 
 	def writeJson(self):
-		"""output to ./json/song_name.json"""
-		print('Writing to ./json/' + self.convertSongName() + '.json')
-		fileobj = open('./json/' + self.convertSongName() + '.json', mode='w')
-		strings = ['{']
+		"""output as javascript file"""
+		print('Writing to ' + FILE_LOCATION + self.convertSongName() + '.js')
+		fileobj = open(FILE_LOCATION + self.convertSongName() + '.js', mode='w')
+		strings = ['song = {']
 		strings.append('    "name":"' + self.name + '",')
 		strings.append('    "total_played":"' + str(self.total_played) + '",')
 		strings.append(self.show_distances.getJson('show'))

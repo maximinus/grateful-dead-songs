@@ -1,0 +1,10 @@
+song = {
+    "name":"Gloria",
+    "total_played":"14",
+    "show_distance":{"short":"4", "long":"471", "average":"70.1428571429"},
+    "song_distance":{"short":"70", "long":"8549", "average":"1268.07142857"},
+    "years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 4, 5, 0, 1, ],
+    "popular_years":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0570450656018, 0, 0, 0.0834028356964, 0.154320987654, 0, 0, 0, 0, 0, 0, 0.417536534447, 0.363108206245, 0, 0.12706480305, ],
+    "top_five_into":[{"name":"end3", "number":"10"}, {"name":"end2", "number":"2"}, {"name":"Turn On Your Lovelight", "number":"1"}, {"name":"Why Don't We Do It In The Road", "number":"1"}, ],
+    "top_five_out":[{"name":"start3", "number":"10"}, {"name":"Cumberland Blues", "number":"1"}, {"name":"Samson And Delilah", "number":"1"}, {"name":"Wharf Rat", "number":"1"}, {"name":"She Belongs To Me", "number":"1"}, ],
+}
