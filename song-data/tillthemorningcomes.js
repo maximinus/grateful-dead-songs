@@ -6,7 +6,7 @@ song = {
     "years":[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "popular_years":[0, 0, 0, 0, 0, 0.126262626263, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"Hard To Handle", "number":"1"}, ],
-    "top_five_out":[{"name":"start1", "number":"1"}, ],
+    "top_five_out":[{"name":"Opened 1st set", "number":"1"}, ],
     "first_five":[{"date":"31st Oct 1970", "venue":"University Gymnasium, State University of New York, Stony Brook"}, ],
     "last_five":[{"date":"31st Oct 1970", "venue":"University Gymnasium, State University of New York, Stony Brook"}, ],
 }

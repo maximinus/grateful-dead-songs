@@ -23,11 +23,9 @@ function generateYears() {
 	var data = {labels : titles,
 				datasets: [{ fillColor : 'rgba(110,0,110,0.5)',
 							strokeColor : 'rgba(220,220,220,1)',
-							pointColor : 'rgba(0,0,220,1)',
-							pointStrokeColor : '#fff',
 							data : song['years'] }]};
-	var options = {};
-	var myNewChart = new Chart(ctx).Line(data, options);
+	var options = {	barValueSpacing:0, barDatasetSpacing:0,	};
+	var myNewChart = new Chart(ctx).Bar(data, options);
 };
 
 function generatePopularity() {
@@ -43,13 +41,11 @@ function generatePopularity() {
 			titles.push(''); }
 	};
 	var data = {labels : titles,
-				datasets: [{ fillColor : 'rgba(110,0,110,0.5)',
+				datasets: [{fillColor : 'rgba(110,0,110,0.5)',
 							strokeColor : 'rgba(220,220,220,1)',
-							pointColor : 'rgba(0,0,220,1)',
-							pointStrokeColor : '#fff',
 							data : song['popular_years'] }]};
-	var options = {};
-	var myNewChart = new Chart(ctx).Line(data, options);
+	var options = { barValueSpacing:0, barDatasetSpacing:0, };
+	var myNewChart = new Chart(ctx).Bar(data, options);
 };
 
 function generateTables() {

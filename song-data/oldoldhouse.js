@@ -6,7 +6,7 @@ song = {
     "years":[0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "popular_years":[0, 0, 0, 0, 0.378787878788, 0.126262626263, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ],
     "top_five_into":[{"name":"The Race Is On", "number":"1"}, {"name":"Sittin' On Top Of The World", "number":"1"}, ],
-    "top_five_out":[{"name":"start1", "number":"1"}, {"name":"Sawmill", "number":"1"}, ],
+    "top_five_out":[{"name":"Opened 1st set", "number":"1"}, {"name":"Sawmill", "number":"1"}, ],
     "first_five":[{"date":"21st Jun 1969 Second Show", "venue":"Fillmore East, New York"}, {"date":"31st Jan 1970", "venue":"The Warehouse, New Orleans"}, ],
     "last_five":[{"date":"31st Jan 1970", "venue":"The Warehouse, New Orleans"}, {"date":"21st Jun 1969 Second Show", "venue":"Fillmore East, New York"}, ],
 }

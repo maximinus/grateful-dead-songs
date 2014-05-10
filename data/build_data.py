@@ -7,6 +7,8 @@ from extract import FILENAME
 
 FILE_LOCATION = '../song-data/'
 
+ORDINALS = ['1st', '2nd', '3rd', '4th', '5th']
+
 class Distance(object):
 	def __init__(self):
 		self.average = 0
@@ -53,6 +55,23 @@ def getArrayJson(name, array):
 		string += str(i) + ', '
 	string += '],'
 	return(string)
+
+def adjustSetNames(songs):
+	"""Songs is a list of lists in the format [name, number]
+	   Look out for names like startX and endX"""
+	new_data = []
+	for i in songs:
+		# start with end or start?
+		song = i[0]
+		if(song[:len('start')] == 'start'):
+			# get the number (must be < 10)
+			fixed_name = 'Opened ' + ORDINALS[(int(song[-1]) - 1)] + ' set'
+		elif(song[:len('end')] == 'end'):
+			fixed_name = 'Closed ' + ORDINALS[(int(song[-1]) - 1)] + ' set'
+		else:
+			fixed_name = song
+		new_data.append([fixed_name, i[1]])
+	return(new_data)
 
 # build the data
 class SongData(object):
@@ -278,8 +297,8 @@ class SongData(object):
 			key = max(after, key=after.get)
 			p_after.append([key, after[key]])
 			after.pop(key)
-		self.top_five_out = p_before
-		self.top_five_into = p_after
+		self.top_five_out = adjustSetNames(p_before)
+		self.top_five_into = adjustSetNames(p_after)
 
 	def __str__(self):
 		"""Display data"""
