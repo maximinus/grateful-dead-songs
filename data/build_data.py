@@ -30,7 +30,7 @@ class Distance(object):
 		return(string)
 
 def getThreeJson(array):
-	# len(array) < 4 and > 0
+	# len(array) < 6 and > 0
 	string = '['
 	for i in array:
 		string += '{"name":"' + str(i[0]) + '", "number":"' + str(i[1]) + '"}, '
@@ -50,20 +50,32 @@ class SongData(object):
 	"""Store all data needed for the display"""
 	def __init__(self, shows, name):
 		self.name = name
-		self.first_three = []
-		self.last_three = []
+		self.first_five = []
+		self.last_five = []
 		self.show_distances = Distance()
 		self.song_distances = Distance()
 		self.total_played = 0
 		self.years = []
 		self.popular_years = []
-		self.top_three_into = []
-		self.top_three_out = []
+		self.top_five_into = []
+		self.top_five_out = []
 		self.shows = shows
+
+	def convertSongName(self):
+		"""The javascript code expects the name a certain way
+		   Convert to lower case and accept only [a-z0-9]
+		   Return the new name"""
+		lowercase = name.lower()
+		new_name =''
+		for i in lowercase:
+			if(i.isalnum()):
+				new_name += i
+		return(new_name)
 
 	def writeJson(self):
 		"""output to ./json/song_name.json"""
-		fileobj = open('./json/' + self.name + '.json', mode='w')
+		print('Writing to ./json/' + self.convertSongName() + '.json')
+		fileobj = open('./json/' + self.convertSongName() + '.json', mode='w')
 		strings = ['{']
 		strings.append('    "name":"' + self.name + '",')
 		strings.append('    "total_played":"' + str(self.total_played) + '",')
@@ -71,8 +83,8 @@ class SongData(object):
 		strings.append(self.song_distances.getJson('song'))
 		strings.append(getArrayJson('years', self.years))
 		strings.append(getArrayJson('popular_years', self.popular_years))
-		strings.append('    "top_three_into":' + getThreeJson(self.top_three_into))
-		strings.append('    "top_three_out":' + getThreeJson(self.top_three_out))
+		strings.append('    "top_five_into":' + getFiveJson(self.top_five_into))
+		strings.append('    "top_five_out":' + getFiveJson(self.top_five_out))
 		strings.append('}')
 		for i in strings:
 			fileobj.write(i)
@@ -81,32 +93,32 @@ class SongData(object):
 
 	def generateData(self):
 		self.getTotalPlayed()
-		self.getFirstThree()
-		self.getLastThree()
+		self.getFirstFive()
+		self.getLastFive()
 		self.getYearsPlayed()
 		self.getPopularYears()
 		self.getDistancesBetweenSongs()
 		self.getDistancesBetweenShows()
-		self.getTopThreeSandwich()
+		self.getTopFiveSandwich()
 
-	def getFirstThree(self):
+	def getFirstFive(self):
 		for i in self.shows:
 			for j in i.sets:
 				for k in j.songs:
 					if(k.name == self.name):
-						self.first_three.append(i.getDate())
-						if(len(self.first_three) == 3):
+						self.first_five.append(i.getDate())
+						if(len(self.first_five) == 5):
 							return
 
-	def getLastThree(self):
-		"""Same as getLastThree, just in reverse"""
+	def getLastFive(self):
+		"""Same as getLastFive, just in reverse"""
 		for i in reversed(self.shows):
 			for j in reversed(i.sets):
 				for k in reversed(j.songs):
 					if(k.name == self.name):
-						self.last_three.append(i.getDate())
-						if(len(self.last_three) == 3):
-							self.last_three.reverse()
+						self.last_five.append(i.getDate())
+						if(len(self.last_five) == 3):
+							self.last_five.reverse()
 							return
 	
 	def getTotalPlayed(self):
@@ -207,8 +219,8 @@ class SongData(object):
 				count[i] = float((count[i] * 100.0) / float(years[i]))
 		self.popular_years = count
 
-	def getTopThreeSandwich(self):
-		# get 3 played before / after
+	def getTopFiveSandwich(self):
+		# get 5 played before / after
 		before = {}
 		after = {}
 		# search for all songs
@@ -245,39 +257,39 @@ class SongData(object):
 		# now we have 2 hashes of data, sort them out
 		# do we have 3 things in each?
 		p_before = []
-		while((len(p_before) < 3) and (len(before) != 0)):
-			# iterate and grab the three
+		while((len(p_before) < 5) and (len(before) != 0)):
+			# iterate and grab the five
 			key = max(before, key=before.get)
 			p_before.append([key, before[key]])
 			before.pop(key)
 		p_after = []
-		while((len(p_after) < 3) and (len(after) != 0)):
+		while((len(p_after) < 5) and (len(after) != 0)):
 			key = max(after, key=after.get)
 			p_after.append([key, after[key]])
 			after.pop(key)
-		self.top_three_out = p_before
-		self.top_three_into = p_after
+		self.top_five_out = p_before
+		self.top_five_into = p_after
 
 	def __str__(self):
 		"""Display data"""
 		string = self.name + '\n-----------------------\n'
 		string += 'Total played: ' + str(self.total_played) + '\n'
-		string += 'First Three:\n'
-		for i in self.first_three:
+		string += 'First Five:\n'
+		for i in self.first_five:
 			string += '  ' + i + '\n'
-		string += '\nLast Three:\n'
-		for i in self.last_three:
+		string += '\nLast Five:\n'
+		for i in self.last_five:
 			string += '  ' + i + '\n'
 		string += '\nSong Distances:\n'
 		string += str(self.song_distances)
 		string += '\n\nShow Distances:\n'
 		string += str(self.show_distances)
-		# now three into and out
-		string += '\n\nTop three before:\n'
-		for i in self.top_three_out:
+		# now five into and out
+		string += '\n\nTop five before:\n'
+		for i in self.top_five_out:
 			string += '  ' + str(i[1]) + ' : ' + str(i[0]) + '\n'
-		string += '\nTop three after:\n'
-		for i in self.top_three_into:
+		string += '\nTop five after:\n'
+		for i in self.top_five_into:
 			string += '  ' + str(i[1]) + ' : ' + str(i[0]) + '\n'
 		return(string)
 
@@ -302,13 +314,10 @@ def getSongData(song_name, shows):
 
 def buildData(shows):
 	# so we go through every song first
-	#song_list = [getSongData(x, shows) for x in songs]
-	#print('Writing to file....')
-	#for i in song_list:
-	#	i.writeJson()
-	#print('Done')
-	test = getSongData(songs[12] ,shows)
-	test.writeJson()
+	song_list = [getSongData(x, shows) for x in songs]
+	print('Writing to file....')
+	for i in song_list:
+		i.writeJson()
 
 if __name__ == '__main__':
 	data_file = open(FILENAME, 'rb')
