@@ -8,5 +8,5 @@ song = {
     "top_five_into":[{"name":"end3", "number":"9"}, {"name":"Johnny B. Goode", "number":"1"}, {"name":"The Music Never Stopped", "number":"1"}, {"name":"U.S. Blues", "number":"1"}, ],
     "top_five_out":[{"name":"start3", "number":"10"}, {"name":"start1", "number":"1"}, {"name":"One More Saturday Night", "number":"1"}, ],
     "first_five":[{"date":"19th Apr 1978", "venue":"Veterans Memorial Hall, Berkeley"}, {"date":"21st Apr 1978", "venue":"Rupp Arena, Lexington"}, {"date":"24th Apr 1978", "venue":"Horton Field House, Normal"}, {"date":"5th May 1978", "venue":"Thompson Arena, Hanover"}, {"date":"9th May 1978", "venue":"Onondaga County War Memorial, Syracuse"}, ],
-    "last_five":[{"date":"31st Oct 1985", "venue":"Carolina Coliseum Arena, Columbia"}, {"date":"31st Oct 1990", "venue":"Wembley Arena, London"}, {"date":"31st Oct 1991", "venue":"Oakland Coliseum Arena, Oakland"}, ],
+    "last_five":[{"date":"3rd Jul 1978", "venue":"St. Paul Civic Center Arena, St. Paul"}, {"date":"8th Jul 1978", "venue":"Red Rocks Amphitheatre, Morrison"}, {"date":"31st Oct 1985", "venue":"Carolina Coliseum Arena, Columbia"}, {"date":"31st Oct 1990", "venue":"Wembley Arena, London"}, {"date":"31st Oct 1991", "venue":"Oakland Coliseum Arena, Oakland"}, ],
 }

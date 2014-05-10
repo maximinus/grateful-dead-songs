@@ -8,5 +8,5 @@ song = {
     "top_five_into":[{"name":"I Need A Miracle", "number":"1"}, {"name":"That Would Be Something", "number":"1"}, {"name":"Man Smart (Woman Smarter)", "number":"1"}, ],
     "top_five_out":[{"name":"Samson And Delilah", "number":"1"}, {"name":"Truckin'", "number":"1"}, {"name":"Ship Of Fools", "number":"1"}, ],
     "first_five":[{"date":"22nd Jul 1984", "venue":"County Fairgrounds, Ventura"}, {"date":"8th Oct 1984", "venue":"The Centrum, Worcester"}, {"date":"21st Feb 1995", "venue":"Delta Center, Salt Lake City"}, ],
-    "last_five":[{"date":"22nd Jul 1984", "venue":"County Fairgrounds, Ventura"}, {"date":"8th Oct 1984", "venue":"The Centrum, Worcester"}, {"date":"21st Feb 1995", "venue":"Delta Center, Salt Lake City"}, ],
+    "last_five":[{"date":"21st Feb 1995", "venue":"Delta Center, Salt Lake City"}, {"date":"8th Oct 1984", "venue":"The Centrum, Worcester"}, {"date":"22nd Jul 1984", "venue":"County Fairgrounds, Ventura"}, ],
 }

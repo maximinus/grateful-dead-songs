@@ -8,5 +8,5 @@ song = {
     "top_five_into":[{"name":"Dark Star", "number":"2"}, {"name":"Doin' That Rag", "number":"1"}, ],
     "top_five_out":[{"name":"Dupree's Diamond Blues", "number":"2"}, {"name":"Ol' Slewfoot", "number":"1"}, ],
     "first_five":[{"date":"12th Feb 1969", "venue":"Fillmore East, New York"}, {"date":"7th Jun 1969", "venue":"Fillmore West, San Francisco"}, {"date":"12th Jul 1969", "venue":"NY State Pavilion, Queens"}, ],
-    "last_five":[{"date":"12th Feb 1969", "venue":"Fillmore East, New York"}, {"date":"7th Jun 1969", "venue":"Fillmore West, San Francisco"}, {"date":"12th Jul 1969", "venue":"NY State Pavilion, Queens"}, ],
+    "last_five":[{"date":"12th Jul 1969", "venue":"NY State Pavilion, Queens"}, {"date":"7th Jun 1969", "venue":"Fillmore West, San Francisco"}, {"date":"12th Feb 1969", "venue":"Fillmore East, New York"}, ],
 }

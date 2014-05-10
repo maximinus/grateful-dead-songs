@@ -19,14 +19,12 @@ def convertSongName(name):
 	return(new_name)
 
 def buildData(html):
-	original = html
 	for i in songs:
-		html = original
-		html.replace(SONG, i)
-		html.replace(FILE, convertSongName(i))
+		copy = html.replace(SONG, i)
+		copy = copy.replace(FILE, convertSongName(i))
 		# save the new file
-		song_file = open(FILE_LOCATION + convertSongName(i) + '.js', 'w')
-		song_file.write(html)
+		song_file = open(FILE_LOCATION + convertSongName(i) + '.html', 'w')
+		song_file.write(copy)
 		song_file.close()
 
 if __name__ == '__main__':

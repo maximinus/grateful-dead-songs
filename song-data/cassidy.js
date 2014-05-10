@@ -8,5 +8,5 @@ song = {
     "top_five_into":[{"name":"Deal", "number":"34"}, {"name":"Don't Ease Me In", "number":"33"}, {"name":"Tennessee Jed", "number":"27"}, {"name":"Loser", "number":"20"}, {"name":"Peggy O", "number":"14"}, ],
     "top_five_out":[{"name":"Peggy O", "number":"26"}, {"name":"They Love Each Other", "number":"23"}, {"name":"Brown Eyed Women", "number":"21"}, {"name":"Loser", "number":"20"}, {"name":"Tennessee Jed", "number":"18"}, ],
     "first_five":[{"date":"23rd Mar 1974", "venue":"Cow Palace, Daly City"}, {"date":"3rd Jun 1976", "venue":"Paramount Theater, Portland"}, {"date":"4th Jun 1976", "venue":"Paramount Theater, Portland"}, {"date":"9th Jun 1976", "venue":"Boston Music Hall, Boston"}, {"date":"10th Jun 1976", "venue":"Boston Music Hall, Boston"}, ],
-    "last_five":[{"date":"29th Mar 1995", "venue":"The Omni, Atlanta"}, {"date":"25th May 1995", "venue":"Seattle Center Memorial Stadium, Seattle"}, {"date":"4th Jun 1995", "venue":"Shoreline Amphitheatre, Mountain View"}, ],
+    "last_five":[{"date":"30th Nov 1994", "venue":"McNichols Sports Arena, Denver"}, {"date":"20th Feb 1995", "venue":"Delta Center, Salt Lake City"}, {"date":"29th Mar 1995", "venue":"The Omni, Atlanta"}, {"date":"25th May 1995", "venue":"Seattle Center Memorial Stadium, Seattle"}, {"date":"4th Jun 1995", "venue":"Shoreline Amphitheatre, Mountain View"}, ],
 }

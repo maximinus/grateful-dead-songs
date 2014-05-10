@@ -8,5 +8,5 @@ song = {
     "top_five_into":[{"name":"Good Lovin'", "number":"4"}, ],
     "top_five_out":[{"name":"Good Lovin'", "number":"4"}, ],
     "first_five":[{"date":"7th Sep 1987", "venue":"Providence Civic Center, Providence"}, {"date":"13th Sep 1987", "venue":"Capital Centre, Landover`"}, {"date":"18th Sep 1987", "venue":"Madison Square Garden, New York"}, {"date":"23rd Sep 1987", "venue":"The Spectrum, Philadelphia"}, ],
-    "last_five":[{"date":"13th Sep 1987", "venue":"Capital Centre, Landover`"}, {"date":"18th Sep 1987", "venue":"Madison Square Garden, New York"}, {"date":"23rd Sep 1987", "venue":"The Spectrum, Philadelphia"}, ],
+    "last_five":[{"date":"23rd Sep 1987", "venue":"The Spectrum, Philadelphia"}, {"date":"18th Sep 1987", "venue":"Madison Square Garden, New York"}, {"date":"13th Sep 1987", "venue":"Capital Centre, Landover`"}, {"date":"7th Sep 1987", "venue":"Providence Civic Center, Providence"}, ],
 }

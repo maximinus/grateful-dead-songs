@@ -30,10 +30,8 @@ function getHTMLName(string) {
 	};
 	new_string += '.html';
 	// grab the current window location
-
-	alert(getCurrentName() + new_string);
-
-	location.assign(getCurrentName() + new_string);
+	var new_location = getCurrentName() + 'songs/' + new_string;
+	location.assign(new_location);
 };
 
 function getCurrentName() {
@@ -47,7 +45,7 @@ function getCurrentName() {
 		current.pop(); }
 	// end in .html?
 	if(current.substr(current.length - 5).toLowerCase() == '.html') {
-		var index = current.lastIndexOf('/') - 1;
+		var index = current.lastIndexOf('/');
 		current = current.substr(0, index);
 	}
 	return(current + '/');

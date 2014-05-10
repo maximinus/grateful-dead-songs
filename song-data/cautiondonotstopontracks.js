@@ -8,5 +8,5 @@ song = {
     "top_five_into":[{"name":"Feedback", "number":"9"}, {"name":"Who Do You Love?", "number":"3"}, {"name":"Turn On Your Lovelight", "number":"1"}, {"name":"end2", "number":"1"}, {"name":"Not Fade Away", "number":"1"}, ],
     "top_five_out":[{"name":"Sugar Magnolia", "number":"5"}, {"name":"Alligator", "number":"4"}, {"name":"The Eleven", "number":"2"}, {"name":"Who Do You Love?", "number":"2"}, {"name":"Drums", "number":"2"}, ],
     "first_five":[{"date":"7th Jan 1966", "venue":"Fillmore Auditorium, San Francisco"}, {"date":"14th Feb 1968", "venue":"Carousel Ballroom, San Francisco"}, {"date":"24th Feb 1968", "venue":"King's Beach Bowl, Lake Tahoe"}, {"date":"15th Mar 1968", "venue":"Carousel Ballroom, San Francisco"}, {"date":"23rd May 1968", "venue":"National Guard Armory, St. Louis"}, ],
-    "last_five":[{"date":"29th Apr 1972", "venue":"Musikhalle, Hamburg"}, {"date":"11th May 1972", "venue":"Rotterdam Civic Hall, Rotterdam"}, {"date":"11th May 1972", "venue":"Rotterdam Civic Hall, Rotterdam"}, ],
+    "last_five":[{"date":"16th Apr 1972", "venue":"Aarhus University, Aarhus"}, {"date":"17th Apr 1972", "venue":"Tivoli Concert Hall, Copenhagen"}, {"date":"29th Apr 1972", "venue":"Musikhalle, Hamburg"}, {"date":"11th May 1972", "venue":"Rotterdam Civic Hall, Rotterdam"}, {"date":"11th May 1972", "venue":"Rotterdam Civic Hall, Rotterdam"}, ],
 }

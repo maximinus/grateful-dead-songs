@@ -128,7 +128,7 @@ class SongData(object):
 				for k in reversed(j.songs):
 					if(k.name == self.name):
 						self.last_five.append([i.getDate(), i.getLocation()])
-						if(len(self.last_five) == 3):
+						if(len(self.last_five) == 5):
 							self.last_five.reverse()
 							return
 	

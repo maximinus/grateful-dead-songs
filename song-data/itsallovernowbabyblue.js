@@ -8,5 +8,5 @@ song = {
     "top_five_into":[{"name":"end3", "number":"99"}, {"name":"end1", "number":"3"}, {"name":"end2", "number":"3"}, {"name":"end4", "number":"2"}, {"name":"Tennessee Jed", "number":"2"}, ],
     "top_five_out":[{"name":"start3", "number":"90"}, {"name":"It's All Over Now", "number":"5"}, {"name":"Jack A Roe", "number":"3"}, {"name":"(I Can't Get No) Satisfaction", "number":"3"}, {"name":"Johnny B. Goode", "number":"3"}, ],
     "first_five":[{"date":"5th Jan 1966", "venue":"The Matrix, San Francisco"}, {"date":"5th Jun 1967", "venue":"Caf' au Go, New York"}, {"date":"23rd Sep 1972", "venue":"The Palace Theater, Waterbury"}, {"date":"26th Sep 1972", "venue":"Stanley Theatre, Jersey City"}, {"date":"24th Feb 1974", "venue":"Winterland Arena, San Francisco"}, ],
-    "last_five":[{"date":"8th Dec 1994", "venue":"Oakland Coliseum Arena, Oakland"}, {"date":"18th Dec 1994", "venue":"Los Angeles Sports Arena, Los Angeles"}, {"date":"19th Feb 1995", "venue":"Delta Center, Salt Lake City"}, ],
+    "last_five":[{"date":"13th Oct 1994", "venue":"Madison Square Garden, New York"}, {"date":"29th Nov 1994", "venue":"McNichols Sports Arena, Denver"}, {"date":"8th Dec 1994", "venue":"Oakland Coliseum Arena, Oakland"}, {"date":"18th Dec 1994", "venue":"Los Angeles Sports Arena, Los Angeles"}, {"date":"19th Feb 1995", "venue":"Delta Center, Salt Lake City"}, ],
 }

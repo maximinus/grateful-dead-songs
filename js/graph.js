@@ -55,6 +55,8 @@ function generatePopularity() {
 function generateTables() {
 	buildFiveInto();
 	buildFiveOut();
+	buildFirstFive();
+	buildLastFive();
 };
 
 function buildFiveInto() {
@@ -84,18 +86,25 @@ function buildFiveOut() {
 };
 
 function buildFirstFive() {
-	table = document.getElementByID('first_five');
+	table = document.getElementById('first_five');
 	for(var i=0; i<song.first_five.length; i++) {
 		var row = table.insertRow();
-		var cell_details = row.insertCell(0);
-		cell_details.innerHTML = song['first_five'][i];
+		var cell_date = row.insertCell(0);
+		var cell_venue = row.insertCell(1);
+		cell_date.innerHTML = song['first_five'][i].date;
+		cell_venue.innerHTML = song['first_five'][i].venue;
+	}
 };
 
 function buildLastFive() {
-	table = document.getElementByID('last_five');
+	table = document.getElementById('last_five');
 	for(var i=0; i<song.last_five.length; i++) {
 		var row = table.insertRow();
-		var cell_details = row.insertCell(0);
-		cell_details.innerHTML = song['last_five'][i];
+		var cell_date = row.insertCell(0);
+		var cell_venue = row.insertCell(1);
+		cell_date.innerHTML = song['last_five'][i].date;
+		cell_venue.innerHTML = song['last_five'][i].venue;
+	}
 };
+
 

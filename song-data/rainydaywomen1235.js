@@ -8,5 +8,5 @@ song = {
     "top_five_into":[{"name":"Queen Jane Approximately", "number":"1"}, {"name":"end3", "number":"1"}, {"name":"Gotta Serve Somebody", "number":"1"}, ],
     "top_five_out":[{"name":"start3", "number":"1"}, {"name":"Ballad Of A Thin Man", "number":"1"}, {"name":"It's All Over Now, Baby Blue", "number":"1"}, ],
     "first_five":[{"date":"19th Jul 1987", "venue":"Autzen Stadium, Eugene"}, {"date":"26th Jul 1987", "venue":"Anaheim Stadium, Anaheim"}, {"date":"17th Oct 1994", "venue":"Madison Square Garden, New York"}, ],
-    "last_five":[{"date":"19th Jul 1987", "venue":"Autzen Stadium, Eugene"}, {"date":"26th Jul 1987", "venue":"Anaheim Stadium, Anaheim"}, {"date":"17th Oct 1994", "venue":"Madison Square Garden, New York"}, ],
+    "last_five":[{"date":"17th Oct 1994", "venue":"Madison Square Garden, New York"}, {"date":"26th Jul 1987", "venue":"Anaheim Stadium, Anaheim"}, {"date":"19th Jul 1987", "venue":"Autzen Stadium, Eugene"}, ],
 }

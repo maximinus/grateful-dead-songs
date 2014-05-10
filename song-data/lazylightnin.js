@@ -8,5 +8,5 @@ song = {
     "top_five_into":[{"name":"Supplication", "number":"110"}, ],
     "top_five_out":[{"name":"Brown Eyed Women", "number":"13"}, {"name":"Tennessee Jed", "number":"10"}, {"name":"Friend Of The Devil", "number":"8"}, {"name":"Loser", "number":"7"}, {"name":"Candyman", "number":"6"}, ],
     "first_five":[{"date":"3rd Jun 1976", "venue":"Paramount Theater, Portland"}, {"date":"4th Jun 1976", "venue":"Paramount Theater, Portland"}, {"date":"9th Jun 1976", "venue":"Boston Music Hall, Boston"}, {"date":"10th Jun 1976", "venue":"Boston Music Hall, Boston"}, {"date":"11th Jun 1976", "venue":"Boston Music Hall, Boston"}, ],
-    "last_five":[{"date":"26th Apr 1984", "venue":"Providence Civic Center, Providence"}, {"date":"8th Oct 1984", "venue":"The Centrum, Worcester"}, {"date":"31st Oct 1984", "venue":"Berkeley Community Theatre, Berkeley"}, ],
+    "last_five":[{"date":"6th Sep 1983", "venue":"Red Rocks Amphitheatre, Morrison"}, {"date":"18th Oct 1983", "venue":"Cumberland County Civic Center, Portland"}, {"date":"26th Apr 1984", "venue":"Providence Civic Center, Providence"}, {"date":"8th Oct 1984", "venue":"The Centrum, Worcester"}, {"date":"31st Oct 1984", "venue":"Berkeley Community Theatre, Berkeley"}, ],
 }
