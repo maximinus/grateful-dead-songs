@@ -1,0 +1,13 @@
+{
+    "name":"",
+    "total_played":"",
+	"show_distance":{"short":"", "long":"", "average":""},
+	"song_distance":{"short":"", "long":"", "average":""},
+	"first_three":{"1":"", "2":"", "3":""},
+	"last_three":{"1":"", "2":"", "3":""},
+	"years":[],
+	"popular_years":[],
+	"top_three_into":[],
+	"top_three_out":[],
+}
+
