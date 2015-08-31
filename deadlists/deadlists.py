@@ -56,6 +56,7 @@ def getShows(data):
 		new_show = DLShow()
 		new_show._id = i[0]
 		new_show.date = i[1]
+		new_show.number = i[2]
 		new_show.location = i[3]
 		new_show.comments = i[4]
 		new_show.live = i[5]
@@ -87,6 +88,51 @@ def getDatabaseData():
 	database = pickle.load(data_file)
 	return(database)
 
+# code below to extract all data and merge it
+
+def matchShows(deadlist, database):
+	# produce a dict of shows for each one. The format is YY-MM-DD-N,
+	# where n is the index for that day
+	DL_shows = {}
+	DB_shows = {}
+	DL_twice = []
+	DB_twice = []
+	for i in deadlist['shows']:
+		if(i.convertDate() in DL_shows):
+			DL_twice.append(i)
+		else:
+			DL_shows[i.convertDate()] = i
+	for i in database:
+		if(i.convertDate() in DB_shows):
+			DB_twice.append(i)
+		else:
+			DB_shows[i.convertDate()] = i
+	# match like for like
+	paired = []
+	found = []
+	for i in DB_shows.iterkeys():
+		if i in DL_shows:
+			# i.e., we have a match for both
+			paired.append([DB_shows[i], DL_shows[i]])
+		else:
+			# not in DL_shows
+			paired.append([DB_shows[i], None])
+		found.append(i)
+	# check other way around
+	for i in DL_shows.iterkeys():
+		if i not in found:
+			paired.append([None, DL_shows[i]])
+	print(' Matched up: {0}'.format(len(paired)))
+	print(' >1: DL: {0}, DB: {1}'.format(len(DL_twice), len(DB_twice)))
+	return(paired)
+			
+
+def showMatched(matched):
+	print matched[0]
+	print matched[1]
+
+# code above to extract all data and merge it
+
 def printComparison(lists, bases):
 	print('  Deadlists: {0} shows'.format(len(lists['shows'])))
 	print('   Database: {0} shows'.format(len(bases)))
@@ -95,5 +141,7 @@ if __name__ == '__main__':
 	# get the deadlists data
 	deadlist = getDeadListsData()
 	database = getDatabaseData()
+	shows = matchShows(deadlist, database)
 	printComparison(deadlist, database)
+	showMatched(shows[1000])
 

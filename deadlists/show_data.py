@@ -34,6 +34,16 @@ class Show(object):
 		self.getSets(show)
 		self.number = 0
 	
+	def convertDate(self):
+		day = str(self.day)
+		if(len(day) == 1):
+			day = '0' + day
+		month = str(self.month)
+		if(len(month) == 1):
+			month = '0' + month
+		year = str(self.year)[2:]
+		return('{0}-{1}-{2}'.format(year, month, day))
+	
 	def getLocation(self):
 		return('%s, %s' % (self.venue, self.city))
 	

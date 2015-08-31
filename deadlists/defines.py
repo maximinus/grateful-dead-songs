@@ -36,6 +36,13 @@ class DLShow(object):
 	location = 0
 	comments = ''
 	live = True
+	number = 0
+	
+	def convertDate(self):
+		# just a string
+		dates = self.date.split('-')
+		# number is one above the DB version
+		return('{0}-{1}-{2}'.format(dates[0][2:], dates[1], dates[2]))
 
 class Venue(object):
 	# to show where the song was played
