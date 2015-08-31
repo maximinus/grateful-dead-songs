@@ -6,7 +6,7 @@ class Songwriter(object):
 	# a person who wrote a song
 	name = ''
 
-class Song(object):
+class DLSong(object):
 	# an actual song
 	_id = -1
 	name = ''
@@ -28,7 +28,7 @@ class PlayedSong(object):
 	place = 0
 	show = 0
 
-class Show(object):
+class DLShow(object):
 	# a list of sets forming a show
 	sets = []
 	_id = -1

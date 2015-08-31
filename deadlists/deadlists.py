@@ -3,8 +3,9 @@
 # code to extract data from the database... where we normalise etc.
 # this is just to get the raw data
 
-import sqlite3
+import sqlite3, pickle
 from defines import *
+from show_data import *
 
 TABLES = {'songs':'songs_song',
 		  'played':'shows_playedsong',
@@ -18,7 +19,7 @@ def openDatabase():
 def getSongs(data):
 	songs = []
 	for i in data.execute('SELECT * from {0}'.format(TABLES['songs'])):
-		new_song = Song()
+		new_song = DLSong()
 		new_song._id = i[0]
 		new_song.abbr = i[1]
 		new_song.name = i[2]
@@ -52,7 +53,7 @@ def getVenues(data):
 def getShows(data):
 	shows = []
 	for i in data.execute('SELECT * from {0}'.format(TABLES['shows'])):	
-		new_show = Show()
+		new_show = DLShow()
 		new_show._id = i[0]
 		new_show.date = i[1]
 		new_show.location = i[3]
@@ -71,11 +72,28 @@ def convertSets(played):
 			show_lists[i.show] = [i]
 	# now we have a list of shows, break into sets
 
-if __name__ == '__main__':
+def getDeadListsData():
 	data = openDatabase()
-	songs = getSongs(data)
-	played = getPlayedSongs(data)
-	venues = getVenues(data)
-	shows = getShows(data)
+	deadlist = {}
+	deadlist['songs'] = getSongs(data)
+	deadlist['played'] = getPlayedSongs(data)
+	deadlist['venues'] = getVenues(data)
+	deadlist['shows'] = getShows(data)
 	data.close()
+	return(deadlist)
+
+def getDatabaseData():
+	data_file = open('shows.pickle', 'rb')
+	database = pickle.load(data_file)
+	return(database)
+
+def printComparison(lists, bases):
+	print('  Deadlists: {0} shows'.format(len(lists['shows'])))
+	print('   Database: {0} shows'.format(len(bases)))
+
+if __name__ == '__main__':
+	# get the deadlists data
+	deadlist = getDeadListsData()
+	database = getDatabaseData()
+	printComparison(deadlist, database)
 
