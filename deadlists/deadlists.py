@@ -38,6 +38,8 @@ def getPlayedSongs(data):
 		new_song.setnum = i[5]
 		new_song.place = i[6]
 		new_song.show = i[7]
+		songs.append(new_song)
+	return(songs)
 
 def getVenues(data):
 	venues = []
@@ -63,6 +65,16 @@ def getShows(data):
 		shows.append(new_show)
 	return(shows)
 
+def addSongInfo(played, songs):
+	# in-efficient but quick and easy
+	dsongs = {}
+	for i in songs:
+		dsongs[i._id] = i
+	for i in played:
+		if(i.song in dsongs):
+			i.song_model = dsongs[i.song]
+	return(played)
+
 def convertSets(played):
 	# break up all the played songs, first into seperate shows:
 	show_lists = {}
@@ -72,12 +84,50 @@ def convertSets(played):
 		else:
 			show_lists[i.show] = [i]
 	# now we have a list of shows, break into sets
+	new_shows = {}
+	for i in show_lists.iterkeys():
+		# show_lists[i] is an array of songs
+		new_sets = {}
+		for song in show_lists[i]:
+			if(song.setnum in new_sets):
+				new_sets[song.setnum].append(song)
+			else:
+				new_sets[song.setnum] = [song]
+		# now we we have some unorded sets. Order them
+		# before we had a list of songs, now we have list of sets
+		new_shows[i] = orderSets(new_sets)
+	# We are returning a dict of shows with a dict of ordered sets
+	return(new_shows)
+
+def addSetlists(shows, set_info):
+	# shows is the list of all shows
+	# set info is a dict of {xxx:{sets:[]}}
+	# where X is the id of the show 
+	show_ids = {}
+	for i in shows:
+		show_ids[i._id] = i
+	for i in set_info.iterkeys():
+		if i in show_ids:
+			show_ids[i].sets = set_info[i]
+	return([show_ids[x] for x in show_ids.iterkeys()])
+
+def orderSets(sets):
+	for i in sets.iterkeys():
+		# for all sets
+		sets[i].sort(key=lambda x: x.place, reverse=False)
+	return(sets)
+
+def replaceSets(shows):
+	# all shows now have a dict of ordered sets.
+	# Replace this with an arrat of Set() objects, same as database object
+	for i in shows.iteerkeys():
+		pass
 
 def getDeadListsData():
 	data = openDatabase()
 	deadlist = {}
 	deadlist['songs'] = getSongs(data)
-	deadlist['played'] = getPlayedSongs(data)
+	deadlist['played'] = getPlayedSongs(data)	
 	deadlist['venues'] = getVenues(data)
 	deadlist['shows'] = getShows(data)
 	data.close()
@@ -125,11 +175,10 @@ def matchShows(deadlist, database):
 	print(' Matched up: {0}'.format(len(paired)))
 	print(' >1: DL: {0}, DB: {1}'.format(len(DL_twice), len(DB_twice)))
 	return(paired)
-			
 
 def showMatched(matched):
-	print matched[0]
-	print matched[1]
+	print matched[0].sets
+	print matched[1].sets
 
 # code above to extract all data and merge it
 
@@ -141,6 +190,9 @@ if __name__ == '__main__':
 	# get the deadlists data
 	deadlist = getDeadListsData()
 	database = getDatabaseData()
+	deadlist['played'] = addSongInfo(deadlist['played'], deadlist['songs'])
+	set_info = convertSets(deadlist['played'])
+	deadlist['shows'] = addSetlists(deadlist['shows'], set_info)
 	shows = matchShows(deadlist, database)
 	printComparison(deadlist, database)
 	showMatched(shows[1000])

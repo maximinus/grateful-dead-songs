@@ -27,6 +27,7 @@ class PlayedSong(object):
 	setnum = 0
 	place = 0
 	show = 0
+	song_model = None
 
 class DLShow(object):
 	# a list of sets forming a show
