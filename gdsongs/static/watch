@@ -1,0 +1,5 @@
+#!/bin/bash
+
+jsx --watch components/ build/ &
+
+
