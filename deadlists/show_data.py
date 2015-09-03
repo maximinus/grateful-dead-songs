@@ -11,6 +11,7 @@ class Song(object):
 	def __init__(self, name, transition):
 		self.name = name
 		self.transition = transition
+		self.length = 0
 
 class Set(object):
 	def __init__(self, order, songs):

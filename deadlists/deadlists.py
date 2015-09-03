@@ -172,9 +172,37 @@ def matchShows(deadlist, database):
 	for i in DL_shows.iterkeys():
 		if i not in found:
 			paired.append([None, DL_shows[i]])
-	print(' Matched up: {0}'.format(len(paired)))
-	print(' >1: DL: {0}, DB: {1}'.format(len(DL_twice), len(DB_twice)))
+	print('  Matched up: {0}'.format(len(paired)))
+	print('  >1: DL: {0}, DB: {1}'.format(len(DL_twice), len(DB_twice)))
 	return(paired)
+
+def convertSet(new_set):
+	# new set is a list of PlayedSong
+	return
+
+def convertData(show):
+	# given a show, convert the format
+	# the instance is a dict of sets, so first we need to change sets
+	sets = []
+	if(show.sets == []):
+		return([])	
+	for i in show.sets.iterkeys():
+		sets.append([i, show.sets[i]])
+	# sort
+	sorted(sets, key=lambda new_set: new_set[0])
+	sets = [x[1] for x in sets]
+	# now we have a list of sets in order
+	return([convertSet(x) for x in sets])
+
+def equalFormat(shows):
+	# shows is a list of lists of the format [db_show, dl_show]
+	# convert the format of the latter so it is the same as the other
+	for i in shows:
+		convert = i[1]
+		if(convert == None):
+			continue
+		i[1].sets = convertData(convert)
+	return(shows)
 
 def showMatched(matched):
 	print matched[0].sets
@@ -182,18 +210,28 @@ def showMatched(matched):
 
 # code above to extract all data and merge it
 
-def printComparison(lists, bases):
-	print('  Deadlists: {0} shows'.format(len(lists['shows'])))
-	print('   Database: {0} shows'.format(len(bases)))
+def getAllSongs(dl_songs, database):
+	songs = []
+	for i in dl_songs:
+		songs.append([i.name, i.abbr])
+	return(songs)
 
-if __name__ == '__main__':
+def main():
 	# get the deadlists data
 	deadlist = getDeadListsData()
 	database = getDatabaseData()
+	songs = getAllSongs(deadlist['songs'], database)
+	print songs
+	return
+
 	deadlist['played'] = addSongInfo(deadlist['played'], deadlist['songs'])
 	set_info = convertSets(deadlist['played'])
 	deadlist['shows'] = addSetlists(deadlist['shows'], set_info)
-	shows = matchShows(deadlist, database)
-	printComparison(deadlist, database)
-	showMatched(shows[1000])
+	shows = matchShows(deadlist, database)	
+	# the matched shows are still different in the way they operate
+	# sort the dicts in the second order
+	shows = equalFormat(shows)
+	showMatched(shows[1000])	
 
+if __name__ == '__main__':
+	main()
