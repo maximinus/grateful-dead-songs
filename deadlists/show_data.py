@@ -9,6 +9,7 @@ times	= ['First Show', 'Second Show', 'Third Show']
 
 class Song(object):
 	def __init__(self, name, transition):
+		self._id = None
 		self.name = name
 		self.transition = transition
 		self.length = 0
@@ -75,7 +76,7 @@ class Show(object):
 			print('Year wrong in ' + self.getDate())
 			print('  UUID: ' + seld.uid)
 	
-	def __cmp__(self, other):
+	def __old_cmp__(self, other):
 		"""Compare the dates for a sort"""
 		# no date should be equal, so never return 0
 		# if other is earlier, then return 1, else return -1

@@ -176,9 +176,23 @@ def matchShows(deadlist, database):
 	print('  >1: DL: {0}, DB: {1}'.format(len(DL_twice), len(DB_twice)))
 	return(paired)
 
+def matchSongID(text):
+	if(text == ''):
+		return(-1)
+	for i in all_songs:
+		for j in i[1]:
+			if text == j:
+				return(i[0])
+	# didn't find, error:
+	text = "Couldn't match '{0}'".format(text)
+	raise NameError(text)
+
 def convertSet(new_set):
 	# new set is a list of PlayedSong
-	return
+	# we take the name, look for it in the songs, and then set the id
+	for i in new_set:
+		i._id = matchSongID(i.name)
+	return(new_set)
 
 def convertData(show):
 	# given a show, convert the format
@@ -201,18 +215,37 @@ def equalFormat(shows):
 		convert = i[1]
 		if(convert == None):
 			continue
+
+		print convert
+		
 		i[1].sets = convertData(convert)
+	return(shows)
+
+def addNormalID(shows):
+	for i in shows:
+		if(i[0] == None):
+			continue
+		convert = i[0].sets
+		if(convert == []):
+			continue
+		i[0].sets = [convertSet(x.songs) for x in convert]
 	return(shows)
 
 def showMatched(matched):
 	print matched[0].sets
 	print matched[1].sets
 
-def main():
+def compareShows(show1, show2):
+	# show 1 has sets that are of type Set
+	# show2 has a simple ordered array of PlayedSongs
+	# both song id's come from all_songs
+	pass
+
+if __name__ == '__main__':
 	# get the deadlists data
 	deadlist = getDeadListsData()
 	database = getDatabaseData()
-
+	all_songs = json.load(open('all_songs.json'))
 	deadlist['played'] = addSongInfo(deadlist['played'], deadlist['songs'])
 	set_info = convertSets(deadlist['played'])
 	deadlist['shows'] = addSetlists(deadlist['shows'], set_info)
@@ -220,7 +253,7 @@ def main():
 	# the matched shows are still different in the way they operate
 	# sort the dicts in the second order
 	shows = equalFormat(shows)
-	showMatched(shows[1000])	
+	# add the correct id's to the other sets
+	show = addNormalID(shows)
+	showMatched(shows[1000])
 
-if __name__ == '__main__':
-	main()
