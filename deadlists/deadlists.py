@@ -3,7 +3,7 @@
 # code to extract data from the database... where we normalise etc.
 # this is just to get the raw data
 
-import sqlite3, pickle
+import sqlite3, pickle, json
 from defines import *
 from show_data import *
 
@@ -208,21 +208,10 @@ def showMatched(matched):
 	print matched[0].sets
 	print matched[1].sets
 
-# code above to extract all data and merge it
-
-def getAllSongs(dl_songs, database):
-	songs = []
-	for i in dl_songs:
-		songs.append([i.name, i.abbr])
-	return(songs)
-
 def main():
 	# get the deadlists data
 	deadlist = getDeadListsData()
 	database = getDatabaseData()
-	songs = getAllSongs(deadlist['songs'], database)
-	print songs
-	return
 
 	deadlist['played'] = addSongInfo(deadlist['played'], deadlist['songs'])
 	set_info = convertSets(deadlist['played'])
