@@ -13,6 +13,13 @@ class Song(object):
 		self.name = name
 		self.transition = transition
 		self.length = 0
+		
+	def getJson(self):
+		if(self._id == None):
+			new_id = 0
+		else:
+			new_id = self._id
+		return({'id':new_id, 'trans':self.transition, 'length':self.length})
 
 class Set(object):
 	def __init__(self, order, songs):
@@ -26,6 +33,9 @@ class Set(object):
 			else:
 				transition = True
 			self.songs.append(Song(i[':name'], transition))
+
+	def getJson(self):
+		return({'order':self.order, 'songs':[x.getJson() for x in self.songs]})
 
 class Show(object):
 	def __init__(self, date, show):
@@ -74,7 +84,7 @@ class Show(object):
 			print('  UUID: ' + seld.uid)
 		elif(self.year not in range(1965, 1996, 1)):
 			print('Year wrong in ' + self.getDate())
-			print('  UUID: ' + seld.uid)
+			print('  UUID: ' + seld.uid)	
 	
 	def __old_cmp__(self, other):
 		"""Compare the dates for a sort"""
@@ -122,4 +132,17 @@ class Show(object):
 			# these are in order from the file
 			self.sets.append(Set(order, i[':songs']))
 			order += 1
+
+	def getJson(self):
+		new_sets = []
+		for i in self.sets:
+			new_sets.append([x.getJson() for x in i])
+		return({'venue':self.venue,
+				 'country':self.country,
+				 'state':self.state,
+				 'city':self.city,
+				 'day':self.day,
+				 'month':self.month,
+				 'year':self.year,
+				 'sets':new_sets})
 

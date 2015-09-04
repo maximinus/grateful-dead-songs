@@ -73,6 +73,7 @@ def addSongInfo(played, songs):
 	for i in played:
 		if(i.song in dsongs):
 			i.song_model = dsongs[i.song]
+			i.name = dsongs[i.song].name
 	return(played)
 
 def convertSets(played):
@@ -192,6 +193,8 @@ def convertSet(new_set):
 	# we take the name, look for it in the songs, and then set the id
 	for i in new_set:
 		i._id = matchSongID(i.name)
+		if(i._id == -1):
+			i.display()
 	return(new_set)
 
 def convertData(show):
@@ -215,9 +218,6 @@ def equalFormat(shows):
 		convert = i[1]
 		if(convert == None):
 			continue
-
-		print convert
-		
 		i[1].sets = convertData(convert)
 	return(shows)
 
@@ -235,11 +235,56 @@ def showMatched(matched):
 	print matched[0].sets
 	print matched[1].sets
 
+def compareSets(set1, set2):
+	# sets must have same length
+	if(len(set1) != len(set2)):
+		#print('Sets: {0}, {1}'.format(len(set1), len(set2)))
+		# most issues come from the fact that one song is not there
+		m_data['set_length'] += 1
+		return(False)
+	for i in range(len(set1)):
+		if(set1[i]._id != set2[i]._id):
+			m_data['song_mismatch'] += 1
+			#print('{0} - {1}'.format(set1[i]._id, set2[i]._id))
+			return(False)
+	return(True)
+
 def compareShows(show1, show2):
-	# show 1 has sets that are of type Set
-	# show2 has a simple ordered array of PlayedSongs
+	# show1 has ordered arrays of Songs
+	# show2 has ordered arrays of PlayedSongs
 	# both song id's come from all_songs
-	pass
+	# first, both shows must have the same number of sets!
+	if(len(show1.sets) != len(show2.sets)):
+		m_data['different_sets'] += 1
+		return(False)
+	# now all the songs must have the same index
+	for i in range(len(show1.sets)):
+		if(compareSets(show1.sets[i], show2.sets[i]) == False):
+			return(False)
+	# all tests past
+	return(True)
+
+def matchAllShows(shows):
+	match = []
+	no_match = []
+	for i in shows:
+		if((i[0] == None) or (i[1] == None)):
+			no_match.append(i)
+			continue
+		if(compareShows(i[0], i[1]) == True):
+			match.append(i)
+		else:
+			no_match.append(i)
+	return([match, no_match])
+
+def addSongLengths(shows):
+	for show in shows:
+		s1 = show[0]
+		s2 = show[1]
+		for set_index in range(len(s1.sets)):
+			for song_index in range(len(s1.sets[set_index])):
+				s1.sets[set_index][song_index].length = s2.sets[set_index][song_index].length
+	return(shows)
 
 if __name__ == '__main__':
 	# get the deadlists data
@@ -254,6 +299,13 @@ if __name__ == '__main__':
 	# sort the dicts in the second order
 	shows = equalFormat(shows)
 	# add the correct id's to the other sets
-	show = addNormalID(shows)
-	showMatched(shows[1000])
+	shows = addNormalID(shows)
+	# now we have all the shows with same values on the indexes
+	# which ones match?
+	m_data = {'set_length':0, 'song_mismatch':0, 'different_sets':0}
+	show_data = matchAllShows(shows)
+	all_data = addSongLengths(show_data[0])
+	# convert to a dict
+	final_data = [x[0].getJson() for x in all_data]
+	json.dump(final_data, open('all_data.json', 'w'), indent=4, separators=(',', ': '))
 

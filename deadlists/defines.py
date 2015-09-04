@@ -28,6 +28,9 @@ class PlayedSong(object):
 	place = 0
 	show = 0
 	song_model = None
+	
+	def display(self):
+		print('{0}, {1}'.format(self.song, self.length))
 
 class DLShow(object):
 	# a list of sets forming a show
