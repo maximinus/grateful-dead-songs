@@ -8,15 +8,36 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Grateful Dead Songs</title>
-	<linf href={% static "csss/bootstrap.min.css" %} rel="stylesheet">
+	<link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
+	<style>
+		.background_image {
+			position: fixed;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-size: cover;
+			background-position: 50% 50%;
+			background-image: url("{% static "images/backdrop.jpg" %}");
+			background-repeat: repeat;
+		}
+	</style>
 </head>
 
 <body>
 	<script>
 		var CSRF = "{{ csrf_token }}";
 	</script>
-	<h1>Hello, Bootstrap!</h1>
+	
+	<div id="background_image" class="background_image"/>
+	<!-- Page starts here -->
+	<div class="container">
+		<!-- icons on right hand side -->
+		<div>
+		</div>
+	</div>
+
 	<script src="{% static "js/jquery-2.1.4.js" %}"></script>
-	<script src="{% static "js/bootstrap.min.js" %}></script>
+	<script src="{% static "js/bootstrap.min.js" %}"></script>
 </body>
 
