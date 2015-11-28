@@ -1,19 +1,10 @@
-<!doctype html>
-
+{% extends 'base.html' %}
 {% load static %}
 
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Grateful Dead Songs</title>
-</head>
-
-<body>
-	<!-- Show all songs with a link -->
+{% block main %}
+	<!-- Show one song -->
 	<h3>{{ song.name}}</h3>
 	<p>Long Name: {{ song.name }}</p>
 	<p><a href="/songs/all_songs/">Back to all songs</a></p>
-</body>
+{% endblock %}
 

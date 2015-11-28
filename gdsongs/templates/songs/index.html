@@ -1,20 +1,11 @@
-<!doctype html>
-
+{% extends 'base.html' %}
 {% load static %}
 
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Grateful Dead Songs</title>
-</head>
-
-<body>
+{% block main %}
 	<!-- Show all songs with a link -->
 	<h3>All Grateful Dead Songs</h3>
 	{% for song in songs %}
 		<p><a href="/songs/{{ song.id }}/">{{ song.name }}</a></p>
 	{% endfor %}
-</body>
+{% endblock %}
 
