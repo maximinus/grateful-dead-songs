@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'songs',
     'venues',
+    'tours',
 )
 
 MIDDLEWARE_CLASSES = (

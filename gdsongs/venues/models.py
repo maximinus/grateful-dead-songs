@@ -19,5 +19,5 @@ class Venue(models.Model):
 			# inside USA
 			return('{0}, {1}, {2}'.format(self.name, self.city, locations.getStateCode(self.state)))
 		else:
-			return('{0}, {1}, {2}'.format(self.name, self.city, locations.getCountry))
+			return('{0}, {1}, {2}'.format(self.name, self.city, locations.getCountryName(self.country)))
 
