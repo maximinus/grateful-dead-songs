@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand, CommandError
 from songs.models import Song
 
-import songs from song_list
+from song_list import songs
 
 class Command(BaseCommand):
 	help = 'Adds all songs to database'
@@ -10,6 +10,7 @@ class Command(BaseCommand):
 		# add all songs that do not exist
 		newsongs = 0
 		for i in songs:
+			print('Adding {0}'.format(i[0]))
 			try:
 				song = Song.objects.get(name=i[0])
 				# update the song short name
