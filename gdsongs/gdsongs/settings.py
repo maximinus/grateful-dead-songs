@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'songs',
     'venues',
     'tours',
+    'shows',
 )
 
 MIDDLEWARE_CLASSES = (
