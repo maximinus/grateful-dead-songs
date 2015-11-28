@@ -20,6 +20,10 @@
 		<!-- icons on right hand side -->
 		<nav class="navbar navbar-default" style="border:0px;" id="navbar">
 			<div class="container-fluid">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="{% url 'index' %}">Home</a></li>
+					<li><a href="{% url 'all_songs' %}">Songs</a></li>
+				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href='#'>
 						<span data-toggle="tooltip" title="About the site" data-placement="bottom"
