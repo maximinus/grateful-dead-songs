@@ -30,3 +30,11 @@ class Venue(models.Model):
 			link = '<em><a href="http://maps.google.com/?q={0},{1}">Show on Google maps</a></em>'
 			return(link.format(self.longitude, self.latitude))
 
+	@property
+	def state_name(self):
+		return(locations.getStateName(self.state))
+	
+	@property
+	def country_name(self):
+		return(locations.getCountryName(self.country))
+

@@ -6,8 +6,8 @@
 	<h3>{{ venue.name}}</h3>
 	<p>Name: {{ venue.name }}</p>
 	<p>City: {{ venue.city }}</p>
-	<p>State: {{ venue.state }}</p>
-	<p>Country: {{ venue.country }}<p>
+	<p>State: {{ venue.state_name }}</p>
+	<p>Country: {{ venue.country_name }}<p>
 	<p>{{ venue.google_link | safe }}</p>
 	<p><a href="{% url 'all_venues' %}">Back to all venues</a></p>
 {% endblock %}

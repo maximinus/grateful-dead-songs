@@ -74,15 +74,15 @@ def getCountryCodes():
 
 def getStateName(index):
 	if((index >= 0) and (index < len(STATES))):
-		return(STATES[index][0])
+		return(STATES[index + 1][0])
 	else:
-		return('State index error')
+		return('N/A')
 
 def getStateCode(index):
 	if((index >= 0) and (index < len(STATES))):
-		return(STATES[index][1])
+		return(STATES[index + 1][1])
 	else:
-		return('State index error')
+		return('N/A')
 
 def getCountryName(index):
 	if((index >= 0) and (index < len(COUNTRIES))):
