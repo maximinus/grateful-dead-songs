@@ -3,7 +3,7 @@
 
 {% block main %}
 	<!-- Show all songs with a link -->
-	<h3>All Listed Venues</h3>
+	<h3>All Listed Tours</h3>
 	{% for tour in tours %}
 		<p><a href="/tours/{{ tour.id }}/">{{ tour.name }}</a></p>
 	{% endfor %}

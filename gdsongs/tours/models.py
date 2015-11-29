@@ -6,4 +6,12 @@ class Tour(models.Model):
 	
 	def __unicode__(self):
 		return(self.name)
+	
+	@property
+	def total_shows(self):
+		return(0)
+	
+	@property
+	def all_shows(self):
+		return([])
 
