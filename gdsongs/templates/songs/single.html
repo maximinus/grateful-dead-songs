@@ -5,6 +5,6 @@
 	<!-- Show one song -->
 	<h3>{{ song.name}}</h3>
 	<p>Long Name: {{ song.name }}</p>
-	<p><a href="/songs/all_songs/">Back to all songs</a></p>
+	<p><a href="{% url 'all_songs' %}">Back to all songs</a></p>
 {% endblock %}
 

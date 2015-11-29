@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block main %}
+	<!-- Show all songs with a link -->
+	<h3>All Listed Venues</h3>
+	{% for venue in venues %}
+		<p><a href="/venues/{{ venue.id }}/">{{ venue.fullname }}</a></p>
+	{% endfor %}
+{% endblock %}
+

@@ -4,7 +4,7 @@ from songs.models import Song
 
 def allSongs(request):
 	"""Sort all songs alphabetically and display"""
-	songs = Song.objects.all()
+	songs = Song.objects.all().order_by('name')
 	context = {'songs':songs, 'number':len(songs)}
 	return(render(request, 'songs/index.html', context))
 

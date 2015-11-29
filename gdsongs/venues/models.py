@@ -21,3 +21,12 @@ class Venue(models.Model):
 		else:
 			return('{0}, {1}, {2}'.format(self.name, self.city, locations.getCountryName(self.country)))
 
+	@property
+	def google_link(self):
+		"""Return a link to google or an error message"""
+		if((self.longitude == None) or (self.latitude == None)):
+			return('<em>No location information avaliable</em>')
+		else:
+			link = '<em><a href="http://maps.google.com/?q={0},{1}">Show on Google maps</a></em>'
+			return(link.format(self.longitude, self.latitude))
+
