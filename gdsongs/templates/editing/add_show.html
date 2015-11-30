@@ -14,7 +14,7 @@
 			<!-- Now we need some sets -->
 			<div class="panel panel-default">
 				<div class="panel-body">
-					<table class="table">
+					<table class="table" id="set1-table">
 						<caption>First Set</caption>
 							<thead>
 								<tr>
@@ -22,7 +22,10 @@
 									<td>Seques?</td>
 									<td>Length</td>
 									<td>Comments</td>
-									<td>Errors</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
 								</tr>
 							</thead>
 							<tbody>
@@ -31,12 +34,29 @@
 									<td><input type="checkbox" value="seque" /></td>
 									<td><input type="text" /></td>
 									<td><input type="text" /></td>
-									<td>None</td>
+									<td>
+										<button type="button" class="btn btn-default add-row-button" aria-label="Left Align"  data-toggle="tooltip" title="Add row">
+											<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+										</button>
+									</td>
+									<td>
+										<button type="button" class="btn btn-default move-up-button" aria-label="Left Align" data-toggle="tooltip" title="Move up">
+											<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+										</button>
+									</td>
+									<td>
+										<button type="button" class="btn btn-default move-down-button" aria-label="Left Align" data-toggle="tooltip" title="Move down">
+											<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+										</button>
+									</td>
+									<td>
+										<button type="button" class="btn btn-default delete-button" aria-label="Left Align" data-toggle="tooltip" title="Delete song">
+											<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+										</button>
+									</td>
 								</tr>
 							</tbody>
 					</table>
-					<!-- Bottom of panel needs button to add new row -->
-					<button class="btn btn-standard">Add Row</button>
 				</div>
 			</div><!-- End of set panel -->
 		</div>
@@ -48,6 +68,7 @@
 {% endblock %}
 
 {% block scripts %}
+	<script src="{% static "js/songs.js" %}"></script>
 	<script src="{% static "js/add_show.js" %}"></script>
 {% endblock %}
 
