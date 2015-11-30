@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block main %}
+	<!-- Complex form to add shows -->
+	<h3>Add a show</h3>
+	
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="form-group">
+				<label for="exampleInputEmail1">Date of Show, MM/DD/YY</label>
+				<input type="text" class="form-control" id="date-input" placeholder="Use XX if day/month/year is unknown, i.e. 10/xx/71">
+			</div>
+			<!-- Now we need some sets -->
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<table class="table">
+						<caption>First Set</caption>
+							<thead>
+								<tr>
+									<td>Song</td>
+									<td>Seques?</td>
+									<td>Length</td>
+									<td>Comments</td>
+									<td>Errors</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><input list="songs" /></td>
+									<td><input type="checkbox" value="seque" /></td>
+									<td><input type="text" /></td>
+									<td><input type="text" /></td>
+									<td>None</td>
+								</tr>
+							</tbody>
+					</table>
+					<!-- Bottom of panel needs button to add new row -->
+					<button class="btn btn-standard">Add Row</button>
+				</div>
+			</div><!-- End of set panel -->
+		</div>
+	</div>
+
+	<datalist id="songs">
+	</datalist>
+	
+{% endblock %}
+
+{% block scripts %}
+	<script src="{% static "js/add_show.js" %}"></script>
+{% endblock %}
+

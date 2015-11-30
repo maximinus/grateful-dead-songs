@@ -5,6 +5,10 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^$', 'gdsongs.views.index', name='index'),
+    # editing
+    url(r'add_show/', 'gdsongs.views.addShow', name='add_show'),
+    
+    # admin
     url(r'^admin/', include(admin.site.urls)),
     
     # app views
