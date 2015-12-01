@@ -15,7 +15,7 @@
 			<div class="panel panel-default">
 				<div class="panel-body">
 				
-					<ul class="nav nav-tabs" data-tabs="tabs">
+					<ul class="nav nav-pills" data-tabs="tabs">
 						<li class="active"><a data-toggle="tab" href="#set-one">Set 1</a></li>
 						<li><a data-toggle="tab" href="#set-two">Set 2</a></li>
 						<li><a data-toggle="tab" href="#set-three">Set 3</a></li>
@@ -23,7 +23,7 @@
 					</ul>
 					
 					<div class="tab-content">
-						<div class="tab-pane active" id="set-one">
+						<div class="tab-pane active fade in" id="set-one">
 							<table class="table" id="set-table" style="table-layout:auto;">
 								<thead>
 									<tr>
@@ -67,11 +67,11 @@
 								</tbody>
 							</table>
 						</div>
-						<div class="tab-pane" id="set-two">
+						<div class="tab-pane fade" id="set-two">
 						</div>
-						<div class="tab-pane" id="set-three">
+						<div class="tab-pane fade" id="set-three">
 						</div>
-						<div class="tab-pane" id="set-four">
+						<div class="tab-pane fade" id="set-four">
 						</div>
 					</div>
 
@@ -79,6 +79,8 @@
 			</div><!-- End of set panel -->
 		</div>
 	</div>
+
+	<button class="btn btn-std pull-right">Verify and enter data</button>
 
 	<datalist id="songs">
 	</datalist>
