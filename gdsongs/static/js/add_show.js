@@ -34,31 +34,39 @@ function addRow(event) {
 
 function deleteRow(event) {
 	// most important: if there are only two rows, delete the last one and add a new empty row to the table
+	var tbody = $(event.currentTarget).parent().parent().parent();
 	if($('#set1-table tr').length == 2) {
 		// delete last row, add new row
 		$('#set1-table tr:last').remove();
-		$('#set1-table tr:first').insertAfter(getRow());
-		return;
+		// add the new row as a child of the tbody
+		$(tbody).append(getRow());
+		addCallbacks();
 	}
 	// delete the row
 	var parent_row = ($(event.currentTarget).parent().parent());
 	$(parent_row).remove();
 };
 
-function moveRowUp() {
-	console.log('Move row up');
+function moveRowDown(event) {
+	var row = $(event.currentTarget).parent().parent();
+	$(row).next().after($(row));
 };
 
-function moveRowDown() {
-	console.log('Move row down');
+function moveRowUp(event) {
+	var row = $(event.currentTarget).parent().parent();
+	$(row).prev().before($(row));
 };
 
 function addCallbacks() {
 	// remove callbacks first!
 	$('.add-row-button').unbind();
 	$('.delete-button').unbind();
+	$('.move-up-button').unbind();
+	$('.move-down-button').unbind();
 	$('.add-row-button').click(addRow);
 	$('.delete-button').click(deleteRow);
+	$('.move-up-button').click(moveRowUp);
+	$('.move-down-button').click(moveRowDown);
 };
 
 $(document).ready(function() {
