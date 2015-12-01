@@ -14,49 +14,67 @@
 			<!-- Now we need some sets -->
 			<div class="panel panel-default">
 				<div class="panel-body">
-					<table class="table" id="set1-table" style="table-layout:auto;">
-						<caption>First Set</caption>
-							<thead>
-								<tr>
-									<td>Song</td>
-									<td>Seques?</td>
-									<td>Length</td>
-									<td>Comments</td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td></td>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td><input list="songs" /></td>
-									<td><input type="checkbox" value="seque" /></td>
-									<td><input type="text" /></td>
-									<td><input type="text" /></textarea></td>
-									<td>
-										<button type="button" class="btn btn-default add-row-button" aria-label="Left Align"  data-toggle="tooltip" title="Add row">
-											<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-										</button>
-									</td>
-									<td>
-										<button type="button" class="btn btn-default move-up-button" aria-label="Left Align" data-toggle="tooltip" title="Move up">
-											<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
-										</button>
-									</td>
-									<td>
-										<button type="button" class="btn btn-default move-down-button" aria-label="Left Align" data-toggle="tooltip" title="Move down">
-											<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
-										</button>
-									</td>
-									<td>
-										<button type="button" class="btn btn-default delete-button" aria-label="Left Align" data-toggle="tooltip" title="Delete song">
-											<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
-										</button>
-									</td>
-								</tr>
-							</tbody>
-					</table>
+				
+					<ul class="nav nav-tabs" data-tabs="tabs">
+						<li class="active"><a data-toggle="tab" href="#set-one">Set 1</a></li>
+						<li><a data-toggle="tab" href="#set-two">Set 2</a></li>
+						<li><a data-toggle="tab" href="#set-three">Set 3</a></li>
+						<li><a data-toggle="tab" href="#set-four">Set 4</a></li>
+					</ul>
+					
+					<div class="tab-content">
+						<div class="tab-pane active" id="set-one">
+							<table class="table" id="set-table" style="table-layout:auto;">
+								<thead>
+									<tr>
+										<td>Song</td>
+										<td>Seques?</td>
+										<td>Length</td>
+										<td>Comments</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><input list="songs" /></td>
+										<td><input type="checkbox" value="seque" /></td>
+										<td><input type="text" /></td>
+										<td><input type="text" /></textarea></td>
+										<td>
+											<button type="button" class="btn btn-default add-row-button" aria-label="Left Align"  data-toggle="tooltip" title="Add row">
+												<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+											</button>
+										</td>
+										<td>
+											<button type="button" class="btn btn-default move-up-button" aria-label="Left Align" data-toggle="tooltip" title="Move up">
+												<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+											</button>
+										</td>
+										<td>
+											<button type="button" class="btn btn-default move-down-button" aria-label="Left Align" data-toggle="tooltip" title="Move down">
+												<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+											</button>
+										</td>
+										<td>
+											<button type="button" class="btn btn-default delete-button" aria-label="Left Align" data-toggle="tooltip" title="Delete song">
+												<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+											</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane" id="set-two">
+						</div>
+						<div class="tab-pane" id="set-three">
+						</div>
+						<div class="tab-pane" id="set-four">
+						</div>
+					</div>
+
 				</div>
 			</div><!-- End of set panel -->
 		</div>

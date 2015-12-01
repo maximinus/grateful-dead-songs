@@ -1,5 +1,10 @@
 "use strict";
 
+function extractData() {
+};
+
+// functions below to handle the fron end
+
 function getRow() {
 	var html = '<tr><td><input list="songs" /></td>'
 	html += '<td><input type="checkbox" value="seque" /></td>'
@@ -69,8 +74,16 @@ function addCallbacks() {
 	$('.move-down-button').click(moveRowDown);
 };
 
+function copyTableToTabs() {
+	// take the exisiting table and add it to the other tabs
+	$('#set-table').clone().appendTo('#set-two');
+	$('#set-table').clone().appendTo('#set-three');
+	$('#set-table').clone().appendTo('#set-four');
+};
+
 $(document).ready(function() {
 	addSongs();
+	copyTableToTabs();
 	addCallbacks();
 });
 
