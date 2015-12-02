@@ -39,15 +39,10 @@
 								</thead>
 								<tbody>
 									<tr class="data-row">
-										<td><input list="songs" /></td>
-										<td><input type="checkbox" value="seque" /></td>
-										<td><input type="text" /></td>
-										<td><input type="text" /></textarea></td>
-										<td>
-											<button type="button" class="btn btn-default add-row-button" aria-label="Left Align"  data-toggle="tooltip" title="Add row">
-												<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-											</button>
-										</td>
+										<td><div class="form-group"><input list="songs" class="form-control" /></div></td>
+										<td><div class="form-group"><input type="checkbox" class="form-control" value="seque" /></div></td>
+										<td><div class="form-group"><input type="text" class="form-control" /></div></td>
+										<td><div class="form-group"><input type="text" class="form-control" /></textarea></div></td>
 										<td>
 											<button type="button" class="btn btn-default move-up-button" aria-label="Left Align" data-toggle="tooltip" title="Move up">
 												<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
@@ -59,8 +54,13 @@
 											</button>
 										</td>
 										<td>
-											<button type="button" class="btn btn-default delete-button" aria-label="Left Align" data-toggle="tooltip" title="Delete song">
+											<button type="button" class="btn btn-danger delete-button" aria-label="Left Align" data-toggle="tooltip" title="Delete song">
 												<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+											</button>
+										</td>
+										<td>
+											<button type="button" class="btn btn-primary add-row-button" aria-label="Left Align"  data-toggle="tooltip" title="Add row">
+												<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
 											</button>
 										</td>
 									</tr>

@@ -51,6 +51,9 @@ function getRowData(row) {
 		// highlight the error and then exit immediatly
 		return(null)
 	}
+	else {
+		// no error, so remove error
+	}
 	var comment = $(cells[3]).children()[0].value;
 	return([song, seque, len, comment]);
 };
@@ -147,9 +150,12 @@ function addCallbacks() {
 
 function copyTableToTabs() {
 	// take the exisiting table and add it to the other tabs
-	$('#set-table').clone().appendTo('#set-two');
-	$('#set-table').clone().appendTo('#set-three');
-	$('#set-table').clone().appendTo('#set-four');
+	$('#set-table').clone(false).appendTo('#set-two');
+	$('#set-table').clone(false).appendTo('#set-three');
+	$('#set-table').clone(false).appendTo('#set-four');
+};
+
+function clearAllData() {
 };
 
 $(document).ready(function() {
