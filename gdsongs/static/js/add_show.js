@@ -18,8 +18,8 @@ function checkLength(text) {
 	var times = text.split(':');
 	if(times.length == 1) {
 		var minutes = 0; }
-	else if(time.length == 2) {
-		var minutes = getDigits(time[0]);
+	else if(times.length == 2) {
+		var minutes = getDigits(times[0]);
 		if(minutes < 0) {
 			return(-1); }
 	}
@@ -62,31 +62,46 @@ function verifyData() {
 		var rows = $(tabs[i]).find('.data-row');
 		var rdata = [];
 		for(var j=0; j<rows.length; j++) {
-			rdata.push(getRowData(rows[j]))
+			var check = getRowData(rows[j]);
+			if(check == null) {
+				return(null);
+			}
+			rdata.push(check)
 		}
 		sets.push(rdata);
 	}
+	return(sets);
 };
 
-function extractData() {
-	verifyData();
+function sendData() {
+	var songs = verifyData();
+	if(songs == null) {
+		return; }
+	// now AJAX the data the data
+	$.ajax('shows/upload_show/',
+		   {'data':{'show':songs,
+		   			'csrfmiddlewaretoken': CSRF},
+		    'type':'POST',
+		    'success':postOK,
+		    'error':postFail,});
 };
 
 // functions below to handle the fron end
 
 function getRow() {
-	var html = '<tr class="data-row"><td><input list="songs" /></td>'
-	html += '<td><input type="checkbox" value="seque" /></td>'
-	html += '<td><input type="text" /></td>'
-	html += '<td><input type="text" /></td>'
-	html += '<td><button type="button" class="btn btn-default add-row-button" aria-label="Left Align"  data-toggle="tooltip" title="Add row">'
-	html += '<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></td></button>'
-	html += '<td><button type="button" class="btn btn-default move-up-button" aria-label="Left Align" data-toggle="tooltip" title="Move up">'
-	html += '<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></td></button>'
-	html += '<td><button type="button" class="btn btn-default move-down-button" aria-label="Left Align" data-toggle="tooltip" title="Move down">'
-	html += '<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></td></button>'
-	html += '<td><button type="button" class="btn btn-default delete-button" aria-label="Left Align" data-toggle="tooltip" title="Delete song">'
-	html += '<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></td></button></tr>'
+	var html = '<tr class="data-row">';
+	html += '<td><div class="form-group"><input list="songs" class="form-control song-val" /></div></td>';
+	html += '<td><div class="form-group"><input type="checkbox" class="form-control seque-val" value="seque" /></div></td>';
+	html += '<td><div class="form-group"><input type="text" class="form-control length-val" /></div></td>';
+	html += '<td><div class="form-group"><input type="text" class="form-control comment-val" /></div></td>';
+	html += '<td><button type="button" class="btn btn-default move-up-button" aria-label="Left Align" data-toggle="tooltip" title="Move up">';
+	html += '<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></td></button>';
+	html += '<td><button type="button" class="btn btn-default move-down-button" aria-label="Left Align" data-toggle="tooltip" title="Move down">';
+	html += '<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></td></button>';
+	html += '<td><button type="button" class="btn btn-danger delete-button" aria-label="Left Align" data-toggle="tooltip" title="Delete song">';
+	html += '<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></td></button>';
+	html += '<td><button type="button" class="btn btn-primary add-row-button" aria-label="Left Align"  data-toggle="tooltip" title="Add row">';
+	html += '<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></td></button></td></tr>';
 	return(html);
 };
 
@@ -159,6 +174,6 @@ $(document).ready(function() {
 	$('input').val('');
 	copyTableToTabs();
 	addCallbacks();
-	$('#post-data').click(extractData);
+	$('#post-data').click(sendData);
 });
 

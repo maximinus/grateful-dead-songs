@@ -15,6 +15,7 @@ urlpatterns = [
     url(r'^songs/', include('songs.urls')),
     url(r'^venues/', include('venues.urls')),
     url(r'^tours/', include('tours.urls')),
+    url(r'^shows/', include('shows.urls')),
 
     # debug pages that will return 404 if not in debug mode
     url(r'^test_static/', 'gdsongs.views.testStatic', name='test_static'),
