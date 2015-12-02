@@ -1,5 +1,15 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
 def uploadShow(request):
-	pass
+	if(request.method != 'POST'):
+		return(HttpResponse(status_code=404))
+	sets = [request.POST['set1'],
+			request.POST['set2'],
+			request.POST['set3'],
+			request.POST['set4']]
+	print(sets)
+	return(HttpResponse(status_code=200))
+
+	
 

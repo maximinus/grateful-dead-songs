@@ -25,7 +25,7 @@ function checkLength(text) {
 	}
 	else {
 		return(-1) }
-	var seconds = getDigits(times[0]);
+	var seconds = getDigits(times[1]);
 	if((seconds > 59) || (seconds < 0)) {
 		return(-1)
 	}
@@ -50,7 +50,7 @@ function getRowData(row) {
 		// no error, so remove error
 		$(row).find('.length-val').parent().removeClass('has-error');
 	}
-	return([song, seque, len, comment]);
+	return([song, seque, seconds, comment]);
 };
 
 function verifyData() {
@@ -73,17 +73,38 @@ function verifyData() {
 	return(sets);
 };
 
+function postOK() {
+	console.log('Post was ok');
+};
+
+function postFail() {
+	console.log('Post failed');
+};
+
+function splitDataForAjax(songs) {
+	// so here we should have an array of sets, in order
+	var sdata = {'set1':JSON.stringify(songs[0]),
+				 'set2':JSON.stringify(songs[1]),
+				 'set3':JSON.stringify(songs[1]),
+				 'set4':JSON.stringify(songs[1]),
+				 'csrfmiddlewaretoken': CSRF};
+	return(sdata);
+};
+
 function sendData() {
 	var songs = verifyData();
 	if(songs == null) {
 		return; }
+	var show_data = splitDataForAjax(songs)
+	
+	console.log(show_data);
+	
 	// now AJAX the data the data
-	$.ajax('shows/upload_show/',
-		   {'data':{'show':songs,
-		   			'csrfmiddlewaretoken': CSRF},
+	$.ajax('../shows/upload_show/',
+		   {'data':show_data,
 		    'type':'POST',
 		    'success':postOK,
-		    'error':postFail,});
+		    'error':postFail});
 };
 
 // functions below to handle the fron end
