@@ -1,33 +1,32 @@
 "use strict";
 
-function checkDigitString() {
-	// given a string 'XXX' ensure all digits and return the integer result
-	
+function getDigits(text) {
+	if(/^[0-9]+$/.test(text) == true) {
+		return(parseInt(text))
+	}
+	else {
+		return(-1);
+	}
 };
 
 function checkLength(text) {
 	// we expect a string of these formats, given d=some digit
 	// d or dd or d:dd or dd:dd
-	// split by ':' first
 	// if empty string, return as 0
 	if(text == '') {
 		return(0) }
 	var times = text.split(':');
 	if(times.length == 1) {
-		var minutes = 0;
-		var seconds = parseInt(times[0]);
-	}
+		var minutes = 0; }
 	else if(time.length == 2) {
-		var minutes = parseInt(time[0])
-		if((isNaN(minutes) == true) || (minutes < 0)) {
+		var minutes = getDigits(time[0]);
+		if(minutes < 0) {
 			return(-1); }
-		var seconds = parseInt(times[1])
 	}
 	else {
-		// some error
-		return(-1) 
-	}
-	if((isNaN(seconds) == true) || (seconds > 59) || (seconds < 0)) {
+		return(-1) }
+	var seconds = getDigits(times[0]);
+	if((seconds > 59) || (seconds < 0)) {
 		return(-1)
 	}
 	// finally, return the real value
@@ -36,25 +35,21 @@ function checkLength(text) {
 
 function getRowData(row) {
 	// we have a <tr> instance
-	// the first 4 instances of <td> are, in order:
-	// the song, seque, length, comments
-	var cells = $(row).children();
-	// each cell has a child, we need to get that, and then the value of the input
-	// songs can never be wrong, they are just taken from the db
-	var song = $(cells[0]).children()[0].value;
-	// a seque can also never be wrong
-	var seque = $(cells[1]).children()[0].value;
-	// timings can be wrong
-	var len = $(cells[2]).children()[0].value;
-	seconds = checkLength(len);
+	// find all the instances of an input in this
+	var song = $(row).find('.song-val')[0].value;
+	var seque = $(row).find('.seque-val')[0].value;
+	var len = $(row).find('.length-val')[0].value;
+	var comment = $(row).find('.comment-val')[0].value;
+	var seconds = checkLength(len);
 	if(seconds == -1) {
 		// highlight the error and then exit immediatly
+		$(row).find('.length-val').parent().addClass('has-error');
 		return(null)
 	}
 	else {
 		// no error, so remove error
+		$(row).find('.length-val').parent().removeClass('has-error');
 	}
-	var comment = $(cells[3]).children()[0].value;
 	return([song, seque, len, comment]);
 };
 
@@ -160,6 +155,8 @@ function clearAllData() {
 
 $(document).ready(function() {
 	addSongs();
+	// clear all input data
+	$('input').val('');
 	copyTableToTabs();
 	addCallbacks();
 	$('#post-data').click(extractData);
