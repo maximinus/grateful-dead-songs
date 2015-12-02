@@ -11,5 +11,3 @@ def uploadShow(request):
 	print(sets)
 	return(HttpResponse(status=200))
 
-	
-
