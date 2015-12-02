@@ -38,7 +38,7 @@
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
+									<tr class="data-row">
 										<td><input list="songs" /></td>
 										<td><input type="checkbox" value="seque" /></td>
 										<td><input type="text" /></td>
@@ -80,7 +80,7 @@
 		</div>
 	</div>
 
-	<button class="btn btn-std pull-right">Verify and enter data</button>
+	<button class="btn btn-std pull-right" id="post-data">Verify and enter data</button>
 
 	<datalist id="songs">
 	</datalist>
@@ -88,7 +88,15 @@
 {% endblock %}
 
 {% block scripts %}
-	<script src="{% static "js/songs.js" %}"></script>
+	<script>
+		// all songs
+		"use strict";
+		var SONGS = [
+			{% for song in songs %}
+					 "{{ song.name }}",
+			{% endfor %}
+		];
+	</script>
 	<script src="{% static "js/add_show.js" %}"></script>
 {% endblock %}
 
