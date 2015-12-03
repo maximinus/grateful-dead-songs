@@ -26,6 +26,32 @@ function validateDate(day, month, year) {
 	return(true);
 };
 
+function checkDate() {
+	var text = $('#show-date').value;
+	// we split the date up by '/'
+	var dates = text.split('/');
+	if(dates.length != 3) {
+		return(false);
+	}
+	// either each one is XX or xx, or is all digits
+	for(i in dates) {
+		if(((dates[i] != 'xx') && (dates[i] != 'XX')) && (getDigits(dates[i]) == -1)) {
+			return(false);
+		}
+	}
+	if(dates[2].length == 2) {
+		dates[2] = '19' + dates[2];
+	}
+	var final_dates = [];
+	for(i in dates) {
+		if((dates[i] == 'xx') || (dates[i] == 'XX')) {
+			final_dates.push(-1); }
+		else {
+			final_dates.push(dates[i]);
+		}
+	}
+};
+
 function getDigits(text) {
 	if(/^[0-9]+$/.test(text) == true) {
 		return(parseInt(text))
