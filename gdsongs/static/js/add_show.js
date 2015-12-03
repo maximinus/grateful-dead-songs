@@ -16,7 +16,7 @@ function validateDate(day, month, year) {
 		return(false); }
 	if((day != -1) || (month != -1)) {
 		// dates are harder
-		var days_in_month = MONTH_DAYS(month - 1);
+		var days_in_month = MONTH_DAYS[month - 1];
 		if(isLeapYear(year) == true) {
 			days_in_month += 1; }
 		if((day < 1) || (day > days_in_month)) {
@@ -26,17 +26,17 @@ function validateDate(day, month, year) {
 	return(true);
 };
 
-function checkDate() {
-	var text = $('#show-date').value;
+function verifyDate() {
+	var text = $('#show-date').val();
 	// we split the date up by '/'
 	var dates = text.split('/');
 	if(dates.length != 3) {
-		return(false);
+		return(null);
 	}
 	// either each one is XX or xx, or is all digits
-	for(i in dates) {
+	for(var i in dates) {
 		if(((dates[i] != 'xx') && (dates[i] != 'XX')) && (getDigits(dates[i]) == -1)) {
-			return(false);
+			return(null);
 		}
 	}
 	if(dates[2].length == 2) {
@@ -50,6 +50,10 @@ function checkDate() {
 			final_dates.push(dates[i]);
 		}
 	}
+	// check in range
+	if(validateDate(final_dates[1], final_dates[0], final_dates[2]) == false) {
+		return(null); }
+	return(final_dates);
 };
 
 function getDigits(text) {
@@ -133,21 +137,34 @@ function postFail() {
 	console.log('Post failed');
 };
 
-function splitDataForAjax(songs) {
+function splitDataForAjax(songs, date) {
 	// so here we should have an array of sets, in order
 	var sdata = {'set1':JSON.stringify(songs[0]),
 				 'set2':JSON.stringify(songs[1]),
 				 'set3':JSON.stringify(songs[1]),
 				 'set4':JSON.stringify(songs[1]),
+				 'day':date[1],
+				 'month':date[0],
+				 'year':date[2],
 				 'csrfmiddlewaretoken': CSRF};
 	return(sdata);
 };
 
 function sendData() {
 	var songs = verifyData();
+	var date = verifyDate();
+	if(date == null) {
+		// display error
+		$('#date-error').addClass('has-error');
+		return;
+	}
+	else {
+		// clear error
+		$('#date-error').removeClass('has-error');
+	}
 	if(songs == null) {
 		return; }
-	var show_data = splitDataForAjax(songs)
+	var show_data = splitDataForAjax(songs, date)
 	
 	console.log(show_data);
 	
@@ -236,9 +253,6 @@ function copyTableToTabs() {
 	$('#set-table').clone(false).appendTo('#set-two');
 	$('#set-table').clone(false).appendTo('#set-three');
 	$('#set-table').clone(false).appendTo('#set-four');
-};
-
-function clearAllData() {
 };
 
 $(document).ready(function() {
