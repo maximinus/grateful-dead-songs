@@ -89,22 +89,32 @@ function checkLength(text) {
 	return((minutes * 60) + seconds);
 };
 
+function getSongID(text) {
+	for(var i in SONGS) {
+		if(SONGS[i][0] == text) {
+			return(SONGS[i][1]); }
+	}
+	console.log('Song does not exist');
+	return(null);
+};
+
 function getRowData(row) {
 	// we have a <tr> instance
 	// find all the instances of an input in this
 	var song = $(row).find('.song-val')[0].value;
+	// turn the song into it's id if we have a string
+	if(song != '') {
+		song = getSongID(song); }
+	if(song == null) {
+		$(row).find('.song-val').parent().addClass('has-error');
+		return(null); }
+	else {
+		$(row).find('.song-val').parent().removeClass('has-error');
+	}
+	
 	var seque = $(row).find('.seque-val')[0].value;
 	var len = $(row).find('.length-val')[0].value;
 	var comment = $(row).find('.comment-val')[0].value;
-	
-	// if song is empty, flag an error
-	if(song == '') {
-		$(row).find('.song-val').parent().addClass('has-error');
-	}
-	else {
-		$(row).find('.song-val').parent().removeClass('has-error');
-		return(null);
-	}
 	
 	var seconds = checkLength(len);
 	if(seconds == -1) {
@@ -122,7 +132,7 @@ function getRowData(row) {
 function verifyData() {
 	// so we have to check that things are ok
 	// firstly, we have to look through all the tabs
-	var tabs = ['#set-one', '#set-two', '#set-three', '#set-four']
+	var tabs = ['#set-one', '#set-two', '#set-three', '#set-four'];
 	var sets = [];
 	for(var i in tabs) {
 		var rows = $(tabs[i]).find('.data-row');
@@ -147,7 +157,7 @@ function postFail() {
 	console.log('Post failed');
 };
 
-function splitDataForAjax(songs, date) {
+function splitDataForAjax(songs, date, encore) {
 	// so here we should have an array of sets, in order
 	var sdata = {'set1':JSON.stringify(songs[0]),
 				 'set2':JSON.stringify(songs[1]),
@@ -156,12 +166,30 @@ function splitDataForAjax(songs, date) {
 				 'day':date[1],
 				 'month':date[0],
 				 'year':date[2],
+				 'encore':JSON.stringify(encore),
 				 'csrfmiddlewaretoken': CSRF};
 	return(sdata);
 };
 
+function verifyEncore() {
+	// go through the sets and look for encores
+	// we can't have an encore followed by a non-encore
+	var tabs = ['#set-one', '#set-two', '#set-three', '#set-four'];
+	var sets = [];
+	for(var i in tabs) {
+		var data = $(tabs[i]).find('.encore-value').val();
+		if(data != '') {
+			sets.push(true); }
+		else {
+			sets.push(false); }
+	}
+	return(sets);
+};
+
 function sendData() {
 	var songs = verifyData();
+	if(songs == null) {
+		return; }
 	var date = verifyDate();
 	if(date == null) {
 		// display error
@@ -172,9 +200,8 @@ function sendData() {
 		// clear error
 		$('#date-error').removeClass('has-error');
 	}
-	if(songs == null) {
-		return; }
-	var show_data = splitDataForAjax(songs, date)
+	var encore = verifyEncore();
+	var show_data = splitDataForAjax(songs, date, encore)
 	// now AJAX the data the data
 	$.ajax('../shows/upload_show/',
 		   {'data':show_data,
