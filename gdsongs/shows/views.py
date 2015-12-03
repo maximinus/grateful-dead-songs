@@ -9,7 +9,10 @@ def uploadShow(request):
 			request.POST['set3'],
 			request.POST['set4']]
 	date = [request.POST['day'], request.POST['month'], request.POST['year']]
-	print(sets)
-	print(date)
+
+	# now the complex part we must put all of this into a new show
+	# first we must validate that everything is ok. If so, then we delete all references
+	# to this show and then add it back
+
 	return(HttpResponse(status=200))
 

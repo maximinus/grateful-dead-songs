@@ -9,9 +9,8 @@ def index(request):
 	return(render(request, 'index.html', {}))
 
 def addShow(request):
-	"""Complex page top add a show. Depends on a lot of AJAX calls"""
-	songs = Song.objects.all()
-	return(render(request, 'editing/add_show.html', {'songs':songs}))
+	"""Complex page to add a show."""
+	return(render(request, 'editing/add_show.html', {'songs':Song.objects.all()}))
 
 # test functions follow below
 # these must all 404 on the production server

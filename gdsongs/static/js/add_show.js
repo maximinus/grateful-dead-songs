@@ -96,6 +96,16 @@ function getRowData(row) {
 	var seque = $(row).find('.seque-val')[0].value;
 	var len = $(row).find('.length-val')[0].value;
 	var comment = $(row).find('.comment-val')[0].value;
+	
+	// if song is empty, flag an error
+	if(song == '') {
+		$(row).find('.song-val').parent().addClass('has-error');
+	}
+	else {
+		$(row).find('.song-val').parent().removeClass('has-error');
+		return(null);
+	}
+	
 	var seconds = checkLength(len);
 	if(seconds == -1) {
 		// highlight the error and then exit immediatly
@@ -165,9 +175,6 @@ function sendData() {
 	if(songs == null) {
 		return; }
 	var show_data = splitDataForAjax(songs, date)
-	
-	console.log(show_data);
-	
 	// now AJAX the data the data
 	$.ajax('../shows/upload_show/',
 		   {'data':show_data,
@@ -176,7 +183,7 @@ function sendData() {
 		    'error':postFail});
 };
 
-// functions below to handle the fron end
+// functions below to handle the front end
 
 function getRow() {
 	var html = '<tr class="data-row">';
@@ -197,7 +204,7 @@ function getRow() {
 
 function addSongs() {
 	for(var i=0; i<SONGS.length; i++) {
-		$('#songs').append('<option value="' + SONGS[i] + '">');
+		$('#songs').append('<option value="' + SONGS[i][0] + '">');
 	};
 };
 
@@ -259,6 +266,7 @@ $(document).ready(function() {
 	addSongs();
 	// clear all input data
 	$('input').val('');
+	$('input:checkbox').removeAttr('checked');
 	copyTableToTabs();
 	addCallbacks();
 	$('#post-data').click(sendData);
