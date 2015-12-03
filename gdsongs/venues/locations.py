@@ -49,7 +49,7 @@ STATES = [['None', 'N/A', -1],
 		  ['Vermont', 'VT', 45],
 		  ['Virginia', 'VA', 46],
 		  ['Washington', 'WA', 47],
-		  ['West', 'WV', 48],
+		  ['West Virginia', 'WV', 48],
 		  ['Wisconsin', 'WI', 49],
 		  ['Wyoming', 'WY', 50]]
 
