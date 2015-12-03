@@ -6,6 +6,18 @@ from songs.models import Song
 
 import json
 
+class NewSet(object):
+	def __init__(songs, encore):
+		self.songs = songs
+		self.encore = encore
+
+class NewSong(object):
+	def __init__(self, song_id, seque, length, comment):
+		self.id = song_id
+		self.seque = seque
+		self.length = length
+		self.comment = comment
+
 def uploadShow(request):
 	if(request.method != 'POST'):
 		return(HttpResponse(status=404))
@@ -25,7 +37,6 @@ def uploadShow(request):
 		songs = normalizeSetData(json_data)
 		if(songs == False):
 			return(HttpResponse(status=400))
-		print(songs)
 		set_data.append(songs)
 	return(HttpResponse(status=200))
 
@@ -34,12 +45,7 @@ def normalizeSetData(new_set):
 	for song in new_set:
 		# this is a list: ["song_id", "seque", length_in_seconds, "comments"]
 		# we validate this and turn it into a better data format
-		
-		print song
-		print int(song[0])
-		
 		if(len(song) != 4):
-			print 'length error'
 			return(False)
 		normal_song = []
 		if(song[0] == ''):
@@ -50,7 +56,6 @@ def normalizeSetData(new_set):
 			song_id = Song.objects.get(pk=int(song[0]))
 			print('Found:', song_id.name)
 		except:
-			print 'ID Error'
 			return(False)
 		normal_song.append(int(song[0]))
 		# seque is empty or not
@@ -63,5 +68,6 @@ def normalizeSetData(new_set):
 		else:
 			normal_song.append(song[2])
 		normal_song.append(song[3])
+		normal.append(NewSong(*normal_song))
 	return(normal)
 
