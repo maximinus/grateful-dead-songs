@@ -1,5 +1,31 @@
 "use strict";
 
+// global consts and functions for date managment
+
+var MONTH_DAYS = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+function isLeapYear(year) {
+	return(((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0));
+};
+
+function validateDate(day, month, year) {
+	if((year != -1) && ((year < 1965) || (year > 1995))) {
+		return(false);
+	}
+	if((month != -1) && ((month < 1) || (month > 12))) {
+		return(false); }
+	if((day != -1) || (month != -1)) {
+		// dates are harder
+		var days_in_month = MONTH_DAYS(month - 1);
+		if(isLeapYear(year) == true) {
+			days_in_month += 1; }
+		if((day < 1) || (day > days_in_month)) {
+			return(false);
+		}
+	}
+	return(true);
+};
+
 function getDigits(text) {
 	if(/^[0-9]+$/.test(text) == true) {
 		return(parseInt(text))
