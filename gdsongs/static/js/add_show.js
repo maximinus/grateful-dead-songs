@@ -149,12 +149,21 @@ function verifyData() {
 	return(sets);
 };
 
-function postOK() {
-	console.log('Post was ok');
+function showMessage(text) {
+	// show message in pop-up modal
+	$('#modal-message').html(text);
+	$('#message-dialog').modal('show');
 };
 
-function postFail() {
-	console.log('Post failed');
+function postOK(data) {
+	$('#message-title').html('Show added!');
+	showMessage(data.msg);
+	//clearAllData();
+};
+
+function postFail(data) {
+	$('#message-title').html('Error');
+	showMessage(data.msg);
 };
 
 function splitDataForAjax(songs, date, encore) {
@@ -289,11 +298,15 @@ function copyTableToTabs() {
 	$('#set-table').clone(false).appendTo('#set-four');
 };
 
-$(document).ready(function() {
-	addSongs();
-	// clear all input data
+
+function clearAllData() {
 	$('input').val('');
 	$('input:checkbox').removeAttr('checked');
+};
+
+$(document).ready(function() {
+	addSongs();
+	clearAllData();
 	copyTableToTabs();
 	addCallbacks();
 	$('#post-data').click(sendData);

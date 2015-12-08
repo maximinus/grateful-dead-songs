@@ -17,5 +17,5 @@ class Command(BaseCommand):
 		PlayedSet.objects.all().delete()
 		ShowDate.objects.all().delete()
 		Show.objects.all().delete()
-		print('Deleted {0} shows, {1} sets, {2} shows and {3} dates.'.format(songs, sets, shows, dates))
+		print('Deleted {0} songs, {1} sets, {2} shows and {3} dates.'.format(songs, sets, shows, dates))
 

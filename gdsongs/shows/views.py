@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 
 from .models import ShowDate, Show, PlayedSet, PlayedSong
@@ -6,6 +6,15 @@ from songs.models import Song
 from venues.models import Venue
 
 import json, datetime
+
+def allShows(request):
+	shows = Show.objects.all()
+	context = {'shows':shows, 'number':len(shows)}
+	return(render(request, 'shows/index.html', context))
+
+def singleShow(request, show_id):
+	show = get_object_or_404(Show, pk=int(show_id))
+	return(render(request, 'shows/single.html', {'show':show}))
 
 class NewSet(object):
 	def __init__(songs, encore):
@@ -37,15 +46,18 @@ def uploadShow(request):
 		json_data = json.loads(i)
 		songs = normalizeSetData(json_data)
 		if(songs == False):
-			return(HttpResponse(status=400))
+			msg = json.dumps({'msg':'Songs were wrong.'})
+			return(HttpResponse(msg,  content_type='application/json', status=400))
 		set_data.append(songs)
 	date = normalizeDateData(date)
 	if(date == False):
-		return(HttpResponse(status=400))
+		msg = json.dumps({'msg':"Couldn't normalize song data."})
+		return(HttpResponse(msg,  content_type='application/json', status=400))
 	encore = normalizeEncoreData(encore)
 	# seems to be all ok. Now enter all of that data
-	saveData(set_data, date, encore)
-	return(HttpResponse(status=200))
+	setlist = saveData(set_data, date, encore)
+	json_data = json.dumps({'msg':setlist})
+	return(HttpResponse(json_data,  content_type='application/json', status=200))
 
 def normalizeSetData(new_set):
 	normal = []
@@ -122,9 +134,9 @@ def saveData(set_data, date, encore):
 								  order = song_order,
 								  length = song.length,
 								  comments = song.comment,
-								  seque = songs.seque)
+								  seque = song.seque)
 			new_song.save()
 			song_order += 1
 		index += 1
-	return(True)
+	return(str(show) + '\n' + show.setlist)
 

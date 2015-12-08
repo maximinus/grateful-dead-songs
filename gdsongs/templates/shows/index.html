@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block main %}
+	<!-- Show all songs with a link -->
+	<h3>There are {{ number }} shows</h3>
+	{% for show in shows %}
+		<p><a href="/shows/{{ show.id }}/">{{ show }}</a></p>
+	{% endfor %}
+{% endblock %}
+

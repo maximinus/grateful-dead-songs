@@ -69,7 +69,7 @@ class Show(models.Model):
 	def setlist(self):
 		"""This code returns a generated text setlist"""
 		# get all the sets for this show
-		sets = PlayedSet.objects.get(show=self).order_by('-order')
+		sets = PlayedSet.objects.filter(show=self).order_by('order')
 		if(len(sets) == 0):
 			return('No sets on this date')
 		text = ''
@@ -77,7 +77,7 @@ class Show(models.Model):
 		set_count = 0
 		for i in sets:
 			# get all songs
-			songs = PlayedSongs.objects.get(played_set=i).order_by('-order')
+			songs = PlayedSong.objects.filter(played_set=i).order_by('order')
 			if(i.encore == True):
 				text += 'Encore {0}: '.format(encore_count + 1)
 				encore_count += 1
@@ -90,9 +90,9 @@ class Show(models.Model):
 				for j in songs:
 					text += '{0} '.format(j.song)
 					if(j.seque == True):
-						text += '>'
+						text += '/ '
 					else:
-						text += '/'
+						text += '> '
 			# remove last 2 chars (the fake transition)
 			text = text[:-2]
 			text += '\n'
