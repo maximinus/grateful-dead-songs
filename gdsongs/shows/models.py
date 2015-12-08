@@ -3,6 +3,8 @@ from django.db import models
 from songs.models import Song
 from venues.models import Venue
 
+import datetime
+
 MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 SET_NAMES = ['Unknown', '1st', '2nd', '3rd', '4th']
 
@@ -24,7 +26,7 @@ class ShowDate(models.Model):
 		if(self.year == 0):
 			return('??')
 		else:
-			return(self(self.year))
+			return(self.year)
 	
 	def getMonth(self):
 		if(self.month == 0):
@@ -51,7 +53,7 @@ class ShowDate(models.Model):
 
 class Show(models.Model):
 	date = models.ForeignKey(ShowDate)
-	venue = models.ForeignKey(Venue)
+	venue = models.ForeignKey(Venue, null=True)
 	order = models.IntegerField(default=0, null=False)
 	# Time should always be GMT
 	time_started = models.TimeField(null=True)
@@ -62,6 +64,39 @@ class Show(models.Model):
 	
 	def getLocalTime(self):
 		return('Not implemented')
+
+	@property
+	def setlist(self):
+		"""This code returns a generated text setlist"""
+		# get all the sets for this show
+		sets = PlayedSet.objects.get(show=self).order_by('-order')
+		if(len(sets) == 0):
+			return('No sets on this date')
+		text = ''
+		encore_count = 0
+		set_count = 0
+		for i in sets:
+			# get all songs
+			songs = PlayedSongs.objects.get(played_set=i).order_by('-order')
+			if(i.encore == True):
+				text += 'Encore {0}: '.format(encore_count + 1)
+				encore_count += 1
+			else:
+				text += 'Set {0}: '.format(set_count + 1)
+				set_count += 1
+			if(len(songs) == 0):
+				text += 'No songs known.  '
+			else:
+				for j in songs:
+					text += '{0} '.format(j.song)
+					if(j.seque == True):
+						text += '>'
+					else:
+						text += '/'
+			# remove last 2 chars (the fake transition)
+			text = text[:-2]
+			text += '\n'
+		return(text)
 
 class PlayedSet(models.Model):
 	# we use 1, 2 etc as set order. 0 means unknown
@@ -82,9 +117,11 @@ class PlayedSet(models.Model):
 class PlayedSong(models.Model):
 	song = models.ForeignKey(Song)
 	played_set = models.ForeignKey(PlayedSet)
-	order = models.IntegerField(default=0, null=False)
+	# order of 0 means unknown
+	order = models.IntegerField(default=1, null=False)
 	length = models.IntegerField(default=0, null=False)
 	comments = models.TextField(blank=True)
+	seque = models.BooleanField(default=False, null=False)
 	
 	def __unicode__(self):
 		return('{0}, in {1}, {2}'.format(self.song, self.played_set.set_text, self.played_set.show.date))
