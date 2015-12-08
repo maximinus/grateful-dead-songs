@@ -3,6 +3,7 @@ from django.http import HttpResponse
 
 from .models import ShowDate, Show, PlayedSet, PlayedSong
 from songs.models import Song
+from venues.models import Venue
 
 import json, datetime
 
@@ -60,7 +61,6 @@ def normalizeSetData(new_set):
 		# check song id is valid
 		try:
 			song_id = Song.objects.get(pk=int(song[0]))
-			print('Found:', song_id.name)
 		except:
 			return(False)
 		normal_song.append(song_id)
@@ -102,7 +102,9 @@ def saveData(set_data, date, encore):
 	# first we save the given date
 	date.save()
 	# then we generate the show
-	show = Show(date=date)
+	venue = Venue.objects.all()[0]
+	# TODO: Venue is any venue for now
+	show = Show(date=date, venue=venue)
 	show.save()
 	index = 1
 	# then we generate the playedsets one by one
@@ -119,7 +121,7 @@ def saveData(set_data, date, encore):
 								  played_set = new_set,
 								  order = song_order,
 								  length = song.length,
-								  comments = song.comments,
+								  comments = song.comment,
 								  seque = songs.seque)
 			new_song.save()
 			song_order += 1
