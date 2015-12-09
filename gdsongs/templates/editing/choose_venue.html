@@ -6,31 +6,25 @@
 
 	<div class="row">
 		<div class="col-lg-12">
-			<div class="form-group">
-				<input list="countries" class="form-control song-val" />
-				<input list="states" class="form-control song-val" />
+			<div class="form-inline">
+				<select name="country" class="form-control" id="country-select">
+					{% for country in countries %}
+						<option value="{{ country }}">{{ country }}</option>
+					{% endfor %}
+				</select>
+				<select name="state" class="form-control" id="state-select">
+				</select>
 			</div>
 		</div>
 	</div>
-
 	<button class="btn btn-std pull-right" id="post-data">Check this</button>
-
-	<datalist id="countries">
-	</datalist>
-	<datalist id="states">
-	</datalist>
 {% endblock %}
 
 {% block scripts %}
 	<script>
-		// all countries and states
 		"use strict";
-		var COUNTRIES = [
-			{% for country in countries %}
-					 "{{ country }}",
-			{% endfor %}
-		];
 		
+		// all states
 		var STATES = [
 			{% for state in states %}
 					 "{{ state }}",
