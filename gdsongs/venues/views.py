@@ -12,3 +12,10 @@ def singleVenue(request, venue_id):
 	"""Show one song"""
 	venue = get_object_or_404(Venue, pk=int(venue_id))
 	return(render(request, 'venues/single.html', {'venue':venue}))
+
+def getCities(request):
+	pass
+
+def getVenues(request):
+	pass
+
