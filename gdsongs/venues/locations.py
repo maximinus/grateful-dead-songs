@@ -66,6 +66,14 @@ COUNTRIES = [['USA', 0],
 			 ['Jamaica', 10],
 			 ['Unknown', -1]]
 
+def getStateList():
+	"""Return all the state names"""
+	return([x[0] for x in STATES[1:]])
+
+def getCountryList():
+	"""Return all the country names"""
+	return([x[0] for x in COUNTRIES[:-1]])
+
 def getStateCodes():
 	return([[x[2], x[0]] for x in STATES])
 
