@@ -9,22 +9,27 @@ function getOption(option) {
 }
 
 function changeCityOptions(data) {
-
-	console.log(data);
-	console.log(data['cities']);
-
 	// clear all current cities
 	$('#city-select').find('option').remove().end();
 	for(var i in data.cities) {
-	
-		console.log(data.cities[i]);
-	
 		$('#city-select').append(getOption(data.cities[i]));
 	}
 };
 
 function cityOptionsFail() {
-	console.log('Ajax Error');
+	console.log('Ajax Error on city options');
+};
+
+function changeVenueOptions(data) {
+	// clear all current venues
+	$('#venue-select').find('option').remove().end();
+	for(var i in data.venues) {
+		$('#venue-select').append(getOption(data.venues[i]));
+	}
+};
+
+function venueOptionsFail() {
+	console.log('Ajax Error on venue options');
 };
 
 function updateCitesFromCountry(country) {
@@ -51,7 +56,24 @@ function countryChanged() {
 };
 
 function stateChanged() {
+	var state = $('#state-select').val();
 	// call the DB to get all cites in this state
+	var data = {'state':state, 'csrfmiddlewaretoken': CSRF};
+	$.ajax('../venues/get_cities/',
+		   {'data':data,
+		    'type':'POST',
+		    'success':changeCityOptions,
+		    'error':cityOptionsFail});
+};
+
+function cityChanged() {
+	var city = $('#city-select').val();
+	var data = {'city':city, 'csrfmiddlewaretoken': CSRF};
+	$.ajax('../venues/get_venues/',
+		  {'data':data,
+		   'type':'POST',
+		   'success':changeVenueOptions,
+		   'error':venueOptionsFail});
 };
 
 function addDropdowns() {
@@ -64,6 +86,7 @@ function addDropdowns() {
 function addCallbacks() {
 	$('#country-select').change(countryChanged);
 	$('#state-select').change(stateChanged);
+	$('#city-select').change(cityChanged);
 };
 
 $(document).ready(function() {
