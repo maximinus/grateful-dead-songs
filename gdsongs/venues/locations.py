@@ -98,3 +98,16 @@ def getCountryName(index):
 	else:
 		return('Country index error')
 
+def getStateCode(state_name):
+	for i in STATES[1:]:
+		if(i[0] == state_name):
+			return(i[2])
+	# no match
+	return(None)
+
+def getCountryCode(country_name):
+	for i in COUNTRIES[:-1]:
+		if(i[0] == country_name):
+			return(i[1])
+	return(None)
+
