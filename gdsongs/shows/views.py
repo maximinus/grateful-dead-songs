@@ -31,12 +31,15 @@ class NewSong(object):
 def uploadShow(request):
 	if(request.method != 'POST'):
 		return(HttpResponse(status=404))
-	sets = [request.POST['set1'],
-			request.POST['set2'],
-			request.POST['set3'],
-			request.POST['set4']]
-	date = [int(request.POST['day']), int(request.POST['month']), int(request.POST['year'])]
-	encore = request.POST['encore']
+	try:
+		sets = [request.POST['set1'],
+				request.POST['set2'],
+				request.POST['set3'],
+				request.POST['set4']]
+		date = [int(request.POST['day']), int(request.POST['month']), int(request.POST['year'])]
+		encore = request.POST['encore']
+	except KeyError:
+		return(HttpResponse(status=404))
 
 	# now the complex part we must put all of this into a new show
 	# first we must validate that everything is ok. If so, then we delete all references
