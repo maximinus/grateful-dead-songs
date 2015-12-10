@@ -7,7 +7,7 @@ class Command(BaseCommand):
 	help = 'Adds all songs to database'
 	
 	def handle(self, *args, **options):
-		# use the databse to generate all songs and output a javascript file
+		# use the database to generate all songs and output a javascript file
 		# first open the file and dump the first parts
 		
 		songs = Song.objects.all()
@@ -23,6 +23,3 @@ class Command(BaseCommand):
 		js_file.write('\t\t\t "{0}"];\n\n'.format(songs[len(songs) - 1].name))
 		js_file.close()
 
-		
-
-		
