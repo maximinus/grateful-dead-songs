@@ -5,8 +5,60 @@ function getOption(text, value) {
 	return('<option value"' + value + '">' + text + '</option>');
 }
 
+function checkcoordsError(number) {
+	// return true if there is an error
+	var strings = number.split('.');
+	// must be 2
+	if(strings.length !== 2) {
+		return(true); }
+	// both be non-empty
+	if((strings[0] == '') || (strings[1] == '')) {
+		return(true);
+	}
+	// and must be all digits on both sides
+	if(/^\d+$/.test(strings[0]) && (/^\d+$/.test(strings[1])) {
+		// passed all tests
+		return(false);
+	};
+	return(true);
+};
+
+function submitVenue() {
+	// get the information and send it to the system
+	var country = $('#modelCountry-select').val();
+	var state = $('#modelState-select').val();
+	var city = $('#modelCity-select').val();
+	var venue = $('#modelVenue-select').val();
+	var longitude = $('#longitude-select').val();
+	var latitude = $('#latitude-select').val();
+	// we can do some cusomt checks before we send. They are:
+	// city must be filled in
+	// venure must be filled in
+	// longitude and latitide must be XXX.XXXXX all digits or empty
+	var error = false'
+	if(city == '') {
+		error = true;
+	}
+	if(venue == '') {
+		error = true;
+	}
+	if(checkcoordsError(longitude)) {
+		error = true;
+	}
+	if(checkcoordsError(longitude)) {
+	}
+};
+
+function venueAddedOk() {
+	
+};
+
+function venueAddedFail() {
+};
+
 function changeCityOptions(data) {
 	// clear all current cities
+	$('#city-select').show();
 	$('#city-select').find('option').remove().end();
 	for(var i in data.cities) {
 		$('#city-select').append(getOption(data.cities[i]));
@@ -21,9 +73,6 @@ function cityOptionsFail() {
 
 function changeVenueOptions(data) {
 	// clear all current venues
-	
-	console.log(data);
-	
 	$('#venue-select').find('option').remove().end();
 	for(var i in data.venues) {
 		$('#venue-select').append(getOption(data.venues[i][0], data.venues[i][1]));
@@ -61,6 +110,17 @@ function countryChanged() {
 	$('#city-select').show();
 };
 
+function modalCountryChanged() {
+	// similar logic to function countryChanged
+	var country = $('#modalCountry-select').val();
+	if(country == 'USA') {
+		$('#modalState-select').show();
+	}
+	else {
+		$('modalState-select').hide();
+	}
+};
+
 function stateChanged() {
 	var state = $('#state-select').val();
 	// call the DB to get all cites in this state
@@ -82,6 +142,10 @@ function cityChanged(new_city) {
 		   'error':venueOptionsFail});
 };
 
+function showVenueDialog() {
+	$('#venue-dialog').modal('show');
+};
+
 function hideInitial() {
 	$('#city-select').hide();
 	$('#venue-select').hide();
@@ -97,15 +161,28 @@ function addDropdowns() {
 	stateChanged();
 };
 
+function addModalDropdowns() {
+	$('#modalState-select').find('option').remove().end();
+	for(var i=0; i<STATES.length; i++) {
+		$('#modalState-select').append(getOption(STATES[i]));
+	}
+	$('#modalCountry-select').val('USA');
+};
+
 function addCallbacks() {
 	$('#country-select').change(countryChanged);
 	$('#state-select').change(stateChanged);
 	$('#city-select').change(cityChanged);
+	$('#add-venue').click(showVenueDialog);
+	// connections for the modal box, which is a lot simpler
+	$('#modalCountry-select').change(modalCountryChanged);
+	$('#submit-venue').click(submitVenue);
 };
 
 $(document).ready(function() {
 	hideInitial();
 	addDropdowns();
+	addModalDropdowns();
 	addCallbacks();
 });
 
