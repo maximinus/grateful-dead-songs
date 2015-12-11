@@ -38,15 +38,10 @@ def getVenues(request):
 	"""Return a list of venues in this city"""
 	if(request.method != 'POST'):
 		return(HttpResponse(status=404))
-		
-	print request.POST
-		
 	city = request.POST['city']
-	venues = set([x.name for x in Venue.objects.filter(city=city)])
+	venues = [[x.name, x.id] for x in Venue.objects.filter(city=city)]
 	if(len(venues) == 0):
-		venues = ['None']
-	else:
-		venues = [str(x) for x in venues]
+		venues = [['None', -1]]
 	json_data = json.dumps({'venues':venues})
 	return(HttpResponse(json_data,  content_type='application/json', status=200))
 

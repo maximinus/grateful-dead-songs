@@ -1,11 +1,8 @@
 "use strict";
 
-var cities_in_states = {};
-
-var cities_in_countries = {};
-
-function getOption(option) {
-	return('<option value"' + option + '">' + option + '</option>');
+function getOption(text, value) {
+	value = value || text;
+	return('<option value"' + value + '">' + text + '</option>');
 }
 
 function changeCityOptions(data) {
@@ -14,6 +11,8 @@ function changeCityOptions(data) {
 	for(var i in data.cities) {
 		$('#city-select').append(getOption(data.cities[i]));
 	}
+	// update venue here as well
+	cityChanged(data.cities[0]);
 };
 
 function cityOptionsFail() {
@@ -22,10 +21,14 @@ function cityOptionsFail() {
 
 function changeVenueOptions(data) {
 	// clear all current venues
+	
+	console.log(data);
+	
 	$('#venue-select').find('option').remove().end();
 	for(var i in data.venues) {
-		$('#venue-select').append(getOption(data.venues[i]));
+		$('#venue-select').append(getOption(data.venues[i][0], data.venues[i][1]));
 	}
+	$('#venue-select').show();
 };
 
 function venueOptionsFail() {
@@ -45,14 +48,17 @@ function updateCitesFromCountry(country) {
 function countryChanged() {
 	// it's either TO the USA, in which case we turn on the state,
 	// or it's NOT the USA, in which case we turn ON the state.
+	$('#venue-select').hide();
 	var new_value = $('#country-select').val();
 	if(new_value == 'USA') {
-		$('#state-select').prop('disabled', false);
+		$('#state-select').show();
+		addDropdowns();
 	}
 	else {
-		$('#state-select').prop('disabled', true);
+		$('#state-select').hide();
 		updateCitesFromCountry(new_value);
 	}
+	$('#city-select').show();
 };
 
 function stateChanged() {
@@ -66,8 +72,8 @@ function stateChanged() {
 		    'error':cityOptionsFail});
 };
 
-function cityChanged() {
-	var city = $('#city-select').val();
+function cityChanged(new_city) {
+	var city = new_city || $('#city-select').val();
 	var data = {'city':city, 'csrfmiddlewaretoken': CSRF};
 	$.ajax('../venues/get_venues/',
 		  {'data':data,
@@ -76,11 +82,19 @@ function cityChanged() {
 		   'error':venueOptionsFail});
 };
 
+function hideInitial() {
+	$('#city-select').hide();
+	$('#venue-select').hide();
+	$('#state-select').prop('disabled', false);
+};
+
 function addDropdowns() {
+	$('#state-select').find('option').remove().end();
 	for(var i=0; i<STATES.length; i++) {
 		$('#state-select').append(getOption(STATES[i]));
 	};
 	$('#country-select').val('USA');
+	stateChanged();
 };
 
 function addCallbacks() {
@@ -90,6 +104,7 @@ function addCallbacks() {
 };
 
 $(document).ready(function() {
+	hideInitial();
 	addDropdowns();
 	addCallbacks();
 });
