@@ -16,10 +16,10 @@ function checkcoordsError(number) {
 		return(true);
 	}
 	// and must be all digits on both sides
-	if(/^\d+$/.test(strings[0]) && (/^\d+$/.test(strings[1])) {
+	if(/^\d+$/.test(strings[0]) && (/^\d+$/.test(strings[1]))) {
 		// passed all tests
 		return(false);
-	};
+	}
 	return(true);
 };
 
@@ -35,12 +35,23 @@ function submitVenue() {
 	// city must be filled in
 	// venure must be filled in
 	// longitude and latitide must be XXX.XXXXX all digits or empty
-	var error = false'
+	var error = false
 	if(city == '') {
 		error = true;
+		$('#modal-city-error').html('You must enter a city name');
+		$('#modal-city-div').addClass('error')
 	}
+	else {
+		$('#modal-city-error').html('');
+		$('#modal-city-div').removeClass('error')
 	if(venue == '') {
 		error = true;
+		$('#modal-venue-error').html('You must enter a venue name');
+		$('#modal-venue-div').addClass('error')
+	}
+	else {
+		$('#modal-venue-error').html('');
+		$('#modal-venue-div').removeClass('error')
 	}
 	if(checkcoordsError(longitude)) {
 		error = true;
