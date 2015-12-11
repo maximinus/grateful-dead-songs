@@ -50,6 +50,7 @@ def uploadShow(request):
 		songs = normalizeSetData(json_data)
 		if(songs == False):
 			msg = json.dumps({'msg':'Songs were wrong.'})
+			print '1111111'
 			return(HttpResponse(msg,  content_type='application/json', status=400))
 		set_data.append(songs)
 	date = normalizeDateData(date)
