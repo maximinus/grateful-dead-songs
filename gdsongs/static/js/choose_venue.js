@@ -44,10 +44,11 @@ function submitVenue() {
 	else {
 		$('#modal-city-error').html('');
 		$('#modal-city-div').removeClass('error')
+	}
 	if(venue == '') {
 		error = true;
 		$('#modal-venue-error').html('You must enter a venue name');
-		$('#modal-venue-div').addClass('error')
+		$('#modal-venue-div').addClass('error');
 	}
 	else {
 		$('#modal-venue-error').html('');
@@ -55,16 +56,47 @@ function submitVenue() {
 	}
 	if(checkcoordsError(longitude)) {
 		error = true;
+		$('#modal-longitude-error').html('Format must be of type xxx.xxxx');
+		$('#modal-long-div').addClass('error');
+	}
+	else {
+		$('#modal-longitude-error').html('');
+		$('#modal-long-div').removeClass('error');
 	}
 	if(checkcoordsError(longitude)) {
+		error = true;
+		$('#modal-latitude-error').html('Format must be of type xxx.xxxx');
+		$('#modal-lat-div').addClass('error');
 	}
+	else {
+		$('#modal-latitude-error').html('');
+		$('#modal-lat-div').removeClass('error');
+	}
+	if(error == true) {
+		return; }
+	// now we can do the real post
+	var data = {'country':country,
+				'state':state,
+				'city':city,
+				'venue':venue,
+				'longitude':longitude
+				'latitide':latitude
+				'csrfmiddlewaretoken':CSRF};
+	$.ajax('../venues/add_new_venue/',
+		   {'data':data,
+		    'type':'POST',
+		    'success':venueAddedOk,
+		    'error':venueAddedFail});
 };
 
-function venueAddedOk() {
-	
+function venueAddedOk(data) {
+	// close the modal and apply the data we got to the venue select area
+	console.log(data);
 };
 
-function venueAddedFail() {
+function venueAddedFail(data) {
+	// show the errors
+	console.log(data);
 };
 
 function changeCityOptions(data) {
@@ -97,7 +129,7 @@ function venueOptionsFail() {
 
 function updateCitesFromCountry(country) {
 	// change cities depending on country
-	var data = {'country':country, 'csrfmiddlewaretoken': CSRF};
+	var data = {'country':country, 'csrfmiddlewaretoken':CSRF};
 	$.ajax('../venues/get_country_cities/',
 		   {'data':data,
 		    'type':'POST',
@@ -135,7 +167,7 @@ function modalCountryChanged() {
 function stateChanged() {
 	var state = $('#state-select').val();
 	// call the DB to get all cites in this state
-	var data = {'state':state, 'csrfmiddlewaretoken': CSRF};
+	var data = {'state':state, 'csrfmiddlewaretoken':CSRF};
 	$.ajax('../venues/get_cities/',
 		   {'data':data,
 		    'type':'POST',
@@ -145,7 +177,7 @@ function stateChanged() {
 
 function cityChanged(new_city) {
 	var city = new_city || $('#city-select').val();
-	var data = {'city':city, 'csrfmiddlewaretoken': CSRF};
+	var data = {'city':city, 'csrfmiddlewaretoken':CSRF};
 	$.ajax('../venues/get_venues/',
 		  {'data':data,
 		   'type':'POST',

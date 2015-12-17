@@ -90,7 +90,7 @@ def getStateCode(index):
 	if((index >= 0) and (index < len(STATES))):
 		return(STATES[index + 1][1])
 	else:
-		return('N/A')
+		return(None)
 
 def getCountryName(index):
 	if((index >= 0) and (index < len(COUNTRIES))):

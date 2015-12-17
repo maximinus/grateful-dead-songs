@@ -60,4 +60,22 @@ def getCountryCities(request):
 	json_data = json.dumps({'cities':cities})
 	return(HttpResponse(json_data,  content_type='application/json', status=200))
 
+def addNewVenue(request):
+	"""This rather long function is just to test all the data that arrives."""
+	if(request.method != 'POST'):
+		return(HttpResponse(status=404))
+	# we will assume that the data is in the request
+	country = request.POST['country']
+	state = request.POST['state']
+	city = request.POST['city']
+	venue = request.POST['venue']
+	longitude = request.POST['longitude']
+	latitude = request.POST['latitide']
+	# there are a few things to do here. First we check that the country is valid
+	country = getCountryCode(country)
+	if(country == None):
+		# return an error
+		json_data = json.dumps({'country':'This country does not exist'})
+		return(HttpResponse(json_data, content_type='application/json', status=404))
+	return(HttpResponse(json_data, status=404))
 
