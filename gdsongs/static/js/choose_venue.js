@@ -25,10 +25,10 @@ function checkcoordsError(number) {
 
 function submitVenue() {
 	// get the information and send it to the system
-	var country = $('#modelCountry-select').val();
-	var state = $('#modelState-select').val();
-	var city = $('#modelCity-select').val();
-	var venue = $('#modelVenue-select').val();
+	var country = $('#modalCountry-select').val();
+	var state = $('#modalState-select').val();
+	var city = $('#modalCity-select').val();
+	var venue = $('#modalVenue-select').val();
 	var longitude = $('#longitude-select').val();
 	var latitude = $('#latitude-select').val();
 	// we can do some cusomt checks before we send. They are:
@@ -79,9 +79,12 @@ function submitVenue() {
 				'state':state,
 				'city':city,
 				'venue':venue,
-				'longitude':longitude
-				'latitide':latitude
+				'longitude':longitude,
+				'latitude':latitude,
 				'csrfmiddlewaretoken':CSRF};
+				
+	console.log(data);
+				
 	$.ajax('../venues/add_new_venue/',
 		   {'data':data,
 		    'type':'POST',
@@ -95,7 +98,8 @@ function venueAddedOk(data) {
 };
 
 function venueAddedFail(data) {
-	// show the errors
+	// go through the possible errors and apply them
+	
 	console.log(data);
 };
 

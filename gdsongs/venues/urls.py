@@ -8,6 +8,6 @@ urlpatterns = [
 	url(r'^get_cities/$', views.getCities, name='get_cities'),
 	url(r'^get_country_cities/$', views.getCountryCities, name='get_country_cities'),
 	url(r'^get_venues/$', views.getVenues, name='get_venues'),
-	url(r'^add_new-venue/$', views.addNewVenue, name='add_new_venue'),
+	url(r'^add_new_venue/$', views.addNewVenue, name='add_new_venue'),
 ]
 

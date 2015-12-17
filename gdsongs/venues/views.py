@@ -4,7 +4,7 @@ from django.http import HttpResponse
 import json
 
 from venues.models import Venue
-from locations import getStateCode, getCountryCode
+from locations import getStateCode, getCountryCode, getStateName, getCountryName
 
 def allVenues(request):
 	"""Sort all songs alphabetically and display"""
@@ -65,17 +65,53 @@ def addNewVenue(request):
 	if(request.method != 'POST'):
 		return(HttpResponse(status=404))
 	# we will assume that the data is in the request
+	
+	print request.POST
+	
 	country = request.POST['country']
 	state = request.POST['state']
 	city = request.POST['city']
 	venue = request.POST['venue']
 	longitude = request.POST['longitude']
-	latitude = request.POST['latitide']
+	latitude = request.POST['latitude']
 	# there are a few things to do here. First we check that the country is valid
 	country = getCountryCode(country)
 	if(country == None):
 		# return an error
 		json_data = json.dumps({'country':'This country does not exist'})
 		return(HttpResponse(json_data, content_type='application/json', status=404))
-	return(HttpResponse(json_data, status=404))
+	if(country == 0):
+		# we must check the state
+		state = getStateCode(state)
+		if(state == None):
+			json_data = json.dumps({'state':'This state does not exist'})
+			return(HttpResponse(json_data, content_type='application/json', status=404))
+	else:
+		state = -1
+	# The city and venue are just text, we can ignore them
+	# longitude and latitude are the same, just numbers, but we should check that both exist or not
+	# the following statement is the nearest to a XOR I could get
+	if(bool(longitude == '') ^ bool(latitude == '')):
+		json_data = json.dumps({'longitude':'Both values must be numbers or be empty',
+								'latitude':'Both values must be numbers or be empty'})
+		return(HttpResponse(json_data, content_type='application/json', status=404))
+	# let's just add the venue
+	if(longitude == ''):
+		new_venue = Venue(country=country, state=state, city=city, name=venue)
+	else:
+		new_venue = Venue(country=country, state=state, city=city, name=venue, longitude=longitude, latitude=latitude)	
+	new_venue.save()
+	# the js code will need to re-populate the drop-downs. It already has the state and the country, so we
+	# create the 2 other lists, give the index and return this data
+	query = Venue.objects.filter(country=country).filter(state=state)
+	cities = set([x.city for x in query])
+	venues = set([x.name for x in query.filter(city=city)])
+	json_data = json.dumps({'country':getCountryName(country),
+							'state':getStateName(state),
+							'cities':[x for x in cities],
+							'city_index':city,
+							'venues':[x for x in venues],
+							'venue_index':venue})
+	new_venue.delete()
+	return(HttpResponse(json_data, content_type='application/json', status=200))
 
