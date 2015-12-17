@@ -165,7 +165,7 @@ function changeCityOptions(data) {
 		$('#city-select').append(getOption(data.cities[i]));
 	}
 	// update venue here as well
-	cityChanged(data.cities[0]);
+	updateCity(data.cities[0]);
 };
 
 function cityOptionsFail() {
@@ -233,17 +233,17 @@ function stateChanged() {
 		    'error':cityOptionsFail});
 };
 
-function cityChanged(new_city) {
-
-	console.log('YELP');
-
-	var city = new_city || $('#city-select').val();
+function updateCity(city) {
 	var data = {'city':city, 'csrfmiddlewaretoken':CSRF};
 	$.ajax('../venues/get_venues/',
 		  {'data':data,
 		   'type':'POST',
 		   'success':changeVenueOptions,
 		   'error':venueOptionsFail});
+};
+
+function cityChanged(new_city) {
+	updateCity($('#city-select').val());
 };
 
 function showVenueDialog() {
