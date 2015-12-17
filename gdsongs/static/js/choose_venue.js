@@ -26,20 +26,23 @@ function checkcoordsError(number) {
 function clearAllErrors() {
 	// remove errors in the modal form
 	$('#modal-country-error').html('');
-	$('#modal-country-div').removeClass('error')
+	$('#modal-country-div').removeClass('has-error')
 	$('#modal-state-error').html('');
-	$('#modal-state-div').removeClass('error')
+	$('#modal-state-div').removeClass('has-error')
 	$('#modal-city-error').html('');
-	$('#modal-city-div').removeClass('error');
+	$('#modal-city-div').removeClass('has-error');
 	$('#modal-venue-error').html('');
-	$('#modal-venue-div').removeClass('error')
+	$('#modal-venue-div').removeClass('has-error')
 	$('#modal-longitude-error').html('');
-	$('#modal-long-div').removeClass('error');
+	$('#modal-long-div').removeClass('has-error');
 	$('#modal-latitude-error').html('');
-	$('#modal-lat-div').removeClass('error');
+	$('#modal-lat-div').removeClass('has-error');
 }
 
 function submitVenue() {
+
+	console.log('adding...');
+
 	// get the information and send it to the system
 	clearAllErrors();
 	var country = $('#modalCountry-select').val();
@@ -53,26 +56,41 @@ function submitVenue() {
 	// venure must be filled in
 	// longitude and latitide must be XXX.XXXXX all digits or empty
 	var error = false;
+	
+	console.log(error);
+	
 	if(city == '') {
 		error = true;
 		$('#modal-city-error').html('You must enter a city name');
-		$('#modal-city-div').addClass('error')
+		$('#modal-city-div').addClass('has-error')
 	}
+	
+	console.log(error);
+	
 	if(venue == '') {
 		error = true;
 		$('#modal-venue-error').html('You must enter a venue name');
-		$('#modal-venue-div').addClass('error');
+		$('#modal-venue-div').addClass('has-error');
 	}
+	
+	console.log(error);
+	
 	if(checkcoordsError(longitude)) {
 		error = true;
-		$('#modal-longitude-error').html('Format must be of type xxx.xxxx');
-		$('#modal-long-div').addClass('error');
+		$('#modal-long-error').html('Format must be of type xxx.xxxx');
+		$('#modal-long-div').addClass('has-error');
 	}
+	
+	console.log(error);
+	
 	if(checkcoordsError(longitude)) {
 		error = true;
-		$('#modal-latitude-error').html('Format must be of type xxx.xxxx');
-		$('#modal-lat-div').addClass('error');
+		$('#modal-lat-error').html('Format must be of type xxx.xxxx');
+		$('#modal-lat-div').addClass('has-error');
 	}
+	
+	console.log(error);
+	
 	if(error == true) {
 		return; }
 	// now we can do the real post
@@ -97,8 +115,31 @@ function venueAddedOk(data) {
 	// state - state name (or N/A)
 	// cities - new city options
 	// city_index - the option to highlight
-	// venues / venue index: as above
-	// TODO
+	// venues / venue_index: as above
+	// clear the cities and venues options
+	$('#city-select').find('option').remove().end();
+	$('#venue-select').find('option').remove().end();
+	// add back the given options
+	for(var i in data.cities) {
+		$('#city-select').append(getOption(data.cities[i])); }
+	for(var i in data.venues) {
+		$('#venue-select').append(getOption(data.venues[i])); }
+	// make the given option the current one
+	$('#city-select').val(data.city_index);
+	$('#venue-select').val(data.venue_index);
+	$('#country-select').val(data.country);
+	if(data.country == 'USA') {
+		// show the state and select the right one
+		$('#state-select').show();
+		$('#state-select').val(data.state);
+	}
+	else {
+		// hide the state
+		$('#state-select').hide();
+	}
+	// close the modal
+	console.log('Hiding...');
+	$('#venue-dialog').modal('show');
 };
 
 function venueAddedFail(data) {
