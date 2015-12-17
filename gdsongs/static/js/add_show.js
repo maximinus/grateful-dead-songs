@@ -166,7 +166,7 @@ function postFail(data) {
 	showMessage(data.msg);
 };
 
-function splitDataForAjax(songs, date, encore) {
+function splitDataForAjax(songs, date, encore, empty) {
 	// so here we should have an array of sets, in order
 	var sdata = {'set1':JSON.stringify(songs[0]),
 				 'set2':JSON.stringify(songs[1]),
@@ -195,6 +195,19 @@ function verifyEncore() {
 	return(sets);
 };
 
+function verifyEmpty() {
+	var tabs = ['#set-one', '#set-two', '#set-three', '#set-four'];
+	var empty = [];
+	for(var i in tabs) {
+		var data = $(tabs[i]).find('.empty-value').val();
+		if(data != '') {
+			empty.push(true); }
+		else {
+			empty.push(false); }
+	}
+	return(empty);
+};
+
 function sendData() {
 	var songs = verifyData();
 	if(songs == null) {
@@ -210,6 +223,7 @@ function sendData() {
 		$('#date-error').removeClass('has-error');
 	}
 	var encore = verifyEncore();
+	var empty = verifyEmpty();
 	var show_data = splitDataForAjax(songs, date, encore)
 	// now AJAX the data the data
 	$.ajax('../shows/upload_show/',

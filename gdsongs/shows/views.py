@@ -38,6 +38,7 @@ def uploadShow(request):
 				request.POST['set4']]
 		date = [int(request.POST['day']), int(request.POST['month']), int(request.POST['year'])]
 		encore = request.POST['encore']
+		empty = request.POST['empty']
 	except KeyError:
 		return(HttpResponse(status=404))
 
@@ -45,14 +46,18 @@ def uploadShow(request):
 	# first we must validate that everything is ok. If so, then we delete all references
 	# to this show and then add it back
 	set_data = []
+	empty_index = 0
 	for i in sets:
 		json_data = json.loads(i)
 		songs = normalizeSetData(json_data)
+		if((len(songs) == []) and empty[empy_index] == False):
+			# don't add the set and finish here
+			break
 		if(songs == False):
 			msg = json.dumps({'msg':'Songs were wrong.'})
-			print '1111111'
 			return(HttpResponse(msg,  content_type='application/json', status=400))
 		set_data.append(songs)
+		empty_index += 1
 	date = normalizeDateData(date)
 	if(date == False):
 		msg = json.dumps({'msg':"Couldn't normalize song data."})
