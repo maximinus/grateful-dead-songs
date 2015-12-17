@@ -23,8 +23,25 @@ function checkcoordsError(number) {
 	return(true);
 };
 
+function clearAllErrors() {
+	// remove errors in the modal form
+	$('#modal-country-error').html('');
+	$('#modal-country-div').removeClass('error')
+	$('#modal-state-error').html('');
+	$('#modal-state-div').removeClass('error')
+	$('#modal-city-error').html('');
+	$('#modal-city-div').removeClass('error');
+	$('#modal-venue-error').html('');
+	$('#modal-venue-div').removeClass('error')
+	$('#modal-longitude-error').html('');
+	$('#modal-long-div').removeClass('error');
+	$('#modal-latitude-error').html('');
+	$('#modal-lat-div').removeClass('error');
+}
+
 function submitVenue() {
 	// get the information and send it to the system
+	clearAllErrors();
 	var country = $('#modalCountry-select').val();
 	var state = $('#modalState-select').val();
 	var city = $('#modalCity-select').val();
@@ -35,42 +52,26 @@ function submitVenue() {
 	// city must be filled in
 	// venure must be filled in
 	// longitude and latitide must be XXX.XXXXX all digits or empty
-	var error = false
+	var error = false;
 	if(city == '') {
 		error = true;
 		$('#modal-city-error').html('You must enter a city name');
 		$('#modal-city-div').addClass('error')
-	}
-	else {
-		$('#modal-city-error').html('');
-		$('#modal-city-div').removeClass('error')
 	}
 	if(venue == '') {
 		error = true;
 		$('#modal-venue-error').html('You must enter a venue name');
 		$('#modal-venue-div').addClass('error');
 	}
-	else {
-		$('#modal-venue-error').html('');
-		$('#modal-venue-div').removeClass('error')
-	}
 	if(checkcoordsError(longitude)) {
 		error = true;
 		$('#modal-longitude-error').html('Format must be of type xxx.xxxx');
 		$('#modal-long-div').addClass('error');
 	}
-	else {
-		$('#modal-longitude-error').html('');
-		$('#modal-long-div').removeClass('error');
-	}
 	if(checkcoordsError(longitude)) {
 		error = true;
 		$('#modal-latitude-error').html('Format must be of type xxx.xxxx');
 		$('#modal-lat-div').addClass('error');
-	}
-	else {
-		$('#modal-latitude-error').html('');
-		$('#modal-lat-div').removeClass('error');
 	}
 	if(error == true) {
 		return; }
@@ -81,10 +82,7 @@ function submitVenue() {
 				'venue':venue,
 				'longitude':longitude,
 				'latitude':latitude,
-				'csrfmiddlewaretoken':CSRF};
-				
-	console.log(data);
-				
+				'csrfmiddlewaretoken':CSRF};				
 	$.ajax('../venues/add_new_venue/',
 		   {'data':data,
 		    'type':'POST',
@@ -99,8 +97,22 @@ function venueAddedOk(data) {
 
 function venueAddedFail(data) {
 	// go through the possible errors and apply them
-	
-	console.log(data);
+	if(data.hasOwnProperty('country')) {
+		$('#modal-country-error').html(data['country']);
+		$('#modal-country-div').addClass('error')
+	}
+	if(data.hasOwnProperty('state')) {
+		$('#modal-state-error').html(data['state']);
+		$('#modal-state-div').addClass('error')
+	}
+	if(data.hasOwnProperty('longitude')) {
+		$('#modal-longitude-error').html(data['longitude']);
+		$('#modal-long-div').addClass('error')
+	}
+	if(data.hasOwnProperty('latitude')) {
+		$('#modal-latitude-error').html(data['latitude']);
+		$('#modal-lat-div').addClass('error')
+	}
 };
 
 function changeCityOptions(data) {

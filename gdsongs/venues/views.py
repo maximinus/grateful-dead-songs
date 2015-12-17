@@ -65,9 +65,6 @@ def addNewVenue(request):
 	if(request.method != 'POST'):
 		return(HttpResponse(status=404))
 	# we will assume that the data is in the request
-	
-	print request.POST
-	
 	country = request.POST['country']
 	state = request.POST['state']
 	city = request.POST['city']
