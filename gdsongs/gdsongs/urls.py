@@ -7,7 +7,6 @@ urlpatterns = [
     url(r'^$', 'gdsongs.views.index', name='index'),
     # editing
     url(r'add_show/', 'gdsongs.views.addShow', name='add_show'),
-    url(r'choose_venue/', 'gdsongs.views.venueSelect', name='select_venue'),
     
     # admin
     url(r'^admin/', include(admin.site.urls)),

@@ -92,7 +92,13 @@ function submitVenue() {
 
 function venueAddedOk(data) {
 	// close the modal and apply the data we got to the venue select area
-	console.log(data);
+	// the values we get on callback are:
+	// country - country name
+	// state - state name (or N/A)
+	// cities - new city options
+	// city_index - the option to highlight
+	// venues / venue index: as above
+	// TODO
 };
 
 function venueAddedFail(data) {
@@ -227,21 +233,4 @@ function addModalDropdowns() {
 	}
 	$('#modalCountry-select').val('USA');
 };
-
-function addCallbacks() {
-	$('#country-select').change(countryChanged);
-	$('#state-select').change(stateChanged);
-	$('#city-select').change(cityChanged);
-	$('#add-venue').click(showVenueDialog);
-	// connections for the modal box, which is a lot simpler
-	$('#modalCountry-select').change(modalCountryChanged);
-	$('#submit-venue').click(submitVenue);
-};
-
-$(document).ready(function() {
-	hideInitial();
-	addDropdowns();
-	addModalDropdowns();
-	addCallbacks();
-});
 

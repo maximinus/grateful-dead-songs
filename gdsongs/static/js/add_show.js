@@ -289,6 +289,14 @@ function addCallbacks() {
 	$('.delete-button').click(deleteRow);
 	$('.move-up-button').click(moveRowUp);
 	$('.move-down-button').click(moveRowDown);
+	// for the modal
+	$('#country-select').change(countryChanged);
+	$('#state-select').change(stateChanged);
+	$('#city-select').change(cityChanged);
+	$('#add-venue').click(showVenueDialog);
+	// connections for the modal box, which is a lot simpler
+	$('#modalCountry-select').change(modalCountryChanged);
+	$('#submit-venue').click(submitVenue);
 };
 
 function copyTableToTabs() {
@@ -305,10 +313,13 @@ function clearAllData() {
 };
 
 $(document).ready(function() {
+	hideInitial();
+	addDropdowns();
+	addModalDropdowns();
 	addSongs();
 	clearAllData();
 	copyTableToTabs();
 	addCallbacks();
-	$('#post-data').click(sendData);
+	$('#post-data').click(sendData);;
 });
 

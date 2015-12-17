@@ -4,7 +4,64 @@
 {% block main %}
 	<!-- Complex form to add shows -->
 	
-	<!-- Start with the bootstrap modal -->
+		<!-- Modal to add new venue -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="venue-dialog" data-backdrop="static">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="message-title">Add New Venue</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group" id="modal-country-div">
+							<label for="modalCountry-select">Country</label>
+							<select name="country" class="form-control" id="modalCountry-select">
+								{% for country in countries %}
+									<option value="{{ country }}">{{ country }}</option>
+								{% endfor %}
+							</select>
+							<span class="help-inline" id="modal-country-error"></span>
+						</div>
+						<div class="form-group" id="modal-state-div">
+							<label for="modalState-select">State</label>
+							<select name="state" class="form-control" id="modalState-select">
+							</select>
+							<span class="help-inline" id="modal-state-error"></span>
+						</div>
+						<div class="form-group" id="modal-city-div">
+							<label for="modalCity-select">City</label>
+							<input type="text" class="form-control" placeholder="City" id="modalCity-select">
+							<span class="help-inline" id="modal-city-error"></span>
+						</div>
+						<div class="form-group" id="modal-venue-div">
+							<label for="modalVenue-select">Venue Name</label>
+							<input type="text" class="form-control" placeholder="Venue" id="modalVenue-select">
+							<span class="help-inline" id="modal-venue-error"></span>
+						</div>
+						<div class="form-group" id="modal-long-div">
+							<label for="longitude-select">Longitude</label>
+							<input type="text" class="form-control" placeholder="Longitude" id="longitude-select">
+							<span class="help-inline" id="modal-long-error"></span>
+						</div>
+						<div class="form-group" id="modal-lat-div">
+							<label for="latitude-select">Latitude</label>
+							<input type="text" class="form-control" placeholder="Latitude" id="latitude-select">
+							<span class="help-inline" id="modal-lat-error"></span>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal" id>Cancel</button>
+					<button type="button" class="btn btn-primary" id="submit-venue">OK</button>
+				</div>
+			</div>
+		</div>
+	</div><!-- End of modal -->
+
+	<!-- The message modal -->
 	<div class="modal fade" tabindex="-1" role="dialog" id="message-dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -23,9 +80,25 @@
 			</div>
 		</div>
 	</div><!-- End of modal -->
-	
+
 	<h3>Add a show</h3>
-	
+	<div class="row">
+		<div class="col-lg-12 form-group">
+			<label for="show-date">Choose a venue</label>
+			<div class="form-inline">
+				<select name="country" class="form-control" id="country-select">
+					{% for country in countries %}
+						<option value="{{ country }}">{{ country }}</option>
+					{% endfor %}
+				</select>
+				<select name="state" class="form-control" id="state-select"></select>
+				<select name="city" class="form-control" id="city-select"></select>
+				<select name="venue" class="form-control" id="venue-select"></select>
+				<button class="btn btn-std pull-right" id="add-venue">Add New Venue</button>
+			</div>
+		</div>
+	</div>
+		
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="form-group" id="date-error">
@@ -121,7 +194,14 @@
 					 ["{{ song.name }}", "{{ song.id }}"],
 			{% endfor %}
 		];
+		// all states
+		var STATES = [
+			{% for state in states %}
+					 "{{ state }}",
+			{% endfor %}
+		];
 	</script>
+	<script src="{% static "js/choose_venue.js" %}"></script>
 	<script src="{% static "js/add_show.js" %}"></script>
 {% endblock %}
 

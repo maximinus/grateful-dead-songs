@@ -11,12 +11,10 @@ def index(request):
 
 def addShow(request):
 	"""Complex page to add a show."""
-	return(render(request, 'editing/add_show.html', {'songs':Song.objects.all()}))
-
-def venueSelect(request):
-	# make sure to send a list of the countries and states
-	context = {'countries':getCountryList(), 'states':getStateList()}
-	return(render(request, 'editing/choose_venue.html', context))
+	context = {'countries':getCountryList(),
+			   'states':getStateList(),
+			   'songs':Song.objects.all()}
+	return(render(request, 'editing/add_show.html', context))
 
 # test functions follow below
 # these must all 404 on the production server
