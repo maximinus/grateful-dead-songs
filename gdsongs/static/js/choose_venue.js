@@ -6,6 +6,9 @@ function getOption(text, value) {
 }
 
 function checkcoordsError(number) {
+	// returns false if sent the empty string as well, since that is valid (it is null)
+	if(number == '') {
+		return(false); }
 	// return true if there is an error
 	var strings = number.split('.');
 	// must be 2
@@ -40,9 +43,6 @@ function clearAllErrors() {
 }
 
 function submitVenue() {
-
-	console.log('adding...');
-
 	// get the information and send it to the system
 	clearAllErrors();
 	var country = $('#modalCountry-select').val();
@@ -56,41 +56,37 @@ function submitVenue() {
 	// venure must be filled in
 	// longitude and latitide must be XXX.XXXXX all digits or empty
 	var error = false;
-	
-	console.log(error);
-	
 	if(city == '') {
 		error = true;
 		$('#modal-city-error').html('You must enter a city name');
 		$('#modal-city-div').addClass('has-error')
 	}
-	
-	console.log(error);
-	
 	if(venue == '') {
 		error = true;
 		$('#modal-venue-error').html('You must enter a venue name');
 		$('#modal-venue-div').addClass('has-error');
 	}
-	
-	console.log(error);
-	
 	if(checkcoordsError(longitude)) {
 		error = true;
 		$('#modal-long-error').html('Format must be of type xxx.xxxx');
 		$('#modal-long-div').addClass('has-error');
 	}
-	
-	console.log(error);
-	
 	if(checkcoordsError(longitude)) {
 		error = true;
 		$('#modal-lat-error').html('Format must be of type xxx.xxxx');
 		$('#modal-lat-div').addClass('has-error');
 	}
-	
-	console.log(error);
-	
+	// another error is one co-ord empty and the other not
+	if((longitude == '') && (latitude != '')) {
+		error = true;
+		$('#modal-long-error').html("Longitude can't be empty if latitude isn't");
+		$('#modal-long-div').addClass('has-error');
+	}
+	if((longitude != '') && (latitude == '')) {
+		error = true;
+		$('#modal-lat-error').html("Latitude can't be empty if longitude isn't");
+		$('#modal-lat-div').addClass('has-error');
+	}	
 	if(error == true) {
 		return; }
 	// now we can do the real post
@@ -138,8 +134,7 @@ function venueAddedOk(data) {
 		$('#state-select').hide();
 	}
 	// close the modal
-	console.log('Hiding...');
-	$('#venue-dialog').modal('show');
+	$('#venue-dialog').modal('hide');
 };
 
 function venueAddedFail(data) {
@@ -239,6 +234,9 @@ function stateChanged() {
 };
 
 function cityChanged(new_city) {
+
+	console.log('YELP');
+
 	var city = new_city || $('#city-select').val();
 	var data = {'city':city, 'csrfmiddlewaretoken':CSRF};
 	$.ajax('../venues/get_venues/',

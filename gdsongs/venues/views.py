@@ -105,9 +105,9 @@ def addNewVenue(request):
 	venues = set([x.name for x in query.filter(city=city)])
 	json_data = json.dumps({'country':getCountryName(country),
 							'state':getStateName(state),
-							'cities':[x.city for x in cities],
+							'cities':[x for x in cities],
 							'city_index':city,
-							'venues':[x.name for x in venues],
+							'venues':[x for x in venues],
 							'venue_index':venue})
 	new_venue.delete()
 	return(HttpResponse(json_data, content_type='application/json', status=200))
