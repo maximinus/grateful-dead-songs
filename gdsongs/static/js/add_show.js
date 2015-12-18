@@ -93,11 +93,8 @@ function getSongID(text) {
 	for(var i in SONGS) {
 		if(SONGS[i][0] == text) {
 			return(SONGS[i][1]); }
-	}
-	
-	console.log(SONGS);
-	
-	console.log('Song does not exist');
+	}	
+	console.log('Song "' + text + '"does not exist');
 	return(null);
 };
 
@@ -152,8 +149,10 @@ function verifyData() {
 	return(sets);
 };
 
-function showMessage(text) {
+function showMessage(text, title) {
 	// show message in pop-up modal
+	title = title || "Message";
+	$('#modal-title').html(title);
 	$('#modal-message').html(text);
 	$('#message-dialog').modal('show');
 };
@@ -165,8 +164,12 @@ function postOK(data) {
 };
 
 function postFail(data) {
-	$('#message-title').html('Error');
-	showMessage(data.msg);
+	if(data.responseJSON.hasOwnProperty('msg')) {
+		showMessage(data.responseJSON.msg, 'Server Error');
+	}
+	else {
+		showMessage('Internal server error', 'Server Error');
+	}
 };
 
 function splitDataForAjax(songs, date, encore, empty) {
@@ -180,6 +183,7 @@ function splitDataForAjax(songs, date, encore, empty) {
 				 'year':date[2],
 				 'venue':$('#venue-select').val(),
 				 'encore':JSON.stringify(encore),
+				 'empty':JSON.stringify(empty),
 				 'csrfmiddlewaretoken': CSRF};
 	return(sdata);
 };
@@ -228,7 +232,7 @@ function sendData() {
 	}
 	var encore = verifyEncore();
 	var empty = verifyEmpty();
-	var show_data = splitDataForAjax(songs, date, encore)
+	var show_data = splitDataForAjax(songs, date, encore, empty)
 	// now AJAX the data the data
 	$.ajax('../shows/upload_show/',
 		   {'data':show_data,

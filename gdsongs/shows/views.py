@@ -39,8 +39,9 @@ def uploadShow(request):
 		date = [int(request.POST['day']), int(request.POST['month']), int(request.POST['year'])]
 		encore = request.POST['encore']
 		empty = request.POST['empty']
+		venue = int(request.POST['venue'])
 	except KeyError:
-		msg = json.dumps({'msg':"Couldn't normalize song data."})
+		msg = json.dumps({'msg':"Missing some data."})
 		return(HttpResponse(msg,  content_type='application/json', status=400))
 
 	# now the complex part we must put all of this into a new show
@@ -66,7 +67,7 @@ def uploadShow(request):
 	encore = normalizeEncoreData(encore)
 	# seems to be all ok. Get the venue and then save
 	try:
-		venue = Venue.objects.get(pk=int(request.POST['venue']))
+		venue = Venue.objects.get(pk=venue)
 	except:
 		msg = json.dumps({'msg':"Venue does not exist."})
 		return(HttpResponse(msg,  content_type='application/json', status=400))
