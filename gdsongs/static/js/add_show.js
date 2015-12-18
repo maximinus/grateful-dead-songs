@@ -164,11 +164,16 @@ function postOK(data) {
 };
 
 function postFail(data) {
-	if(data.responseJSON.hasOwnProperty('msg')) {
-		showMessage(data.responseJSON.msg, 'Server Error');
-	}
+	if(data.hasOwnProperty('responseJSON'))
+		if(data.responseJSON.hasOwnProperty('msg')) {
+			showMessage(data.responseJSON.msg, 'Server Error');
+		}
+		else {
+			showMessage('Internal server error', 'Server Error');
+		}
 	else {
-		showMessage('Internal server error', 'Server Error');
+		// severe error on server
+		showMessage('Server fault - contact admins!', 'Server Error');
 	}
 };
 

@@ -152,5 +152,5 @@ def saveData(set_data, date, encore, venue):
 			new_song.save()
 			song_order += 1
 		index += 1
-	return(str(show) + '\n' + show.setlist)
+	return(show.setlist_html)
 
