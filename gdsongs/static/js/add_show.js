@@ -94,6 +94,9 @@ function getSongID(text) {
 		if(SONGS[i][0] == text) {
 			return(SONGS[i][1]); }
 	}
+	
+	console.log(SONGS);
+	
 	console.log('Song does not exist');
 	return(null);
 };
@@ -175,6 +178,7 @@ function splitDataForAjax(songs, date, encore, empty) {
 				 'day':date[1],
 				 'month':date[0],
 				 'year':date[2],
+				 'venue':$('#venue-select').val(),
 				 'encore':JSON.stringify(encore),
 				 'csrfmiddlewaretoken': CSRF};
 	return(sdata);

@@ -193,7 +193,7 @@
 		"use strict";
 		var SONGS = [
 			{% for song in songs %}
-					 ["{{ song.name }}", "{{ song.id }}"],
+					 ["{{ song.name | safe}}", "{{ song.id }}"],
 			{% endfor %}
 		];
 		// all states

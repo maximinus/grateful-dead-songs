@@ -109,6 +109,5 @@ def addNewVenue(request):
 							'city_index':city,
 							'venues':[x for x in venues],
 							'venue_index':venue})
-	new_venue.delete()
 	return(HttpResponse(json_data, content_type='application/json', status=200))
 

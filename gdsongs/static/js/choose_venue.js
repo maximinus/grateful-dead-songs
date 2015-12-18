@@ -2,7 +2,7 @@
 
 function getOption(text, value) {
 	value = value || text;
-	return('<option value"' + value + '">' + text + '</option>');
+	return('<option value="' + value + '">' + text + '</option>');
 }
 
 function checkcoordsError(number) {

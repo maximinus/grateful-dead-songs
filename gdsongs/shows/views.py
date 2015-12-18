@@ -40,7 +40,8 @@ def uploadShow(request):
 		encore = request.POST['encore']
 		empty = request.POST['empty']
 	except KeyError:
-		return(HttpResponse(status=404))
+		msg = json.dumps({'msg':"Couldn't normalize song data."})
+		return(HttpResponse(msg,  content_type='application/json', status=400))
 
 	# now the complex part we must put all of this into a new show
 	# first we must validate that everything is ok. If so, then we delete all references
@@ -63,8 +64,13 @@ def uploadShow(request):
 		msg = json.dumps({'msg':"Couldn't normalize song data."})
 		return(HttpResponse(msg,  content_type='application/json', status=400))
 	encore = normalizeEncoreData(encore)
-	# seems to be all ok. Now enter all of that data
-	setlist = saveData(set_data, date, encore)
+	# seems to be all ok. Get the venue and then save
+	try:
+		venue = Venue.objects.get(pk=int(request.POST['venue']))
+	except:
+		msg = json.dumps({'msg':"Venue does not exist."})
+		return(HttpResponse(msg,  content_type='application/json', status=400))
+	setlist = saveData(set_data, date, encore, venue)
 	json_data = json.dumps({'msg':setlist})
 	return(HttpResponse(json_data,  content_type='application/json', status=200))
 
@@ -118,13 +124,11 @@ def normalizeDateData(date):
 def normalizeEncoreData(encore):
 	return(json.loads(encore))
 
-def saveData(set_data, date, encore):
+def saveData(set_data, date, encore, venue):
 	# we generate this backwards
 	# first we save the given date
 	date.save()
 	# then we generate the show
-	venue = Venue.objects.all()[0]
-	# TODO: Venue is any venue for now
 	show = Show(date=date, venue=venue)
 	show.save()
 	index = 1
