@@ -274,18 +274,18 @@ function addRow(event) {
 
 function deleteRow(event) {
 	// most important: if there are only two rows, delete the last one and add a new empty row to the table
-	var tbody = $(event.currentTarget).parent().parent().parent();
-	// TODO: must reference the correct name
-	if($('#set1-table tr').length == 2) {
-		// delete last row, add new row
-		$('#set1-table tr:last').remove();
+	var trow = $(event.currentTarget).parent().parent();
+	var tbody = $(trow).parent();
+	var all_rows = $(tbody).find('.data-row');
+	if(all_rows.length == 1) {
+		// delete row, add new row
+		$(all_rows[2]).remove();
 		// add the new row as a child of the tbody
 		$(tbody).append(getRow());
 		addCallbacks();
 	}
 	// delete the row
-	var parent_row = ($(event.currentTarget).parent().parent());
-	$(parent_row).remove();
+	$(trow).remove();
 };
 
 function deleteAllRows(element) {
