@@ -3,6 +3,7 @@
 // global consts and functions for date managment
 
 var MONTH_DAYS = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+var NUMBERS = ['one', 'two', 'three', 'four', 'five', 'six']
 
 function isLeapYear(year) {
 	return(((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0));
@@ -306,6 +307,30 @@ function moveRowUp(event) {
 	$(row).prev().before($(row));
 };
 
+function addNewSet() {
+	// count current tabs
+	var total_tabs = $('.tab-pane').length;
+	if(total_tabs >= NUMBERS.length) {
+		return; }
+	var id_name = 'set-' + NUMBERS[total_tabs];
+	var html = '<div class="tab-pane fade" id="' + id_name + '"></div>';
+	var li_html = '<li><a data-toggle="tab" href="#' + id_name + '">Set ' + (total_tabs + 1).toString() + '</a></li>';
+	
+	console.log(id_name);
+	console.log(html);
+	console.log(li_html);
+	
+	// now insert this html
+	$('#new-set-insert').before(li_html);
+	$('#set-tab-holder').append(html);
+
+	// clone the data from the previous set
+	id_name = '#' + id_name;
+	$('#set-table').clone(false).appendTo(id_name);
+	// now open this tab
+	$(id_name).tab('show');
+};
+
 function addCallbacks() {
 	// remove callbacks first!
 	$('.add-row-button').unbind();
@@ -316,6 +341,11 @@ function addCallbacks() {
 	$('.delete-button').click(deleteRow);
 	$('.move-up-button').click(moveRowUp);
 	$('.move-down-button').click(moveRowDown);
+};
+
+function addStaticCallbacks() {
+	// these only exist in one place
+	$('#add-set-button').click(addNewSet);
 	// for the modal
 	$('#country-select').change(countryChanged);
 	$('#state-select').change(stateChanged);
@@ -347,6 +377,7 @@ $(document).ready(function() {
 	clearAllData();
 	copyTableToTabs();
 	addCallbacks();
+	addStaticCallbacks()
 	$('#post-data').click(sendData);;
 });
 
