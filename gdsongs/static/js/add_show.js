@@ -135,7 +135,7 @@ function verifyData() {
 	// firstly, we have to look through all the tabs
 	var sets = [];
 	for(var i in NUMBERS) {
-		set_id = '#set-' + NUMBERS[i];
+		var set_id = '#set-' + NUMBERS[i];
 		// does the set exist?
 		if($(set_id).length == 0) {
 			// set does not exist, we are done
@@ -199,7 +199,7 @@ function verifyEncore() {
 	// we can't have an encore followed by a non-encore
 	var sets = [];
 	for(var i in NUMBERS) {
-		set_id = '#set-' + NUMBERS[i];
+		var set_id = '#set-' + NUMBERS[i];
 		// does the set exist?
 		if($(set_id).length == 0) {
 			// set does not exist, we are done

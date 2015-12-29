@@ -32,13 +32,9 @@ def uploadShow(request):
 	if(request.method != 'POST'):
 		return(HttpResponse(status=404))
 	try:
-		sets = [request.POST['set1'],
-				request.POST['set2'],
-				request.POST['set3'],
-				request.POST['set4']]
+		sets = request.POST['sets']
 		date = [int(request.POST['day']), int(request.POST['month']), int(request.POST['year'])]
 		encore = request.POST['encore']
-		empty = request.POST['empty']
 		venue = int(request.POST['venue'])
 	except KeyError:
 		msg = json.dumps({'msg':"Missing some data."})
@@ -48,18 +44,16 @@ def uploadShow(request):
 	# first we must validate that everything is ok. If so, then we delete all references
 	# to this show and then add it back
 	set_data = []
-	empty_index = 0
+	sets = json.loads(sets)
 	for i in sets:
-		json_data = json.loads(i)
-		songs = normalizeSetData(json_data)
-		if((len(songs) == []) and empty[empy_index] == False):
+		songs = normalizeSetData(i)
+		if(len(songs) == []):
 			# don't add the set and finish here
 			break
 		if(songs == False):
 			msg = json.dumps({'msg':'Songs were wrong.'})
 			return(HttpResponse(msg,  content_type='application/json', status=400))
 		set_data.append(songs)
-		empty_index += 1
 	date = normalizeDateData(date)
 	if(date == False):
 		msg = json.dumps({'msg':"Couldn't normalize song data."})
