@@ -133,10 +133,14 @@ function getRowData(row) {
 function verifyData() {
 	// so we have to check that things are ok
 	// firstly, we have to look through all the tabs
-	var tabs = ['#set-one', '#set-two', '#set-three', '#set-four'];
 	var sets = [];
-	for(var i in tabs) {
-		var rows = $(tabs[i]).find('.data-row');
+	for(var i in NUMBERS) {
+		set_id = '#set-' + NUMBERS[i];
+		// does the set exist?
+		if($(set_id).length == 0) {
+			// set does not exist, we are done
+			return(sets); }
+		var rows = $(set_id).find('.data-row');
 		var rdata = [];
 		for(var j=0; j<rows.length; j++) {
 			var check = getRowData(rows[j]);
@@ -178,18 +182,14 @@ function postFail(data) {
 	}
 };
 
-function splitDataForAjax(songs, date, encore, empty) {
+function splitDataForAjax(songs, date, encore) {
 	// so here we should have an array of sets, in order
-	var sdata = {'set1':JSON.stringify(songs[0]),
-				 'set2':JSON.stringify(songs[1]),
-				 'set3':JSON.stringify(songs[1]),
-				 'set4':JSON.stringify(songs[1]),
+	var sdata = {'sets':JSON.stringify(songs),
 				 'day':date[1],
 				 'month':date[0],
 				 'year':date[2],
 				 'venue':$('#venue-select').val(),
 				 'encore':JSON.stringify(encore),
-				 'empty':JSON.stringify(empty),
 				 'csrfmiddlewaretoken': CSRF};
 	return(sdata);
 };
@@ -197,29 +197,20 @@ function splitDataForAjax(songs, date, encore, empty) {
 function verifyEncore() {
 	// go through the sets and look for encores
 	// we can't have an encore followed by a non-encore
-	var tabs = ['#set-one', '#set-two', '#set-three', '#set-four'];
 	var sets = [];
-	for(var i in tabs) {
-		var data = $(tabs[i]).find('.encore-value').val();
+	for(var i in NUMBERS) {
+		set_id = '#set-' + NUMBERS[i];
+		// does the set exist?
+		if($(set_id).length == 0) {
+			// set does not exist, we are done
+			return(sets); }
+		var data = $(set_id).find('.encore-value').val();
 		if(data != '') {
 			sets.push(true); }
 		else {
 			sets.push(false); }
 	}
 	return(sets);
-};
-
-function verifyEmpty() {
-	var tabs = ['#set-one', '#set-two', '#set-three', '#set-four'];
-	var empty = [];
-	for(var i in tabs) {
-		var data = $(tabs[i]).find('.empty-value').val();
-		if(data != '') {
-			empty.push(true); }
-		else {
-			empty.push(false); }
-	}
-	return(empty);
 };
 
 function sendData() {
@@ -237,8 +228,7 @@ function sendData() {
 		$('#date-error').removeClass('has-error');
 	}
 	var encore = verifyEncore();
-	var empty = verifyEmpty();
-	var show_data = splitDataForAjax(songs, date, encore, empty)
+	var show_data = splitDataForAjax(songs, date, encore)
 	// now AJAX the data the data
 	$.ajax('../shows/upload_show/',
 		   {'data':show_data,
@@ -285,6 +275,7 @@ function addRow(event) {
 function deleteRow(event) {
 	// most important: if there are only two rows, delete the last one and add a new empty row to the table
 	var tbody = $(event.currentTarget).parent().parent().parent();
+	// TODO: must reference the correct name
 	if($('#set1-table tr').length == 2) {
 		// delete last row, add new row
 		$('#set1-table tr:last').remove();
@@ -295,6 +286,20 @@ function deleteRow(event) {
 	// delete the row
 	var parent_row = ($(event.currentTarget).parent().parent());
 	$(parent_row).remove();
+};
+
+function deleteAllRows(element) {
+	// delete all rows in the element and then add one empty one
+	var rows = $(element).find('.data-row');
+	// there is ALWAYS a row, since you can't delete the last one
+	// keep a reference to the parent
+	var parent = $(rows[0]).parent();
+	// delete these rows
+	for(var i in rows) {
+		rows[i].remove(); }
+	// add the empty row and update callbacks
+	$(parent).append(getRow());
+	addCallbacks();
 };
 
 function moveRowDown(event) {
@@ -313,20 +318,15 @@ function addNewSet() {
 	if(total_tabs >= NUMBERS.length) {
 		return; }
 	var id_name = 'set-' + NUMBERS[total_tabs];
-	var html = '<div class="tab-pane fade" id="' + id_name + '"></div>';
+	var html = '<div class="tab-pane fade in" id="' + id_name + '"></div>';
 	var li_html = '<li><a data-toggle="tab" href="#' + id_name + '">Set ' + (total_tabs + 1).toString() + '</a></li>';
-	
-	console.log(id_name);
-	console.log(html);
-	console.log(li_html);
-	
 	// now insert this html
 	$('#new-set-insert').before(li_html);
 	$('#set-tab-holder').append(html);
-
 	// clone the data from the previous set
 	id_name = '#' + id_name;
 	$('#set-table').clone(false).appendTo(id_name);
+	deleteAllRows(id_name);
 	// now open this tab
 	$(id_name).tab('show');
 };
