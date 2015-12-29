@@ -295,8 +295,8 @@ function deleteAllRows(element) {
 	// keep a reference to the parent
 	var parent = $(rows[0]).parent();
 	// delete these rows
-	for(var i in rows) {
-		rows[i].remove(); }
+	$(rows).each(function(i, e) {
+		$(e).remove(); });
 	// add the empty row and update callbacks
 	$(parent).append(getRow());
 	addCallbacks();
@@ -319,7 +319,8 @@ function addNewSet() {
 		return; }
 	var id_name = 'set-' + NUMBERS[total_tabs];
 	var html = '<div class="tab-pane fade in" id="' + id_name + '"></div>';
-	var li_html = '<li><a data-toggle="tab" href="#' + id_name + '">Set ' + (total_tabs + 1).toString() + '</a></li>';
+	var li_html = '<li><a data-toggle="tab" href="#' + id_name + '"';
+	li_html += ' id="' + id_name + '-link">Set ' + (total_tabs + 1).toString() + '</a></li>';
 	// now insert this html
 	$('#new-set-insert').before(li_html);
 	$('#set-tab-holder').append(html);
@@ -327,8 +328,9 @@ function addNewSet() {
 	id_name = '#' + id_name;
 	$('#set-table').clone(false).appendTo(id_name);
 	deleteAllRows(id_name);
-	// now open this tab
-	$(id_name).tab('show');
+	// we need to activate the <a> that we activated earlier
+	var link_name = id_name + '-link';
+	$(link_name).tab('show');
 };
 
 function addCallbacks() {
