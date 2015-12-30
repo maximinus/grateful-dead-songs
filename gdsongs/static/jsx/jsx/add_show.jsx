@@ -1,3 +1,9 @@
+var PlaceSelect = React.createClass({
+	render: function() {
+		return(<select id={this.props.identity + '-select'} className="form-control" name={this.props.identity} />);
+}});
+		
+
 var Venue = React.createClass({
 	render: function() {
 		var choices = COUNTRIES.map(function(country) {
@@ -11,9 +17,9 @@ var Venue = React.createClass({
 					<select id="country-select" className="form-control" name="country">
 						{choices}
 					</select>
-					<select id="state-select" className="form-control" name="state" />
-					<select id="city-select" className="form-control" name="city" />
-					<select id="venue-select" className="form-control" name="venue" />
+					<PlaceSelect identity='state' />
+					<PlaceSelect identity='city' />
+					<PlaceSelect identity='venue' />
 					<button id="add-venue" className="btn btn-std pull-right">Add New Venue</button>
 				</div>
 			</div>
