@@ -1,0 +1,198 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block main %}
+	<!-- Modal to add new venue -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="venue-dialog" data-backdrop="static">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="message-title">Add New Venue</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group" id="modal-country-div">
+							<label for="modalCountry-select">Country</label>
+							<select name="country" class="form-control" id="modalCountry-select">
+								{% for country in countries %}
+									<option value="{{ country }}">{{ country }}</option>
+								{% endfor %}
+							</select>
+							<span class="help-inline" id="modal-country-error"></span>
+						</div>
+						<div class="form-group" id="modal-state-div">
+							<label for="modalState-select">State</label>
+							<select name="state" class="form-control" id="modalState-select">
+							</select>
+							<span class="help-inline pull-right"><i id="modal-state-error"></i></span>
+						</div>
+						<div class="form-group" id="modal-city-div">
+							<label for="modalCity-select">City</label>
+							<input type="text" class="form-control" placeholder="City" id="modalCity-select">
+							<span class="help-inline pull-right"><i id="modal-city-error"></i></span>
+						</div>
+						<div class="form-group" id="modal-venue-div">
+							<label for="modalVenue-select">Venue Name</label>
+							<input type="text" class="form-control" placeholder="Venue" id="modalVenue-select">
+							<span class="help-inline pull-right"><i id="modal-venue-error"></i></span>
+						</div>
+						<div class="form-group" id="modal-long-div">
+							<label for="longitude-select">Longitude</label>
+							<input type="text" class="form-control" placeholder="Longitude" id="longitude-select">
+							<span class="help-inline pull-right"><i id="modal-long-error"></i></span>
+						</div>
+						<div class="form-group" id="modal-lat-div">
+							<label for="latitude-select">Latitude</label>
+							<input type="text" class="form-control" placeholder="Latitude" id="latitude-select">
+							<span class="help-inline pull-right"><i id="modal-lat-error"></i></span>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal" id>Cancel</button>
+					<button type="button" class="btn btn-primary" id="submit-venue">OK</button>
+				</div>
+			</div>
+		</div>
+	</div><!-- End of modal -->
+
+	<!-- The message modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="message-dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="modal-title"></h4>
+				</div>
+				<div class="modal-body">
+					<p id="modal-message"></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+				</div>
+			</div>
+		</div>
+	</div><!-- End of modal -->
+
+	<h3>Add a show</h3>
+	<div class="row">
+		<div class="col-lg-12 form-group">
+			<label for="show-date">Choose a venue</label>
+			<div class="form-inline">
+				<select name="country" class="form-control" id="country-select">
+					{% for country in countries %}
+						<option value="{{ country }}">{{ country }}</option>
+					{% endfor %}
+				</select>
+				<select name="state" class="form-control" id="state-select"></select>
+				<select name="city" class="form-control" id="city-select"></select>
+				<select name="venue" class="form-control" id="venue-select"></select>
+				<button class="btn btn-std pull-right" id="add-venue">Add New Venue</button>
+			</div>
+		</div>
+	</div>
+		
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="form-group" id="date-error">
+				<label for="show-date">Date of Show, MM/DD/YY</label>
+				<input type="text" id="show-date" class="form-control" placeholder="Use XX if day/month/year is unknown, i.e. 10/xx/71">
+			</div>
+			<!-- Now we need some sets -->
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<ul class="nav nav-pills" data-tabs="tabs">
+						<li class="active"><a data-toggle="tab" href="#set-one" id="set-one-link">Set 1</a></li>
+						<li id="new-set-insert"><a href="#" id="add-set-button">Add Set</a></li>
+					</ul>
+					<div class="tab-content" id="set-tab-holder">
+						<div class="tab-pane active fade in" id="set-one">
+							<div id="set-table">
+								<table class="table" style="table-layout:auto;">
+									<thead>
+										<tr>
+											<td>Song</td>
+											<td>Seques?</td>
+											<td>Length (mm:ss)</td>
+											<td>Comments</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="data-row">
+											<td><div class="form-group"><input list="songs" class="form-control song-val" /></div></td>
+											<td><div class="form-group"><input type="checkbox" class="form-control seque-val" value="seque" /></div></td>
+											<td><div class="form-group"><input type="text" class="form-control length-val" /></div></td>
+											<td><div class="form-group"><input type="text" class="form-control comment-val" /></div></td>
+											<td>
+												<button type="button" class="btn btn-default move-up-button" aria-label="Left Align" data-toggle="tooltip" title="Move up">
+													<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+												</button>
+											</td>
+											<td>
+												<button type="button" class="btn btn-default move-down-button" aria-label="Left Align" data-toggle="tooltip" title="Move down">
+													<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+												</button>
+											</td>
+											<td>
+												<button type="button" class="btn btn-danger delete-button" aria-label="Left Align" data-toggle="tooltip" title="Delete song">
+													<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+												</button>
+											</td>
+											<td>
+												<button type="button" class="btn btn-primary add-row-button" aria-label="Left Align"  data-toggle="tooltip" title="Add row">
+													<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+												</button>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="pull-right">
+									<div class="form-group form-inline">
+										<label for="encore-value">Set is an encore?</label>
+										<input type="checkbox" class="form-control encore-value" id="encore-value" value="encore" />
+									</div>
+								</div>
+							</div><!-- set table -->
+						</div>
+					</div>
+				</div>
+			</div><!-- End of set panel -->
+		</div>
+	</div>
+
+	<button class="btn btn-std pull-right" id="post-data">Verify and enter data</button>
+
+	<datalist id="songs">
+	</datalist>
+	
+{% endblock %}
+
+{% block scripts %}
+	<script>
+		// all songs
+		"use strict";
+		var SONGS = [
+			{% for song in songs %}
+					 ["{{ song.name | safe}}", "{{ song.id }}"],
+			{% endfor %}
+		];
+		// all states
+		var STATES = [
+			{% for state in states %}
+					 "{{ state }}",
+			{% endfor %}
+		];
+	</script>
+	<script src="{% static "js/choose_venue.js" %}"></script>
+	<script src="{% static "js/add_show.js" %}"></script>
+{% endblock %}
+

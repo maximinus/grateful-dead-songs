@@ -18,10 +18,15 @@ def addShow(request):
 
 # test functions follow below
 # these must all 404 on the production server
-
 def testStatic(request):
 	# 404 if debug mode
 	if(settings.DEBUG == False):
 		raise Http404
 	return(render(request, 'test.html', {}))
+
+def reactTest():
+	context = {'countries':getCountryList(),
+			   'states':getStateList(),
+			   'songs':Song.objects.all()}
+	return(render(request, 'editing/react_test.html', context))
 

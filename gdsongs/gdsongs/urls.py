@@ -8,6 +8,9 @@ urlpatterns = [
     # editing
     url(r'add_show/', 'gdsongs.views.addShow', name='add_show'),
     
+    # react tests
+    url(r'react/', 'gdsongs.views.reactTest', name='react_test'),
+    
     # admin
     url(r'^admin/', include(admin.site.urls)),
     
