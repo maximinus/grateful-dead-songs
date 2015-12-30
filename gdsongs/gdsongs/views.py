@@ -24,7 +24,7 @@ def testStatic(request):
 		raise Http404
 	return(render(request, 'test.html', {}))
 
-def reactTest():
+def reactTest(request):
 	context = {'countries':getCountryList(),
 			   'states':getStateList(),
 			   'songs':Song.objects.all()}
