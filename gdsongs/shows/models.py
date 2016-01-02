@@ -153,6 +153,9 @@ class PlayedSong(models.Model):
 	comments = models.TextField(blank=True)
 	seque = models.BooleanField(default=False, null=False)
 	
+	@property
+	def year(self):
+		return(self.played_set.show.date.year)
+
 	def __unicode__(self):
 		return('{0}, in {1}, {2}'.format(self.song, self.played_set.set_text, self.played_set.show.date))
-
