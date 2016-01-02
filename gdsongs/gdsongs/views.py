@@ -23,10 +23,3 @@ def testStatic(request):
 	if(settings.DEBUG == False):
 		raise Http404
 	return(render(request, 'test.html', {}))
-
-def reactTest(request):
-	context = {'countries':getCountryList(),
-			   'states':getStateList(),
-			   'songs':Song.objects.all()}
-	return(render(request, 'editing/react_test.html', context))
-
