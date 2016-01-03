@@ -14,7 +14,7 @@ class SongInfo(object):
 	def __init__(self, song):
 		# song is the DB object
 		self.name = song.name
-		self.id = str(song.id)
+		self.id = song.songUrl()
 		played = PlayedSong.objects.filter(song=song)
 		self.total = str(len(played))
 		# order by year and get the first and last years

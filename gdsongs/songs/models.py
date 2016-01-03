@@ -5,6 +5,10 @@ class Song(models.Model):
 	shortname = models.CharField(max_length=32, blank=False)
 	fragment = models.BooleanField(default=False)
 
+	def songUrl(self):
+		# strip all spaces
+		return(self.name.replace(' ', ''))
+
 	def __unicode__(self):
 		return(self.name)
 
