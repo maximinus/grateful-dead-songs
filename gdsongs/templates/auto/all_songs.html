@@ -1,15 +1,79 @@
-{% extends 'base.html' %}
-{% load static %}
-{% block main %}
+<!doctype html>
+
+
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grateful Dead Songs</title>
+	<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/static/css/global.css" rel="stylesheet">
+	
+	
+</head>
+
+<body>
+	<!-- Page starts here -->
+	<div class="container">
+		<!-- icons on right hand side -->
+		<nav class="navbar navbar-default" style="border:0px;" id="navbar">
+			<div class="container-fluid">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="/">Home</a></li>
+					<li><a href="/shows/all_shows/">Shows</a></li>
+					<li><a href="/songs/all_songs/">Songs</a></li>
+					<li><a href="/venues/all_venues/">Venues</a></li>
+					<li><a href="/tours/all_tours/">Tours</a></li>
+					<li><a href="/add_show/">Add a new show</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href='#'>
+						<span data-toggle="tooltip" title="About the site" data-placement="bottom"
+							  class="glyphicon glyphicon-info-sign" aria-hidden="true" style="font-size:1.5em;"></span>
+					</a></li>
+				</ul>
+			</div>
+		</nav>
+	<!-- All main blocks are in a container -->
+	
 
 <h3>All Grateful Dead Songs</h3>
-<h3>C</h3>
-<p><strong>Cassidy</strong> : <em>1985:6x</em></p>
-<p><strong>Caution (Do Not Stop On Tracks) Jam</strong> : <em>1972:1x</em></p>
-<h3>D</h3>
-<p><strong>Dancing In The Street</strong> : <em>1972:1x</em></p>
-<p><strong>Dark Star</strong> : <em>1985:3x</em></p>
-<p><strong>Dear Mr. Fantasy</strong> : <em>1985:2x</em></p>
-<p><strong>Dire Wolf</strong> : <em>1985:1x</em></p>
 
-{% endblock %}
+	<h4>C</h4>
+	
+		<p><strong><a href="/songs/50">Cassidy</a></strong> : <em>1985: 6</em></p>
+	
+		<p><strong><a href="/songs/52">Caution (Do Not Stop On Tracks) Jam</a></strong> : <em>1972: 1</em></p>
+	
+
+	<h4>D</h4>
+	
+		<p><strong><a href="/songs/72">Dancing In The Street</a></strong> : <em>1972: 1</em></p>
+	
+		<p><strong><a href="/songs/74">Dark Star</a></strong> : <em>1985: 3</em></p>
+	
+		<p><strong><a href="/songs/80">Dear Mr. Fantasy</a></strong> : <em>1985: 2</em></p>
+	
+		<p><strong><a href="/songs/86">Dire Wolf</a></strong> : <em>1985: 1</em></p>
+	
+
+
+
+	</div><!-- end of container -->
+	
+	<footer class="footer text-right">
+		<div class="container">
+			<p class="text-muted">(C)opr. Chris Handy 2016</p>
+		</div>
+	</footer>
+	<script>
+		var CSRF = "";
+	</script>
+	<script src="/static/js/jquery-2.1.4.js"></script>
+	<script src="/static/js/bootstrap.min.js"></script>
+	
+	
+</body>
+
