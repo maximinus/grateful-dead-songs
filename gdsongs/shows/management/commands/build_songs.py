@@ -14,8 +14,8 @@ MAXIMUM_TABLE_LENGTH = 5
 class SongInformation(object):
 	def __init__(self, song, all_years):
 		self.song = song
-		self.all = PlayedSong.objects.all(song=song)
-		self.played = str(len(self.all))
+		self.all = PlayedSong.objects.filter(song=song)
+		self.played = len(self.all)
 		self.longest = self.getLongest()
 		self.shortest = self.getShortest()
 		self.before = self.getBefore()
@@ -25,23 +25,23 @@ class SongInformation(object):
 
 	def getLongest(self):
 		# zip up a list of [length, played song] and then sort them
-		zipped = [[x.length, x] for x in self.all if x.length != 0]]
-		return(sorted(zipped, key=lambda x:x[0])[:MAXIMUM_TABLE_LENGTH]
+		zipped = [[x.length, x] for x in self.all if x.length != 0]
+		return(sorted(zipped, key=lambda x:x[0])[:MAXIMUM_TABLE_LENGTH])
 
 	def getShortest(self):
-		zipped = [[x.length, x] for x in self.all if x.length != 0]]
+		zipped = [[x.length, x] for x in self.all if x.length != 0]
 		zipped = sorted(zipped, key=lambda x:x[0])
 		zipped.reverse()
 		return(zipped[:MAXIMUM_TABLE_LENGTH])
 
-	def getNextTo(order, reverse=false):
+	def getNextTo(self, order, reverse=False):
 		# this is a slightly tricky one. We need to find the index of the song and then the one near it
-		songs_before:
-		for i in self.all():
+		songs_before = []
+		for i in self.all:
 			try:
 				song = PlayedSong.objects.get(played_set=i.played_set, order=i.order-1)
-				songs_before.append(song_before)
-			except DoesNotExist:
+				songs_before.append(song)
+			except PlayedSong.DoesNotExist:
 				pass
 		# now we have a list, arrange in buckets
 		buckets = {}
@@ -50,7 +50,7 @@ class SongInformation(object):
 				buckets[i] = 1
 			else:
 				buckets[i] += 1
-		return(sorted([x, buckets[x] for x im buckets.iterkeys()], lambda x:x[1])[:MAXIMUM_TABLE_LENGTH])
+		return(sorted([[x, buckets[x]] for x in buckets.iterkeys()], key=lambda x:x[1])[:MAXIMUM_TABLE_LENGTH])
 
 	def getBefore(self):
 		return(self.getNextTo(-1))
@@ -77,8 +77,8 @@ class SongInformation(object):
 
 	def renderJSON(self):
 		# now we have to translate the info into the json
-		data = {'name':self.info.name,
-				'played':self.info,
+		data = {'name':self.song.name,
+				'played':self.played,
 				'longest':self.longest,
 				'shortest':self.shortest,
 				'before':self.before,
@@ -86,7 +86,7 @@ class SongInformation(object):
 				'years':self.years,
 				'years_percent':self.years_percent}
 		data = json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))
-		json_file = open(os.path.join(settings.BASE_DIR, FILENAME.format(self.info.songUrl())), 'w')
+		json_file = open(os.path.join(settings.BASE_DIR, FILENAME.format(self.song.songUrl())), 'w')
 		json_file.write(data)
 		json_file.close()
 
@@ -99,10 +99,10 @@ class Command(BaseCommand):
 
 	def handle(self, *args, **options):
 		# we need to calculate a sum of all songs for every year
-		all_years = [0 for range(31)]
+		all_years = [0 for x in range(31)]
 		for i in PlayedSong.objects.all():
 			if(i.year != 0):
 				all_years[i.year - 1965] += 1
-		for i in self.getAllSongs()
+		for i in self.getAllSongs():
 			page = SongInformation(i, all_years)
 			page.renderJSON()
