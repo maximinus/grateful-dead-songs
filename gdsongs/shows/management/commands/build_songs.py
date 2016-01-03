@@ -1,19 +1,19 @@
 from django.core.management.base import BaseCommand, CommandError
 from django.conf import settings
-from django.template.loader import render_to_string
 
 from shows.models import PlayedSong
 from songs.models import Song
 
-import os
+import os, json
 
-FILE_LOCATION = 'templates/auto/' + FILE_NAME
+FILENAME = 'templates/auto/json/{0}'
 
 # change this to make longer data tables
 MAXIMUM_TABLE_LENGTH = 5
 
 class SongInformation(object):
 	def __init__(self, song, all_years):
+		self.song = song
 		self.all = PlayedSong.objects.all(song=song)
 		self.played = str(len(self.all))
 		self.longest = self.getLongest()
@@ -75,6 +75,20 @@ class SongInformation(object):
 				percent.append((self.years[i] / all_years[i]) * 100.0)
 		return(percent)
 
+	def renderJSON(self):
+		# now we have to translate the info into the json
+		data = {'name':self.info.name,
+				'played':self.info,
+				'longest':self.longest,
+				'shortest':self.shortest,
+				'before':self.before,
+				'after':self.after,
+				'years':self.years,
+				'years_percent':self.years_percent}
+		data = json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))
+		json_file = open(os.path.join(settings.BASE_DIR, FILENAME.format(self.info.songUrl())), 'w')
+		json_file.write(data)
+		json_file.close()
 
 class Command(BaseCommand):
 	help = 'Build the pages for each song'
@@ -91,4 +105,4 @@ class Command(BaseCommand):
 				all_years[i.year - 1965] += 1
 		for i in self.getAllSongs()
 			page = SongInformation(i, all_years)
-			page.render()
+			page.renderJSON()
