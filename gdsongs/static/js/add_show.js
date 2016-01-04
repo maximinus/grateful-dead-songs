@@ -317,7 +317,7 @@ function addNewSet() {
 	var total_tabs = $('.tab-pane').length;
 	if(total_tabs >= NUMBERS.length) {
 		return; }
-	var id_name = 'set-' + NUMBERS[total_tabs];
+	var id_name = 'set-' + NUMBERS[total_tabs - 1];
 	var html = '<div class="tab-pane fade in" id="' + id_name + '"></div>';
 	var li_html = '<li><a data-toggle="tab" href="#' + id_name + '"';
 	li_html += ' id="' + id_name + '-link">Set ' + (total_tabs + 1).toString() + '</a></li>';
@@ -326,7 +326,11 @@ function addNewSet() {
 	$('#set-tab-holder').append(html);
 	// clone the data from the previous set
 	id_name = '#' + id_name;
-	$('#set-table').clone(false).appendTo(id_name);
+	var new_set_table = $('#set-table').clone(false);
+	$(new_set_table).appendTo(id_name);
+	$(new_set_table).show()
+
+	//appendTo(id_name);
 	deleteAllRows(id_name);
 	// we need to activate the <a> that we activated earlier
 	var link_name = id_name + '-link';
