@@ -86,10 +86,7 @@ def normalizeSetData(new_set):
 			return(False)
 		normal_song.append(song_id)
 		# seque is empty or not
-		if(song[1] == ''):
-			normal_song.append(True)
-		else:
-			normal_song.append(False)
+		normal_song.append(song[1])
 		if(song[2] == ''):
 			normal_song.append(0)
 		else:

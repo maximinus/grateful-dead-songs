@@ -112,8 +112,8 @@ function getRowData(row) {
 	else {
 		$(row).find('.song-val').parent().removeClass('has-error');
 	}
-	
-	var seque = $(row).find('.seque-val')[0].value;
+	var seque_input = $(row).find('.seque-val')[0];
+	var seque = $(seque_input).prop('checked')
 	var len = $(row).find('.length-val')[0].value;
 	var comment = $(row).find('.comment-val')[0].value;
 	
