@@ -23,3 +23,8 @@ def testStatic(request):
 	if(settings.DEBUG == False):
 		raise Http404
 	return(render(request, 'test.html', {}))
+
+def showSong(request):
+	if(settings.DEBUG == False):
+		raise Http404
+	return(render(request, 'auto/build/single_song.html', {}))

@@ -8,6 +8,9 @@ urlpatterns = [
     # editing
     url(r'add_show/', 'gdsongs.views.addShow', name='add_show'),
     
+    # test song display
+    url(r'^table/', 'gdsongs.views.showSong', name='show_song'),
+
     # admin
     url(r'^admin/', include(admin.site.urls)),
     
