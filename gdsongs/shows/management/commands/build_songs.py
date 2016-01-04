@@ -6,7 +6,7 @@ from songs.models import Song
 
 import os, json
 
-FILENAME = 'templates/auto/json/{0}'
+FILENAME = 'templates/auto/json/{0}.json'
 
 # change this to make longer data tables
 MAXIMUM_TABLE_LENGTH = 5
@@ -25,32 +25,32 @@ class SongInformation(object):
 
 	def getLongest(self):
 		# zip up a list of [length, played song] and then sort them
-		zipped = [[x.length, x] for x in self.all if x.length != 0]
+		zipped = [[x.length, x.serialize()] for x in self.all if x.length != 0]
 		return(sorted(zipped, key=lambda x:x[0])[:MAXIMUM_TABLE_LENGTH])
 
 	def getShortest(self):
-		zipped = [[x.length, x] for x in self.all if x.length != 0]
+		zipped = [[x.length, x.serialize()] for x in self.all if x.length != 0]
 		zipped = sorted(zipped, key=lambda x:x[0])
 		zipped.reverse()
 		return(zipped[:MAXIMUM_TABLE_LENGTH])
 
 	def getNextTo(self, order, reverse=False):
 		# this is a slightly tricky one. We need to find the index of the song and then the one near it
-		songs_before = []
+		songs_next_to = []
 		for i in self.all:
 			try:
 				song = PlayedSong.objects.get(played_set=i.played_set, order=i.order-1)
-				songs_before.append(song)
+				songs_next_to.append(song)
 			except PlayedSong.DoesNotExist:
 				pass
 		# now we have a list, arrange in buckets
 		buckets = {}
-		for i in songs_before:
+		for i in songs_next_to:
 			if i.id not in buckets:
 				buckets[i] = 1
 			else:
 				buckets[i] += 1
-		return(sorted([[x, buckets[x]] for x in buckets.iterkeys()], key=lambda x:x[1])[:MAXIMUM_TABLE_LENGTH])
+		return(sorted([[x.serialize(), buckets[x]] for x in buckets.iterkeys()], key=lambda x:x[1])[:MAXIMUM_TABLE_LENGTH])
 
 	def getBefore(self):
 		return(self.getNextTo(-1))

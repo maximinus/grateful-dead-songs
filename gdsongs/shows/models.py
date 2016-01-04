@@ -165,5 +165,14 @@ class PlayedSong(models.Model):
 	def year(self):
 		return(self.played_set.show.date.year)
 
+	def serialize(self):
+		"""We can't json this object automatically, so we build a dict ourselves"""
+		return({'id':self.song.id,
+				'set':self.played_set.id,
+				'order':self.order,
+				'length':self.length,
+				'comments':self.comments,
+				'seque':self.seque})
+
 	def __unicode__(self):
 		return('{0}, in {1}, {2}'.format(self.song, self.played_set.set_text, self.played_set.show.date))

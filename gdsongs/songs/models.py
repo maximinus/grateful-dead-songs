@@ -7,7 +7,7 @@ class Song(models.Model):
 
 	def songUrl(self):
 		# strip all spaces
-		return(self.name.replace(' ', ''))
+		return(self.name.replace(' ', '').replace('.', ''))
 
 	def __unicode__(self):
 		return(self.name)
