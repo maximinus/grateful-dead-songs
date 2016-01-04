@@ -39,7 +39,6 @@ def uploadShow(request):
 	except KeyError:
 		msg = json.dumps({'msg':"Missing some data."})
 		return(HttpResponse(msg,  content_type='application/json', status=400))
-
 	# now the complex part we must put all of this into a new show
 	# first we must validate that everything is ok. If so, then we delete all references
 	# to this show and then add it back
@@ -88,9 +87,9 @@ def normalizeSetData(new_set):
 		normal_song.append(song_id)
 		# seque is empty or not
 		if(song[1] == ''):
-			normal_song.append(False)
-		else:
 			normal_song.append(True)
+		else:
+			normal_song.append(False)
 		if(song[2] == ''):
 			normal_song.append(0)
 		else:

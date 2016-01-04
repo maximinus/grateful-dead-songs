@@ -163,9 +163,8 @@ function showMessage(text, title) {
 };
 
 function postOK(data) {
-	$('#message-title').html('Show added!');
-	showMessage(data.msg);
-	//clearAllData();
+	showMessage(data.msg, 'Show added');
+	clearAllData();
 };
 
 function postFail(data) {
@@ -317,7 +316,7 @@ function addNewSet() {
 	var total_tabs = $('.tab-pane').length;
 	if(total_tabs >= NUMBERS.length) {
 		return; }
-	var id_name = 'set-' + NUMBERS[total_tabs - 1];
+	var id_name = 'set-' + NUMBERS[total_tabs];
 	var html = '<div class="tab-pane fade in" id="' + id_name + '"></div>';
 	var li_html = '<li><a data-toggle="tab" href="#' + id_name + '"';
 	li_html += ' id="' + id_name + '-link">Set ' + (total_tabs + 1).toString() + '</a></li>';
@@ -329,7 +328,6 @@ function addNewSet() {
 	var new_set_table = $('#set-table').clone(false);
 	$(new_set_table).appendTo(id_name);
 	$(new_set_table).show()
-
 	//appendTo(id_name);
 	deleteAllRows(id_name);
 	// we need to activate the <a> that we activated earlier
@@ -373,6 +371,15 @@ function copyTableToTabs() {
 function clearAllData() {
 	$('input').val('');
 	$('input:checkbox').removeAttr('checked');
+	// remove all sets
+	$('#set-tab-holder').empty();
+	// clear all set tabs as well
+	for(var i in NUMBERS) {
+		var id_name = '#set-' + NUMBERS[i] + '-link';
+		if($(id_name).length > 0) {
+			$(id_name).parent().remove();
+		}
+	}
 };
 
 $(document).ready(function() {
