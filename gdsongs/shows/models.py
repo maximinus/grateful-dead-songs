@@ -87,10 +87,10 @@ class Show(models.Model):
 			# get all songs
 			songs = PlayedSong.objects.filter(played_set=i).order_by('order')
 			if(i.encore == True):
-				text += 'Encore {0}: '.format(encore_count + 1)
+				text += '<p>Encore {0}: '.format(encore_count + 1)
 				encore_count += 1
 			else:
-				text += 'Set {0}: '.format(set_count + 1)
+				text += '<p>Set {0}: '.format(set_count + 1)
 				set_count += 1
 			if(len(songs) == 0):
 				text += 'No songs known.  '
@@ -103,7 +103,7 @@ class Show(models.Model):
 						text += '/ '
 			# remove last 2 chars (the fake transition)
 			text = text[:-2]
-			text += '\n'
+			text += '</p>'
 		return(text)
 	
 	@property

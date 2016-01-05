@@ -4,7 +4,7 @@
 {% block main %}
 	<!-- Show one venue -->
 	<h3>{{ show }}</h3>
-	<p>{{ show.setlist }}</p>
+	<p>{{ show.setlist | safe }}</p>
 	<p><a href="{% url 'all_shows' %}">Back to all shows</a></p>
 {% endblock %}
 
