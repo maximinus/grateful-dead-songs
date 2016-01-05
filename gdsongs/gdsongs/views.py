@@ -3,7 +3,7 @@ from django.conf import settings
 from django.http import Http404, HttpResponse
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 
 import json
 
@@ -60,13 +60,14 @@ def checkLogin(request):
 	try:
 		User.objects.get(username=username)
 	except User.DoesNotExist:
-
-		print 2
-
 		msg = json.dumps({'error':'user'})
 		return(HttpResponse(msg,  content_type='application/json', status=400))
 	msg = json.dumps({'error':'pass'})
 	return(HttpResponse(msg,  content_type='application/json', status=400))
+
+def logoutUser(request):
+	logout(request)
+	return(index(request))
 
 # test functions follow below
 # these must all 404 on the production server

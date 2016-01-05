@@ -30,9 +30,9 @@
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					{% if user.is_authenticated %}
-						<li><a href="/logout/"><button class="btn btn-default">Logout {{ user }}</button></a></li>
+						<li><a href="{% url 'logout_user' %}"><button class="btn btn-default">Logout {{ user }}</button></a></li>
 					{% else %}
-						<li><a href="/accounts/login/?next=/" class="btn btn-default">Login</a></li>
+						<li><a href="{% url 'login_user'}?next={{ request.path }}"><button class="btn btn-default">Login</button></a></li>
 					{% endif %}
 				</ul>
 			</div>

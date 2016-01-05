@@ -21,8 +21,9 @@ urlpatterns = [
     url(r'^shows/', include('shows.urls')),
 
     # login views
-    url(r'^accounts/login/', 'gdsongs.views.loginUser'),
-    url(r'^login_user/', 'gdsongs.views.checkLogin'),
+    url(r'^accounts/login/', 'gdsongs.views.loginUser', name="login_user"),
+    url(r'^login_user/', 'gdsongs.views.checkLogin', name="check_login"),
+    url(r'^logout_user/', 'gdsongs.views.logoutUser', name="logout_user"),
 
     # debug pages that will return 404 if not in debug mode
     url(r'^test_static/', 'gdsongs.views.testStatic', name='test_static'),
