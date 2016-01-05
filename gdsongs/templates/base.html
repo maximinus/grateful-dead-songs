@@ -29,10 +29,11 @@
 					<li><a href="{% url 'add_show' %}">Add a new show</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href='#'>
-						<span data-toggle="tooltip" title="About the site" data-placement="bottom"
-							  class="glyphicon glyphicon-info-sign" aria-hidden="true" style="font-size:1.5em;"></span>
-					</a></li>
+					{% if user.is_authenticated %}
+						<li><a href="/logout/"><button class="btn btn-default">Logout {{ user }}</button></a></li>
+					{% else %}
+						<li><a href="/accounts/login/?next=/" class="btn btn-default">Login</a></li>
+					{% endif %}
 				</ul>
 			</div>
 		</nav>
