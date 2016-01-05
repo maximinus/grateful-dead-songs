@@ -20,6 +20,9 @@ urlpatterns = [
     url(r'^tours/', include('tours.urls')),
     url(r'^shows/', include('shows.urls')),
 
+    # login views
+    url(r'^accounts/login/', 'gdsongs.views.loginUser'),
+
     # debug pages that will return 404 if not in debug mode
     url(r'^test_static/', 'gdsongs.views.testStatic', name='test_static'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

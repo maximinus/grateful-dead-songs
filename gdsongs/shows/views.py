@@ -28,6 +28,7 @@ class NewSong(object):
 		self.length = length
 		self.comment = comment
 
+
 def uploadShow(request):
 	if(request.method != 'POST'):
 		return(HttpResponse(status=404))
