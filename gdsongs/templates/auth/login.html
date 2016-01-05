@@ -28,5 +28,8 @@
 {% endblock %}
 
 {% block scripts %}
+	<script>
+		var REDIRECT = "{{ redirect }}";
+	</script>
 	<script src="{% static "js/login.js" %}"></script>
 {% endblock %}
