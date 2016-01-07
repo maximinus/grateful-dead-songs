@@ -1,8 +1,21 @@
-.footer {
+html, body {
 	position: absolute;
-	bottom: 0;
 	width: 100%;
-	/* Set the fixed height of the footer here */
-	height: 40px;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
 }
 
+body:after {
+	line-height: 50px; /* height of footer */
+	white-space: pre;
+	content: "\A";
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 50px; /* height of footer */
+	bottom: 0px;
+	margin-top: -50px; /* height of footer */
+}
