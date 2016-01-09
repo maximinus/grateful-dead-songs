@@ -16,6 +16,16 @@ def singleShow(request, show_id):
 	show = get_object_or_404(Show, pk=int(show_id))
 	return(render(request, 'shows/single.html', {'show':show}))
 
+def editShows(request):
+	shows = Show.objects.all()
+	# split into buckets by year
+	years = [[] for x in range(31)]
+	for i in shows:
+		years[i.year - 1965].append(i)
+	years = [len(x) for x in years]
+	context = {'years':years}
+	return(render(request, 'editing/edit_shows.html', context))
+
 class NewSet(object):
 	def __init__(songs, encore):
 		self.songs = songs

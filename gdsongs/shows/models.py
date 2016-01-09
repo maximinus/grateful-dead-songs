@@ -74,6 +74,10 @@ class Show(models.Model):
 		return('Not implemented')
 
 	@property
+	def year(self):
+		return(self.date.year)
+
+	@property
 	def setlist(self):
 		"""This code returns a generated text setlist"""
 		# get all the sets for this show
