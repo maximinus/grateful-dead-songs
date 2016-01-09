@@ -140,6 +140,35 @@ class Show(models.Model):
 			main_text += '<p>{0}</p>'.format(text)
 		return(main_text)
 
+	@property
+	def only_setlist(self):
+		sets = PlayedSet.objects.filter(show=self).order_by('order')
+		if(len(sets) == 0):
+			return('No sets found')
+		encore_count = 0
+		set_count = 0
+		text = ''
+		for i in sets:
+			songs = PlayedSong.objects.filter(played_set=i).order_by('order')
+			if(i.encore == True):
+				text = 'Encore {0}: '.format(encore_count + 1)
+				encore_count += 1
+			else:
+				text = 'Set {0}: '.format(set_count + 1)
+				set_count += 1
+			if(len(songs) == 0):
+				text += 'No songs known.  '
+			else:
+				for j in songs:
+					text += '{0}'.format(j.song)
+					if(j.seque == True):
+						text += ' > '
+					else:
+						text += ' / '
+			# remove last 2 chars (the fake transition)
+			text = text[:-3]
+		return(text)
+
 class PlayedSet(models.Model):
 	# we use 1, 2 etc as set order. 0 means unknown
 	order = models.IntegerField(default=1)

@@ -11,10 +11,11 @@
 			<a class="btn btn-default btn-xs show-button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
 			<a class="btn btn-default btn-xs hide-button" style="display:none"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>
 			<a href="/show/edit/{{ show.id}}" class="show-title">{{ show.date }} - {{ show.venue}}</a>
-			<div style="display:none" class="setlist"><p>{{ show.setlist_html|safe }}</p></div>
+			<div style="display:none" class="setlist"><p>{{ show.only_setlist|safe }}</p></div>
 		</div>
 	</div>
 	{% endfor %}
+
 {% endblock %}
 
 {% block scripts %}
