@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponse
+from django.http import HttpResponse, Http404
 
 from .models import ShowDate, Show, PlayedSet, PlayedSong
 from songs.models import Song
@@ -26,6 +26,15 @@ def editShows(request):
 	context = {'years':years}
 	return(render(request, 'editing/edit_shows.html', context))
 
+def editYearShows(request, year):
+	year = int(year)
+	if((year < 1965) or (year > 1995)):
+		raise Http404
+	# filter all shows by date and get all those that match the year
+	context = {'shows':[x for x in Show.objects.all().order_by('date') if x.year == year]}
+	context['year'] = year
+	return(render(request, 'editing/edit_year_shows.html', context))
+
 class NewSet(object):
 	def __init__(songs, encore):
 		self.songs = songs
@@ -37,7 +46,6 @@ class NewSong(object):
 		self.seque = seque
 		self.length = length
 		self.comment = comment
-
 
 def uploadShow(request):
 	if(request.method != 'POST'):

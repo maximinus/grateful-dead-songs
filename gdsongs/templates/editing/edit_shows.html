@@ -6,6 +6,6 @@
 	<h3>Edit Shows</h3>
 	<p><strong><em>Please pick a year:</em></strong></p>
 	{% for year in years %}
-		<p><a href="/edit/edit_shows/{{ forloop.counter0|add:"1965" }}/">{{ forloop.counter0|add:"1965" }} <em>({{ year }} shows)</em></a></p>
+		<p><a href="/shows/edit_shows/{{ forloop.counter0|add:"1965" }}/">{{ forloop.counter0|add:"1965" }} <em>({{ year }} shows)</em></a></p>
 	{% endfor %}
 {% endblock %}

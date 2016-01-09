@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block main %}
+	<!-- Show all songs with a link -->
+	<h3>Edit shows from {{ year }}</h3>
+	<p><strong><em>Click on a show to edit it, or the + button to see the setlist</em></strong>
+	{% for show in shows %}
+	<div class="row">
+		<div class="col-xd-12">
+			<a class="btn btn-default btn-xs show-button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+			<a class="btn btn-default btn-xs hide-button" style="display:none"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>
+			<a href="/show/edit/{{ show.id}}" class="show-title">{{ show.date }} - {{ show.venue}}</a>
+			<div style="display:none" class="setlist"><p>{{ show.setlist_html|safe }}</p></div>
+		</div>
+	</div>
+	{% endfor %}
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
