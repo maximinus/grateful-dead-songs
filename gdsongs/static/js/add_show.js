@@ -10,6 +10,7 @@ function isLeapYear(year) {
 };
 
 function validateDate(day, month, year) {
+	// -1 means "unknown time"
 	if((year != -1) && ((year < 1965) || (year > 1995))) {
 		return(false);
 	}
@@ -18,7 +19,7 @@ function validateDate(day, month, year) {
 	if((day != -1) || (month != -1)) {
 		// dates are harder
 		var days_in_month = MONTH_DAYS[month - 1];
-		if(isLeapYear(year) == true) {
+		if((isLeapYear(year) == true) && (month == 2)) {
 			days_in_month += 1; }
 		if((day < 1) || (day > days_in_month)) {
 			return(false);
