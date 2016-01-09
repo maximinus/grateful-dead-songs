@@ -72,18 +72,19 @@ function checkLength(text) {
 	// d or dd or d:dd or dd:dd
 	// if empty string, return as 0
 	if(text == '') {
-		return(0) }
+		return(-1) }
 	var times = text.split(':');
 	if(times.length == 1) {
-		var minutes = 0; }
+		var minutes = 0;
+		var seconds = getDigits(times[0]); }
 	else if(times.length == 2) {
 		var minutes = getDigits(times[0]);
-		if(minutes < 0) {
+		if((minutes < 0) || (minutes > 60)) {
 			return(-1); }
+		var seconds = getDigits(times[1]);
 	}
 	else {
 		return(-1) }
-	var seconds = getDigits(times[1]);
 	if((seconds > 59) || (seconds < 0)) {
 		return(-1)
 	}

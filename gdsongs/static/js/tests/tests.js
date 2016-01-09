@@ -17,3 +17,26 @@ QUnit.test("Validate Dates", function(assert) {
 	assert.equal(validateDate(-4,1,1990), false, "Negative day");
 	assert.equal(validateDate(13,2,1970), true, "A real day");
 });
+
+QUnit.test("getDigits tests", function(assert) {
+	assert.equal(getDigits('123'), 123, "One digit ok");
+	assert.equal(getDigits('123'), 123, "Two digits ok");
+	assert.equal(getDigits('123'), 123, "Three digits ok");
+	assert.equal(getDigits('-123'), -1, "No negative numbers");
+	assert.equal(getDigits('1 2 3'), -1, "No spaces");
+	assert.equal(getDigits('Hello'), -1, "No strings");
+	assert.equal(getDigits(''), -1, "No empty string");
+})
+
+QUnit.test("checkLength tests", function(assert) {
+	// this is for getting the length of a song.
+	assert.equal(checkLength('30'), 30, "Only seconds");
+	assert.equal(checkLength('1:30'), 90, "Minute and seconds");
+	assert.equal(checkLength('10:30'), 630, "Minute and seconds");
+	assert.equal(checkLength('-30'), -1, "No negatives");
+	assert.equal(checkLength('Hello!'), -1, "No strings");
+	assert.equal(checkLength('546198'), -1, "Number too big");
+	assert.equal(checkLength('2346:30'), -1, "Minutes too big");
+	assert.equal(checkLength('8:13:12:30'), -1, "Too many values");
+	assert.equal(checkLength(''), -1, "No empty string");
+});
