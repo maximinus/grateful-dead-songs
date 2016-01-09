@@ -393,4 +393,3 @@ $(document).ready(function() {
 	addStaticCallbacks()
 	$('#post-data').click(sendData);;
 });
-
