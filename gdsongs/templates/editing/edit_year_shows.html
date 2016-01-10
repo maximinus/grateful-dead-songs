@@ -6,14 +6,19 @@
 	<h3>Edit shows from {{ year }}</h3>
 	<p><strong><em>Click on a show to edit it, or the + button to see the setlist</em></strong>
 	{% for show in shows %}
-	<div class="row">
-		<div class="col-xd-12">
-			<a class="btn btn-default btn-xs show-button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
-			<a class="btn btn-default btn-xs hide-button" style="display:none"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>
-			<a href="/show/edit/{{ show.id}}" class="show-title">{{ show.date }} - {{ show.venue}}</a>
-			<div style="display:none" class="setlist"><p>{{ show.only_setlist|safe }}</p></div>
+		<!-- keep the id's for show-button / hide-button and setlist, and also the added class names -->
+		<div class="row">
+			<div class="col-xd-12">
+				<a class="btn btn-default btn-xs show-button" id="show-button-{{ forloop.counter }}">
+					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+				</a>
+				<a class="btn btn-default btn-xs hide-button" id="hide-button-{{ forloop.counter }}" style="display:none">
+					<span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+				</a>
+				<a href="/show/edit/{{ show.id}}">{{ show.date }} - {{ show.venue}}</a>
+				<div style="display:none" id="setlist-{{ forloop.counter }}"><p>{{ show.only_setlist|safe }}</p></div>
+			</div>
 		</div>
-	</div>
 	{% endfor %}
 
 {% endblock %}
