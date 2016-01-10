@@ -35,6 +35,15 @@ def editYearShows(request, year):
 	context['year'] = year
 	return(render(request, 'editing/edit_year_shows.html', context))
 
+def editSingleShow(request, show_id):
+	show = get_object_or_404(Show, pk=int(show_id))
+	return(render(request, 'editing/edit_single_show.html', {}))
+
+def getShowAsJson(request, song_id):
+	show = get_object_or_404(Show, pk=int(show_id))
+	json_data = show.getJson()
+	return(HttpResponse(json_data,  content_type='application/json', status=200))
+
 class NewSet(object):
 	def __init__(songs, encore):
 		self.songs = songs
@@ -162,4 +171,4 @@ def saveData(set_data, date, encore, venue):
 			song_order += 1
 		index += 1
 	return(show.setlist_html)
-
+	

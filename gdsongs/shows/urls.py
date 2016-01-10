@@ -7,4 +7,5 @@ urlpatterns = [
     url(r'^upload_show/$', views.uploadShow, name='upload_show'),
     url(r'^edit_shows/$', views.editShows, name='edit_shows'),
     url(r'^edit_shows/(?P<year>[0-9]+)/$', views.editYearShows, name='edit_shows_year'),
+    url(r'^edit/(?P<show_id>[0-9]+)/$', views.editSingleShow, name='edit_single_show'),
 ]

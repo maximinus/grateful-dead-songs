@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block main %}
+	<!-- The message modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="message-dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="modal-title"></h4>
+				</div>
+				<div class="modal-body">
+					<p id="modal-message"></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+				</div>
+			</div>
+		</div>
+	</div><!-- End of modal -->
+
+	<h3>Edit {{ show.date }}, {{ show.venue }}</h3>
+	<div class="row">
+		<div class="col-lg-12">
+			<!-- Now we need some sets -->
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<ul class="nav nav-pills" data-tabs="tabs" id="set-tabs">
+						<li id="new-set-insert"><a href="#" id="add-set-button">Add Set</a></li>
+					</ul>
+					<div class="tab-content" id="set-tab-holder">
+					</div>
+				</div>
+			</div><!-- End of set panel -->
+		</div>
+	</div>
+
+	<button class="btn btn-std pull-right" id="post-data">Verify and enter data</button>
+
+
+	<div id="set-table" style="display:none">
+		<table class="table" style="table-layout:auto;">
+			<thead>
+				<tr>
+					<td>Song</td>
+					<td>Seques?</td>
+					<td>Length (mm:ss)</td>
+					<td>Comments</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="data-row">
+					<td><div class="form-group"><input list="songs" class="form-control song-val" /></div></td>
+					<td><div class="form-group"><input type="checkbox" class="form-control seque-val" value="seque" /></div></td>
+					<td><div class="form-group"><input type="text" class="form-control length-val" /></div></td>
+					<td><div class="form-group"><input type="text" class="form-control comment-val" /></div></td>
+					<td>
+						<button type="button" class="btn btn-default move-up-button" aria-label="Left Align" data-toggle="tooltip" title="Move up">
+							<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+						</button>
+					</td>
+					<td>
+						<button type="button" class="btn btn-default move-down-button" aria-label="Left Align" data-toggle="tooltip" title="Move down">
+							<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+						</button>
+					</td>
+					<td>
+						<button type="button" class="btn btn-danger delete-button" aria-label="Left Align" data-toggle="tooltip" title="Delete song">
+							<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+						</button>
+					</td>
+					<td>
+						<button type="button" class="btn btn-primary add-row-button" aria-label="Left Align"  data-toggle="tooltip" title="Add row">
+							<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+							</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="pull-right">
+			<div class="form-group form-inline">
+				<label for="encore-value">Set is an encore?</label>
+				<input type="checkbox" class="form-control encore-value" id="encore-value" value="encore" />
+			</div>
+		</div>
+	</div><!-- End of new set table -->
+
+	<datalist id="songs">
+	</datalist>
+	
+{% endblock %}
+
+{% block scripts %}
+	<script>
+		// all songs
+		"use strict";
+		var SONGS = [
+			{% for song in songs %}
+					 ["{{ song.name | safe}}", "{{ song.id }}"],
+			{% endfor %}
+		];
+	</script>
+	<script src="{% static "js/choose_venue.js" %}"></script>
+	<script src="{% static "js/edit_show.js" %}"></script>
+{% endblock %}

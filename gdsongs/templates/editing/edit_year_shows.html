@@ -15,7 +15,7 @@
 				<a class="btn btn-default btn-xs hide-button" id="hide-button-{{ forloop.counter }}" style="display:none">
 					<span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
 				</a>
-				<a href="/show/edit/{{ show.id}}">{{ show.date }} - {{ show.venue}}</a>
+				<a href="/shows/edit/{{ show.id}}">{{ show.date }} - {{ show.venue }}</a>
 				<div style="display:none" id="setlist-{{ forloop.counter }}"><p>{{ show.only_setlist|safe }}</p></div>
 			</div>
 		</div>

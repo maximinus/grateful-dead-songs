@@ -169,6 +169,19 @@ class Show(models.Model):
 			text = text[:-3]
 		return(text)
 
+	def getJson(self):
+		# return as abunch of datam including the songs
+		data = {'date': self.date,
+				'venue': self.venue}
+		sets = PlayedSet.objects.filter(show=self)
+		json_sets = []
+		for i in sets:
+			songs = PlayesSong.objects.filter(played_set=i).order_by('order')
+			for i in songs:
+				json_sets.append([[x.name, x.length_string] for x in songs])
+		data['sets'] = json_sets
+		return(json.dumps(data))
+
 class PlayedSet(models.Model):
 	# we use 1, 2 etc as set order. 0 means unknown
 	order = models.IntegerField(default=1)
@@ -197,6 +210,12 @@ class PlayedSong(models.Model):
 	@property
 	def year(self):
 		return(self.played_set.show.date.year)
+
+	@property
+	def length_string(self):
+		minutes = (self.length // 60)
+		seconds = (self.length - (minutes * 60))
+		return('{0}:{1}'.format(minutes, seconds))
 
 	def serialize(self):
 		"""We can't json this object automatically, so we build a dict ourselves"""
