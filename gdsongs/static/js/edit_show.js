@@ -269,6 +269,7 @@ function addNewSet() {
 	// we need to activate the <a> that we activated earlier
 	var link_name = id_name + '-link';
 	$(link_name).tab('show');
+	return(id_name);
 };
 
 function addCallbacks() {
@@ -313,6 +314,7 @@ function songDataFail(data) {
 
 function displayData(data) {
 	// show the data from the set
+	console.log(data);
 	// we must have venue, songs, data
 	for(var prop of ['venue', 'sets', 'date']) {
 		if(data.hasOwnProperty(prop) == false) {
@@ -322,7 +324,7 @@ function displayData(data) {
 	}
 	// so we have the data, let's do it
 	updateTitle(data.date, data.venue);
-	updateSets(data.sets);
+	addSets(data.sets);
 }
 
 function updateTitle(date, venue) {
@@ -330,8 +332,36 @@ function updateTitle(date, venue) {
 	$('#title-venue').html(venue);
 };
 
-function updateSets(sets) {
+function addSets(sets) {
 	// add the songs in the sets
+	for(var i in sets) {
+		// add an empty set object
+		var set_id = addNewSet
+		// each set is a list of songs
+		addSongsToSet(sets[i], set_id);
+	}
+};
+
+function addSongsToSet(songs, set_id) {
+	if(songs.length == 0) {
+		return;	}
+	// get the row we never fill. We just insert rows before this
+	var last_row = $(set_id).find('.data-class')[0];
+	for(var i in songs) {
+
+		console.log(songs[i]);
+
+		var row = getRow();
+		$(last_row).insertBefore(row);
+		//addSingleSong(row, songs[0])
+	}
+};
+
+function addSingleSong(row, song) {
+	$(row).find('.song-val').val(getSongTitle(song[0]));
+	$(row).find('.seque-val').val(song[1]);
+	$(row).find('.length-val').val(song[2]);
+	$(row).find('.commets-val').val(song[3]);
 };
 
 function getSongtitle(id) {

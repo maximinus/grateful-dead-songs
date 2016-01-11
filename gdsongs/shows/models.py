@@ -122,8 +122,7 @@ class Show(models.Model):
 		json_sets = []
 		for i in sets:
 			songs = PlayedSong.objects.filter(played_set=i).order_by('order')
-			for i in songs:
-				json_sets.append([[x.song.id, x.length_string, x.seque] for x in songs])
+			json_sets.append([[x.song.id, x.length_string, x.seque, x.comments] for x in songs])
 		data['sets'] = json_sets
 		return(json.dumps(data))
 
