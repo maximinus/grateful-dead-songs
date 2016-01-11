@@ -16,7 +16,7 @@
 					<span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
 				</a>
 				<a href="/shows/edit/{{ show.id}}">{{ show.date }} - {{ show.venue }}</a>
-				<div style="display:none" id="setlist-{{ forloop.counter }}"><p>{{ show.only_setlist|safe }}</p></div>
+				<div style="display:none" id="setlist-{{ forloop.counter }}"><p>{{ show.songs_only|safe }}</p></div>
 			</div>
 		</div>
 	{% endfor %}

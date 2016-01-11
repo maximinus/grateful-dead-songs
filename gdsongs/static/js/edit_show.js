@@ -287,21 +287,36 @@ function addStaticCallbacks() {
 	// these only exist in one place
 	$('#add-set-button').click(addNewSet);
 	$('#submit-venue').click(submitVenue);
+	$('#post-data').click(sendData);;
 };
 
-function copyTableToTabs() {
-	// take the exisiting table and add it to the other tabs
-	$('#set-table').clone(false).appendTo('#set-two');
-	$('#set-table').clone(false).appendTo('#set-three');
-	$('#set-table').clone(false).appendTo('#set-four');
+function getSongData() {
+	$.ajax('../shows/' + SHOW_ID.toString(),
+		  {'data':{'csrfmiddlewaretoken': CSRF},
+		   'type':'POST',
+		   'success':songDataOK,
+		   'error':songDataFail});
 };
+
+function songDataOK(data) {
+	// display the data and then finish the wiring of the callbacks
+	displayData(data);
+	addCallbacks();
+	addStaticCallbacks();
+};
+
+function songDataFail(data) {
+	// Any error like this means a fail
+	// show the messagebox and advise a refresh
+	showMessage('Could not load song: please refresh page', 'Server Error');
+};
+
+function displayData(data) {
+	// show the data from the set
+	console.log(data);
+}
 
 $(document).ready(function() {
-	hideInitial();
-	addDropdowns();
 	addSongs();
-	copyTableToTabs();
-	addCallbacks();
-	addStaticCallbacks()
-	$('#post-data').click(sendData);;
+	clearAllData();
 });

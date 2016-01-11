@@ -111,7 +111,7 @@ class Show(models.Model):
 		return(text)
 	
 	@property
-	def setlist_html(self):
+	def setlist(self):
 		sets = PlayedSet.objects.filter(show=self).order_by('order')
 		if(len(sets) == 0):
 			return('<p><b>{0}</b></p><p>No sets on this date</p>'.format(self))
@@ -141,7 +141,7 @@ class Show(models.Model):
 		return(main_text)
 
 	@property
-	def only_setlist(self):
+	def songs_only(self):
 		sets = PlayedSet.objects.filter(show=self).order_by('order')
 		if(len(sets) == 0):
 			return('No sets found')

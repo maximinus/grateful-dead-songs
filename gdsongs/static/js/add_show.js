@@ -360,6 +360,7 @@ function addStaticCallbacks() {
 	// connections for the modal box, which is a lot simpler
 	$('#modalCountry-select').change(modalCountryChanged);
 	$('#submit-venue').click(submitVenue);
+	$('#post-data').click(sendData);
 };
 
 function clearAllData() {
@@ -384,5 +385,4 @@ $(document).ready(function() {
 	clearAllData();
 	addCallbacks();
 	addStaticCallbacks()
-	$('#post-data').click(sendData);;
 });
