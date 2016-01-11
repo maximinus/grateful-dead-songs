@@ -1,11 +1,13 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, Http404
+from django.contrib.auth.decorators import login_required
+
+import json, datetime
 
 from .models import ShowDate, Show, PlayedSet, PlayedSong
 from songs.models import Song
 from venues.models import Venue
-
-import json, datetime
+from venues.locations import getStateList, getCountryList
 
 def allShows(request):
 	shows = Show.objects.all()
@@ -37,12 +39,20 @@ def editYearShows(request, year):
 
 def editSingleShow(request, show_id):
 	show = get_object_or_404(Show, pk=int(show_id))
-	return(render(request, 'editing/edit_single_show.html', {}))
+	return(render(request, 'editing/edit_single_show.html', {'id':show.id}))
 
 def getShowAsJson(request, song_id):
 	show = get_object_or_404(Show, pk=int(show_id))
 	json_data = show.getJson()
 	return(HttpResponse(json_data,  content_type='application/json', status=200))
+
+@login_required
+def addShow(request):
+	"""Complex page to add a show."""
+	context = {'countries':getCountryList(),
+			   'states':getStateList(),
+			   'songs':Song.objects.all()}
+	return(render(request, 'editing/add_show.html', context))
 
 class NewSet(object):
 	def __init__(songs, encore):

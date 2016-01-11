@@ -106,6 +106,8 @@
 					 ["{{ song.name | safe}}", "{{ song.id }}"],
 			{% endfor %}
 		];
+
+		var SHOW_ID = "{{ id }}";
 	</script>
 	<script src="{% static "js/choose_venue.js" %}"></script>
 	<script src="{% static "js/edit_show.js" %}"></script>

@@ -1,26 +1,16 @@
 from django.shortcuts import render
 from django.conf import settings
 from django.http import Http404, HttpResponse
-from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 
 import json
 
 from songs.models import Song
-from venues.locations import getStateList, getCountryList
 
 def index(request):
 	"""Main landing page"""
 	return(render(request, 'index.html', {}))
-
-@login_required
-def addShow(request):
-	"""Complex page to add a show."""
-	context = {'countries':getCountryList(),
-			   'states':getStateList(),
-			   'songs':Song.objects.all()}
-	return(render(request, 'editing/add_show.html', context))
 
 def loginUser(request):
 	# get the redirect url (after the ?next?)

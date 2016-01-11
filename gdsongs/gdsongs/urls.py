@@ -5,8 +5,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^$', 'gdsongs.views.index', name='index'),
-    # editing
-    url(r'add_show/', 'gdsongs.views.addShow', name='add_show'),
     
     # test song display
     url(r'^table/', 'gdsongs.views.showSong', name='show_song'),

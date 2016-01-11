@@ -362,14 +362,6 @@ function addStaticCallbacks() {
 	$('#submit-venue').click(submitVenue);
 };
 
-function copyTableToTabs() {
-	// take the exisiting table and add it to the other tabs
-	$('#set-table').clone(false).appendTo('#set-two');
-	$('#set-table').clone(false).appendTo('#set-three');
-	$('#set-table').clone(false).appendTo('#set-four');
-};
-
-
 function clearAllData() {
 	$('input').val('');
 	$('input:checkbox').removeAttr('checked');
@@ -390,7 +382,6 @@ $(document).ready(function() {
 	addModalDropdowns();
 	addSongs();
 	clearAllData();
-	copyTableToTabs();
 	addCallbacks();
 	addStaticCallbacks()
 	$('#post-data').click(sendData);;
