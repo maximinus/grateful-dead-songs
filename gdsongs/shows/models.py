@@ -3,7 +3,7 @@ from django.db import models
 from songs.models import Song
 from venues.models import Venue
 
-import datetime
+import json, datetime
 
 MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 SET_NAMES = ['Unknown', '1st', '2nd', '3rd', '4th']
@@ -76,75 +76,20 @@ class Show(models.Model):
 	@property
 	def year(self):
 		return(self.date.year)
-
-	@property
-	def setlist(self):
-		"""This code returns a generated text setlist"""
-		# get all the sets for this show
-		sets = PlayedSet.objects.filter(show=self).order_by('order')
-		if(len(sets) == 0):
-			return('No sets on this date')
-		text = ''
-		encore_count = 0
-		set_count = 0
-		for i in sets:
-			# get all songs
-			songs = PlayedSong.objects.filter(played_set=i).order_by('order')
-			if(i.encore == True):
-				text += '<p>Encore {0}: '.format(encore_count + 1)
-				encore_count += 1
-			else:
-				text += '<p>Set {0}: '.format(set_count + 1)
-				set_count += 1
-			if(len(songs) == 0):
-				text += 'No songs known.  '
-			else:
-				for j in songs:
-					text += '{0} '.format(j.song)
-					if(j.seque == True):
-						text += '> '
-					else:
-						text += '/ '
-			# remove last 2 chars (the fake transition)
-			text = text[:-2]
-			text += '</p>'
-		return(text)
 	
 	@property
 	def setlist(self):
 		sets = PlayedSet.objects.filter(show=self).order_by('order')
 		if(len(sets) == 0):
 			return('<p><b>{0}</b></p><p>No sets on this date</p>'.format(self))
-		encore_count = 0
-		set_count = 0
 		main_text = '<p><b>{0}</b></p>'.format(self)
-		for i in sets:
-			songs = PlayedSong.objects.filter(played_set=i).order_by('order')
-			if(i.encore == True):
-				text = 'Encore {0}: '.format(encore_count + 1)
-				encore_count += 1
-			else:
-				text = 'Set {0}: '.format(set_count + 1)
-				set_count += 1
-			if(len(songs) == 0):
-				text += 'No songs known.  '
-			else:
-				for j in songs:
-					text += '{0}'.format(j.song)
-					if(j.seque == True):
-						text += ' > '
-					else:
-						text += ' / '
-			# remove last 2 chars (the fake transition)
-			text = text[:-3]
-			main_text += '<p>{0}</p>'.format(text)
+		text = self.songs_only
+		main_text += text
 		return(main_text)
 
 	@property
 	def songs_only(self):
 		sets = PlayedSet.objects.filter(show=self).order_by('order')
-		if(len(sets) == 0):
-			return('No sets found')
 		encore_count = 0
 		set_count = 0
 		text = ''
@@ -171,14 +116,14 @@ class Show(models.Model):
 
 	def getJson(self):
 		# return as abunch of datam including the songs
-		data = {'date': self.date,
-				'venue': self.venue}
+		data = {'date': str(self.date),
+				'venue': str(self.venue)}
 		sets = PlayedSet.objects.filter(show=self)
 		json_sets = []
 		for i in sets:
-			songs = PlayesSong.objects.filter(played_set=i).order_by('order')
+			songs = PlayedSong.objects.filter(played_set=i).order_by('order')
 			for i in songs:
-				json_sets.append([[x.name, x.length_string] for x in songs])
+				json_sets.append([[x.song.id, x.length_string, x.seque] for x in songs])
 		data['sets'] = json_sets
 		return(json.dumps(data))
 

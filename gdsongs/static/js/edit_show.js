@@ -291,7 +291,7 @@ function addStaticCallbacks() {
 };
 
 function getSongData() {
-	$.ajax('../shows/' + SHOW_ID.toString(),
+	$.ajax('../../data/' + SHOW_ID.toString() + '/',
 		  {'data':{'csrfmiddlewaretoken': CSRF},
 		   'type':'POST',
 		   'success':songDataOK,
@@ -313,10 +313,38 @@ function songDataFail(data) {
 
 function displayData(data) {
 	// show the data from the set
-	console.log(data);
+	// we must have venue, songs, data
+	for(var prop of ['venue', 'sets', 'date']) {
+		if(data.hasOwnProperty(prop) == false) {
+			showMessage('Missing property "' + prop + '" from server.', 'Server Error');
+			return
+		}
+	}
+	// so we have the data, let's do it
+	updateTitle(data.date, data.venue);
+	updateSets(data.sets);
 }
+
+function updateTitle(date, venue) {
+	$('#title-date').html(date);
+	$('#title-venue').html(venue);
+};
+
+function updateSets(sets) {
+	// add the songs in the sets
+};
+
+function getSongtitle(id) {
+	for(var i in SONGS) {
+		if(SONGS[i][1] == id) {
+			return(SONGS[i][0])
+		}
+	}
+	// some error
+	return('Error');
+};
 
 $(document).ready(function() {
 	addSongs();
-	clearAllData();
+	getSongData();
 });

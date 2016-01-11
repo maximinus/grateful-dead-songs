@@ -41,10 +41,9 @@ def editSingleShow(request, show_id):
 	show = get_object_or_404(Show, pk=int(show_id))
 	return(render(request, 'editing/edit_single_show.html', {'id':show.id}))
 
-def getShowAsJson(request, song_id):
+def getShowAsJson(request, show_id):
 	show = get_object_or_404(Show, pk=int(show_id))
-	json_data = show.getJson()
-	return(HttpResponse(json_data,  content_type='application/json', status=200))
+	return(HttpResponse(show.getJson(),  content_type='application/json', status=200))
 
 @login_required
 def addShow(request):

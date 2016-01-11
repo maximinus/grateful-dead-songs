@@ -22,7 +22,7 @@
 		</div>
 	</div><!-- End of modal -->
 
-	<h3>Edit {{ show.date }}, {{ show.venue }}</h3>
+	<h3>Edit <span id="title-date"></span>, <span id="title-venue"></span></h3>
 	<div class="row">
 		<div class="col-lg-12">
 			<!-- Now we need some sets -->
@@ -37,9 +37,7 @@
 			</div><!-- End of set panel -->
 		</div>
 	</div>
-
 	<button class="btn btn-std pull-right" id="post-data">Verify and enter data</button>
-
 
 	<div id="set-table" style="display:none">
 		<table class="table" style="table-layout:auto;">
@@ -103,7 +101,7 @@
 		"use strict";
 		var SONGS = [
 			{% for song in songs %}
-					 ["{{ song.name | safe}}", "{{ song.id }}"],
+					 ["{{ song.name | safe }}", "{{ song.id }}"],
 			{% endfor %}
 		];
 
