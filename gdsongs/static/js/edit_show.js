@@ -165,6 +165,8 @@ function sendData() {
 	var encore = verifyEncore();
 	var show_data = splitDataForAjax(songs, encore)
 	// now AJAX the data the data
+	show_data['show_id'] = SHOW_ID;
+	console.log(show_data);
 	$.ajax('../shows/upload_edited_show/',
 		   {'data':show_data,
 		    'type':'POST',
@@ -288,7 +290,7 @@ function addStaticCallbacks() {
 	// these only exist in one place
 	$('#add-set-button').click(addNewSet);
 	$('#submit-venue').click(submitVenue);
-	$('#post-data').click(sendData);;
+	$('#post-data').click(sendData);
 };
 
 function getSongData() {
@@ -341,9 +343,6 @@ function addSets(sets) {
 };
 
 function addSongsToSet(songs, set_id) {
-
-	console.log(songs);
-
 	if(songs.length == 0) {
 		return;	}
 	// get the row we never fill. We just insert rows before this
@@ -352,6 +351,8 @@ function addSongsToSet(songs, set_id) {
 		var new_row = addSingleSong($(getRow()), songs[i]);
 		$(last_row).before(new_row);
 	}
+	// erase the final row
+	$(last_row).remove();
 };
 
 function addSingleSong(row, song) {

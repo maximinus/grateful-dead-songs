@@ -58,6 +58,13 @@ def addShow(request):
 			   'songs':Song.objects.all()}
 	return(render(request, 'editing/add_show.html', context))
 
+@login_required
+def uploadEditedShow(request):
+	"""First we test the data in the same was as we would for a new show.
+	   If that data is ok, we delete all sets of this show and replace with
+	   the data sent in this AJAX request"""
+	pass
+
 class NewSet(object):
 	def __init__(songs, encore):
 		self.songs = songs

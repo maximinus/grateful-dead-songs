@@ -10,4 +10,5 @@ urlpatterns = [
     url(r'^edit_shows/(?P<year>[0-9]+)/$', views.editYearShows, name='edit_shows_year'),
     url(r'^edit/(?P<show_id>[0-9]+)/$', views.editSingleShow, name='edit_single_show'),
     url(r'^data/(?P<show_id>[0-9]+)/$', views.getShowAsJson, name='show_as_json'),
+    url(r'^upload_edited_show/$', views.uploadEditedShow, name='upload_edited_show'),
 ]
