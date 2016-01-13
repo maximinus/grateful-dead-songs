@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, Http404
 from django.contrib.auth.decorators import login_required
+from django.core.exceptions import ObjectDoesNotExist
 
 import json, datetime
 
@@ -63,7 +64,29 @@ def uploadEditedShow(request):
 	"""First we test the data in the same was as we would for a new show.
 	   If that data is ok, we delete all sets of this show and replace with
 	   the data sent in this AJAX request"""
-	pass
+	if(request.method != 'POST'):
+		return(HttpResponse(status=404))
+	try:
+		sets = request.POST['sets']
+		encore = request.POST['encore']
+		show_id = request.POST['show_id']
+	except KeyError:
+		return(sendError('Missing some data.'))
+	# obviously the show exists, right?
+	try:
+		show = Show.objects.get(id=int(show_id))
+	except ObjectDoesNotExist:
+		return(sendError('This show does not exist.'))
+	try:
+		sets_data = normalizeSets(sets)
+	except ValueError:
+		return(sendError('Songs were wrong.'))
+	encore = normalizeEncoreData(encore)
+	saveShowData(show, set_data, encore);
+
+def sendError(text, status=400):
+	msg = json.dumps('msg':text)
+	return(HttpResponse(msg, content_type='application/json', status=400))
 
 class NewSet(object):
 	def __init__(songs, encore):
@@ -86,11 +109,28 @@ def uploadShow(request):
 		encore = request.POST['encore']
 		venue = int(request.POST['venue'])
 	except KeyError:
-		msg = json.dumps({'msg':"Missing some data."})
-		return(HttpResponse(msg,  content_type='application/json', status=400))
+		return(sendError('Missing some data.'))
 	# now the complex part we must put all of this into a new show
 	# first we must validate that everything is ok. If so, then we delete all references
 	# to this show and then add it back
+	try:
+		sets_data = normalizeSets(sets)
+	except ValueError:
+		return('Songs were wrong.')
+	date = normalizeDateData(date)
+	if(date == False):
+		return(sendError("Couldn't normalize song data."))
+	encore = normalizeEncoreData(encore)
+	# seems to be all ok. Get the venue and then save
+	try:
+		venue = Venue.objects.get(pk=venue)
+	except:
+		return(sendError("Venue does not exist."))
+	setlist = saveData(set_data, date, encore, venue)
+	json_data = json.dumps({'msg':setlist})
+	return(HttpResponse(json_data,  content_type='application/json', status=200))
+
+def normalizeSets(sets):
 	set_data = []
 	sets = json.loads(sets)
 	for i in sets:
@@ -99,23 +139,9 @@ def uploadShow(request):
 			# don't add the set and finish here
 			break
 		if(songs == False):
-			msg = json.dumps({'msg':'Songs were wrong.'})
-			return(HttpResponse(msg,  content_type='application/json', status=400))
+			raise ValueError
 		set_data.append(songs)
-	date = normalizeDateData(date)
-	if(date == False):
-		msg = json.dumps({'msg':"Couldn't normalize song data."})
-		return(HttpResponse(msg,  content_type='application/json', status=400))
-	encore = normalizeEncoreData(encore)
-	# seems to be all ok. Get the venue and then save
-	try:
-		venue = Venue.objects.get(pk=venue)
-	except:
-		msg = json.dumps({'msg':"Venue does not exist."})
-		return(HttpResponse(msg,  content_type='application/json', status=400))
-	setlist = saveData(set_data, date, encore, venue)
-	json_data = json.dumps({'msg':setlist})
-	return(HttpResponse(json_data,  content_type='application/json', status=200))
+	return(set_data)
 
 def normalizeSetData(new_set):
 	normal = []
@@ -171,6 +197,9 @@ def saveData(set_data, date, encore, venue):
 	# then we generate the show
 	show = Show(date=date, venue=venue)
 	show.save()
+	return(saveShowData(show, set_data, encore))
+
+def saveShowData(show, set_data, encore):
 	index = 1
 	# then we generate the playedsets one by one
 	for single_set in set_data:
@@ -192,4 +221,3 @@ def saveData(set_data, date, encore, venue):
 			song_order += 1
 		index += 1
 	return(show.setlist)
-	
