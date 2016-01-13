@@ -90,6 +90,8 @@ class Show(models.Model):
 	@property
 	def songs_only(self):
 		sets = PlayedSet.objects.filter(show=self).order_by('order')
+		if(len(sets) == 0):
+			return('No set data')
 		encore_count = 0
 		set_count = 0
 		text = ''

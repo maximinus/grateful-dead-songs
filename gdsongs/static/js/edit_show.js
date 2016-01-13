@@ -341,29 +341,28 @@ function addSets(sets) {
 };
 
 function addSongsToSet(songs, set_id) {
+
+	console.log(songs);
+
 	if(songs.length == 0) {
 		return;	}
-
 	// get the row we never fill. We just insert rows before this
 	var last_row = $(set_id).find('.data-row');
 	for(var i in songs) {
-		var new_row = addSingleSong($(getRow()), songs[0])
+		var new_row = addSingleSong($(getRow()), songs[i]);
 		$(last_row).before(new_row);
 	}
 };
 
 function addSingleSong(row, song) {
 	$(row).find('.song-val').val(getSongTitle(song[0]));
-	$(row).find('.seque-val').val(song[1]);
-	$(row).find('.length-val').val(song[2]);
+	$(row).find('.seque-val').prop('checked', song[2]);
+	$(row).find('.length-val').val(song[1]);
 	$(row).find('.comments-val').val(song[3]);
 	return(row);
 };
 
 function getSongTitle(id) {
-
-	console.log(id);
-
 	for(var i in SONGS) {
 		if(SONGS[i][1] == id) {
 			return(SONGS[i][0])

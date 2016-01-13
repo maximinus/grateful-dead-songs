@@ -18,6 +18,7 @@ def singleShow(request, show_id):
 	show = get_object_or_404(Show, pk=int(show_id))
 	return(render(request, 'shows/single.html', {'show':show}))
 
+@login_required
 def editShows(request):
 	shows = Show.objects.all()
 	# split into buckets by year
@@ -28,6 +29,7 @@ def editShows(request):
 	context = {'years':years}
 	return(render(request, 'editing/edit_shows.html', context))
 
+@login_required
 def editYearShows(request, year):
 	year = int(year)
 	if((year < 1965) or (year > 1995)):
@@ -37,9 +39,12 @@ def editYearShows(request, year):
 	context['year'] = year
 	return(render(request, 'editing/edit_year_shows.html', context))
 
+@login_required
 def editSingleShow(request, show_id):
 	show = get_object_or_404(Show, pk=int(show_id))
-	return(render(request, 'editing/edit_single_show.html', {'id':show.id}))
+	context = {'songs':Song.objects.all(),
+			   'id':show.id}
+	return(render(request, 'editing/edit_single_show.html', context))
 
 def getShowAsJson(request, show_id):
 	show = get_object_or_404(Show, pk=int(show_id))
