@@ -313,13 +313,11 @@ function songDataFail(data) {
 };
 
 function displayData(data) {
-	// show the data from the set
-	console.log(data);
 	// we must have venue, songs, data
 	for(var prop of ['venue', 'sets', 'date']) {
 		if(data.hasOwnProperty(prop) == false) {
 			showMessage('Missing property "' + prop + '" from server.', 'Server Error');
-			return
+			return;
 		}
 	}
 	// so we have the data, let's do it
@@ -336,7 +334,7 @@ function addSets(sets) {
 	// add the songs in the sets
 	for(var i in sets) {
 		// add an empty set object
-		var set_id = addNewSet
+		var set_id = addNewSet();
 		// each set is a list of songs
 		addSongsToSet(sets[i], set_id);
 	}
@@ -345,15 +343,12 @@ function addSets(sets) {
 function addSongsToSet(songs, set_id) {
 	if(songs.length == 0) {
 		return;	}
+
 	// get the row we never fill. We just insert rows before this
-	var last_row = $(set_id).find('.data-class')[0];
+	var last_row = $(set_id).find('.data-row');
 	for(var i in songs) {
-
-		console.log(songs[i]);
-
-		var row = getRow();
-		$(last_row).insertBefore(row);
-		//addSingleSong(row, songs[0])
+		var new_row = addSingleSong($(getRow()), songs[0])
+		$(last_row).before(new_row);
 	}
 };
 
@@ -361,10 +356,14 @@ function addSingleSong(row, song) {
 	$(row).find('.song-val').val(getSongTitle(song[0]));
 	$(row).find('.seque-val').val(song[1]);
 	$(row).find('.length-val').val(song[2]);
-	$(row).find('.commets-val').val(song[3]);
+	$(row).find('.comments-val').val(song[3]);
+	return(row);
 };
 
-function getSongtitle(id) {
+function getSongTitle(id) {
+
+	console.log(id);
+
 	for(var i in SONGS) {
 		if(SONGS[i][1] == id) {
 			return(SONGS[i][0])
