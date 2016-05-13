@@ -85,7 +85,7 @@ def uploadEditedShow(request):
 	saveShowData(show, set_data, encore);
 
 def sendError(text, status=400):
-	msg = json.dumps('msg':text)
+	msg = json.dumps({'msg':text})
 	return(HttpResponse(msg, content_type='application/json', status=400))
 
 class NewSet(object):

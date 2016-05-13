@@ -63,3 +63,6 @@ gdsongs/gdsongs/private.py
 # auto-generated data
 /gdsongs/templates/auto/build
 /gdsongs/templates/auto/json
+
+# backups
+/gdsongs/backups
