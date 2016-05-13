@@ -3,8 +3,11 @@ from django.conf import settings
 from django.http import Http404, HttpResponse
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
+from django.conf import settings
+from django.core.servers.basehttp import FileWrapper
 
-import json
+import json, shutil, os, time
 
 from songs.models import Song
 
@@ -71,3 +74,19 @@ def showSong(request):
 	if(settings.DEBUG == False):
 		raise Http404
 	return(render(request, 'auto/examples/single_song.html', {}))
+
+@login_required
+def databaseBackup(request):
+	# empty the backup folder if it exists
+	if(os.path.isdir(settings.DBBACKUP_DIR)):
+		shutil.rmtree(settings.DBBACKUP_DIR)
+	# make the new file
+	os.system('./manage.py dbbackup')
+	# get the file
+	db_filename = [f for f in os.listdir(settings.DBBACKUP_DIR) if os.path.isfile(os.path.join(settings.DBBACKUP_DIR, f))][0]
+	# offer this as an upload
+	filename = open(os.path.join(settings.DBBACKUP_DIR, db_filename))
+	wrapper = FileWrapper(file(filename))
+	response = HttpResponse(wrapper, content_type='text/plain')
+	response['Content-Length'] = os.path.getsize(filename)
+	return(response)

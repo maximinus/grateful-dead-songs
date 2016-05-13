@@ -26,6 +26,7 @@
 					<li><a href="{% url 'all_songs' %}">Songs</a></li>
 					<li><a href="{% url 'all_venues' %}">Venues</a></li>
 					<li><a href="{% url 'all_tours' %}">Tours</a></li>
+					<li><a href="{% url 'database_backup' %}">Backup DB</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					{% if user.is_authenticated %}
