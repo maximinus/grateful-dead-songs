@@ -221,3 +221,6 @@ def saveShowData(show, set_data, encore):
 			song_order += 1
 		index += 1
 	return(show.setlist)
+
+def testEdit(request):
+	return(render(request, 'editing/test_edit.html', {}))
