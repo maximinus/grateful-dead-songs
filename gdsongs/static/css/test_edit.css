@@ -1,9 +1,16 @@
 /* CSS rules for test edit, using Flexbox */
 
 .container {
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	background-color: #CCC;
+	margin: auto;
+	padding; 5px;
 }
 
-.show-title {
+#show-title {
+	padding: 12px;
 }
 
 .date-venue {
