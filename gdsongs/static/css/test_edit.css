@@ -4,13 +4,14 @@
 	display: flex;
 	flex-direction: column;
 	width: 800px;
-	background-color: #CCC;
 	margin: auto;
 	padding; 5px;
 }
 
 #show-title {
 	padding: 12px;
+	font-size: 28px;
+	font-color: #BBB;
 }
 
 .date-venue {
@@ -19,8 +20,45 @@
 .show {
 }
 
-.hidden {
+.set-name {
+	font-size: 22px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-color: #88C;
+}
+
+.set {
+	display: flex;
+	flex-direction: column;
+	padding: 8px;
+	border-top: 1px solid #888;
 }
 
 .song {
+	display: flex;
+	flex-direction: row;
+	padding: 2px;
+	border-bottom: 1px solid #BBB;
+	font-color: #AAF;
+}
+
+.song:hover {
+	background-color: #CCF;
+}
+
+.song-time {
+	align-self: flex-end;
+	margin: 4px;
+	background: #FAA;
+	width: 20%;
+}
+
+.song-name {
+	margin: 4px;
+	width: 55%;
+}
+
+.song-buttons {
+	margin: 4px;
+	width: 25%;
 }
