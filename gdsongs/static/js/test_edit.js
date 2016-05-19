@@ -32,6 +32,17 @@ var TRANSITIONS = ['', ' >'];
 
 var SET_NAMES = ['First', 'Second', 'Third', 'Fourth'];
 
+// drag and drop code
+function dragStart(ev) {
+	// force firefox to do the drag by adding data
+	ev.dataTransfer = ev.originalEvent.dataTransfer;
+	ev.dataTransfer.setData('text', 'foo');
+};
+
+function addDragEvents() {
+	$('.song').on('dragstart', dragStart);
+};
+
 function getShowTitle() {
 	return('Editing ' + SHOW.venue + ', ' + SHOW.date);
 };
@@ -54,7 +65,7 @@ function getTransString(transition) {
 
 function getSongTitle(name, transition) {
 	return(name + getTransString(transition));
-}
+};
 
 function buildSongHTML(name, time, index) {
 	// get a copy of the nodes we need
@@ -100,4 +111,5 @@ function addShow(sets) {
 
 $(document).ready(function() {
 	addShow();
+	addDragEvents();
 });

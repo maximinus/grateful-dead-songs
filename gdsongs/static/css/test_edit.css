@@ -47,6 +47,10 @@
 	background-color: #EEF;
 }
 
+.song.over {
+	background-color: #DDE;
+}
+
 .song-index {
 	width: 10%;
 }
