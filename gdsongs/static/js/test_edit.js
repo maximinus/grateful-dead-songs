@@ -30,6 +30,8 @@ var SHOW = {'venue':'Spartan Stadium, San Jose, CA',
 
 var TRANSITIONS = [' /', ' >'];
 
+var SET_NAMES = ['First', 'Second', 'Third', 'Fourth'];
+
 function getShowTitle() {
 	return('Editing ' + SHOW.venue + ', ' + SHOW.date);
 };
@@ -50,34 +52,41 @@ function getTransString(transition) {
 	return(TRANSITIONS[transition]);
 };
 
-function buildSongHTML(name, time, transition) {
+function buildSongHTML(name, time, index) {
 	// get a copy of the nodes we need
 	var html_string = '<div class="song">';
-	html_string += '<div class="song-name">' + name + transition + '</div>';
-	html_string += '<div class="song-time">' + time + '</div>';
-	html_string += '<div class="song-buttons"></div></div>';
+	html_string += '<div class="song-index">' + index.toString() + '</div>';
+	html_string += '<div class="song-name">' + name + '</div>';
+	html_string += '<div class="song-timing">' + time + '</div></div>';
 	return($.parseHTML(html_string));
 };
 
-function getSongNode(song) {
+function getSongNode(song, index) {
 	// first get the data to display
 	var name = song[0];
 	var time = getTimeString(song[1]);
 	var transition = getTransString(song[2]);
-	return(buildSongHTML(name, time, transition));
+	return(buildSongHTML(name, time, index));
 };
 
 function addSet(set_data, set_index) {
 	// make a new set node
-	var set_node = $.parseHTML('<div class="set"><p class="set-name">Set ' + set_index + '</p></div>');
+	var set_title = SET_NAMES[set_index];
+	var set_id = '#' + set_title + '_set';
+	set_title = set_title + ' Set';
+	var set_node = '<div class="set"><div class="set-header">' + set_title;
+	set_node += '</div><div class="set-body" id="' + set_id + '"></div></div>';
+	// add this set to the container
+	$('#main').append($.parseHTML(set_node));
+	var song_index = 1;
 	for(var i of set_data) {
-		$(set_node).append(getSongNode(i)); 
+		$(set_id).append(getSongNode(i, song_index));
+		song_index += 1;
 	}
-	$('#show-base').append(set_node);
 };
 
 function addShow(sets) {
-	var set_count = 1;
+	var set_count = 0;
 	for(var i of SHOW.sets) {
 		addSet(i, set_count.toString());
 		set_count += 1;
@@ -85,6 +94,5 @@ function addShow(sets) {
 };
 
 $(document).ready(function() {
-	$('#show-title').html(getShowTitle());
 	addShow();
 });

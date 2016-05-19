@@ -6,59 +6,63 @@
 	width: 800px;
 	margin: auto;
 	padding; 5px;
-}
-
-#show-title {
-	padding: 12px;
-	font-size: 28px;
-	font-color: #BBB;
-}
-
-.date-venue {
-}
-
-.show {
-}
-
-.set-name {
-	font-size: 22px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	font-color: #88C;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 400;
 }
 
 .set {
+	margin: 12px;
+	box-shadow: 0px 0px 3px 2px rgba(153,153,153,1);
+}
+
+.set-header {
+	background-color: #CCF;
+	color: #444;
+	margin: 0px;
+	padding: 16px;
+	font-size: 1.2em;
+}
+
+.set-body {
+	border: 1px solid #CCF;
+	padding: 12px;
+}
+
+.set-body div:last-child {
+	border-bottom: none;
 	display: flex;
-	flex-direction: column;
-	padding: 8px;
-	border-top: 1px solid #888;
+	flex-direction: row;
 }
 
 .song {
+	margin: 0px;
+	border-bottom: 1px solid #CCF;
+	padding: 20px;
 	display: flex;
 	flex-direction: row;
-	padding: 2px;
-	border-bottom: 1px solid #BBB;
-	font-color: #AAF;
+	color: #444;
 }
 
 .song:hover {
-	background-color: #CCF;
+	background-color: #EEF;
 }
 
-.song-time {
-	align-self: flex-end;
-	margin: 4px;
-	background: #FAA;
-	width: 20%;
+.song-index {
+	width: 10%;
 }
 
 .song-name {
-	margin: 4px;
-	width: 55%;
+	width: 70%;
 }
 
-.song-buttons {
-	margin: 4px;
-	width: 25%;
+.song-timing {
+	width: 20%;
+}
+
+.instructions {
+	font-style: italic;
+	font-size: 0.9em;
+	color: #444;
+	padding: 12px;
+	margin-left: auto;
 }

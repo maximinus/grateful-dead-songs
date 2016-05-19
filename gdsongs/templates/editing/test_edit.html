@@ -9,27 +9,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Grateful Dead Songs</title>
 	<link href="{% static "css/reset.css" %}" rel="stylesheet">
-	<link href="{% static "css/test_edit2.css" %}" rel="stylesheet">
+	<link href="{% static "css/test_edit.css" %}" rel="stylesheet">
+	<!-- Google font -->
+	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-	<div class="container">
+	<div class="container" id="main">
 		<div class="set">
 			<div class="set-header">
-				Set #1
+				First Set
 			</div>
 			<div class="set-body">
 				<div class="song">
-					Feel Like A Stranger
+					<div class="song-index">1</div>
+					<div class="song-name">Feel Like A Stranger</div>
+					<div class="song-timing">7m 14s</div>
 				</div>
 				<div class="song">
-					Franklins Tower
+					<div class="song-index">2</div>
+					<div class="song-name">Franklins Tower</div>
+					<div class="song-timing">9m 33s</div>
 				</div>
 				<div class="song">
-					Me And My Uncle
+					<div class="song-index">3</div>
+					<div class="song-name">Me And My Uncle</div>
+					<div class="song-timing">3m 28s</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		<!--
+		<div class="instructions">
+			Double-click to edit, or drag and drop to re-order
+		</div>
+		-->
+	</div><!-- End of container -->
 	<script src="{% static "js/jquery-2.1.4.js" %}"></script>
+	<script src="{% static "js/test_edit.js" %}"></script>
 </body>
