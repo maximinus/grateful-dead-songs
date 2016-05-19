@@ -4,31 +4,31 @@
 
 var SHOW = {'venue':'Spartan Stadium, San Jose, CA',
 			'date':'22nd April 1979',
-			'sets':[[["Jack Straw", 420, 0],
-					 ["Mama Tried", 420, 0],
-					 ["Mexicali Blues", 420, 0],
-					 ["Sugaree", 420, 0],
-					 ["Looks Like Rain", 420, 0],
-					 ["Brown-Eyed Women", 420, 0],
-					 ["New Minglewood Blues", 420, 0],
-					 ["Stagger Lee", 420, 0],
-					 ["Passenger", 420, 0],
-					 ["Deal", 420, 0]],
-					[["I Need A Miracle", 420, 0],
-					 ["Bertha", 420, 0],
-					 ["Good Lovin'", 420, 0],
-					 ["Scarlet Begonias", 420, 0],
-					 ["Fire On The Mountain", 420, 0],
-					 ["Estimated Prophet", 420, 0],
-					 ["He's Gone", 420, 0],
-					 ["Drums", 420, 0],
-					 ["The Other One", 420, 0],
-					 ["Wharf Rat", 420, 0],
-					 ["Around And Around", 420, 0]],
-					[["U.S. Blues", 420, 0],
-					 ["Shakedown Street", 420, 0]]]};
+			'sets':[[["Jack Straw", 348, 0],
+					 ["Mama Tried", 321, 0],
+					 ["Mexicali Blues", 390, 0],
+					 ["Sugaree", 571, 0],
+					 ["Looks Like Rain", 417, 0],
+					 ["Brown-Eyed Women", 392, 0],
+					 ["New Minglewood Blues", 308, 0],
+					 ["Stagger Lee", 513, 0],
+					 ["Passenger", 359, 1],
+					 ["Deal", 582, 0]],
+					[["I Need A Miracle", 412, 0],
+					 ["Bertha", 483, 1],
+					 ["Good Lovin'", 374, 0],
+					 ["Scarlet Begonias", 705, 1],
+					 ["Fire On The Mountain", 633, 0],
+					 ["Estimated Prophet", 648, 1],
+					 ["He's Gone", 531, 1],
+					 ["Drums", 638, 1],
+					 ["The Other One", 844, 1],
+					 ["Wharf Rat", 530, 1],
+					 ["Around And Around", 304, 0]],
+					[["U.S. Blues", 347, 0],
+					 ["Shakedown Street", 782, 0]]]};
 
-var TRANSITIONS = [' /', ' >'];
+var TRANSITIONS = ['', ' >'];
 
 var SET_NAMES = ['First', 'Second', 'Third', 'Fourth'];
 
@@ -52,37 +52,42 @@ function getTransString(transition) {
 	return(TRANSITIONS[transition]);
 };
 
+function getSongTitle(name, transition) {
+	return(name + getTransString(transition));
+}
+
 function buildSongHTML(name, time, index) {
 	// get a copy of the nodes we need
-	var html_string = '<div class="song">';
+	var html_string = '<div class="song" draggable="true">';
 	html_string += '<div class="song-index">' + index.toString() + '</div>';
 	html_string += '<div class="song-name">' + name + '</div>';
 	html_string += '<div class="song-timing">' + time + '</div></div>';
-	return($.parseHTML(html_string));
+	return(html_string);
 };
 
 function getSongNode(song, index) {
 	// first get the data to display
-	var name = song[0];
+	var name = getSongTitle(song[0], song[2]);
 	var time = getTimeString(song[1]);
-	var transition = getTransString(song[2]);
 	return(buildSongHTML(name, time, index));
 };
 
 function addSet(set_data, set_index) {
 	// make a new set node
 	var set_title = SET_NAMES[set_index];
-	var set_id = '#' + set_title + '_set';
+	var set_id = '#' + set_title.toLowerCase() + '_set';
 	set_title = set_title + ' Set';
 	var set_node = '<div class="set"><div class="set-header">' + set_title;
-	set_node += '</div><div class="set-body" id="' + set_id + '"></div></div>';
-	// add this set to the container
-	$('#main').append($.parseHTML(set_node));
+	set_node += '</div><div class="set-body" id="' + set_id + '">'
 	var song_index = 1;
+	// add the song strings to the set
 	for(var i of set_data) {
-		$(set_id).append(getSongNode(i, song_index));
+		set_node += getSongNode(i, song_index);
 		song_index += 1;
 	}
+	// finish the HTML and then add to the document
+	set_node += '</div></div>';
+	$('.instructions').before($.parseHTML(set_node));
 };
 
 function addShow(sets) {

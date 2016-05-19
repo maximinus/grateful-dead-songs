@@ -37,7 +37,7 @@
 .song {
 	margin: 0px;
 	border-bottom: 1px solid #CCF;
-	padding: 20px;
+	padding: 14px;
 	display: flex;
 	flex-direction: row;
 	color: #444;
