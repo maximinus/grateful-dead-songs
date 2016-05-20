@@ -27,9 +27,25 @@ var SHOW = {'venue':'Spartan Stadium, San Jose, CA',
 					 ["Around And Around", 304, 0]],
 					[["U.S. Blues", 347, 0],
 					 ["Shakedown Street", 782, 0]]]};
-					 
+
 var TRANSITIONS = ['', ' >'];
 var SET_NAMES = ['First', 'Second', 'Third', 'Fourth'];
+
+function updateIndexOrder(event, ui) {
+	// we are not interested in the callback methods
+	// we just scan through every set and re-order internally if needed
+	// also, we need to update the numbers
+	$('.sortable').each(function(i) { 
+		updateSet(this);
+	});
+};
+
+function updateSet(set) {
+	// scan through the songs
+	var songs = $(set).find('li').each(function(i) {
+		$(this).find('.song-index').html((i + 1).toString());
+	});
+};
 
 function getShowTitle() {
 	return('Editing ' + SHOW.venue + ', ' + SHOW.date);
@@ -76,7 +92,7 @@ function addSet(set_data, set_index) {
 	var set_title = SET_NAMES[set_index];
 	var set_id = '#' + set_title.toLowerCase() + '_set';
 	set_title = set_title + ' Set';
-	var set_node = '<div class="set sortable"><div class="set-header">' + set_title;
+	var set_node = '<div class="set"><div class="set-header">' + set_title;
 	set_node += '</div><ul class="set-body sortable" id="' + set_id + '">'
 	var song_index = 1;
 	// add the song strings to the set
@@ -99,6 +115,5 @@ function addShow(sets) {
 
 $(document).ready(function() {
 	addShow();
-	$('.sortable').sortable();
-	$('.sortable').disableSelection();
+	$('.sortable').sortable({update: updateIndexOrder});
 });
