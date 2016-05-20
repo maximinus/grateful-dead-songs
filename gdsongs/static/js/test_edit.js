@@ -27,21 +27,9 @@ var SHOW = {'venue':'Spartan Stadium, San Jose, CA',
 					 ["Around And Around", 304, 0]],
 					[["U.S. Blues", 347, 0],
 					 ["Shakedown Street", 782, 0]]]};
-
+					 
 var TRANSITIONS = ['', ' >'];
-
 var SET_NAMES = ['First', 'Second', 'Third', 'Fourth'];
-
-// drag and drop code
-function dragStart(ev) {
-	// force firefox to do the drag by adding data
-	ev.dataTransfer = ev.originalEvent.dataTransfer;
-	ev.dataTransfer.setData('text', 'foo');
-};
-
-function addDragEvents() {
-	$('.song').on('dragstart', dragStart);
-};
 
 function getShowTitle() {
 	return('Editing ' + SHOW.venue + ', ' + SHOW.date);
@@ -69,10 +57,10 @@ function getSongTitle(name, transition) {
 
 function buildSongHTML(name, time, index) {
 	// get a copy of the nodes we need
-	var html_string = '<div class="song" draggable="true">';
+	var html_string = '<li class="song ui-state-default">';
 	html_string += '<div class="song-index">' + index.toString() + '</div>';
 	html_string += '<div class="song-name">' + name + '</div>';
-	html_string += '<div class="song-timing">' + time + '</div></div>';
+	html_string += '<div class="song-timing">' + time + '</div></li>';
 	return(html_string);
 };
 
@@ -88,8 +76,8 @@ function addSet(set_data, set_index) {
 	var set_title = SET_NAMES[set_index];
 	var set_id = '#' + set_title.toLowerCase() + '_set';
 	set_title = set_title + ' Set';
-	var set_node = '<div class="set"><div class="set-header">' + set_title;
-	set_node += '</div><div class="set-body" id="' + set_id + '">'
+	var set_node = '<div class="set sortable"><div class="set-header">' + set_title;
+	set_node += '</div><ul class="set-body sortable" id="' + set_id + '">'
 	var song_index = 1;
 	// add the song strings to the set
 	for(var i of set_data) {
@@ -97,7 +85,7 @@ function addSet(set_data, set_index) {
 		song_index += 1;
 	}
 	// finish the HTML and then add to the document
-	set_node += '</div></div>';
+	set_node += '</ul></div>';
 	$('.instructions').before($.parseHTML(set_node));
 };
 
@@ -111,5 +99,6 @@ function addShow(sets) {
 
 $(document).ready(function() {
 	addShow();
-	addDragEvents();
+	$('.sortable').sortable();
+	$('.sortable').disableSelection();
 });
