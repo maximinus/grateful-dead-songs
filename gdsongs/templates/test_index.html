@@ -1,0 +1,17 @@
+{% extends 'base_test.html' %}
+{% load static %}
+
+{% block main %}
+	<div class="vertical-centre">
+		<h2>Grateful Dead Songs</h2>
+		<input type="text" id="search-box">
+		<em><p id="search-text">Enter a search term</p></em>
+	</div>
+	<div class="footer">
+		(C) Copr. 2015-2016 Chris Handy
+	</div>
+{% endblock %}
+	
+{% block scripts %}
+	<!-- <script src="{% static "js/search.js" %}"></script> -->
+{% endblock %}
