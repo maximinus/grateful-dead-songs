@@ -1,10 +1,14 @@
 /* Basic CSS rules, using Flexbox */
 
+body {
+	margin: 0;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
-	width: 940px;
-	margin: auto;
+	width: 980px;
+	margin: 0px auto 0px auto;
 	padding; 0px 5px 0px 5px;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: 400;
@@ -20,7 +24,7 @@
 
 .navbar a {
 	color: #666;
-	margin: 8px;
+	padding: 8px;
 	font-size: 1.0em;
 	text-decoration: none;
 }
@@ -31,6 +35,8 @@
 
 .navbar a:hover {
 	color: #222;
+	border-bottom: 1px solid #779;
+	padding: 7px;
 }
 
 #pull-right {
@@ -54,4 +60,22 @@
 .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
+}
+
+.vertical-center {
+
+}
+
+#search-box {
+
+}
+
+#search-text {
+	font-style: italic;
+}
+
+.footer {
+	margin-left: auto;
+	font-style: italic;
+	color: #666;
 }
