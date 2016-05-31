@@ -53,7 +53,7 @@ class ShowDate(models.Model):
 
 	def __cmp__(self, date):
 		"""From docs: -1 if self < date2, 0 if =. +1 if self > date2"""
-		# we convert with a foumula and compare those: unknowns have a 0
+		# we convert with a formula and compare those: unknowns have a 0
 		# value of multipliers is more than the maximum next one
 		date1 = (self.year * 4500) + (self.month * 366) + self.day
 		date2 = (date.year * 4500) + (date.month * 366) + date.day

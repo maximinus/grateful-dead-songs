@@ -35,7 +35,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dbbackup',
+    #'dbbackup',
     'songs',
     'venues',
     'tours',
@@ -43,9 +43,9 @@ INSTALLED_APPS = (
 )
 
 # where to put the db backups
-DBBACKUP_STORAGE = 'dbbackup.storage.filesystem_storage'
-DBBACKUP_STORAGE_OPTIONS = {'location': './backups'}
-DBBACKUP_DIR = os.path.join(BASE_DIR, 'backups')
+#DBBACKUP_STORAGE = 'dbbackup.storage.filesystem_storage'
+#DBBACKUP_STORAGE_OPTIONS = {'location': './backups'}
+#DBBACKUP_DIR = os.path.join(BASE_DIR, 'backups')
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',

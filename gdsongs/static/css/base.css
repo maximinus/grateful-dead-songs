@@ -37,7 +37,6 @@ body {
 .navbar a:hover {
 	color: #222;
 	border-bottom: 1px solid #779;
-	padding: 7px;
 }
 
 #pull-right {
@@ -48,7 +47,6 @@ body {
 	color: #666;
 	margin: 8px;
 	font-size: 1.0em;
-	border-bottom: none;
 }
 
 .dropdown-content {

@@ -11,7 +11,8 @@ from venues.models import Venue
 from venues.locations import getStateList, getCountryList
 
 def allShows(request):
-	shows = Show.objects.all()
+	shows = [x for x in Show.objects.all()]
+	shows.sort()
 	context = {'shows':shows, 'number':len(shows)}
 	return(render(request, 'shows/index.html', context))
 
