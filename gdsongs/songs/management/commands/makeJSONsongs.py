@@ -17,9 +17,8 @@ class Command(BaseCommand):
 		
 		js_file = open('songs.js','w')
 		js_file.write('"use strict";\n\n')
-		js_file.write('var SONGS = ["{0}",\n'.format(songs[0].name))
+		js_file.write('var SONGS = [["{0}", {1}],\n'.format(songs[0].name, songs[0].id))
 		for song in songs[1:len(songs) - 1]:
-			js_file.write('\t\t\t "{0}",\n'.format(song.name))
-		js_file.write('\t\t\t "{0}"];\n\n'.format(songs[len(songs) - 1].name))
+			js_file.write('\t\t\t ["{0}", {1}],\n'.format(song.name, song.id))
+		js_file.write('\t\t\t ["{0}", {1}]];\n\n'.format(songs[len(songs) - 1].name, songs[len(songs) - 1].id))
 		js_file.close()
-

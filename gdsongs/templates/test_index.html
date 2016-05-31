@@ -7,8 +7,14 @@
 		<input type="text" id="search-box">
 		<em><p id="search-text">Enter a search term</p></em>
 	</div>
+	<div id="results">
+		<h4 id="results-message"></h4>
+		<div id="results-list">
+		</div>
+	</div>
 {% endblock %}
 	
 {% block scripts %}
 	<script src="{% static "js/search.js" %}"></script>
+	<script src="{% static "js/songs.js" %}"></script>
 {% endblock %}
