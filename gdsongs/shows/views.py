@@ -5,14 +5,14 @@ from django.core.exceptions import ObjectDoesNotExist
 
 import json, datetime
 
-from .models import ShowDate, Show, PlayedSet, PlayedSong
+from .models import ShowDate, Show, PlayedSet, PlayedSong, showCompare
 from songs.models import Song
 from venues.models import Venue
 from venues.locations import getStateList, getCountryList
 
 def allShows(request):
 	shows = [x for x in Show.objects.all()]
-	shows.sort()
+	shows = sorted(shows, cmp=showCompare)
 	context = {'shows':shows, 'number':len(shows)}
 	return(render(request, 'shows/index.html', context))
 

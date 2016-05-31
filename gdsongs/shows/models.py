@@ -59,6 +59,20 @@ class ShowDate(models.Model):
 		date2 = (date.year * 4500) + (date.month * 366) + date.day
 		return(cmp(date1, date2))
 
+def showCompare(a, b):
+	# compare 2 shows: -1, a earlier
+	#                   0, same date
+	#                   1, b earlier
+	# compare years to start
+	if(a.year == b.year):
+		# compare months
+		if(a.month == b.month):
+			# compare days
+			return(a.day - b.month)
+		else:
+			return(a.month - b.month)
+	return(a.year - b.year)
+
 class Show(models.Model):
 	date = models.ForeignKey(ShowDate)
 	venue = models.ForeignKey(Venue, null=True)
