@@ -188,7 +188,7 @@ function venueOptionsFail() {
 function updateCitesFromCountry(country) {
 	// change cities depending on country
 	var data = {'country':country, 'csrfmiddlewaretoken':CSRF};
-	$.ajax('../venues/get_country_cities/',
+	$.ajax('/venues/get_country_cities/',
 		   {'data':data,
 		    'type':'POST',
 		    'success':changeCityOptions,
@@ -226,7 +226,7 @@ function stateChanged() {
 	var state = $('#state-select').val();
 	// call the DB to get all cites in this state
 	var data = {'state':state, 'csrfmiddlewaretoken':CSRF};
-	$.ajax('../venues/get_cities/',
+	$.ajax('/venues/get_cities/',
 		   {'data':data,
 		    'type':'POST',
 		    'success':changeCityOptions,
@@ -235,7 +235,7 @@ function stateChanged() {
 
 function updateCity(city) {
 	var data = {'city':city, 'csrfmiddlewaretoken':CSRF};
-	$.ajax('../venues/get_venues/',
+	$.ajax('/venues/get_venues/',
 		  {'data':data,
 		   'type':'POST',
 		   'success':changeVenueOptions,
@@ -272,4 +272,3 @@ function addModalDropdowns() {
 	}
 	$('#modalCountry-select').val('USA');
 };
-
