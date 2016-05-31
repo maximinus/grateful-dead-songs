@@ -60,9 +60,10 @@ class ShowDate(models.Model):
 		return(cmp(date1, date2))
 
 def showCompare(a, b):
-	# compare 2 shows: -1, a earlier
-	#                   0, same date
-	#                   1, b earlier
+	# a and b are shows, not dates
+	a = a.date
+	b = b.date
+	# compare 2 shows: -1, a earlier / 0, same date / 1, b earlier
 	# compare years to start
 	if(a.year == b.year):
 		# compare months
