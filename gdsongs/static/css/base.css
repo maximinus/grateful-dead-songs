@@ -48,10 +48,10 @@ body {
 	color: #666;
 	margin: 8px;
 	font-size: 1.0em;
+	border-bottom: none;
 }
 
 .dropdown-content {
-	border: 1px solid #AAA;
 	background-color: #DDF;
 	display: none;
 	position: absolute;
