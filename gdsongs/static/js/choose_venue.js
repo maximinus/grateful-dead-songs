@@ -97,7 +97,7 @@ function submitVenue() {
 				'longitude':longitude,
 				'latitude':latitude,
 				'csrfmiddlewaretoken':CSRF};				
-	$.ajax('../venues/add_new_venue/',
+	$.ajax('/venues/add_new_venue/',
 		   {'data':data,
 		    'type':'POST',
 		    'success':venueAddedOk,
