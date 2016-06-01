@@ -54,4 +54,3 @@ class ShowInputTestCase(TestCase):
 				print('Failed on song {0}.'.format(i.name))
 				print('Worked on previous {0} songs.'.format(worked))
 				raise AssertionError
-
