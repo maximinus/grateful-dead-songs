@@ -1,0 +1,32 @@
+
+These are the urls that should work.
+There are 4 types of urls:
+
+1: Anybody can see
+2: Logged in users can see
+3: Are Ajax based
+4: Are ajax based and user must be logged in
+
+The urls are (XX represents a number)
+
+	/							- home page					1
+	/shows/all_shows/			- lists all shows			1
+	/shows/XX/					- lists a single show		1
+	/songs/all_songs/			- lists all songs			1
+	/songs/XX/					- lists a single show		1
+	/venues/all_venues			- lists all venues			1
+	/venues/XX/					- lists a single venue		1
+	/tours/all_tours			- lists all tours			1
+
+	/database/backup/			- returns a file			2
+	/shows/add_show/			- add a show				2
+	/shows/edit_shows/			- edit a single show		2
+	/logout_user/				- logs a user out			2
+
+	/login_user/				- login a user				3
+
+	/shows/upload_show/			- upload a show				4
+	/venues/add_new_venue/		- add a new venue			4
+	/venues/get_country_cities/	- get cities in a country	4
+	/venues/get_venues/			- get venues in a city		4
+	/venues/add_new_venue/		- add a new venue			4
