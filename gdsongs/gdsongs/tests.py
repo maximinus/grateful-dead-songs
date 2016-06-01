@@ -1,5 +1,9 @@
 from django.test import TestCase
 
+from shows.models import Show
+from songs.models import Song
+from venues.models import Venue
+
 class TestAllUrls(TestCase):
 	fixtures = ['fixtures/testdata.json']
 
@@ -12,25 +16,36 @@ class TestAllUrls(TestCase):
 		self.assertEqual(response.status_code, 200)
 
 	def test_shows_all_shows(self):
-		pass
+		response = self.client.get('/shows/all_shows/')
+		self.assertEqual(response.status_code, 200)
 
 	def test_shows_XX(self):
-		pass
+		# get a single show and test it
+		test_show = Show.objects.all()[0]
+		response = self.client.get('/shows/{0}/'.format(str(test_show.id)))
+		self.assertEqual(response.status_code, 200)
 
 	def test_songs_all_songs(self):
-		pass
+		response = self.client.get('/songs/all_songs/')
+		self.assertEqual(response.status_code, 200)
 
 	def test_songs_XX(self):
-		pass
+		test_song = Song.objects.all()[0]
+		response = self.client.get('/songs/{0}/'.format(str(test_song.id)))
+		self.assertEqual(response.status_code, 200)
 
 	def test_venues_all_venues(self):
-		pass
+		response = self.client.get('/venues/all_venues/')
+		self.assertEqual(response.status_code, 200)
 
 	def test_venues_XX(self):
-		pass
+		test_venue = Venue.objects.all()[0]
+		response = self.client.get('/venues/{0}/'.format(str(test_venue.id)))
+		self.assertEqual(response.status_code, 200)
 
 	def test_tours_all_tours(self):
-		pass
+		response = self.client.get('/tours/all_tours/')
+		self.assertEqual(response.status_code, 200)
 
 	# tests below are for logged in users
 	def test_database_backup(self):

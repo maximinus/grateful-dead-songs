@@ -23,10 +23,10 @@ The urls are (XX represents a number)
 	/shows/edit_shows/			- edit a single show		2
 	/logout_user/				- logs a user out			2
 
-	/login_user/				- login a user				3
+	/login_user/				- login a user				3	PUSH
 
-	/shows/upload_show/			- upload a show				4
-	/venues/add_new_venue/		- add a new venue			4
-	/venues/get_country_cities/	- get cities in a country	4
-	/venues/get_venues/			- get venues in a city		4
-	/venues/add_new_venue/		- add a new venue			4
+	/shows/upload_show/			- upload a show				4	PUSH
+	/venues/add_new_venue/		- add a new venue			4	PUSH
+	/venues/get_country_cities/	- get cities in a country	4	GET
+	/venues/get_venues/			- get venues in a city		4	GET
+	/venues/add_new_venue/		- add a new venue			4	PUSH
