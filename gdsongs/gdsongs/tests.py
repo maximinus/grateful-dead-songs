@@ -1,6 +1,8 @@
 from django.test import TestCase
 
 class TestAllUrls(TestCase):
+	fixtures = ['fixtures/testdata.json']
+
 	def setUp(self):
 		pass
 
