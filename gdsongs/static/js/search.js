@@ -46,7 +46,7 @@ function displaySearchResults(matches) {
 	}
 	// now add the results
 	for(var match of matches) {
-		var element = '<a href="/songs/' + match[1] + '/">' + match[0] + '</a>';
+		var element = '<p><a href="/songs/' + match[1] + '/">' + match[0] + '</a></p>';
 		$('#results-list').append(element);
 	}
 };

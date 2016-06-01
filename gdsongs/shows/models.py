@@ -69,7 +69,7 @@ def showCompare(a, b):
 		# compare months
 		if(a.month == b.month):
 			# compare days
-			return(a.day - b.month)
+			return(a.day - b.day)
 		else:
 			return(a.month - b.month)
 	return(a.year - b.year)
