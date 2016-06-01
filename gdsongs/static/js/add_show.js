@@ -231,7 +231,7 @@ function sendData() {
 	var encore = verifyEncore();
 	var show_data = splitDataForAjax(songs, date, encore)
 	// now AJAX the data the data
-	$.ajax('../shows/upload_show/',
+	$.ajax('/shows/upload_show/',
 		   {'data':show_data,
 		    'type':'POST',
 		    'success':postOK,

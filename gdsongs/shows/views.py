@@ -79,7 +79,7 @@ def uploadEditedShow(request):
 	except ObjectDoesNotExist:
 		return(sendError('This show does not exist.'))
 	try:
-		sets_data = normalizeSets(sets)
+		set_data = normalizeSets(sets)
 	except ValueError:
 		return(sendError('Songs were wrong.'))
 	encore = normalizeEncoreData(encore)
@@ -115,7 +115,7 @@ def uploadShow(request):
 	# first we must validate that everything is ok. If so, then we delete all references
 	# to this show and then add it back
 	try:
-		sets_data = normalizeSets(sets)
+		set_data = normalizeSets(sets)
 	except ValueError:
 		return('Songs were wrong.')
 	date = normalizeDateData(date)
