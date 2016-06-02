@@ -45,9 +45,14 @@
 			</div>
 		</div><!-- End of song table -->
 	</div>
+	<canvas id="song-canvas">
 	<p><a href="{% url 'all_songs' %}">Back to all songs</a></p>
 {% endblock %}
 
 {% block scripts %}
+	<script>
+		YEAR_DATA = {{ years|safe }};
+	</script>
+	<script src="{% static "js/Chart.js" %}"></script>
 	<script src="{% static "js/single_song.js" %}"></script>
 {% endblock %}

@@ -234,4 +234,4 @@ def getSongData(song):
 	for key, value in sorted(out_songs.iteritems(), key=lambda (k,v): (v,k)):
 		songs_out.append([key, value])
 	# -5 means 'the last 5 elements'
-	return([years, reversed(songs_into[-5:]), reversed(songs_out[-5:])])
+	return([json.dumps(years), reversed(songs_into[-5:]), reversed(songs_out[-5:])])

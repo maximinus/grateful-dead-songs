@@ -11,6 +11,12 @@
 	width: 50%;
 }
 
+#song-canvas {
+	border: 1px solid #CCF;
+	margin: 4px;
+	width: 50%;
+}
+
 .song-header {
 	background-color: #CCF;
 	color: #444;
