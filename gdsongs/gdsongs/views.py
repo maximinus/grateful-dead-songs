@@ -78,16 +78,20 @@ def showSong(request):
 
 @login_required
 def databaseBackup(request):
-	# empty the backup folder if it exists
-	if(os.path.isdir(settings.DBBACKUP_DIR)):
-		shutil.rmtree(settings.DBBACKUP_DIR)
-	# make the new file
-	os.system('./manage.py dbbackup')
-	# get the file
-	db_filename = [f for f in os.listdir(settings.DBBACKUP_DIR) if os.path.isfile(os.path.join(settings.DBBACKUP_DIR, f))][0]
-	# offer this as an upload
-	filename = open(os.path.join(settings.DBBACKUP_DIR, db_filename))
-	wrapper = FileWrapper(file(filename))
-	response = HttpResponse(wrapper, content_type='text/plain')
-	response['Content-Length'] = os.path.getsize(filename)
+	# look inside the backups folder and get the most recent file
+	directory = os.path.join(os.getcwd(), '../backups/')
+	youngest = 0.0
+	filename = ''
+	for i in os.listdir(directory):
+		age = os.path.getmtime(os.path.join(directory, i))
+		if(age > youngest):
+			youngest = age
+			filename = i
+	# now we have a file... or do we?
+	if(filename == ''):
+		# probably should force an error here, but 404 for now
+		raise Http404
+	sql_data = open(os.path.join(directory, filename))
+	response = HttpResponse(sql_data.read(), content_type='application/sql')
+	response['Content-Disposition'] = 'attachment; filename={0}'.format(filename)
 	return(response)
