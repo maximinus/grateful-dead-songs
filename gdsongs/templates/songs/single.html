@@ -1,12 +1,53 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block css %}
+	<link href="{% static "css/single_song.css" %}" rel="stylesheet">
+{% endblock %}
+
 {% block main %}
 	<!-- Show one song -->
 	<h3>{{ song.name}}</h3>
-	<p>Long Name: {{ song.name }}</p>
+	
+	<div class='top-display'>
+		<div class="song-table">
+			<div class="song-header">
+				Songs into
+			</div>
+			<div class="song-body">
+				{% for song in songs_into %}
+					<div class="song-row">
+						<div class="song-name">
+							{{ song.0 }}
+						</div>
+						<div class="song-times">
+							{{ song.1 }}
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div><!-- End of song table -->
+		<div class="song-table">
+			<div class="song-header">
+				Songs out of
+			</div>
+			<div class="song-body">
+				{% for song in songs_out %}
+					<div class="song-row">
+						<div class="song-name">
+							{{ song.0 }}
+						</div>
+						<div class="song-times">
+							{{ song.1 }}
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div><!-- End of song table -->
+	</div>
 	<p><a href="{% url 'all_songs' %}">Back to all songs</a></p>
 {% endblock %}
 
 {% block scripts %}
+	<script src="{% static "js/single_song.js" %}"></script>
 {% endblock %}
