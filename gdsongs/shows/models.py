@@ -189,3 +189,48 @@ class PlayedSong(models.Model):
 
 	def __unicode__(self):
 		return('{0}, in {1}, {2}'.format(self.song, self.played_set.set_text, self.played_set.show.date))
+
+
+# some functions to get data relating to all the songs
+def getSongData(song):
+	# song is a song model. Get all played versions
+	all_versions = PlayedSong.objects.filter(song=song)
+	# now we need split them into years
+	# there are 31 possibles years, 65 -> 0
+	years = [0] * 31
+	for i in all_versions:
+		years[i.played_set.show.year - 1965] += 1
+	# now years has a count. Get the song into or out of
+	in_songs = {}
+	out_songs = {}
+	for i in all_versions:
+		# get the played order, and search for order - 1 in the played set
+		if(i.order < 1):
+			# it was the opener - ignore for now
+			continue
+		# check the one before
+		try:
+			previous = PlayedSong.objects.get(played_set=i.played_set, order=i.order-1)
+			if(previous.song.name in in_songs):
+				in_songs[previous.song.name] += 1
+			else:
+				in_songs[previous.song.name] = 1
+		except PlayedSong.DoesNotExist:
+			pass
+		# same for outs
+		try:
+			after = PlayedSong.objects.get(played_set=i.played_set, order=i.order+1)
+			if(after.song.name in out_songs):
+				out_songs[after.song.name] += 1
+			else:
+				out_songs[after.song.name] = 1
+		except PlayedSong.DoesNotExist:
+			pass
+	# sort the songs into the top 5
+	songs_into = []
+	for key, value in sorted(in_songs.iteritems(), key=lambda (k,v): (v,k)):
+		songs_into.append([key, value])
+	songs_out = []
+	for key, value in sorted(out_songs.iteritems(), key=lambda (k,v): (v,k)):
+		songs_out.append([key, value])
+	return([years, songs_into[5:], songs_out[5:]])

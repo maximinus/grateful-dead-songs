@@ -1,23 +1,20 @@
-{% extends 'base.html' %}
+{% extends 'base_test.html' %}
 {% load static %}
 
 {% block main %}
-	<div id="vertical-fill"></div>
-		<div id="center-content" class="text-center">
-			<h2>Grateful Dead Songs</h2>
-			<div class="row">
-				<div class="col-lg-3"></div>
-				<div class="col-lg-6">
-					<p><input type="text" class="form-control" id="search-box"></p>
-				</div>
-				<div class="col-lg-3"></div>
-			</div>
-			<em><p id="search-text">Enter a search term</p></em>
+	<div id="vertical-center">
+		<h2>Grateful Dead Songs Test</h2>
+		<input type="text" id="search-box">
+		<em><p id="search-text">Enter a search term</p></em>
+	</div>
+	<div id="results">
+		<h4 id="results-message"></h4>
+		<div id="results-list">
 		</div>
 	</div>
 {% endblock %}
 	
 {% block scripts %}
 	<script src="{% static "js/search.js" %}"></script>
+	<script src="{% static "js/songs.js" %}"></script>
 {% endblock %}
-

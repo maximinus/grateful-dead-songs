@@ -8,60 +8,43 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Grateful Dead Songs</title>
-	<link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
-	<link href="{% static "css/global.css" %}" rel="stylesheet">
+	<link href="{% static "css/base.css" %}" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700' rel='stylesheet' type='text/css'>
 	{% block css %}
 	{% endblock %}
 </head>
 
 <body>
-	<!-- Page starts here -->
 	<div class="container">
-		<!-- icons on right hand side -->
-		<nav class="navbar navbar-default" style="border:0px;" id="navbar">
-			<div class="container-fluid">
-				<ul class="nav navbar-nav navbar-left">
-					<li><a href="{% url 'index' %}">Home</a></li>
-					<li><a href="{% url 'all_shows' %}">Shows</a></li>
-					<li><a href="{% url 'all_songs' %}">Songs</a></li>
-					<li><a href="{% url 'all_venues' %}">Venues</a></li>
-					<li><a href="{% url 'all_tours' %}">Tours</a></li>
-					<li><a href="{% url 'database_backup' %}">Backup DB</a></li>
-					<li><a href="{% url 'test_edit' %}">Test edit</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					{% if user.is_authenticated %}
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Edit DB
-								<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="{% url 'add_show' %}">Add a new show</a></li>
-								<li><a href="{% url 'edit_shows' %}">Edit current shows</a></li>
-							</ul>
-						</li>
-						<li><a href="{% url 'logout_user' %}">Logout {{ user }}</a></li>
-					{% else %}
-						<li><a href="{% url 'login_user' %}?next={{ request.path }}">Login</a></li>
-					{% endif %}
-				</ul>
-			</div>
-		</nav>
-	<!-- All main blocks are in a container -->
-	{% block main %}
-	{% endblock %}
-	</div><!-- end of container -->
-	
-	<footer class="footer text-right">
-		<div class="container">
-			<p class="text-muted">(C)opr. Chris Handy 2016</p>
+		<div class="navbar">
+			<a href="{% url 'index' %}" class="main">Home</a></li>
+			<a href="{% url 'all_shows' %}">Shows</a></li>
+			<a href="{% url 'all_songs' %}">Songs</a></li>
+			<a href="{% url 'all_venues' %}">Venues</a></li>
+			<a href="{% url 'all_tours' %}">Tours</a></li>
+			<a href="{% url 'database_backup' %}">Backup DB</a></li>
+			<a href="{% url 'test_edit' %}">Test edit</a></li>
+			{% if user.is_authenticated %}
+				<span id="pull-right" class="dropdown">
+					Edit DB
+					<div class="dropdown-content">
+						<a href="{% url 'add_show' %}">Add a new show</a>
+						<a href="{% url 'edit_shows' %}">Edit current shows</a>
+					</div>
+				</span>
+				<a href="{% url 'logout_user' %}">Logout {{ user }}</a>
+			{% else %}
+				<a id="pull-right" href="{% url 'login_user' %}?next={{ request.path }}">Login</a>
+			{% endif %}
+
 		</div>
-	</footer>
+		{% block main %}
+		{% endblock %}
+	</div>
 	<script>
 		var CSRF = "{{ csrf_token }}";
 	</script>
 	<script src="{% static "js/jquery-2.1.4.js" %}"></script>
-	<script src="{% static "js/bootstrap.min.js" %}"></script>
 	{% block scripts %}
 	{% endblock %}
 </body>
-
