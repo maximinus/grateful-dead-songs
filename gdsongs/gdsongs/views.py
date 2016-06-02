@@ -14,7 +14,6 @@ from songs.models import Song
 def index(request):
 	"""Main landing page"""
 	return(render(request, 'index.html', {}))
-	#return(render(request, 'index.html', {}))
 
 def loginUser(request):
 	# get the redirect url (after the ?next?)
