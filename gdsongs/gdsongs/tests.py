@@ -1,4 +1,5 @@
 from django.test import TestCase
+from django.contrib.auth.models import User
 
 from shows.models import Show
 from songs.models import Song
@@ -8,10 +9,10 @@ class TestAllUrls(TestCase):
 	fixtures = ['fixtures/testdata.json']
 
 	def setUp(self):
-		pass
+		self.user = User.objects.create_user('test', password='test')
 
 	def login(self):
-		self.client.force_login(username='sparky')
+		self.client.login(username='test', password='test')
 
 	# tests below are pages for all users
 	def test_homepage(self):
