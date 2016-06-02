@@ -22,7 +22,7 @@ class TestAllUrls(TestCase):
 	def test_shows_XX(self):
 		# get a single show and test it
 		test_show = Show.objects.all()[0]
-		response = self.client.get('/shows/{0}/'.format(str(test_show.id)))
+		response = self.client.get('/shows/{0}/z'.format(str(test_show.id)))
 		self.assertEqual(response.status_code, 200)
 
 	def test_songs_all_songs(self):

@@ -9,7 +9,7 @@ function resizeWindow() {
 };
 
 function matchText(search) {
-	results = [];
+	var results = [];
 	search = search.toLowerCase();
 	// run through songs
 	for(var song of SONGS) {
