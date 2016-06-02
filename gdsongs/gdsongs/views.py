@@ -79,11 +79,10 @@ def showSong(request):
 @login_required
 def databaseBackup(request):
 	# look inside the backups folder and get the most recent file
-	directory = os.path.join(os.getcwd(), '../backups/')
 	youngest = 0.0
 	filename = ''
-	for i in os.listdir(directory):
-		age = os.path.getmtime(os.path.join(directory, i))
+	for i in os.listdir(settings.BACKUP_DIRECTORY):
+		age = os.path.getmtime(os.path.join(settings.BACKUP_DIRECTORY, i))
 		if(age > youngest):
 			youngest = age
 			filename = i
@@ -91,7 +90,7 @@ def databaseBackup(request):
 	if(filename == ''):
 		# probably should force an error here, but 404 for now
 		raise Http404
-	sql_data = open(os.path.join(directory, filename))
+	sql_data = open(os.path.join(settings.BACKUP_DIRECTORY, filename))
 	response = HttpResponse(sql_data.read(), content_type='application/sql')
 	response['Content-Disposition'] = 'attachment; filename={0}'.format(filename)
 	return(response)
