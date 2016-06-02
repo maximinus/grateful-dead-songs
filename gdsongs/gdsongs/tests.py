@@ -10,6 +10,9 @@ class TestAllUrls(TestCase):
 	def setUp(self):
 		pass
 
+	def login(self):
+		self.client.force_login(username='sparky')
+
 	# tests below are pages for all users
 	def test_homepage(self):
 		response = self.client.get('/')
@@ -47,18 +50,43 @@ class TestAllUrls(TestCase):
 		response = self.client.get('/tours/all_tours/')
 		self.assertEqual(response.status_code, 200)
 
-	# tests below are for logged in users
-	def test_database_backup(self):
-		pass
+	# tests below are for logged in users, so we need to test each twice
+	def test_database_backup_logged_in(self):
+		self.login()
+		response = self.client.get('/database/backup/')
+		self.assertEqual(response.status_code, 200)
 
-	def test_shows_add_show(self):
-		pass
+	def test_shows_add_show_logged_in(self):
+		self.login()
+		response = self.client.get('/shows/add_show/')
+		self.assertEqual(response.status_code, 200)
 
-	def test_shows_edit_shows(self):
-		pass
+	def test_shows_edit_shows_logged_in(self):
+		self.login()
+		response = self.client.get('/shows/edit_shows/')
+		self.assertEqual(response.status_code, 200)
 
-	def test_logout_user(self):
-		pass
+	def test_logout_user_logged_in(self):
+		self.login()
+		response = self.client.get('/shows/add_show/')
+		self.assertEqual(response.status_code, 200)
+
+	def test_database_backup_logged_out(self):
+		response = self.client.get('/database/backup/')
+		self.assertEqual(response.status_code, 404)
+
+	def test_shows_add_show_logged_out(self):
+		response = self.client.get('/shows/add_show/')
+		self.assertEqual(response.status_code, 404)
+
+	def test_shows_edit_shows_logged_out(self):
+		response = self.client.get('/shows/edit_shows/')
+		self.assertEqual(response.status_code, 404)
+
+	def test_logout_user_logged_out(self):
+		# loggin out should work for everybody
+		response = self.client.get('/shows/add_show/')
+		self.assertEqual(response.status_code, 200)
 
 	# tests below are for ajax calls not logged in
 	def test_login_user(self):
