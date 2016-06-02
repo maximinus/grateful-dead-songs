@@ -127,8 +127,9 @@ def uploadShow(request):
 		venue = Venue.objects.get(pk=venue)
 	except:
 		return(sendError("Venue does not exist."))
-	setlist = saveData(set_data, date, encore, venue)
-	json_data = json.dumps({'msg':setlist})
+	#setlist = saveData(set_data, date, encore, venue)
+	#json_data = json.dumps({'msg':setlist})
+	json_data = json.dumps({'msg':'The show was ok'})
 	return(HttpResponse(json_data,  content_type='application/json', status=200))
 
 def normalizeSets(sets):
