@@ -7,6 +7,7 @@ import json, datetime
 
 MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 SET_NAMES = ['Unknown', '1st', '2nd', '3rd', '4th']
+ENDS = ['th', 'st', 'nd', 'rd']
 
 class ShowDate(models.Model):
 	"""Because the database has to handle shows with unknown or inaccurate dates, we need a seperate class
@@ -20,7 +21,15 @@ class ShowDate(models.Model):
 	
 	def __unicode__(self):
 		"""This should return the date string as universally English / UK format"""
-		return('{0} of {1}, {2}'.format(self.getDay(), self.getMonth(), self.getYear()))
+		day = self.getDay()
+		if(day != '??'):
+			# number, so add the extension
+			end = day % 10;
+			if(end > 3):
+				end = 0;
+			print end
+			day = str(day) + ENDS[end]
+		return('{0} of {1}, {2}'.format(day, self.getMonth(), self.getYear()))
 
 	def getYear(self):
 		if(self.year == 0):
@@ -52,11 +61,11 @@ class ShowDate(models.Model):
 		super(ShowDate, self).save(*args, **kwargs)
 
 	def __cmp__(self, date):
-		"""From docs: -1 if self < date2, 0 if =. +1 if self > date2"""
+		"""From docs: -1 if self < date2, 0 if == +1 if self > date2"""
 		# we convert with a formula and compare those: unknowns have a 0
 		# value of multipliers is more than the maximum next one
-		date1 = (self.year * 4500) + (self.month * 366) + self.day
-		date2 = (date.year * 4500) + (date.month * 366) + date.day
+		date1 = (self.year * 450) + (self.month * 35) + self.day
+		date2 = (date.year * 450) + (date.month * 35) + date.day
 		return(cmp(date1, date2))
 
 def showCompare(a, b):
@@ -142,6 +151,10 @@ class Show(models.Model):
 			json_sets.append([[x.song.id, x.length_string, x.seque, x.comments] for x in songs])
 		data['sets'] = json_sets
 		return(json.dumps(data))
+
+	def __cmp__(self, show2):
+		# compare show dates for sorting
+		return(self.date.__cmp__(show2.date))
 
 class PlayedSet(models.Model):
 	# we use 1, 2 etc as set order. 0 means unknown

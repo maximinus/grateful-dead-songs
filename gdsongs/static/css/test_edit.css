@@ -15,7 +15,7 @@
 
 .set-body {
 	border: 1px solid #CCF;
-	padding: 12px;
+	padding: 10px;
 }
 
 .set-body div:last-child {
@@ -27,7 +27,7 @@
 .song {
 	margin: 0px;
 	border-bottom: 1px solid #CCF;
-	padding: 14px;
+	padding: 8px;
 	display: flex;
 	flex-direction: row;
 	color: #444;

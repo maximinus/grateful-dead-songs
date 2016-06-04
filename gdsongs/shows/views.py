@@ -50,7 +50,7 @@ def editSingleShow(request, show_id):
 
 def getShowAsJson(request, show_id):
 	show = get_object_or_404(Show, pk=int(show_id))
-	return(HttpResponse(show.getJson(),  content_type='application/json', status=200))
+	return(HttpResponse(show.getJson(), content_type='application/json', status=200))
 
 @login_required
 def addShow(request):
@@ -224,4 +224,18 @@ def saveShowData(show, set_data, encore):
 	return(show.setlist)
 
 def testEdit(request):
-	return(render(request, 'editing/test_edit.html', {}))
+	return(render(request, 'editing/choose_year.html', {}))
+
+@login_required
+def getShowYears(request, year):
+	if(request.method != 'GET'):
+		return(HttpResponse(status=404))
+	year = int(year)
+	if((year < 1965) or (year > 1995)):
+		# out of range
+		return(HttpResponse(status=404))
+	# can't filter by a property, so we cycle through all shows :-(
+	shows_in_year = [x for x in Show.objects.all() if x.year == year]
+	shows_in_year.sort()
+	results = [[str(x.date), x.id] for x in shows_in_year]
+	return(HttpResponse(json.dumps(results), content_type='application/json', status=200))
