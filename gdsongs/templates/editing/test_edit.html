@@ -1,27 +1,17 @@
-<!doctype html>
-
+{% extends 'base.html' %}
 {% load static %}
 
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Grateful Dead Songs</title>
-	<link href="{% static "css/reset.css" %}" rel="stylesheet">
-	<link href="{% static "css/base.css" %}" rel="stylesheet">
+{% block css %}
 	<link href="{% static "css/test_edit.css" %}" rel="stylesheet">
-	<!-- Google font -->
-	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700' rel='stylesheet' type='text/css'>
-</head>
+{% endblock %}
 
-<body>
-	<div class="container" id="main">
-		<div class="instructions">
-			Click to edit, or drag and drop to re-order
-		</div>
-	</div><!-- End of container -->
-	<script src="{% static "js/jquery-2.1.4.js" %}"></script>
+{% block main %}
+	<div class="instructions">
+		Click to edit, or drag and drop to re-order
+	</div>
+{% endblock %}
+
+{% block scripts %}
 	<script src="{% static "js/jquery-ui.js" %}"></script>
 	<script src="{% static "js/test_edit.js" %}"></script>
-</body>
+{% endblock %}
