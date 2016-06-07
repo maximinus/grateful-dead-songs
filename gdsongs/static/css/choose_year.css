@@ -3,6 +3,7 @@
 .year-display {
 	display:flex;
 	flex-direction: row;
+	width: 100%;
 }
 
 .year-block {

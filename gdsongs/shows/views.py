@@ -237,5 +237,6 @@ def getShowYears(request, year):
 	# can't filter by a property, so we cycle through all shows :-(
 	shows_in_year = [x for x in Show.objects.all() if x.year == year]
 	shows_in_year.sort()
-	results = [[str(x.date), x.id] for x in shows_in_year]
+	results = {'year':str(year)}
+	results['shows'] = [{'date':str(x.date), 'id':x.id} for x in shows_in_year]
 	return(HttpResponse(json.dumps(results), content_type='application/json', status=200))
