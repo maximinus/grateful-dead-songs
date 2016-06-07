@@ -10,50 +10,26 @@ function selectYear() {
 		    'error':yearFail});
 };
 
-function getDataRow(data, index) {
-	var row = '<div class="year-block">';
-	for(var i=0; i<5; i++) {
-		row += '<div class="col"><a href="/edit_show/' + data[index][1] + '">' + data[index][0] + '</a></div>';
-		index += 1;
-		if(index == data.length) {
-			// finish early
-			break;
-		}
-	}
-	row += '</div>';
-	return(row);
+function showResults(block) {
+	$('#results-block').empty();
+	$('#results-block').append(block);
+	$('#results-block').show();
 };
 
 function yearOK(data) {
 	// data is a list of [date, id] items
 	// we need to sort that data into 5 columns, so how many rows?
 	if(data.length == 0) {
-		var block = '<h3>No shows found</h3>';
-	}
+		block = '<h3 class="results-title">No shows found</h3>'; }
 	else {
-		var rows = Math.floor(data.length / 5);
-		var index = 0;
-		var block = '<h3>Found ' + data.length.toString() + ' shows - click one to edit</h3>';
-		for(var i=0; i<rows; i++) {
-			// insert a year block and get a reference to it
-			block += getDataRow(data, index);
-			index += 5;
-		}
-		// if <5 items, we get here; if >5 items, maybe some left
-		// arrange those
-		if(data.length < 5) {
-			// some left
-			block += getDataRow(data, 0);
-		}
-		else if((data.length % 5) != 0) {
-			// some left
-			block += getDataRow(data, index);
-		}
+		// sort into groups of five
+		var block = '<div class="results-table">';
+		block += '<h3 class="results-title">Found ' + data.length.toString() + ' shows - click one to edit</h3>';
+		for(var show of data) {
+			block += '<a class="result" href="/edit_show/' + show[1] + '">' + show[0] + '</a>'; }
+		block += '</div>';
 	}
-	// delete all contents of the show display, add in the new data and display
-	$('#list-shows').empty();
-	$('#list-shows').append(block);
-	$('#list-shows').show();
+	showResults(block);
 };
 
 function yearFail() {
@@ -61,5 +37,5 @@ function yearFail() {
 };
 
 $(document).ready(function() {
-	$('.col').click(selectYear);
+	$('.year').click(selectYear);
 });
