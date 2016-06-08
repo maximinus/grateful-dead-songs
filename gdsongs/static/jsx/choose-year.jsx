@@ -3,9 +3,8 @@
 
 var ShowDate = React.createClass({
 	render: function() {
-		console.log(this.props);
 		return(
-			<a className="result" href="/edit_show/{this.props.key}/">
+			<a className="result" href={"/edit_show/" + this.props.id + '/'}>
 				{this.props.text}
 			</a>
 		);
@@ -13,14 +12,6 @@ var ShowDate = React.createClass({
 })
 
 var ShowsInYear = React.createClass({
-	getTitle: function() {
-		if(this.shows.length == 0) {
-			return('No Shows found.'); }
-		else {
-			return('Found ' + this.shows.length.toString() + ' shows - click one to edit');
-		}
-	},
-
 	selectYear: function(event) {
 		var year = event.currentTarget.innerHTML
 		// ajax the year and get the shows
@@ -45,8 +36,8 @@ var ShowsInYear = React.createClass({
 		return(
 			<div className="results-table">
 				<h3 className="results-title">{this.state.title}</h3>
-				{this.state.shows.map(function(show) {
-					return <ShowDate text={show.date} key={show.id} />;
+				{this.state.shows.map(function(show, index) {
+					return <ShowDate text={show.date} id={show.id} key={index}/>;
     			})}
 			</div>
 		);
