@@ -248,3 +248,31 @@ def getSongData(song):
 		songs_out.append([key, value])
 	# -5 means 'the last 5 elements'
 	return([json.dumps(years), reversed(songs_into[-5:]), reversed(songs_out[-5:])])
+
+class OfficalReleaseLink(models.Model):
+	show = models.ForeignKey(Show)
+	link = models.URLField(null=False)
+	text = models.CharField(max_length=200)
+
+	def __unicode__(self):
+		return('Official release - {0}'.format(self.link))
+
+class MusicLink(models.Model):
+	SOUNDBOARD = 0
+	AUDIENCE = 1
+	MATRIX = 2
+	VIDEO = 3
+	MUSIC_TYPES = (
+		(SOUNDBOARD, 'Soundboard'),
+		(AUDIENCE, 'Audience'),
+		(MATRIX, 'Matrix'),
+		(VIDEO, 'Video')
+	)
+
+	show = models.ForeignKey(Show)
+	link = models.URLField(null=False)
+	text = models.CharField(max_length=200)
+	music_type = models.PositiveSmallIntegerField(choices=MUSIC_TYPES)
+
+	def __unicode__(self):
+		return('Music link - {0}'.format(self.link))
