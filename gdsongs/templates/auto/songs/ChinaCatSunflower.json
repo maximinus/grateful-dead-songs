@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 40,
+                "length": 368,
+                "order": 9,
+                "seque": false,
+                "set": 654
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 28,
+                "length": 268,
+                "order": 8,
+                "seque": false,
+                "set": 187
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 303,
+                "length": 871,
+                "order": 10,
+                "seque": false,
+                "set": 91
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 33,
+                "length": 368,
+                "order": 6,
+                "seque": false,
+                "set": 41
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 168,
+                "order": 1,
+                "seque": false,
+                "set": 387
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 40,
+                "length": 368,
+                "order": 9,
+                "seque": false,
+                "set": 654
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 28,
+                "length": 268,
+                "order": 8,
+                "seque": false,
+                "set": 187
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 303,
+                "length": 871,
+                "order": 10,
+                "seque": false,
+                "set": 91
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 33,
+                "length": 368,
+                "order": 6,
+                "seque": false,
+                "set": 41
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 168,
+                "order": 1,
+                "seque": false,
+                "set": 387
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            1,
+            {
+                "comments": "no recording exists",
+                "id": 57,
+                "length": 1,
+                "order": 1,
+                "seque": true,
+                "set": 565
+            }
+        ],
+        [
+            175,
+            {
+                "comments": "",
+                "id": 57,
+                "length": 175,
+                "order": 8,
+                "seque": true,
+                "set": 863
+            }
+        ],
+        [
+            187,
+            {
+                "comments": "",
+                "id": 57,
+                "length": 187,
+                "order": 1,
+                "seque": true,
+                "set": 155
+            }
+        ],
+        [
+            187,
+            {
+                "comments": "",
+                "id": 57,
+                "length": 187,
+                "order": 9,
+                "seque": true,
+                "set": 588
+            }
+        ],
+        [
+            188,
+            {
+                "comments": "",
+                "id": 57,
+                "length": 188,
+                "order": 11,
+                "seque": true,
+                "set": 263
+            }
+        ]
+    ],
+    "name": "China Cat Sunflower",
+    "played": 70,
+    "shortest": [
+        [
+            408,
+            {
+                "comments": "",
+                "id": 57,
+                "length": 408,
+                "order": 4,
+                "seque": true,
+                "set": 1059
+            }
+        ],
+        [
+            397,
+            {
+                "comments": "",
+                "id": 57,
+                "length": 397,
+                "order": 1,
+                "seque": true,
+                "set": 36
+            }
+        ],
+        [
+            375,
+            {
+                "comments": "",
+                "id": 57,
+                "length": 375,
+                "order": 7,
+                "seque": true,
+                "set": 460
+            }
+        ],
+        [
+            314,
+            {
+                "comments": "",
+                "id": 57,
+                "length": 314,
+                "order": 3,
+                "seque": true,
+                "set": 170
+            }
+        ],
+        [
+            269,
+            {
+                "comments": "",
+                "id": 57,
+                "length": 269,
+                "order": 1,
+                "seque": true,
+                "set": 547
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        4,
+        12,
+        9,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0,
+        4,
+        4,
+        3,
+        4,
+        2,
+        1,
+        4,
+        3,
+        2,
+        5,
+        1,
+        0,
+        1,
+        0,
+        3
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

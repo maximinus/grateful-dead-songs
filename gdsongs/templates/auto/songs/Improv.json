@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 104,
+                "length": 887,
+                "order": 4,
+                "seque": true,
+                "set": 803
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 372,
+                "length": 605,
+                "order": 6,
+                "seque": true,
+                "set": 202
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Ascending Riff",
+                "id": 423,
+                "length": 106,
+                "order": 17,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 300,
+                "length": 197,
+                "order": 5,
+                "seque": true,
+                "set": 713
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 214,
+                "order": 8,
+                "seque": true,
+                "set": 466
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 104,
+                "length": 887,
+                "order": 4,
+                "seque": true,
+                "set": 803
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 372,
+                "length": 605,
+                "order": 6,
+                "seque": true,
+                "set": 202
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Ascending Riff",
+                "id": 423,
+                "length": 106,
+                "order": 17,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 300,
+                "length": 197,
+                "order": 5,
+                "seque": true,
+                "set": 713
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 214,
+                "order": 8,
+                "seque": true,
+                "set": 466
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            27,
+            {
+                "comments": "",
+                "id": 428,
+                "length": 27,
+                "order": 10,
+                "seque": true,
+                "set": 111
+            }
+        ],
+        [
+            34,
+            {
+                "comments": "",
+                "id": 428,
+                "length": 34,
+                "order": 9,
+                "seque": true,
+                "set": 713
+            }
+        ],
+        [
+            35,
+            {
+                "comments": "",
+                "id": 428,
+                "length": 35,
+                "order": 9,
+                "seque": true,
+                "set": 895
+            }
+        ],
+        [
+            37,
+            {
+                "comments": "",
+                "id": 428,
+                "length": 37,
+                "order": 6,
+                "seque": true,
+                "set": 637
+            }
+        ],
+        [
+            39,
+            {
+                "comments": "",
+                "id": 428,
+                "length": 39,
+                "order": 8,
+                "seque": true,
+                "set": 780
+            }
+        ]
+    ],
+    "name": "Improv",
+    "played": 274,
+    "shortest": [
+        [
+            813,
+            {
+                "comments": "garcia doing scale riff",
+                "id": 428,
+                "length": 813,
+                "order": 5,
+                "seque": true,
+                "set": 549
+            }
+        ],
+        [
+            763,
+            {
+                "comments": "",
+                "id": 428,
+                "length": 763,
+                "order": 7,
+                "seque": true,
+                "set": 871
+            }
+        ],
+        [
+            718,
+            {
+                "comments": "",
+                "id": 428,
+                "length": 718,
+                "order": 6,
+                "seque": true,
+                "set": 208
+            }
+        ],
+        [
+            706,
+            {
+                "comments": "",
+                "id": 428,
+                "length": 706,
+                "order": 7,
+                "seque": true,
+                "set": 971
+            }
+        ],
+        [
+            624,
+            {
+                "comments": "",
+                "id": 428,
+                "length": 624,
+                "order": 4,
+                "seque": true,
+                "set": 895
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        10,
+        12,
+        32,
+        22,
+        1,
+        33,
+        34,
+        13,
+        18,
+        4,
+        17,
+        10,
+        5,
+        9,
+        4,
+        3,
+        6,
+        5,
+        5,
+        7,
+        10,
+        2,
+        3,
+        4,
+        4
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

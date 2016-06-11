@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 108,
+                "length": 481,
+                "order": 1,
+                "seque": false,
+                "set": 340
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 213,
+                "order": 5,
+                "seque": false,
+                "set": 451
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 241,
+                "order": 2,
+                "seque": false,
+                "set": 622
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 237,
+                "order": 2,
+                "seque": false,
+                "set": 85
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 302,
+                "order": 4,
+                "seque": false,
+                "set": 358
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 108,
+                "length": 481,
+                "order": 1,
+                "seque": false,
+                "set": 340
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 213,
+                "order": 5,
+                "seque": false,
+                "set": 451
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 241,
+                "order": 2,
+                "seque": false,
+                "set": 622
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 237,
+                "order": 2,
+                "seque": false,
+                "set": 85
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 302,
+                "order": 4,
+                "seque": false,
+                "set": 358
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            217,
+            {
+                "comments": "",
+                "id": 114,
+                "length": 217,
+                "order": 4,
+                "seque": false,
+                "set": 24
+            }
+        ],
+        [
+            218,
+            {
+                "comments": "",
+                "id": 114,
+                "length": 218,
+                "order": 4,
+                "seque": false,
+                "set": 457
+            }
+        ],
+        [
+            241,
+            {
+                "comments": "",
+                "id": 114,
+                "length": 241,
+                "order": 4,
+                "seque": false,
+                "set": 505
+            }
+        ],
+        [
+            382,
+            {
+                "comments": "",
+                "id": 114,
+                "length": 382,
+                "order": 7,
+                "seque": false,
+                "set": 334
+            }
+        ],
+        [
+            446,
+            {
+                "comments": "",
+                "id": 114,
+                "length": 446,
+                "order": 4,
+                "seque": false,
+                "set": 979
+            }
+        ]
+    ],
+    "name": "Friend Of The Devil",
+    "played": 58,
+    "shortest": [
+        [
+            592,
+            {
+                "comments": "",
+                "id": 114,
+                "length": 592,
+                "order": 7,
+                "seque": false,
+                "set": 319
+            }
+        ],
+        [
+            567,
+            {
+                "comments": "",
+                "id": 114,
+                "length": 567,
+                "order": 3,
+                "seque": false,
+                "set": 617
+            }
+        ],
+        [
+            559,
+            {
+                "comments": "",
+                "id": 114,
+                "length": 559,
+                "order": 4,
+                "seque": false,
+                "set": 116
+            }
+        ],
+        [
+            555,
+            {
+                "comments": "",
+                "id": 114,
+                "length": 555,
+                "order": 5,
+                "seque": false,
+                "set": 307
+            }
+        ],
+        [
+            554,
+            {
+                "comments": "",
+                "id": 114,
+                "length": 554,
+                "order": 3,
+                "seque": false,
+                "set": 85
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        4,
+        9,
+        9,
+        5,
+        0,
+        3,
+        5,
+        3,
+        3,
+        2,
+        0,
+        2,
+        3,
+        0,
+        1,
+        4,
+        1,
+        0,
+        0,
+        1
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

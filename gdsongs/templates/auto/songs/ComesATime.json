@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "Cryptical Riff Ending",
+                "id": 343,
+                "length": 194,
+                "order": 17,
+                "seque": true,
+                "set": 94
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 303,
+                "length": 164,
+                "order": 13,
+                "seque": true,
+                "set": 734
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 528,
+                "order": 6,
+                "seque": true,
+                "set": 614
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 460,
+                "length": 23,
+                "order": 7,
+                "seque": true,
+                "set": 912
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 29,
+                "length": 426,
+                "order": 5,
+                "seque": true,
+                "set": 304
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "Cryptical Riff Ending",
+                "id": 343,
+                "length": 194,
+                "order": 17,
+                "seque": true,
+                "set": 94
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 303,
+                "length": 164,
+                "order": 13,
+                "seque": true,
+                "set": 734
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 528,
+                "order": 6,
+                "seque": true,
+                "set": 614
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 460,
+                "length": 23,
+                "order": 7,
+                "seque": true,
+                "set": 912
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 29,
+                "length": 426,
+                "order": 5,
+                "seque": true,
+                "set": 304
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            352,
+            {
+                "comments": "",
+                "id": 66,
+                "length": 352,
+                "order": 5,
+                "seque": true,
+                "set": 214
+            }
+        ],
+        [
+            388,
+            {
+                "comments": "",
+                "id": 66,
+                "length": 388,
+                "order": 14,
+                "seque": true,
+                "set": 734
+            }
+        ],
+        [
+            394,
+            {
+                "comments": "",
+                "id": 66,
+                "length": 394,
+                "order": 18,
+                "seque": false,
+                "set": 94
+            }
+        ],
+        [
+            399,
+            {
+                "comments": "",
+                "id": 66,
+                "length": 399,
+                "order": 6,
+                "seque": true,
+                "set": 304
+            }
+        ],
+        [
+            407,
+            {
+                "comments": "",
+                "id": 66,
+                "length": 407,
+                "order": 7,
+                "seque": true,
+                "set": 614
+            }
+        ]
+    ],
+    "name": "Comes A Time",
+    "played": 14,
+    "shortest": [
+        [
+            718,
+            {
+                "comments": "",
+                "id": 66,
+                "length": 718,
+                "order": 8,
+                "seque": true,
+                "set": 232
+            }
+        ],
+        [
+            709,
+            {
+                "comments": "",
+                "id": 66,
+                "length": 709,
+                "order": 7,
+                "seque": true,
+                "set": 915
+            }
+        ],
+        [
+            534,
+            {
+                "comments": "",
+                "id": 66,
+                "length": 534,
+                "order": 10,
+                "seque": true,
+                "set": 801
+            }
+        ],
+        [
+            509,
+            {
+                "comments": "",
+                "id": 66,
+                "length": 509,
+                "order": 10,
+                "seque": true,
+                "set": 760
+            }
+        ],
+        [
+            481,
+            {
+                "comments": "",
+                "id": 66,
+                "length": 481,
+                "order": 2,
+                "seque": true,
+                "set": 601
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

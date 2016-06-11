@@ -1,0 +1,188 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 261,
+                "length": 293,
+                "order": 5,
+                "seque": false,
+                "set": 499
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 114,
+                "length": 218,
+                "order": 4,
+                "seque": false,
+                "set": 457
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 261,
+                "length": 293,
+                "order": 5,
+                "seque": false,
+                "set": 499
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 114,
+                "length": 218,
+                "order": 4,
+                "seque": false,
+                "set": 457
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            292,
+            {
+                "comments": "",
+                "id": 83,
+                "length": 292,
+                "order": 6,
+                "seque": false,
+                "set": 499
+            }
+        ],
+        [
+            299,
+            {
+                "comments": "",
+                "id": 83,
+                "length": 299,
+                "order": 1,
+                "seque": false,
+                "set": 606
+            }
+        ],
+        [
+            329,
+            {
+                "comments": "",
+                "id": 83,
+                "length": 329,
+                "order": 5,
+                "seque": false,
+                "set": 457
+            }
+        ]
+    ],
+    "name": "Deep Elem Blues",
+    "played": 3,
+    "shortest": [
+        [
+            329,
+            {
+                "comments": "",
+                "id": 83,
+                "length": 329,
+                "order": 5,
+                "seque": false,
+                "set": 457
+            }
+        ],
+        [
+            299,
+            {
+                "comments": "",
+                "id": 83,
+                "length": 299,
+                "order": 1,
+                "seque": false,
+                "set": 606
+            }
+        ],
+        [
+            292,
+            {
+                "comments": "",
+                "id": 83,
+                "length": 292,
+                "order": 6,
+                "seque": false,
+                "set": 499
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 431,
+                "length": 357,
+                "order": 8,
+                "seque": true,
+                "set": 506
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 300,
+                "length": 300,
+                "order": 12,
+                "seque": true,
+                "set": 467
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 431,
+                "length": 357,
+                "order": 8,
+                "seque": true,
+                "set": 506
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 300,
+                "length": 300,
+                "order": 12,
+                "seque": true,
+                "set": 467
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            65,
+            {
+                "comments": "",
+                "id": 477,
+                "length": 65,
+                "order": 9,
+                "seque": true,
+                "set": 506
+            }
+        ],
+        [
+            271,
+            {
+                "comments": "",
+                "id": 477,
+                "length": 271,
+                "order": 13,
+                "seque": true,
+                "set": 467
+            }
+        ]
+    ],
+    "name": "Jerry, Keith & Phil Interplay",
+    "played": 2,
+    "shortest": [
+        [
+            271,
+            {
+                "comments": "",
+                "id": 477,
+                "length": 271,
+                "order": 13,
+                "seque": true,
+                "set": 467
+            }
+        ],
+        [
+            65,
+            {
+                "comments": "",
+                "id": 477,
+                "length": 65,
+                "order": 9,
+                "seque": true,
+                "set": 506
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

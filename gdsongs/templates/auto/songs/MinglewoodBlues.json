@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 114,
+                "length": 494,
+                "order": 2,
+                "seque": false,
+                "set": 340
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 64,
+                "length": 382,
+                "order": 1,
+                "seque": false,
+                "set": 73
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 319,
+                "length": 226,
+                "order": 6,
+                "seque": false,
+                "set": 779
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 177,
+                "length": 317,
+                "order": 9,
+                "seque": false,
+                "set": 140
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 228,
+                "length": 485,
+                "order": 1,
+                "seque": false,
+                "set": 76
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 114,
+                "length": 494,
+                "order": 2,
+                "seque": false,
+                "set": 340
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 64,
+                "length": 382,
+                "order": 1,
+                "seque": false,
+                "set": 73
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 319,
+                "length": 226,
+                "order": 6,
+                "seque": false,
+                "set": 779
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 177,
+                "length": 317,
+                "order": 9,
+                "seque": false,
+                "set": 140
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 228,
+                "length": 485,
+                "order": 1,
+                "seque": false,
+                "set": 76
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            254,
+            {
+                "comments": "",
+                "id": 241,
+                "length": 254,
+                "order": 4,
+                "seque": false,
+                "set": 950
+            }
+        ],
+        [
+            265,
+            {
+                "comments": "",
+                "id": 241,
+                "length": 265,
+                "order": 1,
+                "seque": false,
+                "set": 857
+            }
+        ],
+        [
+            267,
+            {
+                "comments": "",
+                "id": 241,
+                "length": 267,
+                "order": 1,
+                "seque": false,
+                "set": 716
+            }
+        ],
+        [
+            275,
+            {
+                "comments": "",
+                "id": 241,
+                "length": 275,
+                "order": 2,
+                "seque": false,
+                "set": 157
+            }
+        ],
+        [
+            276,
+            {
+                "comments": "",
+                "id": 241,
+                "length": 276,
+                "order": 4,
+                "seque": false,
+                "set": 104
+            }
+        ]
+    ],
+    "name": "Minglewood Blues",
+    "played": 111,
+    "shortest": [
+        [
+            538,
+            {
+                "comments": "",
+                "id": 241,
+                "length": 538,
+                "order": 4,
+                "seque": false,
+                "set": 597
+            }
+        ],
+        [
+            529,
+            {
+                "comments": "",
+                "id": 241,
+                "length": 529,
+                "order": 4,
+                "seque": false,
+                "set": 1014
+            }
+        ],
+        [
+            527,
+            {
+                "comments": "with Matt Kelly, harmonica.",
+                "id": 241,
+                "length": 527,
+                "order": 6,
+                "seque": false,
+                "set": 689
+            }
+        ],
+        [
+            512,
+            {
+                "comments": "w/ Matt Kelly on Harmonica",
+                "id": 241,
+                "length": 512,
+                "order": 5,
+                "seque": false,
+                "set": 325
+            }
+        ],
+        [
+            489,
+            {
+                "comments": "",
+                "id": 241,
+                "length": 489,
+                "order": 4,
+                "seque": false,
+                "set": 44
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        23,
+        10,
+        13,
+        3,
+        8,
+        8,
+        6,
+        7,
+        4,
+        2,
+        5,
+        5,
+        3,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

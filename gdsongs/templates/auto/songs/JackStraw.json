@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 278,
+                "length": 458,
+                "order": 5,
+                "seque": false,
+                "set": 970
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 278,
+                "length": 464,
+                "order": 7,
+                "seque": false,
+                "set": 386
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 125,
+                "length": 0,
+                "order": 1,
+                "seque": false,
+                "set": 835
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 29,
+                "length": 680,
+                "order": 7,
+                "seque": false,
+                "set": 594
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 382,
+                "order": 7,
+                "seque": false,
+                "set": 372
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 278,
+                "length": 458,
+                "order": 5,
+                "seque": false,
+                "set": 970
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 278,
+                "length": 464,
+                "order": 7,
+                "seque": false,
+                "set": 386
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 125,
+                "length": 0,
+                "order": 1,
+                "seque": false,
+                "set": 835
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 29,
+                "length": 680,
+                "order": 7,
+                "seque": false,
+                "set": 594
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 382,
+                "order": 7,
+                "seque": false,
+                "set": 372
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            1,
+            {
+                "comments": "",
+                "id": 178,
+                "length": 1,
+                "order": 2,
+                "seque": false,
+                "set": 848
+            }
+        ],
+        [
+            270,
+            {
+                "comments": "",
+                "id": 178,
+                "length": 270,
+                "order": 17,
+                "seque": false,
+                "set": 33
+            }
+        ],
+        [
+            273,
+            {
+                "comments": "",
+                "id": 178,
+                "length": 273,
+                "order": 10,
+                "seque": false,
+                "set": 93
+            }
+        ],
+        [
+            274,
+            {
+                "comments": "",
+                "id": 178,
+                "length": 274,
+                "order": 7,
+                "seque": false,
+                "set": 254
+            }
+        ],
+        [
+            274,
+            {
+                "comments": "",
+                "id": 178,
+                "length": 274,
+                "order": 3,
+                "seque": false,
+                "set": 876
+            }
+        ]
+    ],
+    "name": "Jack Straw",
+    "played": 97,
+    "shortest": [
+        [
+            429,
+            {
+                "comments": "",
+                "id": 178,
+                "length": 429,
+                "order": 1,
+                "seque": false,
+                "set": 272
+            }
+        ],
+        [
+            421,
+            {
+                "comments": "",
+                "id": 178,
+                "length": 421,
+                "order": 1,
+                "seque": false,
+                "set": 531
+            }
+        ],
+        [
+            404,
+            {
+                "comments": "\"...now we play for Clive.\"",
+                "id": 178,
+                "length": 404,
+                "order": 1,
+                "seque": false,
+                "set": 882
+            }
+        ],
+        [
+            394,
+            {
+                "comments": "",
+                "id": 178,
+                "length": 394,
+                "order": 1,
+                "seque": false,
+                "set": 689
+            }
+        ],
+        [
+            391,
+            {
+                "comments": "",
+                "id": 178,
+                "length": 391,
+                "order": 1,
+                "seque": false,
+                "set": 442
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        3,
+        12,
+        8,
+        0,
+        0,
+        15,
+        10,
+        3,
+        4,
+        5,
+        0,
+        4,
+        4,
+        4,
+        3,
+        6,
+        5,
+        2,
+        1,
+        1,
+        0,
+        1,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

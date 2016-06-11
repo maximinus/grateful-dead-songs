@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 101,
+                "length": 658,
+                "order": 4,
+                "seque": true,
+                "set": 238
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir says, \"Same old story and it's sad but true but if you don't know it I got news for you.\"",
+                "id": 217,
+                "length": 390,
+                "order": 4,
+                "seque": false,
+                "set": 855
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 129,
+                "length": 291,
+                "order": 3,
+                "seque": false,
+                "set": 255
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 123,
+                "length": 386,
+                "order": 3,
+                "seque": false,
+                "set": 452
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 284,
+                "length": 428,
+                "order": 1,
+                "seque": false,
+                "set": 864
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 101,
+                "length": 658,
+                "order": 4,
+                "seque": true,
+                "set": 238
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir says, \"Same old story and it's sad but true but if you don't know it I got news for you.\"",
+                "id": 217,
+                "length": 390,
+                "order": 4,
+                "seque": false,
+                "set": 855
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 129,
+                "length": 291,
+                "order": 3,
+                "seque": false,
+                "set": 255
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 123,
+                "length": 386,
+                "order": 3,
+                "seque": false,
+                "set": 452
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 284,
+                "length": 428,
+                "order": 1,
+                "seque": false,
+                "set": 864
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            428,
+            {
+                "comments": "Used for Europe '72",
+                "id": 134,
+                "length": 428,
+                "order": 11,
+                "seque": false,
+                "set": 33
+            }
+        ],
+        [
+            431,
+            {
+                "comments": "",
+                "id": 134,
+                "length": 431,
+                "order": 4,
+                "seque": true,
+                "set": 707
+            }
+        ],
+        [
+            444,
+            {
+                "comments": "No Bridge / No Vocal Vamp",
+                "id": 134,
+                "length": 444,
+                "order": 4,
+                "seque": false,
+                "set": 93
+            }
+        ],
+        [
+            504,
+            {
+                "comments": "",
+                "id": 134,
+                "length": 504,
+                "order": 5,
+                "seque": true,
+                "set": 634
+            }
+        ],
+        [
+            532,
+            {
+                "comments": "without bridge / no vamp",
+                "id": 134,
+                "length": 532,
+                "order": 20,
+                "seque": false,
+                "set": 42
+            }
+        ]
+    ],
+    "name": "He's Gone",
+    "played": 69,
+    "shortest": [
+        [
+            918,
+            {
+                "comments": "",
+                "id": 134,
+                "length": 918,
+                "order": 7,
+                "seque": true,
+                "set": 123
+            }
+        ],
+        [
+            886,
+            {
+                "comments": "",
+                "id": 134,
+                "length": 886,
+                "order": 6,
+                "seque": true,
+                "set": 48
+            }
+        ],
+        [
+            837,
+            {
+                "comments": "",
+                "id": 134,
+                "length": 837,
+                "order": 5,
+                "seque": true,
+                "set": 801
+            }
+        ],
+        [
+            819,
+            {
+                "comments": "",
+                "id": 134,
+                "length": 819,
+                "order": 4,
+                "seque": true,
+                "set": 378
+            }
+        ],
+        [
+            818,
+            {
+                "comments": "",
+                "id": 134,
+                "length": 818,
+                "order": 9,
+                "seque": true,
+                "set": 387
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        5,
+        1,
+        0,
+        1,
+        6,
+        2,
+        5,
+        1,
+        4,
+        2,
+        3,
+        6,
+        3,
+        3,
+        3,
+        5,
+        4,
+        3,
+        4,
+        2,
+        1,
+        0,
+        1
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

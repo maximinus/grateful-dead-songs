@@ -1,0 +1,210 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 475,
+                "length": 107,
+                "order": 9,
+                "seque": true,
+                "set": 671
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 49,
+                "order": 14,
+                "seque": true,
+                "set": 567
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 303,
+                "length": 252,
+                "order": 5,
+                "seque": true,
+                "set": 571
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 475,
+                "length": 107,
+                "order": 9,
+                "seque": true,
+                "set": 671
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 49,
+                "order": 14,
+                "seque": true,
+                "set": 567
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 303,
+                "length": 252,
+                "order": 5,
+                "seque": true,
+                "set": 571
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            65,
+            {
+                "comments": "",
+                "id": 458,
+                "length": 65,
+                "order": 10,
+                "seque": true,
+                "set": 671
+            }
+        ],
+        [
+            73,
+            {
+                "comments": "",
+                "id": 458,
+                "length": 73,
+                "order": 6,
+                "seque": true,
+                "set": 571
+            }
+        ],
+        [
+            162,
+            {
+                "comments": "",
+                "id": 458,
+                "length": 162,
+                "order": 15,
+                "seque": true,
+                "set": 567
+            }
+        ]
+    ],
+    "name": "Jerry & Phil Interplay",
+    "played": 3,
+    "shortest": [
+        [
+            162,
+            {
+                "comments": "",
+                "id": 458,
+                "length": 162,
+                "order": 15,
+                "seque": true,
+                "set": 567
+            }
+        ],
+        [
+            73,
+            {
+                "comments": "",
+                "id": 458,
+                "length": 73,
+                "order": 6,
+                "seque": true,
+                "set": 571
+            }
+        ],
+        [
+            65,
+            {
+                "comments": "",
+                "id": 458,
+                "length": 65,
+                "order": 10,
+                "seque": true,
+                "set": 671
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

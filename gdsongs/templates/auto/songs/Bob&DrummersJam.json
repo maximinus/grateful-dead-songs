@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 429,
+                "length": 93,
+                "order": 11,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 469,
+                "length": 42,
+                "order": 8,
+                "seque": true,
+                "set": 701
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 429,
+                "length": 93,
+                "order": 11,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 469,
+                "length": 42,
+                "order": 8,
+                "seque": true,
+                "set": 701
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            79,
+            {
+                "comments": "",
+                "id": 480,
+                "length": 79,
+                "order": 9,
+                "seque": true,
+                "set": 701
+            }
+        ],
+        [
+            116,
+            {
+                "comments": "",
+                "id": 480,
+                "length": 116,
+                "order": 12,
+                "seque": true,
+                "set": 589
+            }
+        ]
+    ],
+    "name": "Bob & Drummers Jam",
+    "played": 2,
+    "shortest": [
+        [
+            116,
+            {
+                "comments": "",
+                "id": 480,
+                "length": 116,
+                "order": 12,
+                "seque": true,
+                "set": 589
+            }
+        ],
+        [
+            79,
+            {
+                "comments": "",
+                "id": 480,
+                "length": 79,
+                "order": 9,
+                "seque": true,
+                "set": 701
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

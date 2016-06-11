@@ -1,0 +1,122 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 73,
+                "length": 237,
+                "order": 2,
+                "seque": false,
+                "set": 606
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 73,
+                "length": 237,
+                "order": 2,
+                "seque": false,
+                "set": 606
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            293,
+            {
+                "comments": "Weir says, \"I'd like a show of hands. It's a simple question: How many of you out there have ever seen a gorilla play a piano? More than one you expect! I've never seen a gorilla play a piano. Not for the squeamish.\"",
+                "id": 165,
+                "length": 293,
+                "order": 3,
+                "seque": false,
+                "set": 606
+            }
+        ]
+    ],
+    "name": "I've Been All Around This World",
+    "played": 1,
+    "shortest": [
+        [
+            293,
+            {
+                "comments": "Weir says, \"I'd like a show of hands. It's a simple question: How many of you out there have ever seen a gorilla play a piano? More than one you expect! I've never seen a gorilla play a piano. Not for the squeamish.\"",
+                "id": 165,
+                "length": 293,
+                "order": 3,
+                "seque": false,
+                "set": 606
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

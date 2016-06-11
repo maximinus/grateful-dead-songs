@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 139,
+                "length": 226,
+                "order": 1,
+                "seque": true,
+                "set": 482
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 139,
+                "length": 336,
+                "order": 4,
+                "seque": true,
+                "set": 713
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 139,
+                "length": 234,
+                "order": 1,
+                "seque": true,
+                "set": 639
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 34,
+                "order": 9,
+                "seque": true,
+                "set": 713
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 139,
+                "length": 292,
+                "order": 3,
+                "seque": true,
+                "set": 205
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 139,
+                "length": 226,
+                "order": 1,
+                "seque": true,
+                "set": 482
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 139,
+                "length": 336,
+                "order": 4,
+                "seque": true,
+                "set": 713
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 139,
+                "length": 234,
+                "order": 1,
+                "seque": true,
+                "set": 639
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 34,
+                "order": 9,
+                "seque": true,
+                "set": 713
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 139,
+                "length": 292,
+                "order": 3,
+                "seque": true,
+                "set": 205
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            173,
+            {
+                "comments": "",
+                "id": 300,
+                "length": 173,
+                "order": 6,
+                "seque": true,
+                "set": 656
+            }
+        ],
+        [
+            197,
+            {
+                "comments": "",
+                "id": 300,
+                "length": 197,
+                "order": 5,
+                "seque": true,
+                "set": 713
+            }
+        ],
+        [
+            244,
+            {
+                "comments": "",
+                "id": 300,
+                "length": 244,
+                "order": 2,
+                "seque": true,
+                "set": 482
+            }
+        ],
+        [
+            258,
+            {
+                "comments": "",
+                "id": 300,
+                "length": 258,
+                "order": 2,
+                "seque": true,
+                "set": 538
+            }
+        ],
+        [
+            260,
+            {
+                "comments": "",
+                "id": 300,
+                "length": 260,
+                "order": 2,
+                "seque": true,
+                "set": 413
+            }
+        ]
+    ],
+    "name": "Slipknot!",
+    "played": 31,
+    "shortest": [
+        [
+            593,
+            {
+                "comments": "",
+                "id": 300,
+                "length": 593,
+                "order": 2,
+                "seque": true,
+                "set": 158
+            }
+        ],
+        [
+            544,
+            {
+                "comments": "",
+                "id": 300,
+                "length": 544,
+                "order": 4,
+                "seque": true,
+                "set": 152
+            }
+        ],
+        [
+            519,
+            {
+                "comments": "",
+                "id": 300,
+                "length": 519,
+                "order": 2,
+                "seque": true,
+                "set": 950
+            }
+        ],
+        [
+            508,
+            {
+                "comments": "",
+                "id": 300,
+                "length": 508,
+                "order": 4,
+                "seque": true,
+                "set": 205
+            }
+        ],
+        [
+            505,
+            {
+                "comments": "",
+                "id": 300,
+                "length": 505,
+                "order": 5,
+                "seque": true,
+                "set": 105
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        6,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        3,
+        1,
+        0,
+        0,
+        0,
+        3,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

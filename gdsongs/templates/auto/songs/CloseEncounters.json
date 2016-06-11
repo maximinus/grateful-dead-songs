@@ -1,0 +1,122 @@
+{
+    "after": [
+        [
+            {
+                "comments": "with Drums",
+                "id": 306,
+                "length": 345,
+                "order": 8,
+                "seque": true,
+                "set": 604
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "with Drums",
+                "id": 306,
+                "length": 345,
+                "order": 8,
+                "seque": true,
+                "set": 604
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            36,
+            {
+                "comments": "",
+                "id": 481,
+                "length": 36,
+                "order": 9,
+                "seque": true,
+                "set": 604
+            }
+        ]
+    ],
+    "name": "Close Encounters ",
+    "played": 1,
+    "shortest": [
+        [
+            36,
+            {
+                "comments": "",
+                "id": 481,
+                "length": 36,
+                "order": 9,
+                "seque": true,
+                "set": 604
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

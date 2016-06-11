@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 24,
+                "length": 355,
+                "order": 6,
+                "seque": false,
+                "set": 143
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 223,
+                "length": 188,
+                "order": 2,
+                "seque": false,
+                "set": 396
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 270,
+                "length": 364,
+                "order": 2,
+                "seque": false,
+                "set": 676
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 326,
+                "length": 253,
+                "order": 2,
+                "seque": false,
+                "set": 463
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 425,
+                "order": 18,
+                "seque": false,
+                "set": 33
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 24,
+                "length": 355,
+                "order": 6,
+                "seque": false,
+                "set": 143
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 223,
+                "length": 188,
+                "order": 2,
+                "seque": false,
+                "set": 396
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 270,
+                "length": 364,
+                "order": 2,
+                "seque": false,
+                "set": 676
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 326,
+                "length": 253,
+                "order": 2,
+                "seque": false,
+                "set": 463
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 425,
+                "order": 18,
+                "seque": false,
+                "set": 33
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            236,
+            {
+                "comments": "",
+                "id": 25,
+                "length": 236,
+                "order": 19,
+                "seque": false,
+                "set": 33
+            }
+        ],
+        [
+            252,
+            {
+                "comments": "",
+                "id": 25,
+                "length": 252,
+                "order": 3,
+                "seque": false,
+                "set": 463
+            }
+        ],
+        [
+            298,
+            {
+                "comments": "",
+                "id": 25,
+                "length": 298,
+                "order": 3,
+                "seque": false,
+                "set": 396
+            }
+        ],
+        [
+            314,
+            {
+                "comments": "",
+                "id": 25,
+                "length": 314,
+                "order": 3,
+                "seque": false,
+                "set": 676
+            }
+        ],
+        [
+            320,
+            {
+                "comments": "",
+                "id": 25,
+                "length": 320,
+                "order": 7,
+                "seque": false,
+                "set": 143
+            }
+        ]
+    ],
+    "name": "Big Boss Man",
+    "played": 5,
+    "shortest": [
+        [
+            320,
+            {
+                "comments": "",
+                "id": 25,
+                "length": 320,
+                "order": 7,
+                "seque": false,
+                "set": 143
+            }
+        ],
+        [
+            314,
+            {
+                "comments": "",
+                "id": 25,
+                "length": 314,
+                "order": 3,
+                "seque": false,
+                "set": 676
+            }
+        ],
+        [
+            298,
+            {
+                "comments": "",
+                "id": 25,
+                "length": 298,
+                "order": 3,
+                "seque": false,
+                "set": 396
+            }
+        ],
+        [
+            252,
+            {
+                "comments": "",
+                "id": 25,
+                "length": 252,
+                "order": 3,
+                "seque": false,
+                "set": 463
+            }
+        ],
+        [
+            236,
+            {
+                "comments": "",
+                "id": 25,
+                "length": 236,
+                "order": 19,
+                "seque": false,
+                "set": 33
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,254 @@
+{
+    "after": [
+        [
+            {
+                "comments": "Garcia does scale riff",
+                "id": 423,
+                "length": 148,
+                "order": 7,
+                "seque": true,
+                "set": 807
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 104,
+                "length": 580,
+                "order": 5,
+                "seque": true,
+                "set": 688
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 448,
+                "length": 73,
+                "order": 7,
+                "seque": true,
+                "set": 108
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 430,
+                "length": 70,
+                "order": 13,
+                "seque": true,
+                "set": 387
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "Garcia does scale riff",
+                "id": 423,
+                "length": 148,
+                "order": 7,
+                "seque": true,
+                "set": 807
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 104,
+                "length": 580,
+                "order": 5,
+                "seque": true,
+                "set": 688
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 448,
+                "length": 73,
+                "order": 7,
+                "seque": true,
+                "set": 108
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 430,
+                "length": 70,
+                "order": 13,
+                "seque": true,
+                "set": 387
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            32,
+            {
+                "comments": "",
+                "id": 447,
+                "length": 32,
+                "order": 14,
+                "seque": true,
+                "set": 387
+            }
+        ],
+        [
+            82,
+            {
+                "comments": "",
+                "id": 447,
+                "length": 82,
+                "order": 8,
+                "seque": true,
+                "set": 108
+            }
+        ],
+        [
+            85,
+            {
+                "comments": "",
+                "id": 447,
+                "length": 85,
+                "order": 8,
+                "seque": true,
+                "set": 807
+            }
+        ],
+        [
+            128,
+            {
+                "comments": "",
+                "id": 447,
+                "length": 128,
+                "order": 6,
+                "seque": true,
+                "set": 688
+            }
+        ]
+    ],
+    "name": "Bob, Phil & Drums Jam",
+    "played": 4,
+    "shortest": [
+        [
+            128,
+            {
+                "comments": "",
+                "id": 447,
+                "length": 128,
+                "order": 6,
+                "seque": true,
+                "set": 688
+            }
+        ],
+        [
+            85,
+            {
+                "comments": "",
+                "id": 447,
+                "length": 85,
+                "order": 8,
+                "seque": true,
+                "set": 807
+            }
+        ],
+        [
+            82,
+            {
+                "comments": "",
+                "id": 447,
+                "length": 82,
+                "order": 8,
+                "seque": true,
+                "set": 108
+            }
+        ],
+        [
+            32,
+            {
+                "comments": "",
+                "id": 447,
+                "length": 32,
+                "order": 14,
+                "seque": true,
+                "set": 387
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 426,
+                "length": 190,
+                "order": 11,
+                "seque": false,
+                "set": 883
+            },
+            1
+        ],
+        [
+            {
+                "comments": "1 b7 4 Wah Jam",
+                "id": 129,
+                "length": 294,
+                "order": 20,
+                "seque": false,
+                "set": 33
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 221,
+                "length": 332,
+                "order": 18,
+                "seque": false,
+                "set": 188
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 264,
+                "length": 381,
+                "order": 14,
+                "seque": false,
+                "set": 395
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 316,
+                "length": 516,
+                "order": 19,
+                "seque": false,
+                "set": 264
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 426,
+                "length": 190,
+                "order": 11,
+                "seque": false,
+                "set": 883
+            },
+            1
+        ],
+        [
+            {
+                "comments": "1 b7 4 Wah Jam",
+                "id": 129,
+                "length": 294,
+                "order": 20,
+                "seque": false,
+                "set": 33
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 221,
+                "length": 332,
+                "order": 18,
+                "seque": false,
+                "set": 188
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 264,
+                "length": 381,
+                "order": 14,
+                "seque": false,
+                "set": 395
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 316,
+                "length": 516,
+                "order": 19,
+                "seque": false,
+                "set": 264
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            286,
+            {
+                "comments": "",
+                "id": 49,
+                "length": 286,
+                "order": 11,
+                "seque": false,
+                "set": 92
+            }
+        ],
+        [
+            294,
+            {
+                "comments": "",
+                "id": 49,
+                "length": 294,
+                "order": 1,
+                "seque": false,
+                "set": 987
+            }
+        ],
+        [
+            298,
+            {
+                "comments": "",
+                "id": 49,
+                "length": 298,
+                "order": 7,
+                "seque": false,
+                "set": 696
+            }
+        ],
+        [
+            320,
+            {
+                "comments": "",
+                "id": 49,
+                "length": 320,
+                "order": 1,
+                "seque": false,
+                "set": 247
+            }
+        ],
+        [
+            321,
+            {
+                "comments": "",
+                "id": 49,
+                "length": 321,
+                "order": 1,
+                "seque": false,
+                "set": 444
+            }
+        ]
+    ],
+    "name": "Casey Jones",
+    "played": 35,
+    "shortest": [
+        [
+            588,
+            {
+                "comments": "",
+                "id": 49,
+                "length": 588,
+                "order": 1,
+                "seque": false,
+                "set": 694
+            }
+        ],
+        [
+            586,
+            {
+                "comments": "Jerry loses the lyrics & compensates with extra solo sections.",
+                "id": 49,
+                "length": 586,
+                "order": 1,
+                "seque": false,
+                "set": 845
+            }
+        ],
+        [
+            459,
+            {
+                "comments": "",
+                "id": 49,
+                "length": 459,
+                "order": 1,
+                "seque": false,
+                "set": 755
+            }
+        ],
+        [
+            442,
+            {
+                "comments": "",
+                "id": 49,
+                "length": 442,
+                "order": 2,
+                "seque": false,
+                "set": 336
+            }
+        ],
+        [
+            433,
+            {
+                "comments": "",
+                "id": 49,
+                "length": 433,
+                "order": 1,
+                "seque": false,
+                "set": 787
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        4,
+        7,
+        5,
+        0,
+        0,
+        3,
+        0,
+        5,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

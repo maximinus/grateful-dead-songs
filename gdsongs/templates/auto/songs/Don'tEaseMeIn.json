@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 407,
+                "order": 7,
+                "seque": false,
+                "set": 747
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 388,
+                "order": 6,
+                "seque": false,
+                "set": 187
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 379,
+                "order": 7,
+                "seque": true,
+                "set": 487
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 416,
+                "order": 7,
+                "seque": false,
+                "set": 788
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Garcia scale riff",
+                "id": 198,
+                "length": 756,
+                "order": 7,
+                "seque": false,
+                "set": 826
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 407,
+                "order": 7,
+                "seque": false,
+                "set": 747
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 388,
+                "order": 6,
+                "seque": false,
+                "set": 187
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 379,
+                "order": 7,
+                "seque": true,
+                "set": 487
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 416,
+                "order": 7,
+                "seque": false,
+                "set": 788
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Garcia scale riff",
+                "id": 198,
+                "length": 756,
+                "order": 7,
+                "seque": false,
+                "set": 826
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            165,
+            {
+                "comments": "",
+                "id": 88,
+                "length": 165,
+                "order": 1,
+                "seque": false,
+                "set": 617
+            }
+        ],
+        [
+            175,
+            {
+                "comments": "",
+                "id": 88,
+                "length": 175,
+                "order": 2,
+                "seque": false,
+                "set": 457
+            }
+        ],
+        [
+            175,
+            {
+                "comments": "",
+                "id": 88,
+                "length": 175,
+                "order": 8,
+                "seque": false,
+                "set": 733
+            }
+        ],
+        [
+            175,
+            {
+                "comments": "",
+                "id": 88,
+                "length": 175,
+                "order": 10,
+                "seque": false,
+                "set": 1029
+            }
+        ],
+        [
+            178,
+            {
+                "comments": "",
+                "id": 88,
+                "length": 178,
+                "order": 5,
+                "seque": false,
+                "set": 1020
+            }
+        ]
+    ],
+    "name": "Don't Ease Me In",
+    "played": 58,
+    "shortest": [
+        [
+            240,
+            {
+                "comments": "",
+                "id": 88,
+                "length": 240,
+                "order": 6,
+                "seque": false,
+                "set": 1047
+            }
+        ],
+        [
+            233,
+            {
+                "comments": "",
+                "id": 88,
+                "length": 233,
+                "order": 4,
+                "seque": false,
+                "set": 630
+            }
+        ],
+        [
+            232,
+            {
+                "comments": "",
+                "id": 88,
+                "length": 232,
+                "order": 6,
+                "seque": false,
+                "set": 54
+            }
+        ],
+        [
+            220,
+            {
+                "comments": "",
+                "id": 88,
+                "length": 220,
+                "order": 7,
+                "seque": false,
+                "set": 128
+            }
+        ],
+        [
+            213,
+            {
+                "comments": "",
+                "id": 88,
+                "length": 213,
+                "order": 2,
+                "seque": false,
+                "set": 244
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        3,
+        7,
+        2,
+        1,
+        4,
+        3,
+        0,
+        7,
+        6,
+        1,
+        5,
+        0,
+        1,
+        1,
+        0,
+        3
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

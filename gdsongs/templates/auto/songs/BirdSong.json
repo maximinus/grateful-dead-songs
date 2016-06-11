@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 241,
+                "length": 484,
+                "order": 4,
+                "seque": false,
+                "set": 697
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 315,
+                "length": 505,
+                "order": 6,
+                "seque": false,
+                "set": 594
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 45,
+                "length": 483,
+                "order": 3,
+                "seque": false,
+                "set": 885
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Arranged similarly to 'Minglewood Blues.'",
+                "id": 149,
+                "length": 414,
+                "order": 4,
+                "seque": false,
+                "set": 304
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 241,
+                "length": 410,
+                "order": 1,
+                "seque": false,
+                "set": 826
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 241,
+                "length": 484,
+                "order": 4,
+                "seque": false,
+                "set": 697
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 315,
+                "length": 505,
+                "order": 6,
+                "seque": false,
+                "set": 594
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 45,
+                "length": 483,
+                "order": 3,
+                "seque": false,
+                "set": 885
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Arranged similarly to 'Minglewood Blues.'",
+                "id": 149,
+                "length": 414,
+                "order": 4,
+                "seque": false,
+                "set": 304
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 241,
+                "length": 410,
+                "order": 1,
+                "seque": false,
+                "set": 826
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            405,
+            {
+                "comments": "",
+                "id": 29,
+                "length": 405,
+                "order": 3,
+                "seque": false,
+                "set": 92
+            }
+        ],
+        [
+            426,
+            {
+                "comments": "",
+                "id": 29,
+                "length": 426,
+                "order": 5,
+                "seque": true,
+                "set": 304
+            }
+        ],
+        [
+            467,
+            {
+                "comments": "",
+                "id": 29,
+                "length": 467,
+                "order": 3,
+                "seque": false,
+                "set": 389
+            }
+        ],
+        [
+            494,
+            {
+                "comments": "",
+                "id": 29,
+                "length": 494,
+                "order": 2,
+                "seque": false,
+                "set": 481
+            }
+        ],
+        [
+            521,
+            {
+                "comments": "",
+                "id": 29,
+                "length": 521,
+                "order": 7,
+                "seque": false,
+                "set": 528
+            }
+        ]
+    ],
+    "name": "Bird Song",
+    "played": 49,
+    "shortest": [
+        [
+            897,
+            {
+                "comments": "",
+                "id": 29,
+                "length": 897,
+                "order": 7,
+                "seque": false,
+                "set": 543
+            }
+        ],
+        [
+            881,
+            {
+                "comments": "",
+                "id": 29,
+                "length": 881,
+                "order": 6,
+                "seque": false,
+                "set": 994
+            }
+        ],
+        [
+            845,
+            {
+                "comments": "",
+                "id": 29,
+                "length": 845,
+                "order": 6,
+                "seque": false,
+                "set": 331
+            }
+        ],
+        [
+            827,
+            {
+                "comments": "",
+                "id": 29,
+                "length": 827,
+                "order": 8,
+                "seque": false,
+                "set": 421
+            }
+        ],
+        [
+            803,
+            {
+                "comments": "",
+                "id": 29,
+                "length": 803,
+                "order": 8,
+                "seque": false,
+                "set": 61
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        3,
+        5,
+        3,
+        4,
+        1,
+        8,
+        7,
+        6,
+        3,
+        2,
+        0,
+        1,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

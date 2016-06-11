@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 80,
+                "length": 262,
+                "order": 10,
+                "seque": true,
+                "set": 1012
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 80,
+                "length": 323,
+                "order": 8,
+                "seque": true,
+                "set": 535
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 80,
+                "length": 330,
+                "order": 10,
+                "seque": true,
+                "set": 927
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 80,
+                "length": 0,
+                "order": 8,
+                "seque": true,
+                "set": 722
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 80,
+                "length": 361,
+                "order": 11,
+                "seque": true,
+                "set": 792
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 80,
+                "length": 262,
+                "order": 10,
+                "seque": true,
+                "set": 1012
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 80,
+                "length": 323,
+                "order": 8,
+                "seque": true,
+                "set": 535
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 80,
+                "length": 330,
+                "order": 10,
+                "seque": true,
+                "set": 927
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 80,
+                "length": 0,
+                "order": 8,
+                "seque": true,
+                "set": 722
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 80,
+                "length": 361,
+                "order": 11,
+                "seque": true,
+                "set": 792
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            87,
+            {
+                "comments": "",
+                "id": 414,
+                "length": 87,
+                "order": 13,
+                "seque": false,
+                "set": 745
+            }
+        ],
+        [
+            94,
+            {
+                "comments": "",
+                "id": 414,
+                "length": 94,
+                "order": 11,
+                "seque": true,
+                "set": 1012
+            }
+        ],
+        [
+            101,
+            {
+                "comments": "",
+                "id": 414,
+                "length": 101,
+                "order": 12,
+                "seque": false,
+                "set": 665
+            }
+        ],
+        [
+            124,
+            {
+                "comments": "",
+                "id": 414,
+                "length": 124,
+                "order": 9,
+                "seque": false,
+                "set": 722
+            }
+        ],
+        [
+            143,
+            {
+                "comments": "",
+                "id": 414,
+                "length": 143,
+                "order": 9,
+                "seque": true,
+                "set": 535
+            }
+        ]
+    ],
+    "name": "Hey Jude Finale",
+    "played": 11,
+    "shortest": [
+        [
+            270,
+            {
+                "comments": "Brent sings a verse of Dear Mr. Fantasy",
+                "id": 414,
+                "length": 270,
+                "order": 14,
+                "seque": false,
+                "set": 431
+            }
+        ],
+        [
+            229,
+            {
+                "comments": "",
+                "id": 414,
+                "length": 229,
+                "order": 12,
+                "seque": false,
+                "set": 792
+            }
+        ],
+        [
+            157,
+            {
+                "comments": "",
+                "id": 414,
+                "length": 157,
+                "order": 9,
+                "seque": true,
+                "set": 1038
+            }
+        ],
+        [
+            155,
+            {
+                "comments": "",
+                "id": 414,
+                "length": 155,
+                "order": 13,
+                "seque": false,
+                "set": 921
+            }
+        ],
+        [
+            151,
+            {
+                "comments": "",
+                "id": 414,
+                "length": 151,
+                "order": 11,
+                "seque": false,
+                "set": 927
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

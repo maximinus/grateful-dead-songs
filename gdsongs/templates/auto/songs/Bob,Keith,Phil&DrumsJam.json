@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 152,
+                "order": 3,
+                "seque": true,
+                "set": 512
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 44,
+                "order": 7,
+                "seque": true,
+                "set": 335
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 152,
+                "order": 3,
+                "seque": true,
+                "set": 512
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 44,
+                "order": 7,
+                "seque": true,
+                "set": 335
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            286,
+            {
+                "comments": "",
+                "id": 472,
+                "length": 286,
+                "order": 8,
+                "seque": true,
+                "set": 335
+            }
+        ],
+        [
+            404,
+            {
+                "comments": "Presuming Jerry left stage to deal with his laryngitis.",
+                "id": 472,
+                "length": 404,
+                "order": 4,
+                "seque": true,
+                "set": 512
+            }
+        ]
+    ],
+    "name": "Bob, Keith, Phil & Drums Jam",
+    "played": 2,
+    "shortest": [
+        [
+            404,
+            {
+                "comments": "Presuming Jerry left stage to deal with his laryngitis.",
+                "id": 472,
+                "length": 404,
+                "order": 4,
+                "seque": true,
+                "set": 512
+            }
+        ],
+        [
+            286,
+            {
+                "comments": "",
+                "id": 472,
+                "length": 286,
+                "order": 8,
+                "seque": true,
+                "set": 335
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

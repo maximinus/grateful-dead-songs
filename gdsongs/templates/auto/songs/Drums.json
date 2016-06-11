@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 198,
+                "order": 7,
+                "seque": true,
+                "set": 839
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 125,
+                "order": 7,
+                "seque": true,
+                "set": 202
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 58,
+                "order": 7,
+                "seque": true,
+                "set": 830
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 451,
+                "length": 168,
+                "order": 5,
+                "seque": false,
+                "set": 138
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 426,
+                "length": 217,
+                "order": 6,
+                "seque": true,
+                "set": 1024
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 198,
+                "order": 7,
+                "seque": true,
+                "set": 839
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 125,
+                "order": 7,
+                "seque": true,
+                "set": 202
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 58,
+                "order": 7,
+                "seque": true,
+                "set": 830
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 451,
+                "length": 168,
+                "order": 5,
+                "seque": false,
+                "set": 138
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 426,
+                "length": 217,
+                "order": 6,
+                "seque": true,
+                "set": 1024
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            1,
+            {
+                "comments": "no timing",
+                "id": 93,
+                "length": 1,
+                "order": 8,
+                "seque": true,
+                "set": 326
+            }
+        ],
+        [
+            12,
+            {
+                "comments": "",
+                "id": 93,
+                "length": 12,
+                "order": 7,
+                "seque": true,
+                "set": 897
+            }
+        ],
+        [
+            38,
+            {
+                "comments": "",
+                "id": 93,
+                "length": 38,
+                "order": 11,
+                "seque": true,
+                "set": 1046
+            }
+        ],
+        [
+            39,
+            {
+                "comments": "",
+                "id": 93,
+                "length": 39,
+                "order": 7,
+                "seque": true,
+                "set": 141
+            }
+        ],
+        [
+            40,
+            {
+                "comments": "",
+                "id": 93,
+                "length": 40,
+                "order": 16,
+                "seque": true,
+                "set": 760
+            }
+        ]
+    ],
+    "name": "Drums",
+    "played": 308,
+    "shortest": [
+        [
+            1231,
+            {
+                "comments": "",
+                "id": 93,
+                "length": 1231,
+                "order": 6,
+                "seque": true,
+                "set": 332
+            }
+        ],
+        [
+            1090,
+            {
+                "comments": "",
+                "id": 93,
+                "length": 1090,
+                "order": 5,
+                "seque": true,
+                "set": 945
+            }
+        ],
+        [
+            1071,
+            {
+                "comments": "",
+                "id": 93,
+                "length": 1071,
+                "order": 6,
+                "seque": true,
+                "set": 220
+            }
+        ],
+        [
+            1065,
+            {
+                "comments": "",
+                "id": 93,
+                "length": 1065,
+                "order": 4,
+                "seque": true,
+                "set": 977
+            }
+        ],
+        [
+            1054,
+            {
+                "comments": "",
+                "id": 93,
+                "length": 1054,
+                "order": 6,
+                "seque": true,
+                "set": 707
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        3,
+        3,
+        3,
+        2,
+        1,
+        14,
+        28,
+        23,
+        24,
+        7,
+        17,
+        12,
+        14,
+        20,
+        14,
+        10,
+        18,
+        28,
+        16,
+        18,
+        11,
+        4,
+        4,
+        3,
+        7
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

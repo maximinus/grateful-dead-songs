@@ -6,7 +6,7 @@ from songs.models import Song
 
 import os, json
 
-FILENAME = u'templates/auto/json/{0}.json'
+FILENAME = u'templates/auto/songs/{0}.json'
 
 # change this to make longer data tables
 MAXIMUM_TABLE_LENGTH = 5

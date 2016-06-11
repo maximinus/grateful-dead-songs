@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 460,
+                "length": 142,
+                "order": 19,
+                "seque": true,
+                "set": 877
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 49,
+                "length": 323,
+                "order": 1,
+                "seque": false,
+                "set": 507
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 72,
+                "length": 662,
+                "order": 18,
+                "seque": false,
+                "set": 810
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 470,
+                "length": 229,
+                "order": 8,
+                "seque": true,
+                "set": 971
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 257,
+                "order": 5,
+                "seque": false,
+                "set": 555
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 460,
+                "length": 142,
+                "order": 19,
+                "seque": true,
+                "set": 877
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 49,
+                "length": 323,
+                "order": 1,
+                "seque": false,
+                "set": 507
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 72,
+                "length": 662,
+                "order": 18,
+                "seque": false,
+                "set": 810
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 470,
+                "length": 229,
+                "order": 8,
+                "seque": true,
+                "set": 971
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 257,
+                "order": 5,
+                "seque": false,
+                "set": 555
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            272,
+            {
+                "comments": "Weir says, \"Now we are going to do our little version of America's tune.\"",
+                "id": 370,
+                "length": 272,
+                "order": 1,
+                "seque": false,
+                "set": 966
+            }
+        ],
+        [
+            274,
+            {
+                "comments": "",
+                "id": 370,
+                "length": 274,
+                "order": 1,
+                "seque": false,
+                "set": 796
+            }
+        ],
+        [
+            282,
+            {
+                "comments": "",
+                "id": 370,
+                "length": 282,
+                "order": 1,
+                "seque": false,
+                "set": 315
+            }
+        ],
+        [
+            287,
+            {
+                "comments": "",
+                "id": 370,
+                "length": 287,
+                "order": 1,
+                "seque": false,
+                "set": 516
+            }
+        ],
+        [
+            294,
+            {
+                "comments": "",
+                "id": 370,
+                "length": 294,
+                "order": 1,
+                "seque": false,
+                "set": 813
+            }
+        ]
+    ],
+    "name": "U.S. Blues",
+    "played": 76,
+    "shortest": [
+        [
+            471,
+            {
+                "comments": "Phil says, \"The United States Blues\" after song.",
+                "id": 370,
+                "length": 471,
+                "order": 9,
+                "seque": false,
+                "set": 971
+            }
+        ],
+        [
+            382,
+            {
+                "comments": "",
+                "id": 370,
+                "length": 382,
+                "order": 1,
+                "seque": false,
+                "set": 602
+            }
+        ],
+        [
+            361,
+            {
+                "comments": "",
+                "id": 370,
+                "length": 361,
+                "order": 1,
+                "seque": false,
+                "set": 150
+            }
+        ],
+        [
+            358,
+            {
+                "comments": "",
+                "id": 370,
+                "length": 358,
+                "order": 1,
+                "seque": false,
+                "set": 714
+            }
+        ],
+        [
+            354,
+            {
+                "comments": "",
+                "id": 370,
+                "length": 354,
+                "order": 1,
+                "seque": false,
+                "set": 925
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        3,
+        10,
+        10,
+        4,
+        3,
+        6,
+        2,
+        4,
+        4,
+        1,
+        2,
+        3,
+        3,
+        5,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 57,
+                "length": 206,
+                "order": 1,
+                "seque": true,
+                "set": 55
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 57,
+                "length": 269,
+                "order": 1,
+                "seque": true,
+                "set": 547
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 57,
+                "length": 209,
+                "order": 10,
+                "seque": true,
+                "set": 654
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 57,
+                "length": 192,
+                "order": 9,
+                "seque": true,
+                "set": 187
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 57,
+                "length": 214,
+                "order": 1,
+                "seque": true,
+                "set": 269
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 57,
+                "length": 206,
+                "order": 1,
+                "seque": true,
+                "set": 55
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 57,
+                "length": 269,
+                "order": 1,
+                "seque": true,
+                "set": 547
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 57,
+                "length": 209,
+                "order": 10,
+                "seque": true,
+                "set": 654
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 57,
+                "length": 192,
+                "order": 9,
+                "seque": true,
+                "set": 187
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 57,
+                "length": 214,
+                "order": 1,
+                "seque": true,
+                "set": 269
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            30,
+            {
+                "comments": "",
+                "id": 424,
+                "length": 30,
+                "order": 4,
+                "seque": true,
+                "set": 170
+            }
+        ],
+        [
+            75,
+            {
+                "comments": "",
+                "id": 424,
+                "length": 75,
+                "order": 5,
+                "seque": true,
+                "set": 33
+            }
+        ],
+        [
+            75,
+            {
+                "comments": "SBD cut",
+                "id": 424,
+                "length": 75,
+                "order": 2,
+                "seque": true,
+                "set": 565
+            }
+        ],
+        [
+            78,
+            {
+                "comments": "",
+                "id": 424,
+                "length": 78,
+                "order": 12,
+                "seque": true,
+                "set": 91
+            }
+        ],
+        [
+            99,
+            {
+                "comments": "",
+                "id": 424,
+                "length": 99,
+                "order": 2,
+                "seque": true,
+                "set": 652
+            }
+        ]
+    ],
+    "name": "Weir's Segue",
+    "played": 67,
+    "shortest": [
+        [
+            329,
+            {
+                "comments": "",
+                "id": 424,
+                "length": 329,
+                "order": 12,
+                "seque": true,
+                "set": 841
+            }
+        ],
+        [
+            276,
+            {
+                "comments": "",
+                "id": 424,
+                "length": 276,
+                "order": 5,
+                "seque": true,
+                "set": 1059
+            }
+        ],
+        [
+            256,
+            {
+                "comments": "",
+                "id": 424,
+                "length": 256,
+                "order": 2,
+                "seque": true,
+                "set": 821
+            }
+        ],
+        [
+            253,
+            {
+                "comments": "",
+                "id": 424,
+                "length": 253,
+                "order": 2,
+                "seque": true,
+                "set": 355
+            }
+        ],
+        [
+            251,
+            {
+                "comments": "",
+                "id": 424,
+                "length": 251,
+                "order": 2,
+                "seque": true,
+                "set": 547
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        4,
+        12,
+        9,
+        0,
+        0,
+        1,
+        0,
+        3,
+        0,
+        4,
+        4,
+        3,
+        4,
+        2,
+        1,
+        4,
+        3,
+        1,
+        5,
+        1,
+        0,
+        1,
+        0,
+        3
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "first time since 12/29/77",
+                "id": 59,
+                "length": 400,
+                "order": 15,
+                "seque": true,
+                "set": 370
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 686,
+                "order": 14,
+                "seque": true,
+                "set": 254
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 172,
+                "order": 12,
+                "seque": true,
+                "set": 71
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 913,
+                "order": 15,
+                "seque": true,
+                "set": 1047
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 54,
+                "order": 3,
+                "seque": true,
+                "set": 372
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "first time since 12/29/77",
+                "id": 59,
+                "length": 400,
+                "order": 15,
+                "seque": true,
+                "set": 370
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 686,
+                "order": 14,
+                "seque": true,
+                "set": 254
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 172,
+                "order": 12,
+                "seque": true,
+                "set": 71
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 913,
+                "order": 15,
+                "seque": true,
+                "set": 1047
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 54,
+                "order": 3,
+                "seque": true,
+                "set": 372
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            101,
+            {
+                "comments": "",
+                "id": 426,
+                "length": 101,
+                "order": 15,
+                "seque": false,
+                "set": 842
+            }
+        ],
+        [
+            116,
+            {
+                "comments": "",
+                "id": 426,
+                "length": 116,
+                "order": 15,
+                "seque": false,
+                "set": 24
+            }
+        ],
+        [
+            116,
+            {
+                "comments": "",
+                "id": 426,
+                "length": 116,
+                "order": 14,
+                "seque": false,
+                "set": 93
+            }
+        ],
+        [
+            120,
+            {
+                "comments": "",
+                "id": 426,
+                "length": 120,
+                "order": 15,
+                "seque": false,
+                "set": 33
+            }
+        ],
+        [
+            120,
+            {
+                "comments": "",
+                "id": 426,
+                "length": 120,
+                "order": 12,
+                "seque": true,
+                "set": 541
+            }
+        ]
+    ],
+    "name": "Playing Reprise",
+    "played": 53,
+    "shortest": [
+        [
+            306,
+            {
+                "comments": "",
+                "id": 426,
+                "length": 306,
+                "order": 10,
+                "seque": false,
+                "set": 182
+            }
+        ],
+        [
+            295,
+            {
+                "comments": "",
+                "id": 426,
+                "length": 295,
+                "order": 16,
+                "seque": true,
+                "set": 370
+            }
+        ],
+        [
+            277,
+            {
+                "comments": "",
+                "id": 426,
+                "length": 277,
+                "order": 12,
+                "seque": true,
+                "set": 293
+            }
+        ],
+        [
+            265,
+            {
+                "comments": "",
+                "id": 426,
+                "length": 265,
+                "order": 15,
+                "seque": false,
+                "set": 249
+            }
+        ],
+        [
+            264,
+            {
+                "comments": "",
+                "id": 426,
+                "length": 264,
+                "order": 14,
+                "seque": false,
+                "set": 364
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        4,
+        14,
+        5,
+        0,
+        3,
+        10,
+        1,
+        3,
+        1,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

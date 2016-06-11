@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 123,
+                "length": 257,
+                "order": 10,
+                "seque": true,
+                "set": 918
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 123,
+                "length": 308,
+                "order": 14,
+                "seque": true,
+                "set": 936
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 123,
+                "length": 257,
+                "order": 10,
+                "seque": true,
+                "set": 918
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 123,
+                "length": 308,
+                "order": 14,
+                "seque": true,
+                "set": 936
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            86,
+            {
+                "comments": "",
+                "id": 193,
+                "length": 86,
+                "order": 15,
+                "seque": true,
+                "set": 936
+            }
+        ],
+        [
+            93,
+            {
+                "comments": "",
+                "id": 193,
+                "length": 93,
+                "order": 11,
+                "seque": true,
+                "set": 918
+            }
+        ]
+    ],
+    "name": "La Bamba",
+    "played": 2,
+    "shortest": [
+        [
+            93,
+            {
+                "comments": "",
+                "id": 193,
+                "length": 93,
+                "order": 11,
+                "seque": true,
+                "set": 918
+            }
+        ],
+        [
+            86,
+            {
+                "comments": "",
+                "id": 193,
+                "length": 86,
+                "order": 15,
+                "seque": true,
+                "set": 936
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

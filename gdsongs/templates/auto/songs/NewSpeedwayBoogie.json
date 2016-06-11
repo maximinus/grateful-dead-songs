@@ -1,0 +1,254 @@
+{
+    "after": [
+        [
+            {
+                "comments": "Garcia, before start of Cumberland says, \"Something new.\" At the prompt of hearing feedback Weir says, \"That's the Bear solo.\"",
+                "id": 71,
+                "length": 337,
+                "order": 8,
+                "seque": false,
+                "set": 457
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 421,
+                "order": 8,
+                "seque": false,
+                "set": 870
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 321,
+                "order": 6,
+                "seque": false,
+                "set": 730
+            },
+            1
+        ],
+        [
+            {
+                "comments": " an embarrassment.",
+                "id": 167,
+                "length": 383,
+                "order": 5,
+                "seque": false,
+                "set": 815
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "Garcia, before start of Cumberland says, \"Something new.\" At the prompt of hearing feedback Weir says, \"That's the Bear solo.\"",
+                "id": 71,
+                "length": 337,
+                "order": 8,
+                "seque": false,
+                "set": 457
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 421,
+                "order": 8,
+                "seque": false,
+                "set": 870
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 321,
+                "order": 6,
+                "seque": false,
+                "set": 730
+            },
+            1
+        ],
+        [
+            {
+                "comments": " an embarrassment.",
+                "id": 167,
+                "length": 383,
+                "order": 5,
+                "seque": false,
+                "set": 815
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            422,
+            {
+                "comments": "",
+                "id": 244,
+                "length": 422,
+                "order": 6,
+                "seque": true,
+                "set": 815
+            }
+        ],
+        [
+            465,
+            {
+                "comments": "Garcia says, \"Hey Where's Pig? Where gonna have Pig Pen come out and do some tunes. That is if we can find him.\"",
+                "id": 244,
+                "length": 465,
+                "order": 9,
+                "seque": false,
+                "set": 457
+            }
+        ],
+        [
+            545,
+            {
+                "comments": "",
+                "id": 244,
+                "length": 545,
+                "order": 9,
+                "seque": false,
+                "set": 870
+            }
+        ],
+        [
+            566,
+            {
+                "comments": "",
+                "id": 244,
+                "length": 566,
+                "order": 7,
+                "seque": false,
+                "set": 730
+            }
+        ]
+    ],
+    "name": "New Speedway Boogie",
+    "played": 4,
+    "shortest": [
+        [
+            566,
+            {
+                "comments": "",
+                "id": 244,
+                "length": 566,
+                "order": 7,
+                "seque": false,
+                "set": 730
+            }
+        ],
+        [
+            545,
+            {
+                "comments": "",
+                "id": 244,
+                "length": 545,
+                "order": 9,
+                "seque": false,
+                "set": 870
+            }
+        ],
+        [
+            465,
+            {
+                "comments": "Garcia says, \"Hey Where's Pig? Where gonna have Pig Pen come out and do some tunes. That is if we can find him.\"",
+                "id": 244,
+                "length": 465,
+                "order": 9,
+                "seque": false,
+                "set": 457
+            }
+        ],
+        [
+            422,
+            {
+                "comments": "",
+                "id": 244,
+                "length": 422,
+                "order": 6,
+                "seque": true,
+                "set": 815
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

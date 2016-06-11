@@ -1,0 +1,254 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 70,
+                "length": 391,
+                "order": 6,
+                "seque": true,
+                "set": 1003
+            },
+            1
+        ],
+        [
+            {
+                "comments": "no bass intro",
+                "id": 343,
+                "length": 384,
+                "order": 7,
+                "seque": true,
+                "set": 167
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 336,
+                "length": 888,
+                "order": 4,
+                "seque": true,
+                "set": 897
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 336,
+                "length": 540,
+                "order": 6,
+                "seque": true,
+                "set": 686
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 70,
+                "length": 391,
+                "order": 6,
+                "seque": true,
+                "set": 1003
+            },
+            1
+        ],
+        [
+            {
+                "comments": "no bass intro",
+                "id": 343,
+                "length": 384,
+                "order": 7,
+                "seque": true,
+                "set": 167
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 336,
+                "length": 888,
+                "order": 4,
+                "seque": true,
+                "set": 897
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 336,
+                "length": 540,
+                "order": 6,
+                "seque": true,
+                "set": 686
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            400,
+            {
+                "comments": "",
+                "id": 81,
+                "length": 400,
+                "order": 7,
+                "seque": false,
+                "set": 1003
+            }
+        ],
+        [
+            408,
+            {
+                "comments": "",
+                "id": 81,
+                "length": 408,
+                "order": 7,
+                "seque": false,
+                "set": 686
+            }
+        ],
+        [
+            457,
+            {
+                "comments": "",
+                "id": 81,
+                "length": 457,
+                "order": 8,
+                "seque": true,
+                "set": 167
+            }
+        ],
+        [
+            527,
+            {
+                "comments": "",
+                "id": 81,
+                "length": 527,
+                "order": 5,
+                "seque": false,
+                "set": 897
+            }
+        ]
+    ],
+    "name": "Death Don't Have No Mercy",
+    "played": 4,
+    "shortest": [
+        [
+            527,
+            {
+                "comments": "",
+                "id": 81,
+                "length": 527,
+                "order": 5,
+                "seque": false,
+                "set": 897
+            }
+        ],
+        [
+            457,
+            {
+                "comments": "",
+                "id": 81,
+                "length": 457,
+                "order": 8,
+                "seque": true,
+                "set": 167
+            }
+        ],
+        [
+            408,
+            {
+                "comments": "",
+                "id": 81,
+                "length": 408,
+                "order": 7,
+                "seque": false,
+                "set": 686
+            }
+        ],
+        [
+            400,
+            {
+                "comments": "",
+                "id": 81,
+                "length": 400,
+                "order": 7,
+                "seque": false,
+                "set": 1003
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

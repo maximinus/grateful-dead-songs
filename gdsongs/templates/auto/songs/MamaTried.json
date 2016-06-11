@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 24,
+                "length": 383,
+                "order": 2,
+                "seque": false,
+                "set": 466
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 318,
+                "length": 771,
+                "order": 2,
+                "seque": false,
+                "set": 204
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 114,
+                "length": 465,
+                "order": 4,
+                "seque": false,
+                "set": 240
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 318,
+                "length": 652,
+                "order": 5,
+                "seque": false,
+                "set": 222
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir says, \u201cFor the show we decided to come as a six-pack.\u201d",
+                "id": 289,
+                "length": 880,
+                "order": 1,
+                "seque": false,
+                "set": 325
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 24,
+                "length": 383,
+                "order": 2,
+                "seque": false,
+                "set": 466
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 318,
+                "length": 771,
+                "order": 2,
+                "seque": false,
+                "set": 204
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 114,
+                "length": 465,
+                "order": 4,
+                "seque": false,
+                "set": 240
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 318,
+                "length": 652,
+                "order": 5,
+                "seque": false,
+                "set": 222
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir says, \u201cFor the show we decided to come as a six-pack.\u201d",
+                "id": 289,
+                "length": 880,
+                "order": 1,
+                "seque": false,
+                "set": 325
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            139,
+            {
+                "comments": "",
+                "id": 215,
+                "length": 139,
+                "order": 4,
+                "seque": false,
+                "set": 346
+            }
+        ],
+        [
+            141,
+            {
+                "comments": "",
+                "id": 215,
+                "length": 141,
+                "order": 3,
+                "seque": false,
+                "set": 204
+            }
+        ],
+        [
+            142,
+            {
+                "comments": "",
+                "id": 215,
+                "length": 142,
+                "order": 2,
+                "seque": true,
+                "set": 325
+            }
+        ],
+        [
+            142,
+            {
+                "comments": "",
+                "id": 215,
+                "length": 142,
+                "order": 2,
+                "seque": false,
+                "set": 654
+            }
+        ],
+        [
+            143,
+            {
+                "comments": "",
+                "id": 215,
+                "length": 143,
+                "order": 6,
+                "seque": true,
+                "set": 337
+            }
+        ]
+    ],
+    "name": "Mama Tried",
+    "played": 54,
+    "shortest": [
+        [
+            183,
+            {
+                "comments": "",
+                "id": 215,
+                "length": 183,
+                "order": 3,
+                "seque": true,
+                "set": 369
+            }
+        ],
+        [
+            177,
+            {
+                "comments": "",
+                "id": 215,
+                "length": 177,
+                "order": 3,
+                "seque": false,
+                "set": 248
+            }
+        ],
+        [
+            176,
+            {
+                "comments": "Garcia says, \"Pig Pen is going do something.\"",
+                "id": 215,
+                "length": 176,
+                "order": 11,
+                "seque": false,
+                "set": 457
+            }
+        ],
+        [
+            169,
+            {
+                "comments": "",
+                "id": 215,
+                "length": 169,
+                "order": 4,
+                "seque": true,
+                "set": 277
+            }
+        ],
+        [
+            168,
+            {
+                "comments": "",
+                "id": 215,
+                "length": 168,
+                "order": 3,
+                "seque": false,
+                "set": 466
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        6,
+        9,
+        8,
+        8,
+        2,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

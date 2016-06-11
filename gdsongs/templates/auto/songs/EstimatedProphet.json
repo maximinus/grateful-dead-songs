@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 110,
+                "length": 559,
+                "order": 2,
+                "seque": false,
+                "set": 924
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 184,
+                "length": 331,
+                "order": 4,
+                "seque": false,
+                "set": 269
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 42,
+                "length": 300,
+                "order": 2,
+                "seque": false,
+                "set": 401
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 330,
+                "length": 627,
+                "order": 4,
+                "seque": false,
+                "set": 141
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 293,
+                "length": 451,
+                "order": 3,
+                "seque": false,
+                "set": 903
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 110,
+                "length": 559,
+                "order": 2,
+                "seque": false,
+                "set": 924
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 184,
+                "length": 331,
+                "order": 4,
+                "seque": false,
+                "set": 269
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 42,
+                "length": 300,
+                "order": 2,
+                "seque": false,
+                "set": 401
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 330,
+                "length": 627,
+                "order": 4,
+                "seque": false,
+                "set": 141
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 293,
+                "length": 451,
+                "order": 3,
+                "seque": false,
+                "set": 903
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            425,
+            {
+                "comments": "1st time played",
+                "id": 101,
+                "length": 425,
+                "order": 4,
+                "seque": false,
+                "set": 222
+            }
+        ],
+        [
+            452,
+            {
+                "comments": "",
+                "id": 101,
+                "length": 452,
+                "order": 5,
+                "seque": false,
+                "set": 102
+            }
+        ],
+        [
+            458,
+            {
+                "comments": "",
+                "id": 101,
+                "length": 458,
+                "order": 7,
+                "seque": false,
+                "set": 866
+            }
+        ],
+        [
+            462,
+            {
+                "comments": "",
+                "id": 101,
+                "length": 462,
+                "order": 1,
+                "seque": false,
+                "set": 105
+            }
+        ],
+        [
+            463,
+            {
+                "comments": "",
+                "id": 101,
+                "length": 463,
+                "order": 5,
+                "seque": false,
+                "set": 857
+            }
+        ]
+    ],
+    "name": "Estimated Prophet",
+    "played": 117,
+    "shortest": [
+        [
+            963,
+            {
+                "comments": "",
+                "id": 101,
+                "length": 963,
+                "order": 4,
+                "seque": true,
+                "set": 356
+            }
+        ],
+        [
+            835,
+            {
+                "comments": "",
+                "id": 101,
+                "length": 835,
+                "order": 4,
+                "seque": true,
+                "set": 681
+            }
+        ],
+        [
+            835,
+            {
+                "comments": "Garcia doing that scale riff during end jam",
+                "id": 101,
+                "length": 835,
+                "order": 5,
+                "seque": true,
+                "set": 459
+            }
+        ],
+        [
+            834,
+            {
+                "comments": "",
+                "id": 101,
+                "length": 834,
+                "order": 7,
+                "seque": true,
+                "set": 815
+            }
+        ],
+        [
+            833,
+            {
+                "comments": "",
+                "id": 101,
+                "length": 833,
+                "order": 4,
+                "seque": true,
+                "set": 698
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        37,
+        17,
+        7,
+        2,
+        7,
+        4,
+        6,
+        3,
+        5,
+        2,
+        4,
+        8,
+        1,
+        4,
+        4,
+        2,
+        2,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

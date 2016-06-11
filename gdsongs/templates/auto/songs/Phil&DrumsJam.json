@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 483,
+                "length": 215,
+                "order": 12,
+                "seque": true,
+                "set": 786
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 214,
+                "order": 10,
+                "seque": true,
+                "set": 674
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 72,
+                "length": 799,
+                "order": 4,
+                "seque": true,
+                "set": 771
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Ascending riff",
+                "id": 423,
+                "length": 211,
+                "order": 8,
+                "seque": true,
+                "set": 190
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 104,
+                "length": 591,
+                "order": 5,
+                "seque": true,
+                "set": 989
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 483,
+                "length": 215,
+                "order": 12,
+                "seque": true,
+                "set": 786
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 214,
+                "order": 10,
+                "seque": true,
+                "set": 674
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 72,
+                "length": 799,
+                "order": 4,
+                "seque": true,
+                "set": 771
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Ascending riff",
+                "id": 423,
+                "length": 211,
+                "order": 8,
+                "seque": true,
+                "set": 190
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 104,
+                "length": 591,
+                "order": 5,
+                "seque": true,
+                "set": 989
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            36,
+            {
+                "comments": "",
+                "id": 457,
+                "length": 36,
+                "order": 13,
+                "seque": true,
+                "set": 786
+            }
+        ],
+        [
+            56,
+            {
+                "comments": "",
+                "id": 457,
+                "length": 56,
+                "order": 11,
+                "seque": true,
+                "set": 674
+            }
+        ],
+        [
+            67,
+            {
+                "comments": "",
+                "id": 457,
+                "length": 67,
+                "order": 11,
+                "seque": true,
+                "set": 786
+            }
+        ],
+        [
+            95,
+            {
+                "comments": "",
+                "id": 457,
+                "length": 95,
+                "order": 10,
+                "seque": true,
+                "set": 1051
+            }
+        ],
+        [
+            102,
+            {
+                "comments": "",
+                "id": 457,
+                "length": 102,
+                "order": 15,
+                "seque": true,
+                "set": 467
+            }
+        ]
+    ],
+    "name": "Phil & Drums Jam",
+    "played": 10,
+    "shortest": [
+        [
+            200,
+            {
+                "comments": "",
+                "id": 457,
+                "length": 200,
+                "order": 9,
+                "seque": true,
+                "set": 190
+            }
+        ],
+        [
+            172,
+            {
+                "comments": "",
+                "id": 457,
+                "length": 172,
+                "order": 5,
+                "seque": true,
+                "set": 771
+            }
+        ],
+        [
+            165,
+            {
+                "comments": "",
+                "id": 457,
+                "length": 165,
+                "order": 16,
+                "seque": true,
+                "set": 387
+            }
+        ],
+        [
+            152,
+            {
+                "comments": "",
+                "id": 457,
+                "length": 152,
+                "order": 6,
+                "seque": true,
+                "set": 989
+            }
+        ],
+        [
+            107,
+            {
+                "comments": "",
+                "id": 457,
+                "length": 107,
+                "order": 7,
+                "seque": true,
+                "set": 765
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        2,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

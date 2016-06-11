@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 168,
+                "length": 545,
+                "order": 2,
+                "seque": false,
+                "set": 332
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Second Verse only",
+                "id": 74,
+                "length": 422,
+                "order": 9,
+                "seque": true,
+                "set": 246
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 159,
+                "length": 232,
+                "order": 10,
+                "seque": false,
+                "set": 526
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 435,
+                "length": 66,
+                "order": 7,
+                "seque": false,
+                "set": 918
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 353,
+                "length": 348,
+                "order": 10,
+                "seque": true,
+                "set": 425
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 168,
+                "length": 545,
+                "order": 2,
+                "seque": false,
+                "set": 332
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Second Verse only",
+                "id": 74,
+                "length": 422,
+                "order": 9,
+                "seque": true,
+                "set": 246
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 159,
+                "length": 232,
+                "order": 10,
+                "seque": false,
+                "set": 526
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 435,
+                "length": 66,
+                "order": 7,
+                "seque": false,
+                "set": 918
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 353,
+                "length": 348,
+                "order": 10,
+                "seque": true,
+                "set": 425
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            259,
+            {
+                "comments": "An complete & utter train wreck version.",
+                "id": 7,
+                "length": 259,
+                "order": 12,
+                "seque": false,
+                "set": 1012
+            }
+        ],
+        [
+            277,
+            {
+                "comments": "",
+                "id": 7,
+                "length": 277,
+                "order": 8,
+                "seque": true,
+                "set": 852
+            }
+        ],
+        [
+            278,
+            {
+                "comments": "",
+                "id": 7,
+                "length": 278,
+                "order": 9,
+                "seque": true,
+                "set": 1015
+            }
+        ],
+        [
+            291,
+            {
+                "comments": "",
+                "id": 7,
+                "length": 291,
+                "order": 8,
+                "seque": true,
+                "set": 918
+            }
+        ],
+        [
+            313,
+            {
+                "comments": "",
+                "id": 7,
+                "length": 313,
+                "order": 11,
+                "seque": true,
+                "set": 526
+            }
+        ]
+    ],
+    "name": "All Along The Watchtower",
+    "played": 17,
+    "shortest": [
+        [
+            460,
+            {
+                "comments": "",
+                "id": 7,
+                "length": 460,
+                "order": 3,
+                "seque": true,
+                "set": 332
+            }
+        ],
+        [
+            454,
+            {
+                "comments": "",
+                "id": 7,
+                "length": 454,
+                "order": 12,
+                "seque": true,
+                "set": 871
+            }
+        ],
+        [
+            398,
+            {
+                "comments": "Jerry goes into Watchtower",
+                "id": 7,
+                "length": 398,
+                "order": 10,
+                "seque": true,
+                "set": 246
+            }
+        ],
+        [
+            389,
+            {
+                "comments": "",
+                "id": 7,
+                "length": 389,
+                "order": 7,
+                "seque": false,
+                "set": 176
+            }
+        ],
+        [
+            368,
+            {
+                "comments": "",
+                "id": 7,
+                "length": 368,
+                "order": 11,
+                "seque": true,
+                "set": 425
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        6,
+        3,
+        1,
+        2,
+        2,
+        1,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

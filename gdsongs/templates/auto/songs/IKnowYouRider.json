@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 424,
+                "length": 130,
+                "order": 10,
+                "seque": true,
+                "set": 537
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 438,
+                "length": 103,
+                "order": 3,
+                "seque": true,
+                "set": 55
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 424,
+                "length": 251,
+                "order": 2,
+                "seque": true,
+                "set": 547
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 424,
+                "length": 173,
+                "order": 2,
+                "seque": true,
+                "set": 358
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 438,
+                "length": 97,
+                "order": 11,
+                "seque": true,
+                "set": 187
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 424,
+                "length": 130,
+                "order": 10,
+                "seque": true,
+                "set": 537
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 438,
+                "length": 103,
+                "order": 3,
+                "seque": true,
+                "set": 55
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 424,
+                "length": 251,
+                "order": 2,
+                "seque": true,
+                "set": 547
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 424,
+                "length": 173,
+                "order": 2,
+                "seque": true,
+                "set": 358
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 438,
+                "length": 97,
+                "order": 11,
+                "seque": true,
+                "set": 187
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            265,
+            {
+                "comments": "",
+                "id": 155,
+                "length": 265,
+                "order": 3,
+                "seque": false,
+                "set": 455
+            }
+        ],
+        [
+            277,
+            {
+                "comments": "",
+                "id": 155,
+                "length": 277,
+                "order": 14,
+                "seque": false,
+                "set": 841
+            }
+        ],
+        [
+            280,
+            {
+                "comments": "",
+                "id": 155,
+                "length": 280,
+                "order": 18,
+                "seque": false,
+                "set": 255
+            }
+        ],
+        [
+            280,
+            {
+                "comments": "Show billed as, \"Mickey Hart & His Heartbeats\" and underneath in smaller type \"Bobby Ace & His Cards From The Bottom Of The Deck.\"",
+                "id": 155,
+                "length": 280,
+                "order": 1,
+                "seque": false,
+                "set": 457
+            }
+        ],
+        [
+            285,
+            {
+                "comments": "",
+                "id": 155,
+                "length": 285,
+                "order": 3,
+                "seque": true,
+                "set": 1038
+            }
+        ]
+    ],
+    "name": "I Know You Rider",
+    "played": 71,
+    "shortest": [
+        [
+            426,
+            {
+                "comments": "",
+                "id": 155,
+                "length": 426,
+                "order": 3,
+                "seque": false,
+                "set": 155
+            }
+        ],
+        [
+            417,
+            {
+                "comments": "",
+                "id": 155,
+                "length": 417,
+                "order": 3,
+                "seque": false,
+                "set": 355
+            }
+        ],
+        [
+            413,
+            {
+                "comments": "",
+                "id": 155,
+                "length": 413,
+                "order": 3,
+                "seque": false,
+                "set": 208
+            }
+        ],
+        [
+            408,
+            {
+                "comments": "",
+                "id": 155,
+                "length": 408,
+                "order": 3,
+                "seque": false,
+                "set": 358
+            }
+        ],
+        [
+            404,
+            {
+                "comments": "",
+                "id": 155,
+                "length": 404,
+                "order": 3,
+                "seque": false,
+                "set": 541
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        4,
+        13,
+        9,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0,
+        4,
+        4,
+        3,
+        4,
+        2,
+        1,
+        4,
+        3,
+        2,
+        5,
+        1,
+        0,
+        1,
+        0,
+        3
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

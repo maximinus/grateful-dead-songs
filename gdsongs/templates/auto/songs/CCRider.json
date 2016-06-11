@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 504,
+                "order": 2,
+                "seque": false,
+                "set": 116
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 262,
+                "length": 386,
+                "order": 2,
+                "seque": false,
+                "set": 885
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 9,
+                "length": 433,
+                "order": 8,
+                "seque": false,
+                "set": 585
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 208,
+                "length": 507,
+                "order": 5,
+                "seque": false,
+                "set": 622
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir, \"Ya'll having a safe and sane fourth out there?",
+                "id": 94,
+                "length": 383,
+                "order": 2,
+                "seque": false,
+                "set": 964
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 504,
+                "order": 2,
+                "seque": false,
+                "set": 116
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 262,
+                "length": 386,
+                "order": 2,
+                "seque": false,
+                "set": 885
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 9,
+                "length": 433,
+                "order": 8,
+                "seque": false,
+                "set": 585
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 208,
+                "length": 507,
+                "order": 5,
+                "seque": false,
+                "set": 622
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir, \"Ya'll having a safe and sane fourth out there?",
+                "id": 94,
+                "length": 383,
+                "order": 2,
+                "seque": false,
+                "set": 964
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            332,
+            {
+                "comments": "",
+                "id": 45,
+                "length": 332,
+                "order": 3,
+                "seque": true,
+                "set": 776
+            }
+        ],
+        [
+            353,
+            {
+                "comments": "",
+                "id": 45,
+                "length": 353,
+                "order": 2,
+                "seque": false,
+                "set": 64
+            }
+        ],
+        [
+            361,
+            {
+                "comments": "",
+                "id": 45,
+                "length": 361,
+                "order": 4,
+                "seque": false,
+                "set": 517
+            }
+        ],
+        [
+            399,
+            {
+                "comments": "",
+                "id": 45,
+                "length": 399,
+                "order": 3,
+                "seque": false,
+                "set": 213
+            }
+        ],
+        [
+            402,
+            {
+                "comments": "",
+                "id": 45,
+                "length": 402,
+                "order": 3,
+                "seque": false,
+                "set": 570
+            }
+        ]
+    ],
+    "name": "C.C. Rider",
+    "played": 26,
+    "shortest": [
+        [
+            522,
+            {
+                "comments": "",
+                "id": 45,
+                "length": 522,
+                "order": 3,
+                "seque": false,
+                "set": 820
+            }
+        ],
+        [
+            522,
+            {
+                "comments": "",
+                "id": 45,
+                "length": 522,
+                "order": 7,
+                "seque": false,
+                "set": 703
+            }
+        ],
+        [
+            522,
+            {
+                "comments": "",
+                "id": 45,
+                "length": 522,
+                "order": 4,
+                "seque": false,
+                "set": 98
+            }
+        ],
+        [
+            499,
+            {
+                "comments": "",
+                "id": 45,
+                "length": 499,
+                "order": 3,
+                "seque": false,
+                "set": 116
+            }
+        ],
+        [
+            495,
+            {
+                "comments": "",
+                "id": 45,
+                "length": 495,
+                "order": 6,
+                "seque": false,
+                "set": 383
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        6,
+        3,
+        2,
+        2,
+        4,
+        5,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

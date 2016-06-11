@@ -48,10 +48,6 @@ def editSingleShow(request, show_id):
 			   'id':show.id}
 	return(render(request, 'editing/edit_single_show.html', context))
 
-def getShowAsJson(request, show_id):
-	show = get_object_or_404(Show, pk=int(show_id))
-	return(HttpResponse(show.getJson(), content_type='application/json', status=200))
-
 @login_required
 def addShow(request):
 	"""Complex page to add a show."""

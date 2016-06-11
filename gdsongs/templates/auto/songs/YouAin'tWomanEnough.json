@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 155,
+                "length": 303,
+                "order": 14,
+                "seque": false,
+                "set": 263
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 260,
+                "order": 7,
+                "seque": false,
+                "set": 739
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 155,
+                "length": 303,
+                "order": 14,
+                "seque": false,
+                "set": 263
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 260,
+                "order": 7,
+                "seque": false,
+                "set": 739
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            180,
+            {
+                "comments": "",
+                "id": 405,
+                "length": 180,
+                "order": 15,
+                "seque": false,
+                "set": 263
+            }
+        ],
+        [
+            188,
+            {
+                "comments": "",
+                "id": 405,
+                "length": 188,
+                "order": 8,
+                "seque": false,
+                "set": 739
+            }
+        ]
+    ],
+    "name": "You Ain't Woman Enough",
+    "played": 2,
+    "shortest": [
+        [
+            188,
+            {
+                "comments": "",
+                "id": 405,
+                "length": 188,
+                "order": 8,
+                "seque": false,
+                "set": 739
+            }
+        ],
+        [
+            180,
+            {
+                "comments": "",
+                "id": 405,
+                "length": 180,
+                "order": 15,
+                "seque": false,
+                "set": 263
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

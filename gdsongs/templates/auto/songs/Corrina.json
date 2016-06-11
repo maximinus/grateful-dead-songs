@@ -1,0 +1,254 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 66,
+                "length": 407,
+                "order": 3,
+                "seque": false,
+                "set": 719
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 168,
+                "length": 542,
+                "order": 1,
+                "seque": true,
+                "set": 1035
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 69,
+                "length": 559,
+                "order": 3,
+                "seque": true,
+                "set": 1021
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 283,
+                "length": 398,
+                "order": 4,
+                "seque": false,
+                "set": 323
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 66,
+                "length": 407,
+                "order": 3,
+                "seque": false,
+                "set": 719
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 168,
+                "length": 542,
+                "order": 1,
+                "seque": true,
+                "set": 1035
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 69,
+                "length": 559,
+                "order": 3,
+                "seque": true,
+                "set": 1021
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 283,
+                "length": 398,
+                "order": 4,
+                "seque": false,
+                "set": 323
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            487,
+            {
+                "comments": "",
+                "id": 67,
+                "length": 487,
+                "order": 2,
+                "seque": true,
+                "set": 1035
+            }
+        ],
+        [
+            635,
+            {
+                "comments": "",
+                "id": 67,
+                "length": 635,
+                "order": 4,
+                "seque": true,
+                "set": 719
+            }
+        ],
+        [
+            707,
+            {
+                "comments": "",
+                "id": 67,
+                "length": 707,
+                "order": 4,
+                "seque": true,
+                "set": 1021
+            }
+        ],
+        [
+            839,
+            {
+                "comments": "",
+                "id": 67,
+                "length": 839,
+                "order": 5,
+                "seque": true,
+                "set": 323
+            }
+        ]
+    ],
+    "name": "Corrina",
+    "played": 4,
+    "shortest": [
+        [
+            839,
+            {
+                "comments": "",
+                "id": 67,
+                "length": 839,
+                "order": 5,
+                "seque": true,
+                "set": 323
+            }
+        ],
+        [
+            707,
+            {
+                "comments": "",
+                "id": 67,
+                "length": 707,
+                "order": 4,
+                "seque": true,
+                "set": 1021
+            }
+        ],
+        [
+            635,
+            {
+                "comments": "",
+                "id": 67,
+                "length": 635,
+                "order": 4,
+                "seque": true,
+                "set": 719
+            }
+        ],
+        [
+            487,
+            {
+                "comments": "",
+                "id": 67,
+                "length": 487,
+                "order": 2,
+                "seque": true,
+                "set": 1035
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

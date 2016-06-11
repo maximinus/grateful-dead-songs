@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 429,
+                "length": 89,
+                "order": 13,
+                "seque": true,
+                "set": 264
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 501,
+                "order": 7,
+                "seque": false,
+                "set": 551
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 42,
+                "length": 268,
+                "order": 2,
+                "seque": false,
+                "set": 181
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 98,
+                "length": 581,
+                "order": 7,
+                "seque": false,
+                "set": 695
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 140,
+                "length": 495,
+                "order": 15,
+                "seque": false,
+                "set": 386
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 429,
+                "length": 89,
+                "order": 13,
+                "seque": true,
+                "set": 264
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 501,
+                "order": 7,
+                "seque": false,
+                "set": 551
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 42,
+                "length": 268,
+                "order": 2,
+                "seque": false,
+                "set": 181
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 98,
+                "length": 581,
+                "order": 7,
+                "seque": false,
+                "set": 695
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 140,
+                "length": 495,
+                "order": 15,
+                "seque": false,
+                "set": 386
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            305,
+            {
+                "comments": "",
+                "id": 221,
+                "length": 305,
+                "order": 8,
+                "seque": false,
+                "set": 876
+            }
+        ],
+        [
+            312,
+            {
+                "comments": "Lesh, \"This is a sensitive song about all sorts of things.\"",
+                "id": 221,
+                "length": 312,
+                "order": 9,
+                "seque": false,
+                "set": 555
+            }
+        ],
+        [
+            314,
+            {
+                "comments": "",
+                "id": 221,
+                "length": 314,
+                "order": 16,
+                "seque": false,
+                "set": 386
+            }
+        ],
+        [
+            328,
+            {
+                "comments": "",
+                "id": 221,
+                "length": 328,
+                "order": 3,
+                "seque": false,
+                "set": 1047
+            }
+        ],
+        [
+            332,
+            {
+                "comments": "",
+                "id": 221,
+                "length": 332,
+                "order": 18,
+                "seque": false,
+                "set": 188
+            }
+        ]
+    ],
+    "name": "Me & Bobby McGee",
+    "played": 15,
+    "shortest": [
+        [
+            356,
+            {
+                "comments": "",
+                "id": 221,
+                "length": 356,
+                "order": 14,
+                "seque": false,
+                "set": 264
+            }
+        ],
+        [
+            355,
+            {
+                "comments": "",
+                "id": 221,
+                "length": 355,
+                "order": 17,
+                "seque": false,
+                "set": 41
+            }
+        ],
+        [
+            348,
+            {
+                "comments": "",
+                "id": 221,
+                "length": 348,
+                "order": 2,
+                "seque": false,
+                "set": 786
+            }
+        ],
+        [
+            344,
+            {
+                "comments": "",
+                "id": 221,
+                "length": 344,
+                "order": 5,
+                "seque": false,
+                "set": 620
+            }
+        ],
+        [
+            342,
+            {
+                "comments": "",
+                "id": 221,
+                "length": 342,
+                "order": 3,
+                "seque": false,
+                "set": 181
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        2,
+        6,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

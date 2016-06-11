@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 156,
+                "length": 322,
+                "order": 5,
+                "seque": true,
+                "set": 326
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 270,
+                "length": 406,
+                "order": 3,
+                "seque": false,
+                "set": 304
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 156,
+                "length": 322,
+                "order": 5,
+                "seque": true,
+                "set": 326
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 270,
+                "length": 406,
+                "order": 3,
+                "seque": false,
+                "set": 304
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            320,
+            {
+                "comments": "",
+                "id": 149,
+                "length": 320,
+                "order": 6,
+                "seque": true,
+                "set": 326
+            }
+        ],
+        [
+            414,
+            {
+                "comments": "Arranged similarly to 'Minglewood Blues.'",
+                "id": 149,
+                "length": 414,
+                "order": 4,
+                "seque": false,
+                "set": 304
+            }
+        ]
+    ],
+    "name": "I Ain't Superstitous",
+    "played": 2,
+    "shortest": [
+        [
+            414,
+            {
+                "comments": "Arranged similarly to 'Minglewood Blues.'",
+                "id": 149,
+                "length": 414,
+                "order": 4,
+                "seque": false,
+                "set": 304
+            }
+        ],
+        [
+            320,
+            {
+                "comments": "",
+                "id": 149,
+                "length": 320,
+                "order": 6,
+                "seque": true,
+                "set": 326
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

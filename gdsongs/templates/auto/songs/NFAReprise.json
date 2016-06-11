@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 234,
+                "order": 11,
+                "seque": true,
+                "set": 102
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 234,
+                "order": 11,
+                "seque": true,
+                "set": 102
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            44,
+            {
+                "comments": "",
+                "id": 446,
+                "length": 44,
+                "order": 1,
+                "seque": false,
+                "set": 405
+            }
+        ],
+        [
+            229,
+            {
+                "comments": "",
+                "id": 446,
+                "length": 229,
+                "order": 1,
+                "seque": true,
+                "set": 391
+            }
+        ],
+        [
+            293,
+            {
+                "comments": "",
+                "id": 446,
+                "length": 293,
+                "order": 12,
+                "seque": true,
+                "set": 102
+            }
+        ]
+    ],
+    "name": "NFA Reprise",
+    "played": 3,
+    "shortest": [
+        [
+            293,
+            {
+                "comments": "",
+                "id": 446,
+                "length": 293,
+                "order": 12,
+                "seque": true,
+                "set": 102
+            }
+        ],
+        [
+            229,
+            {
+                "comments": "",
+                "id": 446,
+                "length": 229,
+                "order": 1,
+                "seque": true,
+                "set": 391
+            }
+        ],
+        [
+            44,
+            {
+                "comments": "",
+                "id": 446,
+                "length": 44,
+                "order": 1,
+                "seque": false,
+                "set": 405
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

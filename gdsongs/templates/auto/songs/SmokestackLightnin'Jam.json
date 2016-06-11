@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 56,
+                "order": 12,
+                "seque": true,
+                "set": 491
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 459,
+                "length": 87,
+                "order": 6,
+                "seque": true,
+                "set": 538
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 56,
+                "order": 12,
+                "seque": true,
+                "set": 491
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 459,
+                "length": 87,
+                "order": 6,
+                "seque": true,
+                "set": 538
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            45,
+            {
+                "comments": "",
+                "id": 304,
+                "length": 45,
+                "order": 7,
+                "seque": true,
+                "set": 538
+            }
+        ],
+        [
+            49,
+            {
+                "comments": "",
+                "id": 304,
+                "length": 49,
+                "order": 13,
+                "seque": true,
+                "set": 491
+            }
+        ]
+    ],
+    "name": "Smokestack Lightnin' Jam",
+    "played": 2,
+    "shortest": [
+        [
+            49,
+            {
+                "comments": "",
+                "id": 304,
+                "length": 49,
+                "order": 13,
+                "seque": true,
+                "set": 491
+            }
+        ],
+        [
+            45,
+            {
+                "comments": "",
+                "id": 304,
+                "length": 45,
+                "order": 7,
+                "seque": true,
+                "set": 538
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

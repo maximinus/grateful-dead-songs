@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 426,
+                "length": 151,
+                "order": 13,
+                "seque": true,
+                "set": 71
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 198,
+                "length": 636,
+                "order": 13,
+                "seque": true,
+                "set": 970
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 260,
+                "order": 4,
+                "seque": true,
+                "set": 1024
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 629,
+                "order": 7,
+                "seque": true,
+                "set": 428
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 436,
+                "length": 126,
+                "order": 13,
+                "seque": true,
+                "set": 895
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 426,
+                "length": 151,
+                "order": 13,
+                "seque": true,
+                "set": 71
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 198,
+                "length": 636,
+                "order": 13,
+                "seque": true,
+                "set": 970
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 260,
+                "order": 4,
+                "seque": true,
+                "set": 1024
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 629,
+                "order": 7,
+                "seque": true,
+                "set": 428
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 436,
+                "length": 126,
+                "order": 13,
+                "seque": true,
+                "set": 895
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            292,
+            {
+                "comments": "",
+                "id": 59,
+                "length": 292,
+                "order": 9,
+                "seque": true,
+                "set": 407
+            }
+        ],
+        [
+            293,
+            {
+                "comments": "",
+                "id": 59,
+                "length": 293,
+                "order": 7,
+                "seque": true,
+                "set": 836
+            }
+        ],
+        [
+            301,
+            {
+                "comments": "",
+                "id": 59,
+                "length": 301,
+                "order": 9,
+                "seque": true,
+                "set": 864
+            }
+        ],
+        [
+            318,
+            {
+                "comments": "",
+                "id": 59,
+                "length": 318,
+                "order": 7,
+                "seque": false,
+                "set": 933
+            }
+        ],
+        [
+            320,
+            {
+                "comments": "",
+                "id": 59,
+                "length": 320,
+                "order": 14,
+                "seque": false,
+                "set": 970
+            }
+        ]
+    ],
+    "name": "China Doll",
+    "played": 23,
+    "shortest": [
+        [
+            513,
+            {
+                "comments": "Weir started Throwing Stones",
+                "id": 59,
+                "length": 513,
+                "order": 7,
+                "seque": false,
+                "set": 777
+            }
+        ],
+        [
+            465,
+            {
+                "comments": "",
+                "id": 59,
+                "length": 465,
+                "order": 13,
+                "seque": true,
+                "set": 362
+            }
+        ],
+        [
+            430,
+            {
+                "comments": "",
+                "id": 59,
+                "length": 430,
+                "order": 6,
+                "seque": true,
+                "set": 710
+            }
+        ],
+        [
+            411,
+            {
+                "comments": "",
+                "id": 59,
+                "length": 411,
+                "order": 11,
+                "seque": true,
+                "set": 249
+            }
+        ],
+        [
+            400,
+            {
+                "comments": "first time since 12/29/77",
+                "id": 59,
+                "length": 400,
+                "order": 15,
+                "seque": true,
+                "set": 370
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        2,
+        0,
+        0,
+        3,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        1,
+        2,
+        1,
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

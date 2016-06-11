@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 453,
+                "order": 8,
+                "seque": false,
+                "set": 266
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 385,
+                "order": 8,
+                "seque": false,
+                "set": 268
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 209,
+                "length": 434,
+                "order": 9,
+                "seque": true,
+                "set": 451
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 198,
+                "length": 617,
+                "order": 9,
+                "seque": true,
+                "set": 192
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 474,
+                "order": 7,
+                "seque": false,
+                "set": 499
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 453,
+                "order": 8,
+                "seque": false,
+                "set": 266
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 385,
+                "order": 8,
+                "seque": false,
+                "set": 268
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 209,
+                "length": 434,
+                "order": 9,
+                "seque": true,
+                "set": 451
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 198,
+                "length": 617,
+                "order": 9,
+                "seque": true,
+                "set": 192
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 474,
+                "order": 7,
+                "seque": false,
+                "set": 499
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            1,
+            {
+                "comments": "",
+                "id": 79,
+                "length": 1,
+                "order": 9,
+                "seque": false,
+                "set": 848
+            }
+        ],
+        [
+            249,
+            {
+                "comments": "",
+                "id": 79,
+                "length": 249,
+                "order": 5,
+                "seque": false,
+                "set": 92
+            }
+        ],
+        [
+            258,
+            {
+                "comments": "",
+                "id": 79,
+                "length": 258,
+                "order": 2,
+                "seque": false,
+                "set": 263
+            }
+        ],
+        [
+            258,
+            {
+                "comments": "",
+                "id": 79,
+                "length": 258,
+                "order": 12,
+                "seque": false,
+                "set": 448
+            }
+        ],
+        [
+            265,
+            {
+                "comments": "",
+                "id": 79,
+                "length": 265,
+                "order": 10,
+                "seque": false,
+                "set": 192
+            }
+        ]
+    ],
+    "name": "Deal",
+    "played": 87,
+    "shortest": [
+        [
+            635,
+            {
+                "comments": "",
+                "id": 79,
+                "length": 635,
+                "order": 7,
+                "seque": false,
+                "set": 823
+            }
+        ],
+        [
+            537,
+            {
+                "comments": "",
+                "id": 79,
+                "length": 537,
+                "order": 9,
+                "seque": false,
+                "set": 697
+            }
+        ],
+        [
+            527,
+            {
+                "comments": "",
+                "id": 79,
+                "length": 527,
+                "order": 1,
+                "seque": false,
+                "set": 777
+            }
+        ],
+        [
+            527,
+            {
+                "comments": "",
+                "id": 79,
+                "length": 527,
+                "order": 9,
+                "seque": false,
+                "set": 597
+            }
+        ],
+        [
+            503,
+            {
+                "comments": "",
+                "id": 79,
+                "length": 503,
+                "order": 9,
+                "seque": false,
+                "set": 268
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        6,
+        0,
+        4,
+        15,
+        12,
+        10,
+        3,
+        7,
+        3,
+        5,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

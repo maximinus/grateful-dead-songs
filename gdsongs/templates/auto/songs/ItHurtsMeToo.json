@@ -1,0 +1,254 @@
+{
+    "after": [
+        [
+            {
+                "comments": "without bridge / no vamp",
+                "id": 134,
+                "length": 532,
+                "order": 20,
+                "seque": false,
+                "set": 42
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 71,
+                "length": 278,
+                "order": 5,
+                "seque": false,
+                "set": 91
+            },
+            1
+        ],
+        [
+            {
+                "comments": "5 beats",
+                "id": 22,
+                "length": 184,
+                "order": 8,
+                "seque": false,
+                "set": 395
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 377,
+                "length": 856,
+                "order": 1,
+                "seque": false,
+                "set": 1046
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "without bridge / no vamp",
+                "id": 134,
+                "length": 532,
+                "order": 20,
+                "seque": false,
+                "set": 42
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 71,
+                "length": 278,
+                "order": 5,
+                "seque": false,
+                "set": 91
+            },
+            1
+        ],
+        [
+            {
+                "comments": "5 beats",
+                "id": 22,
+                "length": 184,
+                "order": 8,
+                "seque": false,
+                "set": 395
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 377,
+                "length": 856,
+                "order": 1,
+                "seque": false,
+                "set": 1046
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            233,
+            {
+                "comments": "",
+                "id": 170,
+                "length": 233,
+                "order": 2,
+                "seque": false,
+                "set": 1046
+            }
+        ],
+        [
+            345,
+            {
+                "comments": "",
+                "id": 170,
+                "length": 345,
+                "order": 6,
+                "seque": false,
+                "set": 91
+            }
+        ],
+        [
+            362,
+            {
+                "comments": "",
+                "id": 170,
+                "length": 362,
+                "order": 9,
+                "seque": false,
+                "set": 395
+            }
+        ],
+        [
+            472,
+            {
+                "comments": "",
+                "id": 170,
+                "length": 472,
+                "order": 21,
+                "seque": false,
+                "set": 42
+            }
+        ]
+    ],
+    "name": "It Hurts Me Too",
+    "played": 4,
+    "shortest": [
+        [
+            472,
+            {
+                "comments": "",
+                "id": 170,
+                "length": 472,
+                "order": 21,
+                "seque": false,
+                "set": 42
+            }
+        ],
+        [
+            362,
+            {
+                "comments": "",
+                "id": 170,
+                "length": 362,
+                "order": 9,
+                "seque": false,
+                "set": 395
+            }
+        ],
+        [
+            345,
+            {
+                "comments": "",
+                "id": 170,
+                "length": 345,
+                "order": 6,
+                "seque": false,
+                "set": 91
+            }
+        ],
+        [
+            233,
+            {
+                "comments": "",
+                "id": 170,
+                "length": 233,
+                "order": 2,
+                "seque": false,
+                "set": 1046
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

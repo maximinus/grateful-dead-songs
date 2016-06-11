@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 455,
+                "order": 4,
+                "seque": false,
+                "set": 119
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 39,
+                "length": 288,
+                "order": 6,
+                "seque": false,
+                "set": 386
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 437,
+                "length": 136,
+                "order": 12,
+                "seque": true,
+                "set": 556
+            },
+            1
+        ],
+        [
+            {
+                "comments": "4 beats",
+                "id": 22,
+                "length": 191,
+                "order": 4,
+                "seque": false,
+                "set": 970
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 292,
+                "order": 4,
+                "seque": false,
+                "set": 797
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 455,
+                "order": 4,
+                "seque": false,
+                "set": 119
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 39,
+                "length": 288,
+                "order": 6,
+                "seque": false,
+                "set": 386
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 437,
+                "length": 136,
+                "order": 12,
+                "seque": true,
+                "set": 556
+            },
+            1
+        ],
+        [
+            {
+                "comments": "4 beats",
+                "id": 22,
+                "length": 191,
+                "order": 4,
+                "seque": false,
+                "set": 970
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 292,
+                "order": 4,
+                "seque": false,
+                "set": 797
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            445,
+            {
+                "comments": "",
+                "id": 278,
+                "length": 445,
+                "order": 3,
+                "seque": false,
+                "set": 841
+            }
+        ],
+        [
+            448,
+            {
+                "comments": "",
+                "id": 278,
+                "length": 448,
+                "order": 14,
+                "seque": false,
+                "set": 1050
+            }
+        ],
+        [
+            458,
+            {
+                "comments": "",
+                "id": 278,
+                "length": 458,
+                "order": 5,
+                "seque": false,
+                "set": 970
+            }
+        ],
+        [
+            464,
+            {
+                "comments": "",
+                "id": 278,
+                "length": 464,
+                "order": 6,
+                "seque": false,
+                "set": 263
+            }
+        ],
+        [
+            464,
+            {
+                "comments": "",
+                "id": 278,
+                "length": 464,
+                "order": 7,
+                "seque": false,
+                "set": 386
+            }
+        ]
+    ],
+    "name": "Row Jimmy",
+    "played": 56,
+    "shortest": [
+        [
+            750,
+            {
+                "comments": "",
+                "id": 278,
+                "length": 750,
+                "order": 4,
+                "seque": false,
+                "set": 985
+            }
+        ],
+        [
+            723,
+            {
+                "comments": "",
+                "id": 278,
+                "length": 723,
+                "order": 5,
+                "seque": false,
+                "set": 797
+            }
+        ],
+        [
+            711,
+            {
+                "comments": "Awful Bob Weir slide playing",
+                "id": 278,
+                "length": 711,
+                "order": 4,
+                "seque": false,
+                "set": 882
+            }
+        ],
+        [
+            704,
+            {
+                "comments": "",
+                "id": 278,
+                "length": 704,
+                "order": 7,
+                "seque": false,
+                "set": 369
+            }
+        ],
+        [
+            658,
+            {
+                "comments": "",
+                "id": 278,
+                "length": 658,
+                "order": 6,
+                "seque": false,
+                "set": 947
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        14,
+        6,
+        0,
+        5,
+        10,
+        1,
+        4,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        4,
+        3,
+        3,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

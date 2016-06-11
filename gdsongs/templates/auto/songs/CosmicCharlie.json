@@ -1,0 +1,122 @@
+{
+    "after": [
+        [
+            {
+                "comments": "a 27 sec drum intro",
+                "id": 72,
+                "length": 737,
+                "order": 4,
+                "seque": false,
+                "set": 674
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "a 27 sec drum intro",
+                "id": 72,
+                "length": 737,
+                "order": 4,
+                "seque": false,
+                "set": 674
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            498,
+            {
+                "comments": "",
+                "id": 68,
+                "length": 498,
+                "order": 5,
+                "seque": false,
+                "set": 674
+            }
+        ]
+    ],
+    "name": "Cosmic Charlie",
+    "played": 1,
+    "shortest": [
+        [
+            498,
+            {
+                "comments": "",
+                "id": 68,
+                "length": 498,
+                "order": 5,
+                "seque": false,
+                "set": 674
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

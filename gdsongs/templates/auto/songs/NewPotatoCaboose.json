@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 70,
+                "length": 516,
+                "order": 9,
+                "seque": true,
+                "set": 897
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 70,
+                "length": 363,
+                "order": 8,
+                "seque": false,
+                "set": 1046
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 70,
+                "length": 516,
+                "order": 9,
+                "seque": true,
+                "set": 897
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 70,
+                "length": 363,
+                "order": 8,
+                "seque": false,
+                "set": 1046
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            650,
+            {
+                "comments": "",
+                "id": 243,
+                "length": 650,
+                "order": 9,
+                "seque": false,
+                "set": 1046
+            }
+        ],
+        [
+            856,
+            {
+                "comments": "",
+                "id": 243,
+                "length": 856,
+                "order": 10,
+                "seque": true,
+                "set": 897
+            }
+        ]
+    ],
+    "name": "New Potato Caboose",
+    "played": 2,
+    "shortest": [
+        [
+            856,
+            {
+                "comments": "",
+                "id": 243,
+                "length": 856,
+                "order": 10,
+                "seque": true,
+                "set": 897
+            }
+        ],
+        [
+            650,
+            {
+                "comments": "",
+                "id": 243,
+                "length": 650,
+                "order": 9,
+                "seque": false,
+                "set": 1046
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

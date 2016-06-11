@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 60,
+                "length": 161,
+                "order": 5,
+                "seque": false,
+                "set": 41
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 286,
+                "length": 467,
+                "order": 5,
+                "seque": false,
+                "set": 841
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 9,
+                "length": 504,
+                "order": 4,
+                "seque": false,
+                "set": 973
+            },
+            1
+        ],
+        [
+            {
+                "comments": "No Bridge / No Vocal Vamp",
+                "id": 134,
+                "length": 444,
+                "order": 4,
+                "seque": false,
+                "set": 93
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 208,
+                "length": 415,
+                "order": 6,
+                "seque": false,
+                "set": 421
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 60,
+                "length": 161,
+                "order": 5,
+                "seque": false,
+                "set": 41
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 286,
+                "length": 467,
+                "order": 5,
+                "seque": false,
+                "set": 841
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 9,
+                "length": 504,
+                "order": 4,
+                "seque": false,
+                "set": 973
+            },
+            1
+        ],
+        [
+            {
+                "comments": "No Bridge / No Vocal Vamp",
+                "id": 134,
+                "length": 444,
+                "order": 4,
+                "seque": false,
+                "set": 93
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 208,
+                "length": 415,
+                "order": 6,
+                "seque": false,
+                "set": 421
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            324,
+            {
+                "comments": "",
+                "id": 33,
+                "length": 324,
+                "order": 7,
+                "seque": false,
+                "set": 33
+            }
+        ],
+        [
+            327,
+            {
+                "comments": "",
+                "id": 33,
+                "length": 327,
+                "order": 5,
+                "seque": false,
+                "set": 487
+            }
+        ],
+        [
+            328,
+            {
+                "comments": "",
+                "id": 33,
+                "length": 328,
+                "order": 5,
+                "seque": false,
+                "set": 973
+            }
+        ],
+        [
+            329,
+            {
+                "comments": "",
+                "id": 33,
+                "length": 329,
+                "order": 7,
+                "seque": false,
+                "set": 421
+            }
+        ],
+        [
+            343,
+            {
+                "comments": "",
+                "id": 33,
+                "length": 343,
+                "order": 6,
+                "seque": false,
+                "set": 472
+            }
+        ]
+    ],
+    "name": "Black-Throated Wind",
+    "played": 27,
+    "shortest": [
+        [
+            418,
+            {
+                "comments": "",
+                "id": 33,
+                "length": 418,
+                "order": 5,
+                "seque": false,
+                "set": 1058
+            }
+        ],
+        [
+            417,
+            {
+                "comments": "",
+                "id": 33,
+                "length": 417,
+                "order": 5,
+                "seque": false,
+                "set": 894
+            }
+        ],
+        [
+            413,
+            {
+                "comments": "",
+                "id": 33,
+                "length": 413,
+                "order": 6,
+                "seque": false,
+                "set": 931
+            }
+        ],
+        [
+            413,
+            {
+                "comments": "",
+                "id": 33,
+                "length": 413,
+                "order": 3,
+                "seque": false,
+                "set": 505
+            }
+        ],
+        [
+            409,
+            {
+                "comments": "",
+                "id": 33,
+                "length": 409,
+                "order": 5,
+                "seque": false,
+                "set": 785
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        7,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        2,
+        0,
+        1,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 75,
+                "length": 47,
+                "order": 5,
+                "seque": true,
+                "set": 42
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 460,
+                "length": 60,
+                "order": 8,
+                "seque": true,
+                "set": 246
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 431,
+                "length": 285,
+                "order": 20,
+                "seque": true,
+                "set": 387
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 124,
+                "order": 13,
+                "seque": true,
+                "set": 619
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 437,
+                "length": 185,
+                "order": 6,
+                "seque": true,
+                "set": 833
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 75,
+                "length": 47,
+                "order": 5,
+                "seque": true,
+                "set": 42
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 460,
+                "length": 60,
+                "order": 8,
+                "seque": true,
+                "set": 246
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 431,
+                "length": 285,
+                "order": 20,
+                "seque": true,
+                "set": 387
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 124,
+                "order": 13,
+                "seque": true,
+                "set": 619
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 437,
+                "length": 185,
+                "order": 6,
+                "seque": true,
+                "set": 833
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            98,
+            {
+                "comments": "1st Verse Only",
+                "id": 74,
+                "length": 98,
+                "order": 6,
+                "seque": true,
+                "set": 42
+            }
+        ],
+        [
+            126,
+            {
+                "comments": "",
+                "id": 74,
+                "length": 126,
+                "order": 14,
+                "seque": true,
+                "set": 619
+            }
+        ],
+        [
+            163,
+            {
+                "comments": "First Verse Only",
+                "id": 74,
+                "length": 163,
+                "order": 8,
+                "seque": true,
+                "set": 1051
+            }
+        ],
+        [
+            165,
+            {
+                "comments": "First verse only",
+                "id": 74,
+                "length": 165,
+                "order": 7,
+                "seque": true,
+                "set": 833
+            }
+        ],
+        [
+            172,
+            {
+                "comments": "First Verse Only",
+                "id": 74,
+                "length": 172,
+                "order": 5,
+                "seque": true,
+                "set": 895
+            }
+        ]
+    ],
+    "name": "Dark Star",
+    "played": 13,
+    "shortest": [
+        [
+            1334,
+            {
+                "comments": "",
+                "id": 74,
+                "length": 1334,
+                "order": 3,
+                "seque": true,
+                "set": 1003
+            }
+        ],
+        [
+            950,
+            {
+                "comments": "",
+                "id": 74,
+                "length": 950,
+                "order": 1,
+                "seque": false,
+                "set": 100
+            }
+        ],
+        [
+            680,
+            {
+                "comments": "",
+                "id": 74,
+                "length": 680,
+                "order": 2,
+                "seque": true,
+                "set": 897
+            }
+        ],
+        [
+            452,
+            {
+                "comments": "First Verse Only",
+                "id": 74,
+                "length": 452,
+                "order": 6,
+                "seque": true,
+                "set": 731
+            }
+        ],
+        [
+            422,
+            {
+                "comments": "Second Verse only",
+                "id": 74,
+                "length": 422,
+                "order": 9,
+                "seque": true,
+                "set": 246
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,232 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 448,
+                "length": 62,
+                "order": 1,
+                "seque": false,
+                "set": 653
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 446,
+                "length": 44,
+                "order": 1,
+                "seque": false,
+                "set": 405
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 448,
+                "length": 62,
+                "order": 1,
+                "seque": false,
+                "set": 653
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 446,
+                "length": 44,
+                "order": 1,
+                "seque": false,
+                "set": 405
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            236,
+            {
+                "comments": "",
+                "id": 340,
+                "length": 236,
+                "order": 1,
+                "seque": true,
+                "set": 214
+            }
+        ],
+        [
+            245,
+            {
+                "comments": "",
+                "id": 340,
+                "length": 245,
+                "order": 1,
+                "seque": false,
+                "set": 367
+            }
+        ],
+        [
+            253,
+            {
+                "comments": "",
+                "id": 340,
+                "length": 253,
+                "order": 2,
+                "seque": false,
+                "set": 653
+            }
+        ],
+        [
+            260,
+            {
+                "comments": "",
+                "id": 340,
+                "length": 260,
+                "order": 2,
+                "seque": false,
+                "set": 405
+            }
+        ],
+        [
+            262,
+            {
+                "comments": "",
+                "id": 340,
+                "length": 262,
+                "order": 1,
+                "seque": false,
+                "set": 72
+            }
+        ]
+    ],
+    "name": "The Mighty Quinn (Quinn The Eskimo)",
+    "played": 14,
+    "shortest": [
+        [
+            291,
+            {
+                "comments": "",
+                "id": 340,
+                "length": 291,
+                "order": 1,
+                "seque": false,
+                "set": 729
+            }
+        ],
+        [
+            284,
+            {
+                "comments": "",
+                "id": 340,
+                "length": 284,
+                "order": 1,
+                "seque": false,
+                "set": 81
+            }
+        ],
+        [
+            275,
+            {
+                "comments": "",
+                "id": 340,
+                "length": 275,
+                "order": 1,
+                "seque": false,
+                "set": 408
+            }
+        ],
+        [
+            273,
+            {
+                "comments": "",
+                "id": 340,
+                "length": 273,
+                "order": 1,
+                "seque": false,
+                "set": 1025
+            }
+        ],
+        [
+            273,
+            {
+                "comments": " 'Happy Birthday' played before encore for Bobby",
+                "id": 340,
+                "length": 273,
+                "order": 1,
+                "seque": false,
+                "set": 981
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        4,
+        0,
+        1,
+        3,
+        1,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

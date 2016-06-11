@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 72,
+                "length": 134,
+                "order": 4,
+                "seque": true,
+                "set": 272
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 215,
+                "order": 7,
+                "seque": true,
+                "set": 701
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 104,
+                "length": 743,
+                "order": 4,
+                "seque": true,
+                "set": 909
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 37,
+                "order": 7,
+                "seque": true,
+                "set": 710
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 366,
+                "order": 8,
+                "seque": true,
+                "set": 1006
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 72,
+                "length": 134,
+                "order": 4,
+                "seque": true,
+                "set": 272
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 215,
+                "order": 7,
+                "seque": true,
+                "set": 701
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 104,
+                "length": 743,
+                "order": 4,
+                "seque": true,
+                "set": 909
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 37,
+                "order": 7,
+                "seque": true,
+                "set": 710
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 425,
+                "length": 366,
+                "order": 8,
+                "seque": true,
+                "set": 1006
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            42,
+            {
+                "comments": "",
+                "id": 469,
+                "length": 42,
+                "order": 8,
+                "seque": true,
+                "set": 701
+            }
+        ],
+        [
+            45,
+            {
+                "comments": "",
+                "id": 469,
+                "length": 45,
+                "order": 8,
+                "seque": true,
+                "set": 710
+            }
+        ],
+        [
+            76,
+            {
+                "comments": "",
+                "id": 469,
+                "length": 76,
+                "order": 5,
+                "seque": true,
+                "set": 942
+            }
+        ],
+        [
+            121,
+            {
+                "comments": "",
+                "id": 469,
+                "length": 121,
+                "order": 5,
+                "seque": true,
+                "set": 434
+            }
+        ],
+        [
+            142,
+            {
+                "comments": "",
+                "id": 469,
+                "length": 142,
+                "order": 5,
+                "seque": true,
+                "set": 272
+            }
+        ]
+    ],
+    "name": "Jerry & Drums Jam",
+    "played": 7,
+    "shortest": [
+        [
+            226,
+            {
+                "comments": "more a less an extended Eyes fade out with Phil & bobby eventually falling away leaving Garcia",
+                "id": 469,
+                "length": 226,
+                "order": 5,
+                "seque": true,
+                "set": 909
+            }
+        ],
+        [
+            177,
+            {
+                "comments": "",
+                "id": 469,
+                "length": 177,
+                "order": 9,
+                "seque": true,
+                "set": 1006
+            }
+        ],
+        [
+            142,
+            {
+                "comments": "",
+                "id": 469,
+                "length": 142,
+                "order": 5,
+                "seque": true,
+                "set": 272
+            }
+        ],
+        [
+            121,
+            {
+                "comments": "",
+                "id": 469,
+                "length": 121,
+                "order": 5,
+                "seque": true,
+                "set": 434
+            }
+        ],
+        [
+            76,
+            {
+                "comments": "",
+                "id": 469,
+                "length": 76,
+                "order": 5,
+                "seque": true,
+                "set": 942
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

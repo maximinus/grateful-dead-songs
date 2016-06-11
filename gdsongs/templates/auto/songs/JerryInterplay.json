@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 594,
+                "order": 6,
+                "seque": false,
+                "set": 824
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 344,
+                "length": 578,
+                "order": 5,
+                "seque": true,
+                "set": 574
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 471,
+                "order": 8,
+                "seque": true,
+                "set": 671
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 141,
+                "order": 7,
+                "seque": true,
+                "set": 378
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 104,
+                "length": 655,
+                "order": 6,
+                "seque": true,
+                "set": 948
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 594,
+                "order": 6,
+                "seque": false,
+                "set": 824
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 344,
+                "length": 578,
+                "order": 5,
+                "seque": true,
+                "set": 574
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 471,
+                "order": 8,
+                "seque": true,
+                "set": 671
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 141,
+                "order": 7,
+                "seque": true,
+                "set": 378
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 104,
+                "length": 655,
+                "order": 6,
+                "seque": true,
+                "set": 948
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            104,
+            {
+                "comments": "",
+                "id": 475,
+                "length": 104,
+                "order": 8,
+                "seque": true,
+                "set": 378
+            }
+        ],
+        [
+            105,
+            {
+                "comments": "",
+                "id": 475,
+                "length": 105,
+                "order": 7,
+                "seque": true,
+                "set": 824
+            }
+        ],
+        [
+            107,
+            {
+                "comments": "",
+                "id": 475,
+                "length": 107,
+                "order": 9,
+                "seque": true,
+                "set": 671
+            }
+        ],
+        [
+            198,
+            {
+                "comments": "",
+                "id": 475,
+                "length": 198,
+                "order": 6,
+                "seque": true,
+                "set": 574
+            }
+        ],
+        [
+            223,
+            {
+                "comments": "",
+                "id": 475,
+                "length": 223,
+                "order": 7,
+                "seque": true,
+                "set": 948
+            }
+        ]
+    ],
+    "name": "Jerry Interplay",
+    "played": 6,
+    "shortest": [
+        [
+            227,
+            {
+                "comments": "",
+                "id": 475,
+                "length": 227,
+                "order": 9,
+                "seque": true,
+                "set": 401
+            }
+        ],
+        [
+            223,
+            {
+                "comments": "",
+                "id": 475,
+                "length": 223,
+                "order": 7,
+                "seque": true,
+                "set": 948
+            }
+        ],
+        [
+            198,
+            {
+                "comments": "",
+                "id": 475,
+                "length": 198,
+                "order": 6,
+                "seque": true,
+                "set": 574
+            }
+        ],
+        [
+            107,
+            {
+                "comments": "",
+                "id": 475,
+                "length": 107,
+                "order": 9,
+                "seque": true,
+                "set": 671
+            }
+        ],
+        [
+            105,
+            {
+                "comments": "",
+                "id": 475,
+                "length": 105,
+                "order": 7,
+                "seque": true,
+                "set": 824
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

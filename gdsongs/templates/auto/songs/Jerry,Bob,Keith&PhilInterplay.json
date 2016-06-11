@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 54,
+                "order": 12,
+                "seque": true,
+                "set": 373
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 248,
+                "length": 546,
+                "order": 10,
+                "seque": true,
+                "set": 765
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 217,
+                "order": 17,
+                "seque": true,
+                "set": 1059
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Close Encounters @ 5:23",
+                "id": 428,
+                "length": 352,
+                "order": 7,
+                "seque": true,
+                "set": 771
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 254,
+                "order": 8,
+                "seque": true,
+                "set": 94
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 54,
+                "order": 12,
+                "seque": true,
+                "set": 373
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 248,
+                "length": 546,
+                "order": 10,
+                "seque": true,
+                "set": 765
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 217,
+                "order": 17,
+                "seque": true,
+                "set": 1059
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Close Encounters @ 5:23",
+                "id": 428,
+                "length": 352,
+                "order": 7,
+                "seque": true,
+                "set": 771
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 254,
+                "order": 8,
+                "seque": true,
+                "set": 94
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            100,
+            {
+                "comments": "",
+                "id": 442,
+                "length": 100,
+                "order": 8,
+                "seque": true,
+                "set": 771
+            }
+        ],
+        [
+            112,
+            {
+                "comments": "",
+                "id": 442,
+                "length": 112,
+                "order": 13,
+                "seque": true,
+                "set": 373
+            }
+        ],
+        [
+            164,
+            {
+                "comments": "",
+                "id": 442,
+                "length": 164,
+                "order": 18,
+                "seque": true,
+                "set": 1059
+            }
+        ],
+        [
+            215,
+            {
+                "comments": "",
+                "id": 442,
+                "length": 215,
+                "order": 11,
+                "seque": true,
+                "set": 765
+            }
+        ],
+        [
+            240,
+            {
+                "comments": "",
+                "id": 442,
+                "length": 240,
+                "order": 9,
+                "seque": true,
+                "set": 94
+            }
+        ]
+    ],
+    "name": "Jerry, Bob, Keith & Phil Interplay",
+    "played": 5,
+    "shortest": [
+        [
+            240,
+            {
+                "comments": "",
+                "id": 442,
+                "length": 240,
+                "order": 9,
+                "seque": true,
+                "set": 94
+            }
+        ],
+        [
+            215,
+            {
+                "comments": "",
+                "id": 442,
+                "length": 215,
+                "order": 11,
+                "seque": true,
+                "set": 765
+            }
+        ],
+        [
+            164,
+            {
+                "comments": "",
+                "id": 442,
+                "length": 164,
+                "order": 18,
+                "seque": true,
+                "set": 1059
+            }
+        ],
+        [
+            112,
+            {
+                "comments": "",
+                "id": 442,
+                "length": 112,
+                "order": 13,
+                "seque": true,
+                "set": 373
+            }
+        ],
+        [
+            100,
+            {
+                "comments": "",
+                "id": 442,
+                "length": 100,
+                "order": 8,
+                "seque": true,
+                "set": 771
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

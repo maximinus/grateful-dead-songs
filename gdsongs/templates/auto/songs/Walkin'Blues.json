@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 365,
+                "length": 380,
+                "order": 1,
+                "seque": false,
+                "set": 1037
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 113,
+                "length": 479,
+                "order": 2,
+                "seque": false,
+                "set": 935
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 309,
+                "length": 317,
+                "order": 4,
+                "seque": false,
+                "set": 172
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 318,
+                "length": 520,
+                "order": 2,
+                "seque": false,
+                "set": 920
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 318,
+                "length": 587,
+                "order": 2,
+                "seque": false,
+                "set": 58
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 365,
+                "length": 380,
+                "order": 1,
+                "seque": false,
+                "set": 1037
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 113,
+                "length": 479,
+                "order": 2,
+                "seque": false,
+                "set": 935
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 309,
+                "length": 317,
+                "order": 4,
+                "seque": false,
+                "set": 172
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 318,
+                "length": 520,
+                "order": 2,
+                "seque": false,
+                "set": 920
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 318,
+                "length": 587,
+                "order": 2,
+                "seque": false,
+                "set": 58
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            322,
+            {
+                "comments": "",
+                "id": 381,
+                "length": 322,
+                "order": 2,
+                "seque": false,
+                "set": 1020
+            }
+        ],
+        [
+            330,
+            {
+                "comments": "",
+                "id": 381,
+                "length": 330,
+                "order": 4,
+                "seque": false,
+                "set": 860
+            }
+        ],
+        [
+            332,
+            {
+                "comments": "",
+                "id": 381,
+                "length": 332,
+                "order": 3,
+                "seque": false,
+                "set": 727
+            }
+        ],
+        [
+            333,
+            {
+                "comments": "",
+                "id": 381,
+                "length": 333,
+                "order": 4,
+                "seque": false,
+                "set": 30
+            }
+        ],
+        [
+            336,
+            {
+                "comments": "",
+                "id": 381,
+                "length": 336,
+                "order": 4,
+                "seque": false,
+                "set": 648
+            }
+        ]
+    ],
+    "name": "Walkin' Blues",
+    "played": 26,
+    "shortest": [
+        [
+            421,
+            {
+                "comments": "",
+                "id": 381,
+                "length": 421,
+                "order": 3,
+                "seque": false,
+                "set": 58
+            }
+        ],
+        [
+            418,
+            {
+                "comments": "",
+                "id": 381,
+                "length": 418,
+                "order": 5,
+                "seque": false,
+                "set": 747
+            }
+        ],
+        [
+            417,
+            {
+                "comments": "",
+                "id": 381,
+                "length": 417,
+                "order": 2,
+                "seque": false,
+                "set": 251
+            }
+        ],
+        [
+            415,
+            {
+                "comments": "",
+                "id": 381,
+                "length": 415,
+                "order": 2,
+                "seque": false,
+                "set": 61
+            }
+        ],
+        [
+            414,
+            {
+                "comments": "",
+                "id": 381,
+                "length": 414,
+                "order": 4,
+                "seque": false,
+                "set": 234
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3,
+        7,
+        4,
+        4,
+        3,
+        0,
+        1,
+        1,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

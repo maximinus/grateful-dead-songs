@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 526,
+                "order": 2,
+                "seque": false,
+                "set": 334
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 284,
+                "length": 394,
+                "order": 1,
+                "seque": false,
+                "set": 152
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 526,
+                "order": 2,
+                "seque": false,
+                "set": 334
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 284,
+                "length": 394,
+                "order": 1,
+                "seque": false,
+                "set": 152
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            104,
+            {
+                "comments": "",
+                "id": 116,
+                "length": 104,
+                "order": 3,
+                "seque": false,
+                "set": 334
+            }
+        ],
+        [
+            117,
+            {
+                "comments": "",
+                "id": 116,
+                "length": 117,
+                "order": 2,
+                "seque": false,
+                "set": 152
+            }
+        ]
+    ],
+    "name": "Funicul\u00ec, Funicul\u00e0",
+    "played": 2,
+    "shortest": [
+        [
+            117,
+            {
+                "comments": "",
+                "id": 116,
+                "length": 117,
+                "order": 2,
+                "seque": false,
+                "set": 152
+            }
+        ],
+        [
+            104,
+            {
+                "comments": "",
+                "id": 116,
+                "length": 104,
+                "order": 3,
+                "seque": false,
+                "set": 334
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

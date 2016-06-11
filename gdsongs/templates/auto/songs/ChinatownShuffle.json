@@ -1,0 +1,210 @@
+{
+    "after": [
+        [
+            {
+                "comments": "Used for Europe '72",
+                "id": 134,
+                "length": 428,
+                "order": 11,
+                "seque": false,
+                "set": 33
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 426,
+                "length": 116,
+                "order": 14,
+                "seque": false,
+                "set": 93
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 438,
+                "order": 4,
+                "seque": false,
+                "set": 41
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "Used for Europe '72",
+                "id": 134,
+                "length": 428,
+                "order": 11,
+                "seque": false,
+                "set": 33
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 426,
+                "length": 116,
+                "order": 14,
+                "seque": false,
+                "set": 93
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 438,
+                "order": 4,
+                "seque": false,
+                "set": 41
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            148,
+            {
+                "comments": "",
+                "id": 60,
+                "length": 148,
+                "order": 15,
+                "seque": false,
+                "set": 93
+            }
+        ],
+        [
+            160,
+            {
+                "comments": "",
+                "id": 60,
+                "length": 160,
+                "order": 12,
+                "seque": false,
+                "set": 33
+            }
+        ],
+        [
+            161,
+            {
+                "comments": "",
+                "id": 60,
+                "length": 161,
+                "order": 5,
+                "seque": false,
+                "set": 41
+            }
+        ]
+    ],
+    "name": "Chinatown Shuffle",
+    "played": 3,
+    "shortest": [
+        [
+            161,
+            {
+                "comments": "",
+                "id": 60,
+                "length": 161,
+                "order": 5,
+                "seque": false,
+                "set": 41
+            }
+        ],
+        [
+            160,
+            {
+                "comments": "",
+                "id": 60,
+                "length": 160,
+                "order": 12,
+                "seque": false,
+                "set": 33
+            }
+        ],
+        [
+            148,
+            {
+                "comments": "",
+                "id": 60,
+                "length": 148,
+                "order": 15,
+                "seque": false,
+                "set": 93
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

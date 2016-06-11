@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 178,
+                "length": 320,
+                "order": 6,
+                "seque": false,
+                "set": 654
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 251,
+                "order": 4,
+                "seque": false,
+                "set": 779
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 241,
+                "length": 424,
+                "order": 3,
+                "seque": false,
+                "set": 340
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 252,
+                "order": 9,
+                "seque": false,
+                "set": 715
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 267,
+                "length": 357,
+                "order": 7,
+                "seque": false,
+                "set": 534
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 178,
+                "length": 320,
+                "order": 6,
+                "seque": false,
+                "set": 654
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 251,
+                "order": 4,
+                "seque": false,
+                "set": 779
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 241,
+                "length": 424,
+                "order": 3,
+                "seque": false,
+                "set": 340
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 252,
+                "order": 9,
+                "seque": false,
+                "set": 715
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 267,
+                "length": 357,
+                "order": 7,
+                "seque": false,
+                "set": 534
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            288,
+            {
+                "comments": "",
+                "id": 329,
+                "length": 288,
+                "order": 8,
+                "seque": false,
+                "set": 289
+            }
+        ],
+        [
+            382,
+            {
+                "comments": "",
+                "id": 329,
+                "length": 382,
+                "order": 7,
+                "seque": false,
+                "set": 372
+            }
+        ],
+        [
+            408,
+            {
+                "comments": "",
+                "id": 329,
+                "length": 408,
+                "order": 10,
+                "seque": false,
+                "set": 395
+            }
+        ],
+        [
+            423,
+            {
+                "comments": "",
+                "id": 329,
+                "length": 423,
+                "order": 7,
+                "seque": false,
+                "set": 675
+            }
+        ],
+        [
+            425,
+            {
+                "comments": "",
+                "id": 329,
+                "length": 425,
+                "order": 18,
+                "seque": false,
+                "set": 33
+            }
+        ]
+    ],
+    "name": "Tennessee Jed",
+    "played": 94,
+    "shortest": [
+        [
+            552,
+            {
+                "comments": "",
+                "id": 329,
+                "length": 552,
+                "order": 3,
+                "seque": false,
+                "set": 439
+            }
+        ],
+        [
+            542,
+            {
+                "comments": "",
+                "id": 329,
+                "length": 542,
+                "order": 5,
+                "seque": false,
+                "set": 343
+            }
+        ],
+        [
+            537,
+            {
+                "comments": "",
+                "id": 329,
+                "length": 537,
+                "order": 5,
+                "seque": false,
+                "set": 82
+            }
+        ],
+        [
+            534,
+            {
+                "comments": "",
+                "id": 329,
+                "length": 534,
+                "order": 7,
+                "seque": false,
+                "set": 976
+            }
+        ],
+        [
+            533,
+            {
+                "comments": "",
+                "id": 329,
+                "length": 533,
+                "order": 6,
+                "seque": false,
+                "set": 868
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        4,
+        8,
+        8,
+        0,
+        4,
+        16,
+        6,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        2,
+        3,
+        1,
+        6,
+        3,
+        1,
+        4,
+        0,
+        0,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

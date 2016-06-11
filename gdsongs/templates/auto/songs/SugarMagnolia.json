@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 394,
+                "length": 538,
+                "order": 10,
+                "seque": true,
+                "set": 398
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 394,
+                "length": 597,
+                "order": 19,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 394,
+                "length": 728,
+                "order": 11,
+                "seque": true,
+                "set": 269
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 312,
+                "length": 621,
+                "order": 12,
+                "seque": true,
+                "set": 1038
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 312,
+                "length": 512,
+                "order": 12,
+                "seque": true,
+                "set": 341
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 394,
+                "length": 538,
+                "order": 10,
+                "seque": true,
+                "set": 398
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 394,
+                "length": 597,
+                "order": 19,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 394,
+                "length": 728,
+                "order": 11,
+                "seque": true,
+                "set": 269
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 312,
+                "length": 621,
+                "order": 12,
+                "seque": true,
+                "set": 1038
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 312,
+                "length": 512,
+                "order": 12,
+                "seque": true,
+                "set": 341
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            307,
+            {
+                "comments": "Weir prior to Sugar Mag, \"Of course, we need a big hand for the Merry Pranksters on the Thunder Machine.\" No Sunshine Daydream.",
+                "id": 316,
+                "length": 307,
+                "order": 1,
+                "seque": false,
+                "set": 435
+            }
+        ],
+        [
+            313,
+            {
+                "comments": "Garcia plays the head of So What warming up",
+                "id": 316,
+                "length": 313,
+                "order": 1,
+                "seque": false,
+                "set": 275
+            }
+        ],
+        [
+            332,
+            {
+                "comments": "",
+                "id": 316,
+                "length": 332,
+                "order": 1,
+                "seque": false,
+                "set": 1015
+            }
+        ],
+        [
+            339,
+            {
+                "comments": "",
+                "id": 316,
+                "length": 339,
+                "order": 6,
+                "seque": false,
+                "set": 696
+            }
+        ],
+        [
+            353,
+            {
+                "comments": "",
+                "id": 316,
+                "length": 353,
+                "order": 1,
+                "seque": false,
+                "set": 877
+            }
+        ]
+    ],
+    "name": "Sugar Magnolia",
+    "played": 108,
+    "shortest": [
+        [
+            699,
+            {
+                "comments": "",
+                "id": 316,
+                "length": 699,
+                "order": 17,
+                "seque": false,
+                "set": 158
+            }
+        ],
+        [
+            675,
+            {
+                "comments": "",
+                "id": 316,
+                "length": 675,
+                "order": 15,
+                "seque": false,
+                "set": 751
+            }
+        ],
+        [
+            662,
+            {
+                "comments": "",
+                "id": 316,
+                "length": 662,
+                "order": 1,
+                "seque": false,
+                "set": 335
+            }
+        ],
+        [
+            637,
+            {
+                "comments": "",
+                "id": 316,
+                "length": 637,
+                "order": 13,
+                "seque": false,
+                "set": 341
+            }
+        ],
+        [
+            633,
+            {
+                "comments": "",
+                "id": 316,
+                "length": 633,
+                "order": 10,
+                "seque": false,
+                "set": 604
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        4,
+        10,
+        8,
+        0,
+        6,
+        11,
+        6,
+        3,
+        2,
+        7,
+        7,
+        3,
+        7,
+        4,
+        2,
+        3,
+        7,
+        0,
+        5,
+        2,
+        1,
+        1,
+        1,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

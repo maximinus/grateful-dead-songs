@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 78,
+                "order": 11,
+                "seque": true,
+                "set": 452
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 179,
+                "order": 13,
+                "seque": true,
+                "set": 552
+            },
+            1
+        ],
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 121,
+                "order": 3,
+                "seque": true,
+                "set": 556
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 82,
+                "order": 13,
+                "seque": true,
+                "set": 592
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 205,
+                "order": 2,
+                "seque": true,
+                "set": 559
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 78,
+                "order": 11,
+                "seque": true,
+                "set": 452
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 179,
+                "order": 13,
+                "seque": true,
+                "set": 552
+            },
+            1
+        ],
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 121,
+                "order": 3,
+                "seque": true,
+                "set": 556
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 82,
+                "order": 13,
+                "seque": true,
+                "set": 592
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 205,
+                "order": 2,
+                "seque": true,
+                "set": 559
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            76,
+            {
+                "comments": "",
+                "id": 247,
+                "length": 76,
+                "order": 3,
+                "seque": true,
+                "set": 559
+            }
+        ],
+        [
+            77,
+            {
+                "comments": "",
+                "id": 247,
+                "length": 77,
+                "order": 14,
+                "seque": true,
+                "set": 552
+            }
+        ],
+        [
+            94,
+            {
+                "comments": "",
+                "id": 247,
+                "length": 94,
+                "order": 12,
+                "seque": true,
+                "set": 452
+            }
+        ],
+        [
+            100,
+            {
+                "comments": "",
+                "id": 247,
+                "length": 100,
+                "order": 14,
+                "seque": true,
+                "set": 592
+            }
+        ],
+        [
+            187,
+            {
+                "comments": "",
+                "id": 247,
+                "length": 187,
+                "order": 4,
+                "seque": true,
+                "set": 556
+            }
+        ]
+    ],
+    "name": "Nobody's Fault But Mine Jam",
+    "played": 5,
+    "shortest": [
+        [
+            187,
+            {
+                "comments": "",
+                "id": 247,
+                "length": 187,
+                "order": 4,
+                "seque": true,
+                "set": 556
+            }
+        ],
+        [
+            100,
+            {
+                "comments": "",
+                "id": 247,
+                "length": 100,
+                "order": 14,
+                "seque": true,
+                "set": 592
+            }
+        ],
+        [
+            94,
+            {
+                "comments": "",
+                "id": 247,
+                "length": 94,
+                "order": 12,
+                "seque": true,
+                "set": 452
+            }
+        ],
+        [
+            77,
+            {
+                "comments": "",
+                "id": 247,
+                "length": 77,
+                "order": 14,
+                "seque": true,
+                "set": 552
+            }
+        ],
+        [
+            76,
+            {
+                "comments": "",
+                "id": 247,
+                "length": 76,
+                "order": 3,
+                "seque": true,
+                "set": 559
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 457,
+                "length": 67,
+                "order": 11,
+                "seque": true,
+                "set": 786
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 429,
+                "length": 27,
+                "order": 11,
+                "seque": true,
+                "set": 1059
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 457,
+                "length": 67,
+                "order": 11,
+                "seque": true,
+                "set": 786
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 429,
+                "length": 27,
+                "order": 11,
+                "seque": true,
+                "set": 1059
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            53,
+            {
+                "comments": "",
+                "id": 483,
+                "length": 53,
+                "order": 12,
+                "seque": true,
+                "set": 1059
+            }
+        ],
+        [
+            215,
+            {
+                "comments": "",
+                "id": 483,
+                "length": 215,
+                "order": 12,
+                "seque": true,
+                "set": 786
+            }
+        ]
+    ],
+    "name": "Phil Interplay",
+    "played": 2,
+    "shortest": [
+        [
+            215,
+            {
+                "comments": "",
+                "id": 483,
+                "length": 215,
+                "order": 12,
+                "seque": true,
+                "set": 786
+            }
+        ],
+        [
+            53,
+            {
+                "comments": "",
+                "id": 483,
+                "length": 53,
+                "order": 12,
+                "seque": true,
+                "set": 1059
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

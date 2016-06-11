@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 535,
+                "order": 6,
+                "seque": true,
+                "set": 526
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 1071,
+                "order": 6,
+                "seque": true,
+                "set": 220
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 600,
+                "order": 7,
+                "seque": true,
+                "set": 31
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 429,
+                "order": 6,
+                "seque": true,
+                "set": 226
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 492,
+                "order": 10,
+                "seque": true,
+                "set": 998
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 535,
+                "order": 6,
+                "seque": true,
+                "set": 526
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 1071,
+                "order": 6,
+                "seque": true,
+                "set": 220
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 600,
+                "order": 7,
+                "seque": true,
+                "set": 31
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 429,
+                "order": 6,
+                "seque": true,
+                "set": 226
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 492,
+                "order": 10,
+                "seque": true,
+                "set": 998
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            44,
+            {
+                "comments": "",
+                "id": 449,
+                "length": 44,
+                "order": 7,
+                "seque": true,
+                "set": 220
+            }
+        ],
+        [
+            51,
+            {
+                "comments": "",
+                "id": 449,
+                "length": 51,
+                "order": 9,
+                "seque": true,
+                "set": 1044
+            }
+        ],
+        [
+            60,
+            {
+                "comments": "",
+                "id": 449,
+                "length": 60,
+                "order": 11,
+                "seque": true,
+                "set": 998
+            }
+        ],
+        [
+            66,
+            {
+                "comments": "",
+                "id": 449,
+                "length": 66,
+                "order": 7,
+                "seque": true,
+                "set": 526
+            }
+        ],
+        [
+            86,
+            {
+                "comments": "",
+                "id": 449,
+                "length": 86,
+                "order": 9,
+                "seque": true,
+                "set": 592
+            }
+        ]
+    ],
+    "name": "Drums w/ Jerry",
+    "played": 10,
+    "shortest": [
+        [
+            303,
+            {
+                "comments": "",
+                "id": 449,
+                "length": 303,
+                "order": 7,
+                "seque": true,
+                "set": 509
+            }
+        ],
+        [
+            263,
+            {
+                "comments": "with Garcia",
+                "id": 449,
+                "length": 263,
+                "order": 8,
+                "seque": true,
+                "set": 31
+            }
+        ],
+        [
+            133,
+            {
+                "comments": "",
+                "id": 449,
+                "length": 133,
+                "order": 7,
+                "seque": true,
+                "set": 226
+            }
+        ],
+        [
+            114,
+            {
+                "comments": "",
+                "id": 449,
+                "length": 114,
+                "order": 7,
+                "seque": true,
+                "set": 589
+            }
+        ],
+        [
+            86,
+            {
+                "comments": "",
+                "id": 449,
+                "length": 86,
+                "order": 9,
+                "seque": true,
+                "set": 592
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

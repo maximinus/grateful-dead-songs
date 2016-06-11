@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "Garcia's Ascending Riff",
+                "id": 423,
+                "length": 169,
+                "order": 18,
+                "seque": true,
+                "set": 28
+            },
+            1
+        ],
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 154,
+                "order": 10,
+                "seque": true,
+                "set": 932
+            },
+            1
+        ],
+        [
+            {
+                "comments": "add 27 sseconds",
+                "id": 306,
+                "length": 0,
+                "order": 9,
+                "seque": false,
+                "set": 734
+            },
+            1
+        ],
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 119,
+                "order": 9,
+                "seque": true,
+                "set": 786
+            },
+            1
+        ],
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 134,
+                "order": 7,
+                "seque": true,
+                "set": 843
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "Garcia's Ascending Riff",
+                "id": 423,
+                "length": 169,
+                "order": 18,
+                "seque": true,
+                "set": 28
+            },
+            1
+        ],
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 154,
+                "order": 10,
+                "seque": true,
+                "set": 932
+            },
+            1
+        ],
+        [
+            {
+                "comments": "add 27 sseconds",
+                "id": 306,
+                "length": 0,
+                "order": 9,
+                "seque": false,
+                "set": 734
+            },
+            1
+        ],
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 119,
+                "order": 9,
+                "seque": true,
+                "set": 786
+            },
+            1
+        ],
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 134,
+                "order": 7,
+                "seque": true,
+                "set": 843
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            209,
+            {
+                "comments": "",
+                "id": 246,
+                "length": 209,
+                "order": 8,
+                "seque": true,
+                "set": 843
+            }
+        ],
+        [
+            281,
+            {
+                "comments": "",
+                "id": 246,
+                "length": 281,
+                "order": 10,
+                "seque": true,
+                "set": 734
+            }
+        ],
+        [
+            315,
+            {
+                "comments": "",
+                "id": 246,
+                "length": 315,
+                "order": 11,
+                "seque": false,
+                "set": 932
+            }
+        ],
+        [
+            330,
+            {
+                "comments": "",
+                "id": 246,
+                "length": 330,
+                "order": 19,
+                "seque": true,
+                "set": 28
+            }
+        ],
+        [
+            658,
+            {
+                "comments": "",
+                "id": 246,
+                "length": 658,
+                "order": 10,
+                "seque": true,
+                "set": 786
+            }
+        ]
+    ],
+    "name": "Nobody's Fault But Mine",
+    "played": 5,
+    "shortest": [
+        [
+            658,
+            {
+                "comments": "",
+                "id": 246,
+                "length": 658,
+                "order": 10,
+                "seque": true,
+                "set": 786
+            }
+        ],
+        [
+            330,
+            {
+                "comments": "",
+                "id": 246,
+                "length": 330,
+                "order": 19,
+                "seque": true,
+                "set": 28
+            }
+        ],
+        [
+            315,
+            {
+                "comments": "",
+                "id": 246,
+                "length": 315,
+                "order": 11,
+                "seque": false,
+                "set": 932
+            }
+        ],
+        [
+            281,
+            {
+                "comments": "",
+                "id": 246,
+                "length": 281,
+                "order": 10,
+                "seque": true,
+                "set": 734
+            }
+        ],
+        [
+            209,
+            {
+                "comments": "",
+                "id": 246,
+                "length": 209,
+                "order": 8,
+                "seque": true,
+                "set": 843
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

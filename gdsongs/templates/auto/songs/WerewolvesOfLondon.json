@@ -1,0 +1,164 @@
+{
+    "after": [],
+    "before": [],
+    "longest": [
+        [
+            385,
+            {
+                "comments": "",
+                "id": 392,
+                "length": 385,
+                "order": 1,
+                "seque": false,
+                "set": 963
+            }
+        ],
+        [
+            426,
+            {
+                "comments": "",
+                "id": 392,
+                "length": 426,
+                "order": 1,
+                "seque": false,
+                "set": 978
+            }
+        ],
+        [
+            434,
+            {
+                "comments": "",
+                "id": 392,
+                "length": 434,
+                "order": 1,
+                "seque": false,
+                "set": 906
+            }
+        ],
+        [
+            445,
+            {
+                "comments": "",
+                "id": 392,
+                "length": 445,
+                "order": 1,
+                "seque": false,
+                "set": 875
+            }
+        ]
+    ],
+    "name": "Werewolves Of London",
+    "played": 5,
+    "shortest": [
+        [
+            445,
+            {
+                "comments": "",
+                "id": 392,
+                "length": 445,
+                "order": 1,
+                "seque": false,
+                "set": 875
+            }
+        ],
+        [
+            434,
+            {
+                "comments": "",
+                "id": 392,
+                "length": 434,
+                "order": 1,
+                "seque": false,
+                "set": 906
+            }
+        ],
+        [
+            426,
+            {
+                "comments": "",
+                "id": 392,
+                "length": 426,
+                "order": 1,
+                "seque": false,
+                "set": 978
+            }
+        ],
+        [
+            385,
+            {
+                "comments": "",
+                "id": 392,
+                "length": 385,
+                "order": 1,
+                "seque": false,
+                "set": 963
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

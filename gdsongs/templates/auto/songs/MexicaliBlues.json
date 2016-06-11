@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 24,
+                "length": 312,
+                "order": 1,
+                "seque": false,
+                "set": 841
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 261,
+                "length": 0,
+                "order": 4,
+                "seque": false,
+                "set": 271
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 222,
+                "length": 180,
+                "order": 6,
+                "seque": true,
+                "set": 1040
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 222,
+                "length": 177,
+                "order": 5,
+                "seque": true,
+                "set": 207
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 222,
+                "length": 192,
+                "order": 6,
+                "seque": true,
+                "set": 658
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 24,
+                "length": 312,
+                "order": 1,
+                "seque": false,
+                "set": 841
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 261,
+                "length": 0,
+                "order": 4,
+                "seque": false,
+                "set": 271
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 222,
+                "length": 180,
+                "order": 6,
+                "seque": true,
+                "set": 1040
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 222,
+                "length": 177,
+                "order": 5,
+                "seque": true,
+                "set": 207
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 222,
+                "length": 192,
+                "order": 6,
+                "seque": true,
+                "set": 658
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            55,
+            {
+                "comments": "aborted ",
+                "id": 223,
+                "length": 55,
+                "order": 7,
+                "seque": true,
+                "set": 658
+            }
+        ],
+        [
+            180,
+            {
+                "comments": "",
+                "id": 223,
+                "length": 180,
+                "order": 5,
+                "seque": false,
+                "set": 832
+            }
+        ],
+        [
+            188,
+            {
+                "comments": "",
+                "id": 223,
+                "length": 188,
+                "order": 3,
+                "seque": true,
+                "set": 346
+            }
+        ],
+        [
+            188,
+            {
+                "comments": "",
+                "id": 223,
+                "length": 188,
+                "order": 2,
+                "seque": false,
+                "set": 396
+            }
+        ],
+        [
+            189,
+            {
+                "comments": "",
+                "id": 223,
+                "length": 189,
+                "order": 6,
+                "seque": false,
+                "set": 876
+            }
+        ]
+    ],
+    "name": "Mexicali Blues",
+    "played": 86,
+    "shortest": [
+        [
+            349,
+            {
+                "comments": "",
+                "id": 223,
+                "length": 349,
+                "order": 4,
+                "seque": true,
+                "set": 331
+            }
+        ],
+        [
+            336,
+            {
+                "comments": "",
+                "id": 223,
+                "length": 336,
+                "order": 6,
+                "seque": false,
+                "set": 207
+            }
+        ],
+        [
+            328,
+            {
+                "comments": "",
+                "id": 223,
+                "length": 328,
+                "order": 5,
+                "seque": false,
+                "set": 579
+            }
+        ],
+        [
+            316,
+            {
+                "comments": "",
+                "id": 223,
+                "length": 316,
+                "order": 6,
+                "seque": false,
+                "set": 433
+            }
+        ],
+        [
+            311,
+            {
+                "comments": "",
+                "id": 223,
+                "length": 311,
+                "order": 5,
+                "seque": true,
+                "set": 727
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        1,
+        14,
+        9,
+        0,
+        0,
+        5,
+        9,
+        9,
+        2,
+        4,
+        4,
+        2,
+        6,
+        2,
+        2,
+        4,
+        3,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

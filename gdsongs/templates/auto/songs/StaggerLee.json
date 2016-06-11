@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 203,
+                "length": 533,
+                "order": 4,
+                "seque": false,
+                "set": 268
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 492,
+                "order": 5,
+                "seque": false,
+                "set": 1005
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 129,
+                "length": 248,
+                "order": 3,
+                "seque": false,
+                "set": 172
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 264,
+                "order": 6,
+                "seque": false,
+                "set": 358
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 28,
+                "length": 351,
+                "order": 5,
+                "seque": false,
+                "set": 61
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 203,
+                "length": 533,
+                "order": 4,
+                "seque": false,
+                "set": 268
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 492,
+                "order": 5,
+                "seque": false,
+                "set": 1005
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 129,
+                "length": 248,
+                "order": 3,
+                "seque": false,
+                "set": 172
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 264,
+                "order": 6,
+                "seque": false,
+                "set": 358
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 28,
+                "length": 351,
+                "order": 5,
+                "seque": false,
+                "set": 61
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            307,
+            {
+                "comments": "",
+                "id": 309,
+                "length": 307,
+                "order": 6,
+                "seque": false,
+                "set": 661
+            }
+        ],
+        [
+            308,
+            {
+                "comments": "",
+                "id": 309,
+                "length": 308,
+                "order": 3,
+                "seque": false,
+                "set": 424
+            }
+        ],
+        [
+            308,
+            {
+                "comments": "",
+                "id": 309,
+                "length": 308,
+                "order": 5,
+                "seque": false,
+                "set": 817
+            }
+        ],
+        [
+            315,
+            {
+                "comments": "",
+                "id": 309,
+                "length": 315,
+                "order": 4,
+                "seque": false,
+                "set": 610
+            }
+        ],
+        [
+            316,
+            {
+                "comments": "",
+                "id": 309,
+                "length": 316,
+                "order": 3,
+                "seque": false,
+                "set": 274
+            }
+        ]
+    ],
+    "name": "Stagger Lee",
+    "played": 30,
+    "shortest": [
+        [
+            513,
+            {
+                "comments": "Awful Bob Weir slide playing",
+                "id": 309,
+                "length": 513,
+                "order": 7,
+                "seque": false,
+                "set": 882
+            }
+        ],
+        [
+            471,
+            {
+                "comments": "",
+                "id": 309,
+                "length": 471,
+                "order": 7,
+                "seque": false,
+                "set": 616
+            }
+        ],
+        [
+            465,
+            {
+                "comments": "",
+                "id": 309,
+                "length": 465,
+                "order": 7,
+                "seque": false,
+                "set": 358
+            }
+        ],
+        [
+            463,
+            {
+                "comments": "",
+                "id": 309,
+                "length": 463,
+                "order": 9,
+                "seque": false,
+                "set": 369
+            }
+        ],
+        [
+            433,
+            {
+                "comments": "",
+                "id": 309,
+                "length": 433,
+                "order": 8,
+                "seque": false,
+                "set": 625
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        8,
+        0,
+        0,
+        1,
+        0,
+        0,
+        4,
+        1,
+        0,
+        4,
+        3,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

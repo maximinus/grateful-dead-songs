@@ -1,0 +1,186 @@
+{
+    "after": [],
+    "before": [],
+    "longest": [
+        [
+            199,
+            {
+                "comments": "",
+                "id": 125,
+                "length": 199,
+                "order": 1,
+                "seque": false,
+                "set": 79
+            }
+        ],
+        [
+            226,
+            {
+                "comments": "",
+                "id": 125,
+                "length": 226,
+                "order": 1,
+                "seque": false,
+                "set": 131
+            }
+        ],
+        [
+            226,
+            {
+                "comments": "",
+                "id": 125,
+                "length": 226,
+                "order": 1,
+                "seque": false,
+                "set": 1017
+            }
+        ],
+        [
+            233,
+            {
+                "comments": "",
+                "id": 125,
+                "length": 233,
+                "order": 1,
+                "seque": false,
+                "set": 421
+            }
+        ],
+        [
+            240,
+            {
+                "comments": "",
+                "id": 125,
+                "length": 240,
+                "order": 1,
+                "seque": false,
+                "set": 658
+            }
+        ]
+    ],
+    "name": "Good Times",
+    "played": 11,
+    "shortest": [
+        [
+            268,
+            {
+                "comments": "",
+                "id": 125,
+                "length": 268,
+                "order": 1,
+                "seque": false,
+                "set": 724
+            }
+        ],
+        [
+            265,
+            {
+                "comments": "",
+                "id": 125,
+                "length": 265,
+                "order": 1,
+                "seque": false,
+                "set": 747
+            }
+        ],
+        [
+            265,
+            {
+                "comments": "",
+                "id": 125,
+                "length": 265,
+                "order": 1,
+                "seque": false,
+                "set": 175
+            }
+        ],
+        [
+            262,
+            {
+                "comments": "",
+                "id": 125,
+                "length": 262,
+                "order": 1,
+                "seque": false,
+                "set": 664
+            }
+        ],
+        [
+            257,
+            {
+                "comments": "",
+                "id": 125,
+                "length": 257,
+                "order": 1,
+                "seque": false,
+                "set": 172
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        3,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "Get Back Truckin' On 7 Times",
+                "id": 427,
+                "length": 82,
+                "order": 3,
+                "seque": false,
+                "set": 696
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 192,
+                "order": 8,
+                "seque": false,
+                "set": 143
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "Get Back Truckin' On 7 Times",
+                "id": 427,
+                "length": 82,
+                "order": 3,
+                "seque": false,
+                "set": 696
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 192,
+                "order": 8,
+                "seque": false,
+                "set": 143
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            466,
+            {
+                "comments": "",
+                "id": 132,
+                "length": 466,
+                "order": 4,
+                "seque": false,
+                "set": 696
+            }
+        ],
+        [
+            483,
+            {
+                "comments": "",
+                "id": 132,
+                "length": 483,
+                "order": 9,
+                "seque": false,
+                "set": 143
+            }
+        ]
+    ],
+    "name": "Hard To Handle",
+    "played": 2,
+    "shortest": [
+        [
+            483,
+            {
+                "comments": "",
+                "id": 132,
+                "length": 483,
+                "order": 9,
+                "seque": false,
+                "set": 143
+            }
+        ],
+        [
+            466,
+            {
+                "comments": "",
+                "id": 132,
+                "length": 466,
+                "order": 4,
+                "seque": false,
+                "set": 696
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

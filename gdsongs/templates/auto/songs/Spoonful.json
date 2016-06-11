@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 209,
+                "order": 5,
+                "seque": true,
+                "set": 425
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 134,
+                "length": 778,
+                "order": 2,
+                "seque": true,
+                "set": 864
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 101,
+                "length": 685,
+                "order": 3,
+                "seque": true,
+                "set": 690
+            },
+            1
+        ],
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 110,
+                "order": 13,
+                "seque": true,
+                "set": 710
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 134,
+                "length": 640,
+                "order": 4,
+                "seque": true,
+                "set": 861
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 209,
+                "order": 5,
+                "seque": true,
+                "set": 425
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 134,
+                "length": 778,
+                "order": 2,
+                "seque": true,
+                "set": 864
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 101,
+                "length": 685,
+                "order": 3,
+                "seque": true,
+                "set": 690
+            },
+            1
+        ],
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 110,
+                "order": 13,
+                "seque": true,
+                "set": 710
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 134,
+                "length": 640,
+                "order": 4,
+                "seque": true,
+                "set": 861
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            193,
+            {
+                "comments": "",
+                "id": 308,
+                "length": 193,
+                "order": 14,
+                "seque": true,
+                "set": 710
+            }
+        ],
+        [
+            236,
+            {
+                "comments": "",
+                "id": 308,
+                "length": 236,
+                "order": 11,
+                "seque": true,
+                "set": 936
+            }
+        ],
+        [
+            242,
+            {
+                "comments": "",
+                "id": 308,
+                "length": 242,
+                "order": 6,
+                "seque": true,
+                "set": 416
+            }
+        ],
+        [
+            268,
+            {
+                "comments": "",
+                "id": 308,
+                "length": 268,
+                "order": 6,
+                "seque": false,
+                "set": 442
+            }
+        ],
+        [
+            270,
+            {
+                "comments": "",
+                "id": 308,
+                "length": 270,
+                "order": 6,
+                "seque": false,
+                "set": 889
+            }
+        ]
+    ],
+    "name": "Spoonful",
+    "played": 10,
+    "shortest": [
+        [
+            429,
+            {
+                "comments": "",
+                "id": 308,
+                "length": 429,
+                "order": 5,
+                "seque": true,
+                "set": 861
+            }
+        ],
+        [
+            418,
+            {
+                "comments": "",
+                "id": 308,
+                "length": 418,
+                "order": 4,
+                "seque": true,
+                "set": 690
+            }
+        ],
+        [
+            330,
+            {
+                "comments": "",
+                "id": 308,
+                "length": 330,
+                "order": 7,
+                "seque": true,
+                "set": 329
+            }
+        ],
+        [
+            286,
+            {
+                "comments": "",
+                "id": 308,
+                "length": 286,
+                "order": 3,
+                "seque": true,
+                "set": 864
+            }
+        ],
+        [
+            285,
+            {
+                "comments": "Garcia does that scale riff @ 3:49",
+                "id": 308,
+                "length": 285,
+                "order": 6,
+                "seque": true,
+                "set": 425
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 48,
+                "length": 396,
+                "order": 4,
+                "seque": false,
+                "set": 216
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 311,
+                "length": 358,
+                "order": 6,
+                "seque": false,
+                "set": 234
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 27,
+                "length": 291,
+                "order": 4,
+                "seque": false,
+                "set": 349
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 114,
+                "length": 446,
+                "order": 4,
+                "seque": false,
+                "set": 979
+            },
+            1
+        ],
+        [
+            {
+                "comments": "w/ Bruce Hornsby",
+                "id": 329,
+                "length": 491,
+                "order": 4,
+                "seque": false,
+                "set": 736
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 48,
+                "length": 396,
+                "order": 4,
+                "seque": false,
+                "set": 216
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 311,
+                "length": 358,
+                "order": 6,
+                "seque": false,
+                "set": 234
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 27,
+                "length": 291,
+                "order": 4,
+                "seque": false,
+                "set": 349
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 114,
+                "length": 446,
+                "order": 4,
+                "seque": false,
+                "set": 979
+            },
+            1
+        ],
+        [
+            {
+                "comments": "w/ Bruce Hornsby",
+                "id": 329,
+                "length": 491,
+                "order": 4,
+                "seque": false,
+                "set": 736
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            505,
+            {
+                "comments": "",
+                "id": 315,
+                "length": 505,
+                "order": 6,
+                "seque": false,
+                "set": 594
+            }
+        ],
+        [
+            509,
+            {
+                "comments": "",
+                "id": 315,
+                "length": 509,
+                "order": 7,
+                "seque": false,
+                "set": 418
+            }
+        ],
+        [
+            511,
+            {
+                "comments": "",
+                "id": 315,
+                "length": 511,
+                "order": 5,
+                "seque": false,
+                "set": 245
+            }
+        ],
+        [
+            517,
+            {
+                "comments": "",
+                "id": 315,
+                "length": 517,
+                "order": 7,
+                "seque": false,
+                "set": 234
+            }
+        ],
+        [
+            525,
+            {
+                "comments": "",
+                "id": 315,
+                "length": 525,
+                "order": 5,
+                "seque": false,
+                "set": 216
+            }
+        ]
+    ],
+    "name": "Stuck Inside Of Mobile With The Memphis Blues Again",
+    "played": 12,
+    "shortest": [
+        [
+            623,
+            {
+                "comments": "",
+                "id": 315,
+                "length": 623,
+                "order": 6,
+                "seque": false,
+                "set": 1014
+            }
+        ],
+        [
+            561,
+            {
+                "comments": "",
+                "id": 315,
+                "length": 561,
+                "order": 5,
+                "seque": false,
+                "set": 736
+            }
+        ],
+        [
+            556,
+            {
+                "comments": "",
+                "id": 315,
+                "length": 556,
+                "order": 5,
+                "seque": false,
+                "set": 349
+            }
+        ],
+        [
+            544,
+            {
+                "comments": "Lesh says \"Ladies and Gentleman, Bruce Hornsby on the accordion!\" Weir says, \"Say 'thank you Bruce'\".",
+                "id": 315,
+                "length": 544,
+                "order": 5,
+                "seque": false,
+                "set": 782
+            }
+        ],
+        [
+            534,
+            {
+                "comments": "",
+                "id": 315,
+                "length": 534,
+                "order": 5,
+                "seque": false,
+                "set": 979
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

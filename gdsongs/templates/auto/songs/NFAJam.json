@@ -1,0 +1,144 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 107,
+                "order": 6,
+                "seque": true,
+                "set": 108
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 107,
+                "order": 6,
+                "seque": true,
+                "set": 108
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            62,
+            {
+                "comments": "",
+                "id": 448,
+                "length": 62,
+                "order": 1,
+                "seque": false,
+                "set": 653
+            }
+        ],
+        [
+            73,
+            {
+                "comments": "",
+                "id": 448,
+                "length": 73,
+                "order": 7,
+                "seque": true,
+                "set": 108
+            }
+        ]
+    ],
+    "name": "NFA Jam",
+    "played": 2,
+    "shortest": [
+        [
+            73,
+            {
+                "comments": "",
+                "id": 448,
+                "length": 73,
+                "order": 7,
+                "seque": true,
+                "set": 108
+            }
+        ],
+        [
+            62,
+            {
+                "comments": "",
+                "id": 448,
+                "length": 62,
+                "order": 1,
+                "seque": false,
+                "set": 653
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

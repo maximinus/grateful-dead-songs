@@ -1,0 +1,122 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 309,
+                "length": 316,
+                "order": 3,
+                "seque": false,
+                "set": 274
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 309,
+                "length": 316,
+                "order": 3,
+                "seque": false,
+                "set": 274
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            423,
+            {
+                "comments": "first performance",
+                "id": 18,
+                "length": 423,
+                "order": 4,
+                "seque": false,
+                "set": 274
+            }
+        ]
+    ],
+    "name": "Ballad Of A Thin Man",
+    "played": 1,
+    "shortest": [
+        [
+            423,
+            {
+                "comments": "first performance",
+                "id": 18,
+                "length": 423,
+                "order": 4,
+                "seque": false,
+                "set": 274
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

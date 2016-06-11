@@ -13,8 +13,12 @@ Shows management:
 -----------------
 
 	build_songs
-		Builds a series of static json files for all songs.
+		Builds a series of json files for all songs.
 		Takes about 2-3 minutes to run.
+
+	build_shows
+		Builds a series of json files for all shows.
+		Takes less than a minute.
 
 	clearsets
 		Removes all PlayedSongs, PlayedSets and Shows from the database.

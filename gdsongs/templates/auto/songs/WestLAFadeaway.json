@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 255,
+                "length": 248,
+                "order": 7,
+                "seque": false,
+                "set": 531
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Lesh says \"Ladies and Gentleman, Bruce Hornsby on the accordion!\" Weir says, \"Say 'thank you Bruce'\".",
+                "id": 315,
+                "length": 544,
+                "order": 5,
+                "seque": false,
+                "set": 782
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 346,
+                "order": 7,
+                "seque": false,
+                "set": 502
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 108,
+                "length": 458,
+                "order": 2,
+                "seque": false,
+                "set": 938
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 129,
+                "length": 243,
+                "order": 2,
+                "seque": false,
+                "set": 1040
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 255,
+                "length": 248,
+                "order": 7,
+                "seque": false,
+                "set": 531
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Lesh says \"Ladies and Gentleman, Bruce Hornsby on the accordion!\" Weir says, \"Say 'thank you Bruce'\".",
+                "id": 315,
+                "length": 544,
+                "order": 5,
+                "seque": false,
+                "set": 782
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 346,
+                "order": 7,
+                "seque": false,
+                "set": 502
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 108,
+                "length": 458,
+                "order": 2,
+                "seque": false,
+                "set": 938
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 129,
+                "length": 243,
+                "order": 2,
+                "seque": false,
+                "set": 1040
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            413,
+            {
+                "comments": "",
+                "id": 393,
+                "length": 413,
+                "order": 3,
+                "seque": false,
+                "set": 366
+            }
+        ],
+        [
+            413,
+            {
+                "comments": "",
+                "id": 393,
+                "length": 413,
+                "order": 3,
+                "seque": false,
+                "set": 661
+            }
+        ],
+        [
+            414,
+            {
+                "comments": "",
+                "id": 393,
+                "length": 414,
+                "order": 6,
+                "seque": false,
+                "set": 782
+            }
+        ],
+        [
+            420,
+            {
+                "comments": "",
+                "id": 393,
+                "length": 420,
+                "order": 4,
+                "seque": false,
+                "set": 145
+            }
+        ],
+        [
+            424,
+            {
+                "comments": "",
+                "id": 393,
+                "length": 424,
+                "order": 5,
+                "seque": false,
+                "set": 941
+            }
+        ]
+    ],
+    "name": "West L.A. Fadeaway",
+    "played": 28,
+    "shortest": [
+        [
+            569,
+            {
+                "comments": "",
+                "id": 393,
+                "length": 569,
+                "order": 5,
+                "seque": false,
+                "set": 585
+            }
+        ],
+        [
+            495,
+            {
+                "comments": "",
+                "id": 393,
+                "length": 495,
+                "order": 8,
+                "seque": false,
+                "set": 531
+            }
+        ],
+        [
+            486,
+            {
+                "comments": "",
+                "id": 393,
+                "length": 486,
+                "order": 3,
+                "seque": false,
+                "set": 546
+            }
+        ],
+        [
+            465,
+            {
+                "comments": "",
+                "id": 393,
+                "length": 465,
+                "order": 6,
+                "seque": false,
+                "set": 820
+            }
+        ],
+        [
+            465,
+            {
+                "comments": "",
+                "id": 393,
+                "length": 465,
+                "order": 5,
+                "seque": false,
+                "set": 392
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        7,
+        2,
+        3,
+        4,
+        3,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

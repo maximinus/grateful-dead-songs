@@ -1,0 +1,188 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 156,
+                "length": 358,
+                "order": 10,
+                "seque": true,
+                "set": 815
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 96,
+                "length": 434,
+                "order": 10,
+                "seque": true,
+                "set": 202
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 156,
+                "length": 358,
+                "order": 10,
+                "seque": true,
+                "set": 815
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 96,
+                "length": 434,
+                "order": 10,
+                "seque": true,
+                "set": 202
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            264,
+            {
+                "comments": "",
+                "id": 14,
+                "length": 264,
+                "order": 11,
+                "seque": false,
+                "set": 202
+            }
+        ],
+        [
+            276,
+            {
+                "comments": "",
+                "id": 14,
+                "length": 276,
+                "order": 11,
+                "seque": false,
+                "set": 815
+            }
+        ],
+        [
+            299,
+            {
+                "comments": "",
+                "id": 14,
+                "length": 299,
+                "order": 1,
+                "seque": false,
+                "set": 563
+            }
+        ]
+    ],
+    "name": "Attics Of My Life",
+    "played": 3,
+    "shortest": [
+        [
+            299,
+            {
+                "comments": "",
+                "id": 14,
+                "length": 299,
+                "order": 1,
+                "seque": false,
+                "set": 563
+            }
+        ],
+        [
+            276,
+            {
+                "comments": "",
+                "id": 14,
+                "length": 276,
+                "order": 11,
+                "seque": false,
+                "set": 815
+            }
+        ],
+        [
+            264,
+            {
+                "comments": "",
+                "id": 14,
+                "length": 264,
+                "order": 11,
+                "seque": false,
+                "set": 202
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "36 beats which includes a misstart",
+                "id": 22,
+                "length": 174,
+                "order": 15,
+                "seque": false,
+                "set": 34
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 129,
+                "length": 310,
+                "order": 22,
+                "seque": false,
+                "set": 94
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "36 beats which includes a misstart",
+                "id": 22,
+                "length": 174,
+                "order": 15,
+                "seque": false,
+                "set": 34
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 129,
+                "length": 310,
+                "order": 22,
+                "seque": false,
+                "set": 94
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            398,
+            {
+                "comments": "",
+                "id": 369,
+                "length": 398,
+                "order": 16,
+                "seque": false,
+                "set": 34
+            }
+        ],
+        [
+            400,
+            {
+                "comments": "",
+                "id": 369,
+                "length": 400,
+                "order": 23,
+                "seque": false,
+                "set": 94
+            }
+        ]
+    ],
+    "name": "The Stranger (Two Souls In Communion)",
+    "played": 2,
+    "shortest": [
+        [
+            400,
+            {
+                "comments": "",
+                "id": 369,
+                "length": 400,
+                "order": 23,
+                "seque": false,
+                "set": 94
+            }
+        ],
+        [
+            398,
+            {
+                "comments": "",
+                "id": 369,
+                "length": 398,
+                "order": 16,
+                "seque": false,
+                "set": 34
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

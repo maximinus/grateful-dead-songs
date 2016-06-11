@@ -1,0 +1,254 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 147,
+                "order": 7,
+                "seque": true,
+                "set": 370
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 257,
+                "order": 9,
+                "seque": true,
+                "set": 226
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Garcia scale riff",
+                "id": 428,
+                "length": 328,
+                "order": 8,
+                "seque": true,
+                "set": 798
+            },
+            1
+        ],
+        [
+            {
+                "comments": "with drums",
+                "id": 306,
+                "length": 275,
+                "order": 6,
+                "seque": true,
+                "set": 623
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 147,
+                "order": 7,
+                "seque": true,
+                "set": 370
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 257,
+                "order": 9,
+                "seque": true,
+                "set": 226
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Garcia scale riff",
+                "id": 428,
+                "length": 328,
+                "order": 8,
+                "seque": true,
+                "set": 798
+            },
+            1
+        ],
+        [
+            {
+                "comments": "with drums",
+                "id": 306,
+                "length": 275,
+                "order": 6,
+                "seque": true,
+                "set": 623
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            67,
+            {
+                "comments": "",
+                "id": 461,
+                "length": 67,
+                "order": 10,
+                "seque": true,
+                "set": 226
+            }
+        ],
+        [
+            85,
+            {
+                "comments": "",
+                "id": 461,
+                "length": 85,
+                "order": 8,
+                "seque": true,
+                "set": 370
+            }
+        ],
+        [
+            120,
+            {
+                "comments": "redefine",
+                "id": 461,
+                "length": 120,
+                "order": 9,
+                "seque": true,
+                "set": 798
+            }
+        ],
+        [
+            148,
+            {
+                "comments": "",
+                "id": 461,
+                "length": 148,
+                "order": 7,
+                "seque": true,
+                "set": 623
+            }
+        ]
+    ],
+    "name": "Jerry, Bob & Brent Interplay",
+    "played": 4,
+    "shortest": [
+        [
+            148,
+            {
+                "comments": "",
+                "id": 461,
+                "length": 148,
+                "order": 7,
+                "seque": true,
+                "set": 623
+            }
+        ],
+        [
+            120,
+            {
+                "comments": "redefine",
+                "id": 461,
+                "length": 120,
+                "order": 9,
+                "seque": true,
+                "set": 798
+            }
+        ],
+        [
+            85,
+            {
+                "comments": "",
+                "id": 461,
+                "length": 85,
+                "order": 8,
+                "seque": true,
+                "set": 370
+            }
+        ],
+        [
+            67,
+            {
+                "comments": "",
+                "id": 461,
+                "length": 67,
+                "order": 10,
+                "seque": true,
+                "set": 226
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

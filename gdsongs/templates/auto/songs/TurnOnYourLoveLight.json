@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "NFA transiton aborted",
+                "id": 357,
+                "length": 536,
+                "order": 9,
+                "seque": true,
+                "set": 942
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 82,
+                "order": 5,
+                "seque": true,
+                "set": 1004
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 312,
+                "length": 592,
+                "order": 9,
+                "seque": true,
+                "set": 138
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 31,
+                "length": 473,
+                "order": 11,
+                "seque": false,
+                "set": 419
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 357,
+                "length": 484,
+                "order": 10,
+                "seque": true,
+                "set": 1056
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "NFA transiton aborted",
+                "id": 357,
+                "length": 536,
+                "order": 9,
+                "seque": true,
+                "set": 942
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 82,
+                "order": 5,
+                "seque": true,
+                "set": 1004
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 312,
+                "length": 592,
+                "order": 9,
+                "seque": true,
+                "set": 138
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 31,
+                "length": 473,
+                "order": 11,
+                "seque": false,
+                "set": 419
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 357,
+                "length": 484,
+                "order": 10,
+                "seque": true,
+                "set": 1056
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            253,
+            {
+                "comments": "",
+                "id": 368,
+                "length": 253,
+                "order": 12,
+                "seque": false,
+                "set": 965
+            }
+        ],
+        [
+            279,
+            {
+                "comments": "",
+                "id": 368,
+                "length": 279,
+                "order": 8,
+                "seque": false,
+                "set": 381
+            }
+        ],
+        [
+            282,
+            {
+                "comments": "",
+                "id": 368,
+                "length": 282,
+                "order": 13,
+                "seque": false,
+                "set": 571
+            }
+        ],
+        [
+            283,
+            {
+                "comments": "",
+                "id": 368,
+                "length": 283,
+                "order": 14,
+                "seque": false,
+                "set": 812
+            }
+        ],
+        [
+            298,
+            {
+                "comments": "",
+                "id": 368,
+                "length": 298,
+                "order": 10,
+                "seque": false,
+                "set": 494
+            }
+        ]
+    ],
+    "name": "Turn On Your Love Light",
+    "played": 33,
+    "shortest": [
+        [
+            1606,
+            {
+                "comments": "At 13:46 into Love Light they shift into a blues riff resembling the beginning of Hand Me Down My Walkin Cane, then slip back into Turn On Your Love Light 34 seconds later.",
+                "id": 368,
+                "length": 1606,
+                "order": 1,
+                "seque": false,
+                "set": 686
+            }
+        ],
+        [
+            1026,
+            {
+                "comments": "",
+                "id": 368,
+                "length": 1026,
+                "order": 24,
+                "seque": true,
+                "set": 94
+            }
+        ],
+        [
+            980,
+            {
+                "comments": "",
+                "id": 368,
+                "length": 980,
+                "order": 11,
+                "seque": false,
+                "set": 897
+            }
+        ],
+        [
+            847,
+            {
+                "comments": "",
+                "id": 368,
+                "length": 847,
+                "order": 6,
+                "seque": false,
+                "set": 1004
+            }
+        ],
+        [
+            711,
+            {
+                "comments": "",
+                "id": 368,
+                "length": 711,
+                "order": 7,
+                "seque": false,
+                "set": 628
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        4,
+        4,
+        4,
+        6,
+        4,
+        0,
+        1,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

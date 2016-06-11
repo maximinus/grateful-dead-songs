@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 393,
+                "length": 436,
+                "order": 2,
+                "seque": false,
+                "set": 430
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 267,
+                "length": 343,
+                "order": 4,
+                "seque": false,
+                "set": 166
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 262,
+                "length": 400,
+                "order": 6,
+                "seque": false,
+                "set": 953
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 241,
+                "length": 424,
+                "order": 2,
+                "seque": false,
+                "set": 73
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 9,
+                "length": 439,
+                "order": 6,
+                "seque": false,
+                "set": 448
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 393,
+                "length": 436,
+                "order": 2,
+                "seque": false,
+                "set": 430
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 267,
+                "length": 343,
+                "order": 4,
+                "seque": false,
+                "set": 166
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 262,
+                "length": 400,
+                "order": 6,
+                "seque": false,
+                "set": 953
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 241,
+                "length": 424,
+                "order": 2,
+                "seque": false,
+                "set": 73
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 9,
+                "length": 439,
+                "order": 6,
+                "seque": false,
+                "set": 448
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            191,
+            {
+                "comments": "",
+                "id": 97,
+                "length": 191,
+                "order": 7,
+                "seque": false,
+                "set": 242
+            }
+        ],
+        [
+            206,
+            {
+                "comments": "",
+                "id": 97,
+                "length": 206,
+                "order": 9,
+                "seque": false,
+                "set": 625
+            }
+        ],
+        [
+            207,
+            {
+                "comments": "",
+                "id": 97,
+                "length": 207,
+                "order": 2,
+                "seque": false,
+                "set": 359
+            }
+        ],
+        [
+            211,
+            {
+                "comments": "",
+                "id": 97,
+                "length": 211,
+                "order": 3,
+                "seque": false,
+                "set": 296
+            }
+        ],
+        [
+            214,
+            {
+                "comments": "",
+                "id": 97,
+                "length": 214,
+                "order": 4,
+                "seque": false,
+                "set": 798
+            }
+        ]
+    ],
+    "name": "Easy To Love You",
+    "played": 13,
+    "shortest": [
+        [
+            344,
+            {
+                "comments": "",
+                "id": 97,
+                "length": 344,
+                "order": 3,
+                "seque": false,
+                "set": 430
+            }
+        ],
+        [
+            329,
+            {
+                "comments": "",
+                "id": 97,
+                "length": 329,
+                "order": 3,
+                "seque": false,
+                "set": 73
+            }
+        ],
+        [
+            314,
+            {
+                "comments": "last performed on 9/3/80",
+                "id": 97,
+                "length": 314,
+                "order": 3,
+                "seque": false,
+                "set": 30
+            }
+        ],
+        [
+            312,
+            {
+                "comments": "",
+                "id": 97,
+                "length": 312,
+                "order": 5,
+                "seque": false,
+                "set": 166
+            }
+        ],
+        [
+            226,
+            {
+                "comments": "",
+                "id": 97,
+                "length": 226,
+                "order": 7,
+                "seque": false,
+                "set": 448
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 478,
+                "length": 82,
+                "order": 8,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Jerry & Bob left the stage",
+                "id": 89,
+                "length": 305,
+                "order": 7,
+                "seque": true,
+                "set": 821
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 478,
+                "length": 82,
+                "order": 8,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Jerry & Bob left the stage",
+                "id": 89,
+                "length": 305,
+                "order": 7,
+                "seque": true,
+                "set": 821
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            42,
+            {
+                "comments": "",
+                "id": 479,
+                "length": 42,
+                "order": 9,
+                "seque": true,
+                "set": 589
+            }
+        ],
+        [
+            133,
+            {
+                "comments": "",
+                "id": 479,
+                "length": 133,
+                "order": 8,
+                "seque": true,
+                "set": 821
+            }
+        ]
+    ],
+    "name": "Brent & Drummers Jam",
+    "played": 2,
+    "shortest": [
+        [
+            133,
+            {
+                "comments": "",
+                "id": 479,
+                "length": 133,
+                "order": 8,
+                "seque": true,
+                "set": 821
+            }
+        ],
+        [
+            42,
+            {
+                "comments": "",
+                "id": 479,
+                "length": 42,
+                "order": 9,
+                "seque": true,
+                "set": 589
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 71,
+                "length": 354,
+                "order": 5,
+                "seque": false,
+                "set": 386
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 30,
+                "length": 266,
+                "order": 1,
+                "seque": false,
+                "set": 324
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 318,
+                "length": 461,
+                "order": 5,
+                "seque": false,
+                "set": 189
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 386,
+                "length": 331,
+                "order": 8,
+                "seque": false,
+                "set": 263
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 364,
+                "length": 0,
+                "order": 5,
+                "seque": false,
+                "set": 767
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 71,
+                "length": 354,
+                "order": 5,
+                "seque": false,
+                "set": 386
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 30,
+                "length": 266,
+                "order": 1,
+                "seque": false,
+                "set": 324
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 318,
+                "length": 461,
+                "order": 5,
+                "seque": false,
+                "set": 189
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 386,
+                "length": 331,
+                "order": 8,
+                "seque": false,
+                "set": 263
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 364,
+                "length": 0,
+                "order": 5,
+                "seque": false,
+                "set": 767
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            272,
+            {
+                "comments": "",
+                "id": 39,
+                "length": 272,
+                "order": 7,
+                "seque": false,
+                "set": 1050
+            }
+        ],
+        [
+            286,
+            {
+                "comments": "",
+                "id": 39,
+                "length": 286,
+                "order": 1,
+                "seque": false,
+                "set": 812
+            }
+        ],
+        [
+            288,
+            {
+                "comments": "",
+                "id": 39,
+                "length": 288,
+                "order": 1,
+                "seque": false,
+                "set": 173
+            }
+        ],
+        [
+            288,
+            {
+                "comments": "",
+                "id": 39,
+                "length": 288,
+                "order": 1,
+                "seque": false,
+                "set": 318
+            }
+        ],
+        [
+            288,
+            {
+                "comments": "",
+                "id": 39,
+                "length": 288,
+                "order": 2,
+                "seque": false,
+                "set": 324
+            }
+        ]
+    ],
+    "name": "Box Of Rain",
+    "played": 20,
+    "shortest": [
+        [
+            320,
+            {
+                "comments": "",
+                "id": 39,
+                "length": 320,
+                "order": 6,
+                "seque": false,
+                "set": 938
+            }
+        ],
+        [
+            310,
+            {
+                "comments": "",
+                "id": 39,
+                "length": 310,
+                "order": 1,
+                "seque": false,
+                "set": 722
+            }
+        ],
+        [
+            305,
+            {
+                "comments": "",
+                "id": 39,
+                "length": 305,
+                "order": 1,
+                "seque": false,
+                "set": 1016
+            }
+        ],
+        [
+            305,
+            {
+                "comments": "",
+                "id": 39,
+                "length": 305,
+                "order": 1,
+                "seque": false,
+                "set": 428
+            }
+        ],
+        [
+            301,
+            {
+                "comments": "",
+                "id": 39,
+                "length": 301,
+                "order": 7,
+                "seque": false,
+                "set": 741
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        3,
+        7,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

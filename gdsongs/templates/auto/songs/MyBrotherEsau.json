@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 309,
+                "length": 338,
+                "order": 4,
+                "seque": false,
+                "set": 313
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 94,
+                "length": 372,
+                "order": 4,
+                "seque": false,
+                "set": 829
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 48,
+                "length": 380,
+                "order": 5,
+                "seque": false,
+                "set": 469
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 397,
+                "length": 291,
+                "order": 4,
+                "seque": false,
+                "set": 935
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 106,
+                "length": 245,
+                "order": 8,
+                "seque": false,
+                "set": 225
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 309,
+                "length": 338,
+                "order": 4,
+                "seque": false,
+                "set": 313
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 94,
+                "length": 372,
+                "order": 4,
+                "seque": false,
+                "set": 829
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 48,
+                "length": 380,
+                "order": 5,
+                "seque": false,
+                "set": 469
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 397,
+                "length": 291,
+                "order": 4,
+                "seque": false,
+                "set": 935
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 106,
+                "length": 245,
+                "order": 8,
+                "seque": false,
+                "set": 225
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            250,
+            {
+                "comments": "",
+                "id": 238,
+                "length": 250,
+                "order": 5,
+                "seque": false,
+                "set": 313
+            }
+        ],
+        [
+            259,
+            {
+                "comments": "",
+                "id": 238,
+                "length": 259,
+                "order": 4,
+                "seque": false,
+                "set": 490
+            }
+        ],
+        [
+            263,
+            {
+                "comments": "",
+                "id": 238,
+                "length": 263,
+                "order": 5,
+                "seque": false,
+                "set": 964
+            }
+        ],
+        [
+            267,
+            {
+                "comments": "",
+                "id": 238,
+                "length": 267,
+                "order": 8,
+                "seque": false,
+                "set": 95
+            }
+        ],
+        [
+            270,
+            {
+                "comments": "",
+                "id": 238,
+                "length": 270,
+                "order": 4,
+                "seque": false,
+                "set": 412
+            }
+        ]
+    ],
+    "name": "My Brother Esau",
+    "played": 21,
+    "shortest": [
+        [
+            425,
+            {
+                "comments": "",
+                "id": 238,
+                "length": 425,
+                "order": 6,
+                "seque": false,
+                "set": 806
+            }
+        ],
+        [
+            395,
+            {
+                "comments": "",
+                "id": 238,
+                "length": 395,
+                "order": 9,
+                "seque": true,
+                "set": 225
+            }
+        ],
+        [
+            358,
+            {
+                "comments": "",
+                "id": 238,
+                "length": 358,
+                "order": 4,
+                "seque": false,
+                "set": 537
+            }
+        ],
+        [
+            351,
+            {
+                "comments": "",
+                "id": 238,
+                "length": 351,
+                "order": 8,
+                "seque": false,
+                "set": 670
+            }
+        ],
+        [
+            343,
+            {
+                "comments": "",
+                "id": 238,
+                "length": 343,
+                "order": 7,
+                "seque": false,
+                "set": 286
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        3,
+        1,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 244,
+                "order": 1,
+                "seque": false,
+                "set": 466
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir says, \"We are getting everything just exactly right. I don't know if you are going to understand this any better than I do but Mickey wanted me to inform you in his opinion, \"The first law of rock n roll is drummers do not make house calls\". I don't understand either.",
+                "id": 284,
+                "length": 410,
+                "order": 1,
+                "seque": false,
+                "set": 574
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 167,
+                "order": 1,
+                "seque": true,
+                "set": 255
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 156,
+                "length": 295,
+                "order": 1,
+                "seque": true,
+                "set": 452
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 170,
+                "length": 345,
+                "order": 6,
+                "seque": false,
+                "set": 91
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 244,
+                "order": 1,
+                "seque": false,
+                "set": 466
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir says, \"We are getting everything just exactly right. I don't know if you are going to understand this any better than I do but Mickey wanted me to inform you in his opinion, \"The first law of rock n roll is drummers do not make house calls\". I don't understand either.",
+                "id": 284,
+                "length": 410,
+                "order": 1,
+                "seque": false,
+                "set": 574
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 167,
+                "order": 1,
+                "seque": true,
+                "set": 255
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 156,
+                "length": 295,
+                "order": 1,
+                "seque": true,
+                "set": 452
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 170,
+                "length": 345,
+                "order": 6,
+                "seque": false,
+                "set": 91
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            291,
+            {
+                "comments": "",
+                "id": 24,
+                "length": 291,
+                "order": 7,
+                "seque": false,
+                "set": 91
+            }
+        ],
+        [
+            295,
+            {
+                "comments": "",
+                "id": 24,
+                "length": 295,
+                "order": 1,
+                "seque": false,
+                "set": 673
+            }
+        ],
+        [
+            312,
+            {
+                "comments": "",
+                "id": 24,
+                "length": 312,
+                "order": 1,
+                "seque": false,
+                "set": 841
+            }
+        ],
+        [
+            318,
+            {
+                "comments": "Anymore 5x",
+                "id": 24,
+                "length": 318,
+                "order": 1,
+                "seque": false,
+                "set": 33
+            }
+        ],
+        [
+            328,
+            {
+                "comments": "",
+                "id": 24,
+                "length": 328,
+                "order": 1,
+                "seque": true,
+                "set": 519
+            }
+        ]
+    ],
+    "name": "Bertha",
+    "played": 78,
+    "shortest": [
+        [
+            516,
+            {
+                "comments": "",
+                "id": 24,
+                "length": 516,
+                "order": 1,
+                "seque": true,
+                "set": 123
+            }
+        ],
+        [
+            468,
+            {
+                "comments": "",
+                "id": 24,
+                "length": 468,
+                "order": 1,
+                "seque": true,
+                "set": 292
+            }
+        ],
+        [
+            467,
+            {
+                "comments": "",
+                "id": 24,
+                "length": 467,
+                "order": 1,
+                "seque": false,
+                "set": 220
+            }
+        ],
+        [
+            441,
+            {
+                "comments": "",
+                "id": 24,
+                "length": 441,
+                "order": 2,
+                "seque": false,
+                "set": 105
+            }
+        ],
+        [
+            439,
+            {
+                "comments": "Anymore sang 10 times",
+                "id": 24,
+                "length": 439,
+                "order": 1,
+                "seque": true,
+                "set": 232
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        3,
+        6,
+        3,
+        0,
+        4,
+        17,
+        10,
+        8,
+        1,
+        2,
+        3,
+        2,
+        3,
+        0,
+        1,
+        0,
+        4,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

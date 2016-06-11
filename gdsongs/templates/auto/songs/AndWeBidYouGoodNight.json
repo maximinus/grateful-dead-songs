@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 107,
+                "length": 237,
+                "order": 11,
+                "seque": true,
+                "set": 686
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 121,
+                "length": 334,
+                "order": 3,
+                "seque": true,
+                "set": 893
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 183,
+                "length": 215,
+                "order": 1,
+                "seque": false,
+                "set": 265
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 338,
+                "length": 386,
+                "order": 1,
+                "seque": false,
+                "set": 218
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 183,
+                "length": 234,
+                "order": 2,
+                "seque": false,
+                "set": 896
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 107,
+                "length": 237,
+                "order": 11,
+                "seque": true,
+                "set": 686
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 121,
+                "length": 334,
+                "order": 3,
+                "seque": true,
+                "set": 893
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 183,
+                "length": 215,
+                "order": 1,
+                "seque": false,
+                "set": 265
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 338,
+                "length": 386,
+                "order": 1,
+                "seque": false,
+                "set": 218
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 183,
+                "length": 234,
+                "order": 2,
+                "seque": false,
+                "set": 896
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            33,
+            {
+                "comments": "absolute train wreck.",
+                "id": 10,
+                "length": 33,
+                "order": 4,
+                "seque": false,
+                "set": 893
+            }
+        ],
+        [
+            96,
+            {
+                "comments": "",
+                "id": 10,
+                "length": 96,
+                "order": 2,
+                "seque": false,
+                "set": 657
+            }
+        ],
+        [
+            120,
+            {
+                "comments": "",
+                "id": 10,
+                "length": 120,
+                "order": 2,
+                "seque": false,
+                "set": 265
+            }
+        ],
+        [
+            153,
+            {
+                "comments": "",
+                "id": 10,
+                "length": 153,
+                "order": 2,
+                "seque": false,
+                "set": 218
+            }
+        ],
+        [
+            160,
+            {
+                "comments": "",
+                "id": 10,
+                "length": 160,
+                "order": 1,
+                "seque": false,
+                "set": 1019
+            }
+        ]
+    ],
+    "name": "And We Bid You Good Night",
+    "played": 11,
+    "shortest": [
+        [
+            195,
+            {
+                "comments": "",
+                "id": 10,
+                "length": 195,
+                "order": 3,
+                "seque": false,
+                "set": 468
+            }
+        ],
+        [
+            193,
+            {
+                "comments": "",
+                "id": 10,
+                "length": 193,
+                "order": 1,
+                "seque": false,
+                "set": 632
+            }
+        ],
+        [
+            192,
+            {
+                "comments": "",
+                "id": 10,
+                "length": 192,
+                "order": 12,
+                "seque": false,
+                "set": 686
+            }
+        ],
+        [
+            183,
+            {
+                "comments": "",
+                "id": 10,
+                "length": 183,
+                "order": 3,
+                "seque": false,
+                "set": 896
+            }
+        ],
+        [
+            169,
+            {
+                "comments": "",
+                "id": 10,
+                "length": 169,
+                "order": 1,
+                "seque": false,
+                "set": 191
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        4,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

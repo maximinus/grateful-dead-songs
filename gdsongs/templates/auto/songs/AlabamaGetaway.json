@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 460,
+                "order": 8,
+                "seque": false,
+                "set": 64
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 125,
+                "length": 257,
+                "order": 1,
+                "seque": false,
+                "set": 172
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 0,
+                "order": 7,
+                "seque": false,
+                "set": 767
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 116,
+                "order": 12,
+                "seque": true,
+                "set": 1027
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 381,
+                "length": 353,
+                "order": 3,
+                "seque": false,
+                "set": 814
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 206,
+                "length": 460,
+                "order": 8,
+                "seque": false,
+                "set": 64
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 125,
+                "length": 257,
+                "order": 1,
+                "seque": false,
+                "set": 172
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 0,
+                "order": 7,
+                "seque": false,
+                "set": 767
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 116,
+                "order": 12,
+                "seque": true,
+                "set": 1027
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 381,
+                "length": 353,
+                "order": 3,
+                "seque": false,
+                "set": 814
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            257,
+            {
+                "comments": "",
+                "id": 6,
+                "length": 257,
+                "order": 1,
+                "seque": true,
+                "set": 1040
+            }
+        ],
+        [
+            259,
+            {
+                "comments": "",
+                "id": 6,
+                "length": 259,
+                "order": 1,
+                "seque": false,
+                "set": 645
+            }
+        ],
+        [
+            263,
+            {
+                "comments": "",
+                "id": 6,
+                "length": 263,
+                "order": 1,
+                "seque": true,
+                "set": 622
+            }
+        ],
+        [
+            264,
+            {
+                "comments": "",
+                "id": 6,
+                "length": 264,
+                "order": 1,
+                "seque": true,
+                "set": 448
+            }
+        ],
+        [
+            281,
+            {
+                "comments": "",
+                "id": 6,
+                "length": 281,
+                "order": 1,
+                "seque": true,
+                "set": 607
+            }
+        ]
+    ],
+    "name": "Alabama Getaway",
+    "played": 30,
+    "shortest": [
+        [
+            438,
+            {
+                "comments": "",
+                "id": 6,
+                "length": 438,
+                "order": 1,
+                "seque": true,
+                "set": 625
+            }
+        ],
+        [
+            430,
+            {
+                "comments": "",
+                "id": 6,
+                "length": 430,
+                "order": 1,
+                "seque": true,
+                "set": 242
+            }
+        ],
+        [
+            418,
+            {
+                "comments": "",
+                "id": 6,
+                "length": 418,
+                "order": 9,
+                "seque": true,
+                "set": 64
+            }
+        ],
+        [
+            406,
+            {
+                "comments": "",
+                "id": 6,
+                "length": 406,
+                "order": 1,
+                "seque": true,
+                "set": 797
+            }
+        ],
+        [
+            403,
+            {
+                "comments": "",
+                "id": 6,
+                "length": 403,
+                "order": 1,
+                "seque": true,
+                "set": 986
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        4,
+        7,
+        2,
+        4,
+        2,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

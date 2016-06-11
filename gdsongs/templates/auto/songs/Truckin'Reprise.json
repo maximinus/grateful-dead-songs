@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 163,
+                "order": 2,
+                "seque": true,
+                "set": 619
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 103,
+                "order": 10,
+                "seque": true,
+                "set": 676
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 103,
+                "order": 2,
+                "seque": true,
+                "set": 34
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 113,
+                "order": 2,
+                "seque": true,
+                "set": 91
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 202,
+                "order": 2,
+                "seque": true,
+                "set": 41
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 163,
+                "order": 2,
+                "seque": true,
+                "set": 619
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 103,
+                "order": 10,
+                "seque": true,
+                "set": 676
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 103,
+                "order": 2,
+                "seque": true,
+                "set": 34
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 113,
+                "order": 2,
+                "seque": true,
+                "set": 91
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 202,
+                "order": 2,
+                "seque": true,
+                "set": 41
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            55,
+            {
+                "comments": "Get Back Truckin' On' 7",
+                "id": 427,
+                "length": 55,
+                "order": 3,
+                "seque": false,
+                "set": 619
+            }
+        ],
+        [
+            58,
+            {
+                "comments": "",
+                "id": 427,
+                "length": 58,
+                "order": 3,
+                "seque": false,
+                "set": 91
+            }
+        ],
+        [
+            73,
+            {
+                "comments": "Get Back Truckin\u2019 On!  7 times.",
+                "id": 427,
+                "length": 73,
+                "order": 3,
+                "seque": false,
+                "set": 395
+            }
+        ],
+        [
+            82,
+            {
+                "comments": "Get Back Truckin' On 7 Times",
+                "id": 427,
+                "length": 82,
+                "order": 3,
+                "seque": false,
+                "set": 696
+            }
+        ],
+        [
+            84,
+            {
+                "comments": "",
+                "id": 427,
+                "length": 84,
+                "order": 11,
+                "seque": false,
+                "set": 676
+            }
+        ]
+    ],
+    "name": "Truckin' Reprise",
+    "played": 10,
+    "shortest": [
+        [
+            120,
+            {
+                "comments": "Get Back Truckin' On 7 Times",
+                "id": 427,
+                "length": 120,
+                "order": 3,
+                "seque": false,
+                "set": 25
+            }
+        ],
+        [
+            114,
+            {
+                "comments": "Get Back Truckin' On 6x",
+                "id": 427,
+                "length": 114,
+                "order": 3,
+                "seque": true,
+                "set": 34
+            }
+        ],
+        [
+            111,
+            {
+                "comments": "Get Back Truckin' On 7x",
+                "id": 427,
+                "length": 111,
+                "order": 3,
+                "seque": false,
+                "set": 41
+            }
+        ],
+        [
+            96,
+            {
+                "comments": "",
+                "id": 427,
+                "length": 96,
+                "order": 3,
+                "seque": true,
+                "set": 94
+            }
+        ],
+        [
+            90,
+            {
+                "comments": "Get Back Truckin' On 8 x",
+                "id": 427,
+                "length": 90,
+                "order": 3,
+                "seque": false,
+                "set": 144
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

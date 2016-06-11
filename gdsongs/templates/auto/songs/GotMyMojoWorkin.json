@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": " with Lee Oskar on harmonica",
+                "id": 93,
+                "length": 639,
+                "order": 10,
+                "seque": true,
+                "set": 1006
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 72,
+                "length": 504,
+                "order": 5,
+                "seque": true,
+                "set": 867
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": " with Lee Oskar on harmonica",
+                "id": 93,
+                "length": 639,
+                "order": 10,
+                "seque": true,
+                "set": 1006
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 72,
+                "length": 504,
+                "order": 5,
+                "seque": true,
+                "set": 867
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            64,
+            {
+                "comments": "need to retitle",
+                "id": 127,
+                "length": 64,
+                "order": 11,
+                "seque": true,
+                "set": 1006
+            }
+        ],
+        [
+            204,
+            {
+                "comments": "",
+                "id": 127,
+                "length": 204,
+                "order": 6,
+                "seque": true,
+                "set": 867
+            }
+        ]
+    ],
+    "name": "Got My Mojo Workin",
+    "played": 2,
+    "shortest": [
+        [
+            204,
+            {
+                "comments": "",
+                "id": 127,
+                "length": 204,
+                "order": 6,
+                "seque": true,
+                "set": 867
+            }
+        ],
+        [
+            64,
+            {
+                "comments": "need to retitle",
+                "id": 127,
+                "length": 64,
+                "order": 11,
+                "seque": true,
+                "set": 1006
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

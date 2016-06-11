@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 321,
+                "length": 283,
+                "order": 10,
+                "seque": false,
+                "set": 712
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 178,
+                "length": 346,
+                "order": 1,
+                "seque": false,
+                "set": 154
+            },
+            1
+        ],
+        [
+            {
+                "comments": "1st time played",
+                "id": 101,
+                "length": 425,
+                "order": 4,
+                "seque": false,
+                "set": 222
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 426,
+                "length": 171,
+                "order": 4,
+                "seque": true,
+                "set": 372
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 138,
+                "length": 377,
+                "order": 1,
+                "seque": false,
+                "set": 240
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 321,
+                "length": 283,
+                "order": 10,
+                "seque": false,
+                "set": 712
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 178,
+                "length": 346,
+                "order": 1,
+                "seque": false,
+                "set": 154
+            },
+            1
+        ],
+        [
+            {
+                "comments": "1st time played",
+                "id": 101,
+                "length": 425,
+                "order": 4,
+                "seque": false,
+                "set": 222
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 426,
+                "length": 171,
+                "order": 4,
+                "seque": true,
+                "set": 372
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 138,
+                "length": 377,
+                "order": 1,
+                "seque": false,
+                "set": 240
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            246,
+            {
+                "comments": "Afterwards Weir says, \"Thank you. And now for our next number we're going to do a tune on death and destruction. ",
+                "id": 318,
+                "length": 246,
+                "order": 7,
+                "seque": false,
+                "set": 841
+            }
+        ],
+        [
+            405,
+            {
+                "comments": "",
+                "id": 318,
+                "length": 405,
+                "order": 3,
+                "seque": false,
+                "set": 187
+            }
+        ],
+        [
+            417,
+            {
+                "comments": "",
+                "id": 318,
+                "length": 417,
+                "order": 2,
+                "seque": false,
+                "set": 630
+            }
+        ],
+        [
+            417,
+            {
+                "comments": "",
+                "id": 318,
+                "length": 417,
+                "order": 11,
+                "seque": false,
+                "set": 876
+            }
+        ],
+        [
+            418,
+            {
+                "comments": "",
+                "id": 318,
+                "length": 418,
+                "order": 2,
+                "seque": false,
+                "set": 27
+            }
+        ]
+    ],
+    "name": "Sugaree",
+    "played": 76,
+    "shortest": [
+        [
+            1111,
+            {
+                "comments": "",
+                "id": 318,
+                "length": 1111,
+                "order": 3,
+                "seque": false,
+                "set": 363
+            }
+        ],
+        [
+            1040,
+            {
+                "comments": "",
+                "id": 318,
+                "length": 1040,
+                "order": 1,
+                "seque": false,
+                "set": 532
+            }
+        ],
+        [
+            1035,
+            {
+                "comments": "",
+                "id": 318,
+                "length": 1035,
+                "order": 2,
+                "seque": false,
+                "set": 346
+            }
+        ],
+        [
+            1009,
+            {
+                "comments": "",
+                "id": 318,
+                "length": 1009,
+                "order": 2,
+                "seque": false,
+                "set": 923
+            }
+        ],
+        [
+            984,
+            {
+                "comments": "",
+                "id": 318,
+                "length": 984,
+                "order": 1,
+                "seque": false,
+                "set": 823
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        1,
+        9,
+        4,
+        0,
+        8,
+        15,
+        4,
+        3,
+        1,
+        2,
+        2,
+        2,
+        0,
+        4,
+        1,
+        2,
+        5,
+        2,
+        3,
+        1,
+        0,
+        1,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

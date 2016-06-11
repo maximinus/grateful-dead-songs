@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 35,
+                "order": 9,
+                "seque": true,
+                "set": 895
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 431,
+                "length": 96,
+                "order": 13,
+                "seque": true,
+                "set": 877
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 47,
+                "order": 15,
+                "seque": true,
+                "set": 538
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 470,
+                "length": 108,
+                "order": 11,
+                "seque": true,
+                "set": 506
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 386,
+                "order": 15,
+                "seque": true,
+                "set": 552
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 35,
+                "order": 9,
+                "seque": true,
+                "set": 895
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 431,
+                "length": 96,
+                "order": 13,
+                "seque": true,
+                "set": 877
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 47,
+                "order": 15,
+                "seque": true,
+                "set": 538
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 470,
+                "length": 108,
+                "order": 11,
+                "seque": true,
+                "set": 506
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 386,
+                "order": 15,
+                "seque": true,
+                "set": 552
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            39,
+            {
+                "comments": "Here Comes Sunshine riff",
+                "id": 437,
+                "length": 39,
+                "order": 16,
+                "seque": true,
+                "set": 538
+            }
+        ],
+        [
+            100,
+            {
+                "comments": "",
+                "id": 437,
+                "length": 100,
+                "order": 16,
+                "seque": true,
+                "set": 552
+            }
+        ],
+        [
+            136,
+            {
+                "comments": "",
+                "id": 437,
+                "length": 136,
+                "order": 12,
+                "seque": true,
+                "set": 556
+            }
+        ],
+        [
+            182,
+            {
+                "comments": "includes a Got my mojo working vamp",
+                "id": 437,
+                "length": 182,
+                "order": 12,
+                "seque": true,
+                "set": 1006
+            }
+        ],
+        [
+            185,
+            {
+                "comments": "",
+                "id": 437,
+                "length": 185,
+                "order": 6,
+                "seque": true,
+                "set": 833
+            }
+        ]
+    ],
+    "name": "Descending Four Chord Sequence",
+    "played": 11,
+    "shortest": [
+        [
+            369,
+            {
+                "comments": "after 3:57 Jerry continues on with just drums.",
+                "id": 437,
+                "length": 369,
+                "order": 7,
+                "seque": true,
+                "set": 886
+            }
+        ],
+        [
+            305,
+            {
+                "comments": "",
+                "id": 437,
+                "length": 305,
+                "order": 14,
+                "seque": true,
+                "set": 877
+            }
+        ],
+        [
+            259,
+            {
+                "comments": "",
+                "id": 437,
+                "length": 259,
+                "order": 13,
+                "seque": true,
+                "set": 55
+            }
+        ],
+        [
+            229,
+            {
+                "comments": "",
+                "id": 437,
+                "length": 229,
+                "order": 10,
+                "seque": true,
+                "set": 895
+            }
+        ],
+        [
+            190,
+            {
+                "comments": "",
+                "id": 437,
+                "length": 190,
+                "order": 12,
+                "seque": true,
+                "set": 506
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        5,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

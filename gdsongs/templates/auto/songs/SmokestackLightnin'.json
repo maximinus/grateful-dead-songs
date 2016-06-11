@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 72,
+                "order": 12,
+                "seque": true,
+                "set": 734
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 208,
+                "length": 432,
+                "order": 4,
+                "seque": false,
+                "set": 442
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 353,
+                "length": 261,
+                "order": 6,
+                "seque": true,
+                "set": 1041
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 73,
+                "length": 178,
+                "order": 9,
+                "seque": false,
+                "set": 91
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 113,
+                "order": 4,
+                "seque": true,
+                "set": 886
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 72,
+                "order": 12,
+                "seque": true,
+                "set": 734
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 208,
+                "length": 432,
+                "order": 4,
+                "seque": false,
+                "set": 442
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 353,
+                "length": 261,
+                "order": 6,
+                "seque": true,
+                "set": 1041
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 73,
+                "length": 178,
+                "order": 9,
+                "seque": false,
+                "set": 91
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 113,
+                "order": 4,
+                "seque": true,
+                "set": 886
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            164,
+            {
+                "comments": "",
+                "id": 303,
+                "length": 164,
+                "order": 13,
+                "seque": true,
+                "set": 734
+            }
+        ],
+        [
+            252,
+            {
+                "comments": "",
+                "id": 303,
+                "length": 252,
+                "order": 5,
+                "seque": true,
+                "set": 571
+            }
+        ],
+        [
+            254,
+            {
+                "comments": "",
+                "id": 303,
+                "length": 254,
+                "order": 4,
+                "seque": true,
+                "set": 214
+            }
+        ],
+        [
+            261,
+            {
+                "comments": "",
+                "id": 303,
+                "length": 261,
+                "order": 5,
+                "seque": true,
+                "set": 886
+            }
+        ],
+        [
+            382,
+            {
+                "comments": "",
+                "id": 303,
+                "length": 382,
+                "order": 5,
+                "seque": true,
+                "set": 442
+            }
+        ]
+    ],
+    "name": "Smokestack Lightnin'",
+    "played": 8,
+    "shortest": [
+        [
+            871,
+            {
+                "comments": "",
+                "id": 303,
+                "length": 871,
+                "order": 10,
+                "seque": false,
+                "set": 91
+            }
+        ],
+        [
+            739,
+            {
+                "comments": "",
+                "id": 303,
+                "length": 739,
+                "order": 7,
+                "seque": false,
+                "set": 676
+            }
+        ],
+        [
+            525,
+            {
+                "comments": "",
+                "id": 303,
+                "length": 525,
+                "order": 7,
+                "seque": true,
+                "set": 1041
+            }
+        ],
+        [
+            382,
+            {
+                "comments": "",
+                "id": 303,
+                "length": 382,
+                "order": 5,
+                "seque": true,
+                "set": 442
+            }
+        ],
+        [
+            261,
+            {
+                "comments": "",
+                "id": 303,
+                "length": 261,
+                "order": 5,
+                "seque": true,
+                "set": 886
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

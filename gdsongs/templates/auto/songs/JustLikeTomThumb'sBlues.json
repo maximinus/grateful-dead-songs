@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 174,
+                "length": 399,
+                "order": 6,
+                "seque": false,
+                "set": 561
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 341,
+                "length": 573,
+                "order": 1,
+                "seque": false,
+                "set": 305
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 177,
+                "length": 285,
+                "order": 5,
+                "seque": false,
+                "set": 639
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 28,
+                "length": 332,
+                "order": 7,
+                "seque": false,
+                "set": 648
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 33,
+                "length": 386,
+                "order": 4,
+                "seque": false,
+                "set": 201
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 174,
+                "length": 399,
+                "order": 6,
+                "seque": false,
+                "set": 561
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 341,
+                "length": 573,
+                "order": 1,
+                "seque": false,
+                "set": 305
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 177,
+                "length": 285,
+                "order": 5,
+                "seque": false,
+                "set": 639
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 28,
+                "length": 332,
+                "order": 7,
+                "seque": false,
+                "set": 648
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 33,
+                "length": 386,
+                "order": 4,
+                "seque": false,
+                "set": 201
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            292,
+            {
+                "comments": "",
+                "id": 185,
+                "length": 292,
+                "order": 2,
+                "seque": false,
+                "set": 305
+            }
+        ],
+        [
+            320,
+            {
+                "comments": "",
+                "id": 185,
+                "length": 320,
+                "order": 6,
+                "seque": false,
+                "set": 639
+            }
+        ],
+        [
+            322,
+            {
+                "comments": "",
+                "id": 185,
+                "length": 322,
+                "order": 6,
+                "seque": false,
+                "set": 30
+            }
+        ],
+        [
+            327,
+            {
+                "comments": "",
+                "id": 185,
+                "length": 327,
+                "order": 5,
+                "seque": false,
+                "set": 201
+            }
+        ],
+        [
+            334,
+            {
+                "comments": "",
+                "id": 185,
+                "length": 334,
+                "order": 8,
+                "seque": false,
+                "set": 648
+            }
+        ]
+    ],
+    "name": "Just Like Tom Thumb's Blues",
+    "played": 7,
+    "shortest": [
+        [
+            346,
+            {
+                "comments": "lotsofchat",
+                "id": 185,
+                "length": 346,
+                "order": 5,
+                "seque": false,
+                "set": 128
+            }
+        ],
+        [
+            344,
+            {
+                "comments": "",
+                "id": 185,
+                "length": 344,
+                "order": 7,
+                "seque": false,
+                "set": 561
+            }
+        ],
+        [
+            334,
+            {
+                "comments": "",
+                "id": 185,
+                "length": 334,
+                "order": 8,
+                "seque": false,
+                "set": 648
+            }
+        ],
+        [
+            327,
+            {
+                "comments": "",
+                "id": 185,
+                "length": 327,
+                "order": 5,
+                "seque": false,
+                "set": 201
+            }
+        ],
+        [
+            322,
+            {
+                "comments": "",
+                "id": 185,
+                "length": 322,
+                "order": 6,
+                "seque": false,
+                "set": 30
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        1,
+        0,
+        1,
+        1
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,210 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 96,
+                "length": 419,
+                "order": 10,
+                "seque": true,
+                "set": 611
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 388,
+                "length": 388,
+                "order": 9,
+                "seque": true,
+                "set": 375
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 7,
+                "length": 350,
+                "order": 8,
+                "seque": true,
+                "set": 719
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 96,
+                "length": 419,
+                "order": 10,
+                "seque": true,
+                "set": 611
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 388,
+                "length": 388,
+                "order": 9,
+                "seque": true,
+                "set": 375
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 7,
+                "length": 350,
+                "order": 8,
+                "seque": true,
+                "set": 719
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            588,
+            {
+                "comments": "",
+                "id": 77,
+                "length": 588,
+                "order": 9,
+                "seque": false,
+                "set": 719
+            }
+        ],
+        [
+            593,
+            {
+                "comments": "",
+                "id": 77,
+                "length": 593,
+                "order": 10,
+                "seque": true,
+                "set": 375
+            }
+        ],
+        [
+            599,
+            {
+                "comments": "",
+                "id": 77,
+                "length": 599,
+                "order": 11,
+                "seque": true,
+                "set": 611
+            }
+        ]
+    ],
+    "name": "Days Between",
+    "played": 3,
+    "shortest": [
+        [
+            599,
+            {
+                "comments": "",
+                "id": 77,
+                "length": 599,
+                "order": 11,
+                "seque": true,
+                "set": 611
+            }
+        ],
+        [
+            593,
+            {
+                "comments": "",
+                "id": 77,
+                "length": 593,
+                "order": 10,
+                "seque": true,
+                "set": 375
+            }
+        ],
+        [
+            588,
+            {
+                "comments": "",
+                "id": 77,
+                "length": 588,
+                "order": 9,
+                "seque": false,
+                "set": 719
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

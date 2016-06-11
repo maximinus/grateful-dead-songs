@@ -1,0 +1,122 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 45,
+                "length": 332,
+                "order": 3,
+                "seque": true,
+                "set": 776
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 45,
+                "length": 332,
+                "order": 3,
+                "seque": true,
+                "set": 776
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            267,
+            {
+                "comments": "",
+                "id": 172,
+                "length": 267,
+                "order": 4,
+                "seque": false,
+                "set": 776
+            }
+        ]
+    ],
+    "name": "It Takes A Lot To Laugh, It Takes A Train To Cry",
+    "played": 1,
+    "shortest": [
+        [
+            267,
+            {
+                "comments": "",
+                "id": 172,
+                "length": 267,
+                "order": 4,
+                "seque": false,
+                "set": 776
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

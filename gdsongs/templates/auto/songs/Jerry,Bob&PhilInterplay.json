@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 408,
+                "order": 8,
+                "seque": true,
+                "set": 547
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 458,
+                "length": 65,
+                "order": 10,
+                "seque": true,
+                "set": 671
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 431,
+                "length": 101,
+                "order": 7,
+                "seque": true,
+                "set": 559
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 166,
+                "order": 11,
+                "seque": true,
+                "set": 810
+            },
+            1
+        ],
+        [
+            {
+                "comments": "First Verse Only",
+                "id": 343,
+                "length": 94,
+                "order": 12,
+                "seque": true,
+                "set": 188
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 408,
+                "order": 8,
+                "seque": true,
+                "set": 547
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 458,
+                "length": 65,
+                "order": 10,
+                "seque": true,
+                "set": 671
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 431,
+                "length": 101,
+                "order": 7,
+                "seque": true,
+                "set": 559
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 166,
+                "order": 11,
+                "seque": true,
+                "set": 810
+            },
+            1
+        ],
+        [
+            {
+                "comments": "First Verse Only",
+                "id": 343,
+                "length": 94,
+                "order": 12,
+                "seque": true,
+                "set": 188
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            43,
+            {
+                "comments": "",
+                "id": 430,
+                "length": 43,
+                "order": 16,
+                "seque": true,
+                "set": 362
+            }
+        ],
+        [
+            70,
+            {
+                "comments": "",
+                "id": 430,
+                "length": 70,
+                "order": 13,
+                "seque": true,
+                "set": 387
+            }
+        ],
+        [
+            75,
+            {
+                "comments": "",
+                "id": 430,
+                "length": 75,
+                "order": 5,
+                "seque": true,
+                "set": 679
+            }
+        ],
+        [
+            91,
+            {
+                "comments": "Same theme with Phil",
+                "id": 430,
+                "length": 91,
+                "order": 9,
+                "seque": true,
+                "set": 275
+            }
+        ],
+        [
+            92,
+            {
+                "comments": "",
+                "id": 430,
+                "length": 92,
+                "order": 4,
+                "seque": true,
+                "set": 924
+            }
+        ]
+    ],
+    "name": "Jerry, Bob & Phil Interplay",
+    "played": 22,
+    "shortest": [
+        [
+            363,
+            {
+                "comments": "change to with Keith",
+                "id": 430,
+                "length": 363,
+                "order": 14,
+                "seque": true,
+                "set": 42
+            }
+        ],
+        [
+            359,
+            {
+                "comments": "",
+                "id": 430,
+                "length": 359,
+                "order": 15,
+                "seque": true,
+                "set": 255
+            }
+        ],
+        [
+            324,
+            {
+                "comments": "",
+                "id": 430,
+                "length": 324,
+                "order": 11,
+                "seque": true,
+                "set": 671
+            }
+        ],
+        [
+            298,
+            {
+                "comments": "",
+                "id": 430,
+                "length": 298,
+                "order": 6,
+                "seque": true,
+                "set": 895
+            }
+        ],
+        [
+            247,
+            {
+                "comments": "",
+                "id": 430,
+                "length": 247,
+                "order": 9,
+                "seque": true,
+                "set": 812
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        8,
+        1,
+        0,
+        1,
+        3,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

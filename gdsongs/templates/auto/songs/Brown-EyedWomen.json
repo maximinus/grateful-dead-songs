@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 346,
+                "length": 176,
+                "order": 4,
+                "seque": false,
+                "set": 187
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 175,
+                "order": 1,
+                "seque": false,
+                "set": 558
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 256,
+                "order": 4,
+                "seque": false,
+                "set": 673
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 261,
+                "length": 310,
+                "order": 7,
+                "seque": false,
+                "set": 899
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 203,
+                "length": 561,
+                "order": 5,
+                "seque": false,
+                "set": 286
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 346,
+                "length": 176,
+                "order": 4,
+                "seque": false,
+                "set": 187
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 345,
+                "length": 175,
+                "order": 1,
+                "seque": false,
+                "set": 558
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 50,
+                "length": 256,
+                "order": 4,
+                "seque": false,
+                "set": 673
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 261,
+                "length": 310,
+                "order": 7,
+                "seque": false,
+                "set": 899
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 203,
+                "length": 561,
+                "order": 5,
+                "seque": false,
+                "set": 286
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            264,
+            {
+                "comments": "",
+                "id": 42,
+                "length": 264,
+                "order": 4,
+                "seque": false,
+                "set": 395
+            }
+        ],
+        [
+            265,
+            {
+                "comments": "",
+                "id": 42,
+                "length": 265,
+                "order": 6,
+                "seque": false,
+                "set": 692
+            }
+        ],
+        [
+            268,
+            {
+                "comments": "",
+                "id": 42,
+                "length": 268,
+                "order": 2,
+                "seque": false,
+                "set": 181
+            }
+        ],
+        [
+            268,
+            {
+                "comments": "",
+                "id": 42,
+                "length": 268,
+                "order": 5,
+                "seque": false,
+                "set": 676
+            }
+        ],
+        [
+            278,
+            {
+                "comments": "",
+                "id": 42,
+                "length": 278,
+                "order": 5,
+                "seque": false,
+                "set": 187
+            }
+        ]
+    ],
+    "name": "Brown-Eyed Women",
+    "played": 85,
+    "shortest": [
+        [
+            349,
+            {
+                "comments": "",
+                "id": 42,
+                "length": 349,
+                "order": 3,
+                "seque": false,
+                "set": 779
+            }
+        ],
+        [
+            348,
+            {
+                "comments": "",
+                "id": 42,
+                "length": 348,
+                "order": 7,
+                "seque": false,
+                "set": 588
+            }
+        ],
+        [
+            337,
+            {
+                "comments": "",
+                "id": 42,
+                "length": 337,
+                "order": 8,
+                "seque": false,
+                "set": 458
+            }
+        ],
+        [
+            333,
+            {
+                "comments": "",
+                "id": 42,
+                "length": 333,
+                "order": 5,
+                "seque": false,
+                "set": 369
+            }
+        ],
+        [
+            332,
+            {
+                "comments": "",
+                "id": 42,
+                "length": 332,
+                "order": 9,
+                "seque": false,
+                "set": 363
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        6,
+        5,
+        0,
+        6,
+        19,
+        11,
+        6,
+        1,
+        2,
+        2,
+        2,
+        5,
+        2,
+        2,
+        1,
+        3,
+        3,
+        2,
+        3,
+        1,
+        0,
+        0,
+        1
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

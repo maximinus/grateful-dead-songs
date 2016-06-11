@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 475,
+                "length": 105,
+                "order": 7,
+                "seque": true,
+                "set": 824
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 122,
+                "order": 6,
+                "seque": true,
+                "set": 149
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 384,
+                "order": 7,
+                "seque": true,
+                "set": 634
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 547,
+                "order": 4,
+                "seque": true,
+                "set": 1041
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 452,
+                "length": 220,
+                "order": 7,
+                "seque": true,
+                "set": 598
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 475,
+                "length": 105,
+                "order": 7,
+                "seque": true,
+                "set": 824
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 122,
+                "order": 6,
+                "seque": true,
+                "set": 149
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 384,
+                "order": 7,
+                "seque": true,
+                "set": 634
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 547,
+                "order": 4,
+                "seque": true,
+                "set": 1041
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 452,
+                "length": 220,
+                "order": 7,
+                "seque": true,
+                "set": 598
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            42,
+            {
+                "comments": "",
+                "id": 455,
+                "length": 42,
+                "order": 9,
+                "seque": true,
+                "set": 780
+            }
+        ],
+        [
+            54,
+            {
+                "comments": "",
+                "id": 455,
+                "length": 54,
+                "order": 7,
+                "seque": true,
+                "set": 704
+            }
+        ],
+        [
+            81,
+            {
+                "comments": "Bob sings, \"Little Star\" with mic volume off",
+                "id": 455,
+                "length": 81,
+                "order": 12,
+                "seque": true,
+                "set": 538
+            }
+        ],
+        [
+            93,
+            {
+                "comments": "Weir playing a distinct theme",
+                "id": 455,
+                "length": 93,
+                "order": 8,
+                "seque": true,
+                "set": 275
+            }
+        ],
+        [
+            94,
+            {
+                "comments": "",
+                "id": 455,
+                "length": 94,
+                "order": 7,
+                "seque": true,
+                "set": 149
+            }
+        ]
+    ],
+    "name": "Jerry & Bob Interplay",
+    "played": 14,
+    "shortest": [
+        [
+            541,
+            {
+                "comments": "",
+                "id": 455,
+                "length": 541,
+                "order": 7,
+                "seque": true,
+                "set": 586
+            }
+        ],
+        [
+            402,
+            {
+                "comments": "",
+                "id": 455,
+                "length": 402,
+                "order": 8,
+                "seque": true,
+                "set": 518
+            }
+        ],
+        [
+            381,
+            {
+                "comments": "",
+                "id": 455,
+                "length": 381,
+                "order": 8,
+                "seque": true,
+                "set": 824
+            }
+        ],
+        [
+            311,
+            {
+                "comments": "lovely.",
+                "id": 455,
+                "length": 311,
+                "order": 5,
+                "seque": true,
+                "set": 1041
+            }
+        ],
+        [
+            276,
+            {
+                "comments": "",
+                "id": 455,
+                "length": 276,
+                "order": 8,
+                "seque": true,
+                "set": 634
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        2,
+        5,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

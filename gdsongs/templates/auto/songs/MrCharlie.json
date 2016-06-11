@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 308,
+                "order": 2,
+                "seque": false,
+                "set": 143
+            },
+            1
+        ],
+        [
+            {
+                "comments": "19 beats",
+                "id": 22,
+                "length": 189,
+                "order": 2,
+                "seque": false,
+                "set": 675
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 222,
+                "length": 172,
+                "order": 2,
+                "seque": false,
+                "set": 33
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 155,
+                "length": 342,
+                "order": 9,
+                "seque": false,
+                "set": 41
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 42,
+                "length": 264,
+                "order": 4,
+                "seque": false,
+                "set": 395
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 99,
+                "length": 308,
+                "order": 2,
+                "seque": false,
+                "set": 143
+            },
+            1
+        ],
+        [
+            {
+                "comments": "19 beats",
+                "id": 22,
+                "length": 189,
+                "order": 2,
+                "seque": false,
+                "set": 675
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 222,
+                "length": 172,
+                "order": 2,
+                "seque": false,
+                "set": 33
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 155,
+                "length": 342,
+                "order": 9,
+                "seque": false,
+                "set": 41
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 42,
+                "length": 264,
+                "order": 4,
+                "seque": false,
+                "set": 395
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            194,
+            {
+                "comments": "",
+                "id": 235,
+                "length": 194,
+                "order": 3,
+                "seque": false,
+                "set": 143
+            }
+        ],
+        [
+            208,
+            {
+                "comments": "",
+                "id": 235,
+                "length": 208,
+                "order": 3,
+                "seque": false,
+                "set": 33
+            }
+        ],
+        [
+            208,
+            {
+                "comments": "",
+                "id": 235,
+                "length": 208,
+                "order": 3,
+                "seque": false,
+                "set": 93
+            }
+        ],
+        [
+            215,
+            {
+                "comments": "",
+                "id": 235,
+                "length": 215,
+                "order": 5,
+                "seque": false,
+                "set": 395
+            }
+        ],
+        [
+            227,
+            {
+                "comments": "",
+                "id": 235,
+                "length": 227,
+                "order": 10,
+                "seque": false,
+                "set": 41
+            }
+        ]
+    ],
+    "name": "Mr. Charlie",
+    "played": 6,
+    "shortest": [
+        [
+            236,
+            {
+                "comments": "",
+                "id": 235,
+                "length": 236,
+                "order": 3,
+                "seque": false,
+                "set": 675
+            }
+        ],
+        [
+            227,
+            {
+                "comments": "",
+                "id": 235,
+                "length": 227,
+                "order": 10,
+                "seque": false,
+                "set": 41
+            }
+        ],
+        [
+            215,
+            {
+                "comments": "",
+                "id": 235,
+                "length": 215,
+                "order": 5,
+                "seque": false,
+                "set": 395
+            }
+        ],
+        [
+            208,
+            {
+                "comments": "",
+                "id": 235,
+                "length": 208,
+                "order": 3,
+                "seque": false,
+                "set": 93
+            }
+        ],
+        [
+            208,
+            {
+                "comments": "",
+                "id": 235,
+                "length": 208,
+                "order": 3,
+                "seque": false,
+                "set": 33
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

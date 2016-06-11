@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 223,
+                "length": 274,
+                "order": 5,
+                "seque": false,
+                "set": 502
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 241,
+                "length": 462,
+                "order": 3,
+                "seque": false,
+                "set": 829
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 223,
+                "length": 281,
+                "order": 5,
+                "seque": false,
+                "set": 178
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir sings a verse from \"I Ain't Superstitious'",
+                "id": 91,
+                "length": 396,
+                "order": 5,
+                "seque": false,
+                "set": 328
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 223,
+                "length": 328,
+                "order": 5,
+                "seque": false,
+                "set": 579
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 223,
+                "length": 274,
+                "order": 5,
+                "seque": false,
+                "set": 502
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 241,
+                "length": 462,
+                "order": 3,
+                "seque": false,
+                "set": 829
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 223,
+                "length": 281,
+                "order": 5,
+                "seque": false,
+                "set": 178
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir sings a verse from \"I Ain't Superstitious'",
+                "id": 91,
+                "length": 396,
+                "order": 5,
+                "seque": false,
+                "set": 328
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 223,
+                "length": 328,
+                "order": 5,
+                "seque": false,
+                "set": 579
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            1,
+            {
+                "comments": "",
+                "id": 94,
+                "length": 1,
+                "order": 7,
+                "seque": false,
+                "set": 848
+            }
+        ],
+        [
+            237,
+            {
+                "comments": "",
+                "id": 94,
+                "length": 237,
+                "order": 1,
+                "seque": true,
+                "set": 1003
+            }
+        ],
+        [
+            272,
+            {
+                "comments": "",
+                "id": 94,
+                "length": 272,
+                "order": 9,
+                "seque": false,
+                "set": 389
+            }
+        ],
+        [
+            308,
+            {
+                "comments": "",
+                "id": 94,
+                "length": 308,
+                "order": 6,
+                "seque": false,
+                "set": 845
+            }
+        ],
+        [
+            323,
+            {
+                "comments": "",
+                "id": 94,
+                "length": 323,
+                "order": 7,
+                "seque": false,
+                "set": 724
+            }
+        ]
+    ],
+    "name": "Dupree's Diamond Blues",
+    "played": 23,
+    "shortest": [
+        [
+            420,
+            {
+                "comments": "",
+                "id": 94,
+                "length": 420,
+                "order": 4,
+                "seque": false,
+                "set": 709
+            }
+        ],
+        [
+            412,
+            {
+                "comments": "",
+                "id": 94,
+                "length": 412,
+                "order": 7,
+                "seque": false,
+                "set": 98
+            }
+        ],
+        [
+            399,
+            {
+                "comments": "",
+                "id": 94,
+                "length": 399,
+                "order": 2,
+                "seque": false,
+                "set": 260
+            }
+        ],
+        [
+            385,
+            {
+                "comments": "",
+                "id": 94,
+                "length": 385,
+                "order": 3,
+                "seque": false,
+                "set": 44
+            }
+        ],
+        [
+            383,
+            {
+                "comments": "Weir, \"Ya'll having a safe and sane fourth out there?",
+                "id": 94,
+                "length": 383,
+                "order": 2,
+                "seque": false,
+                "set": 964
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        7,
+        3,
+        2,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 70,
+                "length": 399,
+                "order": 4,
+                "seque": true,
+                "set": 628
+            },
+            1
+        ],
+        [
+            {
+                "comments": "At 13:46 into Love Light they shift into a blues riff resembling the beginning of Hand Me Down My Walkin Cane, then slip back into Turn On Your Love Light 34 seconds later.",
+                "id": 368,
+                "length": 1606,
+                "order": 1,
+                "seque": false,
+                "set": 686
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 70,
+                "length": 399,
+                "order": 4,
+                "seque": true,
+                "set": 628
+            },
+            1
+        ],
+        [
+            {
+                "comments": "At 13:46 into Love Light they shift into a blues riff resembling the beginning of Hand Me Down My Walkin Cane, then slip back into Turn On Your Love Light 34 seconds later.",
+                "id": 368,
+                "length": 1606,
+                "order": 1,
+                "seque": false,
+                "set": 686
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            344,
+            {
+                "comments": "",
+                "id": 87,
+                "length": 344,
+                "order": 5,
+                "seque": false,
+                "set": 628
+            }
+        ],
+        [
+            402,
+            {
+                "comments": "",
+                "id": 87,
+                "length": 402,
+                "order": 2,
+                "seque": false,
+                "set": 686
+            }
+        ],
+        [
+            409,
+            {
+                "comments": "",
+                "id": 87,
+                "length": 409,
+                "order": 1,
+                "seque": false,
+                "set": 1004
+            }
+        ]
+    ],
+    "name": "Doin' That Rag",
+    "played": 3,
+    "shortest": [
+        [
+            409,
+            {
+                "comments": "",
+                "id": 87,
+                "length": 409,
+                "order": 1,
+                "seque": false,
+                "set": 1004
+            }
+        ],
+        [
+            402,
+            {
+                "comments": "",
+                "id": 87,
+                "length": 402,
+                "order": 2,
+                "seque": false,
+                "set": 686
+            }
+        ],
+        [
+            344,
+            {
+                "comments": "",
+                "id": 87,
+                "length": 344,
+                "order": 5,
+                "seque": false,
+                "set": 628
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

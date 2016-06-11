@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 343,
+                "length": 394,
+                "order": 11,
+                "seque": true,
+                "set": 455
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 704,
+                "order": 9,
+                "seque": true,
+                "set": 473
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 343,
+                "length": 394,
+                "order": 11,
+                "seque": true,
+                "set": 455
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 704,
+                "order": 9,
+                "seque": true,
+                "set": 473
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            556,
+            {
+                "comments": "",
+                "id": 378,
+                "length": 556,
+                "order": 12,
+                "seque": false,
+                "set": 455
+            }
+        ],
+        [
+            614,
+            {
+                "comments": "",
+                "id": 378,
+                "length": 614,
+                "order": 10,
+                "seque": true,
+                "set": 473
+            }
+        ]
+    ],
+    "name": "Visions Of Johanna",
+    "played": 2,
+    "shortest": [
+        [
+            614,
+            {
+                "comments": "",
+                "id": 378,
+                "length": 614,
+                "order": 10,
+                "seque": true,
+                "set": 473
+            }
+        ],
+        [
+            556,
+            {
+                "comments": "",
+                "id": 378,
+                "length": 556,
+                "order": 12,
+                "seque": false,
+                "set": 455
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

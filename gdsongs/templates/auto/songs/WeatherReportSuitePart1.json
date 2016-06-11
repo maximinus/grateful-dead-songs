@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 391,
+                "length": 77,
+                "order": 9,
+                "seque": true,
+                "set": 739
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 391,
+                "length": 80,
+                "order": 8,
+                "seque": true,
+                "set": 1048
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 391,
+                "length": 92,
+                "order": 11,
+                "seque": true,
+                "set": 970
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 391,
+                "length": 94,
+                "order": 5,
+                "seque": true,
+                "set": 631
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 391,
+                "length": 78,
+                "order": 14,
+                "seque": true,
+                "set": 505
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 391,
+                "length": 77,
+                "order": 9,
+                "seque": true,
+                "set": 739
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 391,
+                "length": 80,
+                "order": 8,
+                "seque": true,
+                "set": 1048
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 391,
+                "length": 92,
+                "order": 11,
+                "seque": true,
+                "set": 970
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 391,
+                "length": 94,
+                "order": 5,
+                "seque": true,
+                "set": 631
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 391,
+                "length": 78,
+                "order": 14,
+                "seque": true,
+                "set": 505
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            242,
+            {
+                "comments": "",
+                "id": 390,
+                "length": 242,
+                "order": 12,
+                "seque": true,
+                "set": 970
+            }
+        ],
+        [
+            249,
+            {
+                "comments": "",
+                "id": 390,
+                "length": 249,
+                "order": 8,
+                "seque": true,
+                "set": 877
+            }
+        ],
+        [
+            258,
+            {
+                "comments": "",
+                "id": 390,
+                "length": 258,
+                "order": 17,
+                "seque": true,
+                "set": 894
+            }
+        ],
+        [
+            259,
+            {
+                "comments": "",
+                "id": 390,
+                "length": 259,
+                "order": 14,
+                "seque": true,
+                "set": 27
+            }
+        ],
+        [
+            261,
+            {
+                "comments": "",
+                "id": 390,
+                "length": 261,
+                "order": 6,
+                "seque": true,
+                "set": 631
+            }
+        ]
+    ],
+    "name": "Weather Report Suite Part 1",
+    "played": 14,
+    "shortest": [
+        [
+            304,
+            {
+                "comments": "",
+                "id": 390,
+                "length": 304,
+                "order": 5,
+                "seque": true,
+                "set": 786
+            }
+        ],
+        [
+            302,
+            {
+                "comments": "",
+                "id": 390,
+                "length": 302,
+                "order": 13,
+                "seque": true,
+                "set": 879
+            }
+        ],
+        [
+            274,
+            {
+                "comments": "",
+                "id": 390,
+                "length": 274,
+                "order": 16,
+                "seque": true,
+                "set": 833
+            }
+        ],
+        [
+            274,
+            {
+                "comments": "",
+                "id": 390,
+                "length": 274,
+                "order": 6,
+                "seque": true,
+                "set": 552
+            }
+        ],
+        [
+            271,
+            {
+                "comments": "",
+                "id": 390,
+                "length": 271,
+                "order": 15,
+                "seque": true,
+                "set": 505
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

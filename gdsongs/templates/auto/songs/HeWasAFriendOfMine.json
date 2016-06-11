@@ -1,0 +1,122 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 87,
+                "length": 402,
+                "order": 2,
+                "seque": false,
+                "set": 686
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 87,
+                "length": 402,
+                "order": 2,
+                "seque": false,
+                "set": 686
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            517,
+            {
+                "comments": "",
+                "id": 133,
+                "length": 517,
+                "order": 3,
+                "seque": true,
+                "set": 686
+            }
+        ]
+    ],
+    "name": "He Was A Friend Of Mine",
+    "played": 1,
+    "shortest": [
+        [
+            517,
+            {
+                "comments": "",
+                "id": 133,
+                "length": 517,
+                "order": 3,
+                "seque": true,
+                "set": 686
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

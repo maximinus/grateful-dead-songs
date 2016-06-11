@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 155,
+                "length": 337,
+                "order": 3,
+                "seque": false,
+                "set": 855
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 289,
+                "length": 716,
+                "order": 1,
+                "seque": false,
+                "set": 918
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 365,
+                "length": 354,
+                "order": 2,
+                "seque": false,
+                "set": 434
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 289,
+                "length": 804,
+                "order": 1,
+                "seque": false,
+                "set": 698
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 106,
+                "length": 269,
+                "order": 4,
+                "seque": false,
+                "set": 470
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 155,
+                "length": 337,
+                "order": 3,
+                "seque": false,
+                "set": 855
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 289,
+                "length": 716,
+                "order": 1,
+                "seque": false,
+                "set": 918
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 365,
+                "length": 354,
+                "order": 2,
+                "seque": false,
+                "set": 434
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 289,
+                "length": 804,
+                "order": 1,
+                "seque": false,
+                "set": 698
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 106,
+                "length": 269,
+                "order": 4,
+                "seque": false,
+                "set": 470
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            277,
+            {
+                "comments": "",
+                "id": 217,
+                "length": 277,
+                "order": 1,
+                "seque": false,
+                "set": 968
+            }
+        ],
+        [
+            302,
+            {
+                "comments": "",
+                "id": 217,
+                "length": 302,
+                "order": 9,
+                "seque": false,
+                "set": 564
+            }
+        ],
+        [
+            312,
+            {
+                "comments": "",
+                "id": 217,
+                "length": 312,
+                "order": 8,
+                "seque": false,
+                "set": 633
+            }
+        ],
+        [
+            329,
+            {
+                "comments": "",
+                "id": 217,
+                "length": 329,
+                "order": 1,
+                "seque": false,
+                "set": 827
+            }
+        ],
+        [
+            330,
+            {
+                "comments": "",
+                "id": 217,
+                "length": 330,
+                "order": 13,
+                "seque": false,
+                "set": 983
+            }
+        ]
+    ],
+    "name": "Man Smart, Woman Smarter",
+    "played": 42,
+    "shortest": [
+        [
+            611,
+            {
+                "comments": "Weir sings Iko lyrics",
+                "id": 217,
+                "length": 611,
+                "order": 4,
+                "seque": true,
+                "set": 261
+            }
+        ],
+        [
+            560,
+            {
+                "comments": "",
+                "id": 217,
+                "length": 560,
+                "order": 2,
+                "seque": false,
+                "set": 1041
+            }
+        ],
+        [
+            517,
+            {
+                "comments": "Brent sings the 2nd verse",
+                "id": 217,
+                "length": 517,
+                "order": 2,
+                "seque": false,
+                "set": 164
+            }
+        ],
+        [
+            504,
+            {
+                "comments": "",
+                "id": 217,
+                "length": 504,
+                "order": 5,
+                "seque": false,
+                "set": 470
+            }
+        ],
+        [
+            500,
+            {
+                "comments": "",
+                "id": 217,
+                "length": 500,
+                "order": 2,
+                "seque": true,
+                "set": 535
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        6,
+        2,
+        6,
+        2,
+        3,
+        6,
+        6,
+        4,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

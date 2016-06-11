@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 449,
+                "length": 133,
+                "order": 7,
+                "seque": true,
+                "set": 226
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 607,
+                "order": 5,
+                "seque": true,
+                "set": 407
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 449,
+                "length": 133,
+                "order": 7,
+                "seque": true,
+                "set": 226
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 607,
+                "order": 5,
+                "seque": true,
+                "set": 407
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            143,
+            {
+                "comments": "",
+                "id": 465,
+                "length": 143,
+                "order": 6,
+                "seque": true,
+                "set": 407
+            }
+        ],
+        [
+            211,
+            {
+                "comments": "",
+                "id": 465,
+                "length": 211,
+                "order": 8,
+                "seque": true,
+                "set": 226
+            }
+        ]
+    ],
+    "name": "Drums w/ Jerry & Bob",
+    "played": 2,
+    "shortest": [
+        [
+            211,
+            {
+                "comments": "",
+                "id": 465,
+                "length": 211,
+                "order": 8,
+                "seque": true,
+                "set": 226
+            }
+        ],
+        [
+            143,
+            {
+                "comments": "",
+                "id": 465,
+                "length": 143,
+                "order": 6,
+                "seque": true,
+                "set": 407
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

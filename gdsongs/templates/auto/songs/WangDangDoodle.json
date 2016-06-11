@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 122,
+                "order": 10,
+                "seque": true,
+                "set": 586
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 365,
+                "length": 399,
+                "order": 1,
+                "seque": false,
+                "set": 579
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 289,
+                "length": 760,
+                "order": 2,
+                "seque": false,
+                "set": 374
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 309,
+                "length": 331,
+                "order": 3,
+                "seque": false,
+                "set": 706
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 289,
+                "length": 943,
+                "order": 2,
+                "seque": false,
+                "set": 756
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 423,
+                "length": 122,
+                "order": 10,
+                "seque": true,
+                "set": 586
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 365,
+                "length": 399,
+                "order": 1,
+                "seque": false,
+                "set": 579
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 289,
+                "length": 760,
+                "order": 2,
+                "seque": false,
+                "set": 374
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 309,
+                "length": 331,
+                "order": 3,
+                "seque": false,
+                "set": 706
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 289,
+                "length": 943,
+                "order": 2,
+                "seque": false,
+                "set": 756
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            204,
+            {
+                "comments": "",
+                "id": 383,
+                "length": 204,
+                "order": 14,
+                "seque": true,
+                "set": 855
+            }
+        ],
+        [
+            374,
+            {
+                "comments": "",
+                "id": 383,
+                "length": 374,
+                "order": 3,
+                "seque": false,
+                "set": 472
+            }
+        ],
+        [
+            375,
+            {
+                "comments": "Prior to song Weir says, \"so on the count of 3 everyone say Happy Birthday, Brentski. 1..2..3!\"",
+                "id": 383,
+                "length": 375,
+                "order": 1,
+                "seque": false,
+                "set": 725
+            }
+        ],
+        [
+            376,
+            {
+                "comments": "",
+                "id": 383,
+                "length": 376,
+                "order": 2,
+                "seque": false,
+                "set": 579
+            }
+        ],
+        [
+            378,
+            {
+                "comments": "",
+                "id": 383,
+                "length": 378,
+                "order": 3,
+                "seque": false,
+                "set": 374
+            }
+        ]
+    ],
+    "name": "Wang Dang Doodle",
+    "played": 11,
+    "shortest": [
+        [
+            645,
+            {
+                "comments": "",
+                "id": 383,
+                "length": 645,
+                "order": 11,
+                "seque": true,
+                "set": 586
+            }
+        ],
+        [
+            529,
+            {
+                "comments": "",
+                "id": 383,
+                "length": 529,
+                "order": 4,
+                "seque": false,
+                "set": 706
+            }
+        ],
+        [
+            432,
+            {
+                "comments": "",
+                "id": 383,
+                "length": 432,
+                "order": 3,
+                "seque": false,
+                "set": 415
+            }
+        ],
+        [
+            420,
+            {
+                "comments": "",
+                "id": 383,
+                "length": 420,
+                "order": 3,
+                "seque": false,
+                "set": 137
+            }
+        ],
+        [
+            384,
+            {
+                "comments": "",
+                "id": 383,
+                "length": 384,
+                "order": 3,
+                "seque": false,
+                "set": 756
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

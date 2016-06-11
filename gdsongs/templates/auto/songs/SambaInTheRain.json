@@ -1,0 +1,210 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 111,
+                "length": 623,
+                "order": 1,
+                "seque": false,
+                "set": 473
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 305,
+                "length": 706,
+                "order": 3,
+                "seque": false,
+                "set": 323
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 371,
+                "length": 435,
+                "order": 2,
+                "seque": false,
+                "set": 464
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 111,
+                "length": 623,
+                "order": 1,
+                "seque": false,
+                "set": 473
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 305,
+                "length": 706,
+                "order": 3,
+                "seque": false,
+                "set": 323
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 371,
+                "length": 435,
+                "order": 2,
+                "seque": false,
+                "set": 464
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            384,
+            {
+                "comments": "",
+                "id": 283,
+                "length": 384,
+                "order": 3,
+                "seque": false,
+                "set": 464
+            }
+        ],
+        [
+            398,
+            {
+                "comments": "",
+                "id": 283,
+                "length": 398,
+                "order": 4,
+                "seque": false,
+                "set": 323
+            }
+        ],
+        [
+            414,
+            {
+                "comments": "",
+                "id": 283,
+                "length": 414,
+                "order": 2,
+                "seque": false,
+                "set": 473
+            }
+        ]
+    ],
+    "name": "Samba In The Rain",
+    "played": 3,
+    "shortest": [
+        [
+            414,
+            {
+                "comments": "",
+                "id": 283,
+                "length": 414,
+                "order": 2,
+                "seque": false,
+                "set": 473
+            }
+        ],
+        [
+            398,
+            {
+                "comments": "",
+                "id": 283,
+                "length": 398,
+                "order": 4,
+                "seque": false,
+                "set": 323
+            }
+        ],
+        [
+            384,
+            {
+                "comments": "",
+                "id": 283,
+                "length": 384,
+                "order": 3,
+                "seque": false,
+                "set": 464
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

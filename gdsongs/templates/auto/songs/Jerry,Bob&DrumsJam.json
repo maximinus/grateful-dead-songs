@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 756,
+                "order": 8,
+                "seque": true,
+                "set": 839
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 554,
+                "order": 6,
+                "seque": true,
+                "set": 503
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 576,
+                "order": 7,
+                "seque": true,
+                "set": 812
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 607,
+                "order": 8,
+                "seque": true,
+                "set": 258
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 588,
+                "order": 6,
+                "seque": true,
+                "set": 598
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 756,
+                "order": 8,
+                "seque": true,
+                "set": 839
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 554,
+                "order": 6,
+                "seque": true,
+                "set": 503
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 576,
+                "order": 7,
+                "seque": true,
+                "set": 812
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 607,
+                "order": 8,
+                "seque": true,
+                "set": 258
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 93,
+                "length": 588,
+                "order": 6,
+                "seque": true,
+                "set": 598
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            55,
+            {
+                "comments": "",
+                "id": 452,
+                "length": 55,
+                "order": 12,
+                "seque": true,
+                "set": 998
+            }
+        ],
+        [
+            62,
+            {
+                "comments": "",
+                "id": 452,
+                "length": 62,
+                "order": 9,
+                "seque": true,
+                "set": 839
+            }
+        ],
+        [
+            72,
+            {
+                "comments": "",
+                "id": 452,
+                "length": 72,
+                "order": 8,
+                "seque": true,
+                "set": 812
+            }
+        ],
+        [
+            113,
+            {
+                "comments": "with Phil - Re Label",
+                "id": 452,
+                "length": 113,
+                "order": 6,
+                "seque": true,
+                "set": 846
+            }
+        ],
+        [
+            118,
+            {
+                "comments": "",
+                "id": 452,
+                "length": 118,
+                "order": 11,
+                "seque": true,
+                "set": 842
+            }
+        ]
+    ],
+    "name": "Jerry, Bob & Drums Jam",
+    "played": 12,
+    "shortest": [
+        [
+            459,
+            {
+                "comments": "",
+                "id": 452,
+                "length": 459,
+                "order": 8,
+                "seque": true,
+                "set": 155
+            }
+        ],
+        [
+            288,
+            {
+                "comments": "",
+                "id": 452,
+                "length": 288,
+                "order": 7,
+                "seque": true,
+                "set": 503
+            }
+        ],
+        [
+            220,
+            {
+                "comments": "",
+                "id": 452,
+                "length": 220,
+                "order": 7,
+                "seque": true,
+                "set": 598
+            }
+        ],
+        [
+            176,
+            {
+                "comments": "",
+                "id": 452,
+                "length": 176,
+                "order": 9,
+                "seque": true,
+                "set": 141
+            }
+        ],
+        [
+            162,
+            {
+                "comments": "",
+                "id": 452,
+                "length": 162,
+                "order": 11,
+                "seque": true,
+                "set": 701
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

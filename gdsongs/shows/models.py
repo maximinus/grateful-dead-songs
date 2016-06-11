@@ -27,7 +27,6 @@ class ShowDate(models.Model):
 			end = day % 10;
 			if(end > 3):
 				end = 0;
-			print end
 			day = str(day) + ENDS[end]
 		return('{0} of {1}, {2}'.format(day, self.getMonth(), self.getYear()))
 
@@ -100,7 +99,7 @@ class Show(models.Model):
 	@property
 	def year(self):
 		return(self.date.year)
-	
+
 	@property
 	def setlist(self):
 		sets = PlayedSet.objects.filter(show=self).order_by('order')
@@ -140,8 +139,8 @@ class Show(models.Model):
 			text = text[:-3]
 		return(text)
 
-	def getJson(self):
-		# return as abunch of datam including the songs
+	def getJSON(self):
+		# return as abunch of data including the songs
 		data = {'date': str(self.date),
 				'venue': str(self.venue)}
 		sets = PlayedSet.objects.filter(show=self)
@@ -150,7 +149,7 @@ class Show(models.Model):
 			songs = PlayedSong.objects.filter(played_set=i).order_by('order')
 			json_sets.append([[x.song.id, x.length_string, x.seque, x.comments] for x in songs])
 		data['sets'] = json_sets
-		return(json.dumps(data))
+		return(data)
 
 	def __cmp__(self, show2):
 		# compare show dates for sorting

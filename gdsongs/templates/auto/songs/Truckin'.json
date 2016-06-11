@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 394,
+                "length": 594,
+                "order": 11,
+                "seque": true,
+                "set": 356
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 460,
+                "length": 117,
+                "order": 7,
+                "seque": true,
+                "set": 643
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 470,
+                "length": 292,
+                "order": 15,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 134,
+                "length": 728,
+                "order": 4,
+                "seque": true,
+                "set": 255
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 110,
+                "length": 982,
+                "order": 3,
+                "seque": false,
+                "set": 780
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 394,
+                "length": 594,
+                "order": 11,
+                "seque": true,
+                "set": 356
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 460,
+                "length": 117,
+                "order": 7,
+                "seque": true,
+                "set": 643
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 470,
+                "length": 292,
+                "order": 15,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 134,
+                "length": 728,
+                "order": 4,
+                "seque": true,
+                "set": 255
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 110,
+                "length": 982,
+                "order": 3,
+                "seque": false,
+                "set": 780
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            274,
+            {
+                "comments": "'a fuckin' shame' get back truckin' on 12 times",
+                "id": 367,
+                "length": 274,
+                "order": 7,
+                "seque": true,
+                "set": 742
+            }
+        ],
+        [
+            283,
+            {
+                "comments": "Get back Truckin' On 7 times",
+                "id": 367,
+                "length": 283,
+                "order": 9,
+                "seque": true,
+                "set": 614
+            }
+        ],
+        [
+            285,
+            {
+                "comments": "",
+                "id": 367,
+                "length": 285,
+                "order": 11,
+                "seque": true,
+                "set": 821
+            }
+        ],
+        [
+            288,
+            {
+                "comments": "Get Back Truckin' On 7 - \"Busted!\" Crowd reaction due to Garcia's drug bust earlier in the year. ",
+                "id": 367,
+                "length": 288,
+                "order": 1,
+                "seque": true,
+                "set": 261
+            }
+        ],
+        [
+            288,
+            {
+                "comments": "Get Back Truckin' On: 3 times with scream on 4th measure.",
+                "id": 367,
+                "length": 288,
+                "order": 9,
+                "seque": true,
+                "set": 805
+            }
+        ]
+    ],
+    "name": "Truckin'",
+    "played": 87,
+    "shortest": [
+        [
+            656,
+            {
+                "comments": "",
+                "id": 367,
+                "length": 656,
+                "order": 5,
+                "seque": true,
+                "set": 36
+            }
+        ],
+        [
+            510,
+            {
+                "comments": "",
+                "id": 367,
+                "length": 510,
+                "order": 10,
+                "seque": false,
+                "set": 123
+            }
+        ],
+        [
+            346,
+            {
+                "comments": "",
+                "id": 367,
+                "length": 346,
+                "order": 12,
+                "seque": true,
+                "set": 523
+            }
+        ],
+        [
+            339,
+            {
+                "comments": "Get Back Truckin' On: 7 Times",
+                "id": 367,
+                "length": 339,
+                "order": 6,
+                "seque": true,
+                "set": 693
+            }
+        ],
+        [
+            339,
+            {
+                "comments": "whistle blow opening; Get Back Truckin' On  7 times",
+                "id": 367,
+                "length": 339,
+                "order": 5,
+                "seque": true,
+                "set": 608
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        4,
+        10,
+        5,
+        1,
+        0,
+        8,
+        5,
+        4,
+        1,
+        5,
+        4,
+        4,
+        6,
+        4,
+        1,
+        3,
+        4,
+        2,
+        5,
+        2,
+        0,
+        0,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 122,
+                "length": 57,
+                "order": 10,
+                "seque": true,
+                "set": 651
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 129,
+                "length": 232,
+                "order": 8,
+                "seque": true,
+                "set": 651
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 122,
+                "length": 57,
+                "order": 10,
+                "seque": true,
+                "set": 651
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 129,
+                "length": 232,
+                "order": 8,
+                "seque": true,
+                "set": 651
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            59,
+            {
+                "comments": "",
+                "id": 85,
+                "length": 59,
+                "order": 11,
+                "seque": false,
+                "set": 651
+            }
+        ],
+        [
+            130,
+            {
+                "comments": "",
+                "id": 85,
+                "length": 130,
+                "order": 9,
+                "seque": true,
+                "set": 651
+            }
+        ]
+    ],
+    "name": "Devil With The Blue Dress On",
+    "played": 2,
+    "shortest": [
+        [
+            130,
+            {
+                "comments": "",
+                "id": 85,
+                "length": 130,
+                "order": 9,
+                "seque": true,
+                "set": 651
+            }
+        ],
+        [
+            59,
+            {
+                "comments": "",
+                "id": 85,
+                "length": 59,
+                "order": 11,
+                "seque": false,
+                "set": 651
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

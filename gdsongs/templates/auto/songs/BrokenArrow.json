@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 267,
+                "length": 353,
+                "order": 5,
+                "seque": false,
+                "set": 718
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 457,
+                "order": 4,
+                "seque": false,
+                "set": 472
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 267,
+                "length": 353,
+                "order": 5,
+                "seque": false,
+                "set": 718
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 329,
+                "length": 457,
+                "order": 4,
+                "seque": false,
+                "set": 472
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            330,
+            {
+                "comments": "",
+                "id": 41,
+                "length": 330,
+                "order": 5,
+                "seque": false,
+                "set": 472
+            }
+        ],
+        [
+            358,
+            {
+                "comments": "",
+                "id": 41,
+                "length": 358,
+                "order": 6,
+                "seque": false,
+                "set": 718
+            }
+        ]
+    ],
+    "name": "Broken Arrow",
+    "played": 2,
+    "shortest": [
+        [
+            358,
+            {
+                "comments": "",
+                "id": 41,
+                "length": 358,
+                "order": 6,
+                "seque": false,
+                "set": 718
+            }
+        ],
+        [
+            330,
+            {
+                "comments": "",
+                "id": 41,
+                "length": 330,
+                "order": 5,
+                "seque": false,
+                "set": 472
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

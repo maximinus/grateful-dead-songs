@@ -1,0 +1,210 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 485,
+                "order": 9,
+                "seque": true,
+                "set": 611
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 949,
+                "order": 9,
+                "seque": true,
+                "set": 202
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 305,
+                "length": 410,
+                "order": 3,
+                "seque": false,
+                "set": 1020
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 428,
+                "length": 485,
+                "order": 9,
+                "seque": true,
+                "set": 611
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 306,
+                "length": 949,
+                "order": 9,
+                "seque": true,
+                "set": 202
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 305,
+                "length": 410,
+                "order": 3,
+                "seque": false,
+                "set": 1020
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            398,
+            {
+                "comments": "",
+                "id": 96,
+                "length": 398,
+                "order": 4,
+                "seque": false,
+                "set": 1020
+            }
+        ],
+        [
+            419,
+            {
+                "comments": "",
+                "id": 96,
+                "length": 419,
+                "order": 10,
+                "seque": true,
+                "set": 611
+            }
+        ],
+        [
+            434,
+            {
+                "comments": "",
+                "id": 96,
+                "length": 434,
+                "order": 10,
+                "seque": true,
+                "set": 202
+            }
+        ]
+    ],
+    "name": "Easy Answers",
+    "played": 3,
+    "shortest": [
+        [
+            434,
+            {
+                "comments": "",
+                "id": 96,
+                "length": 434,
+                "order": 10,
+                "seque": true,
+                "set": 202
+            }
+        ],
+        [
+            419,
+            {
+                "comments": "",
+                "id": 96,
+                "length": 419,
+                "order": 10,
+                "seque": true,
+                "set": 611
+            }
+        ],
+        [
+            398,
+            {
+                "comments": "",
+                "id": 96,
+                "length": 398,
+                "order": 4,
+                "seque": false,
+                "set": 1020
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

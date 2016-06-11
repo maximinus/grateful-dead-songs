@@ -1,0 +1,166 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 137,
+                "length": 385,
+                "order": 6,
+                "seque": false,
+                "set": 606
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 257,
+                "length": 299,
+                "order": 1,
+                "seque": false,
+                "set": 660
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 137,
+                "length": 385,
+                "order": 6,
+                "seque": false,
+                "set": 606
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 257,
+                "length": 299,
+                "order": 1,
+                "seque": false,
+                "set": 660
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            276,
+            {
+                "comments": "",
+                "id": 274,
+                "length": 276,
+                "order": 7,
+                "seque": false,
+                "set": 606
+            }
+        ],
+        [
+            279,
+            {
+                "comments": "",
+                "id": 274,
+                "length": 279,
+                "order": 2,
+                "seque": false,
+                "set": 660
+            }
+        ]
+    ],
+    "name": "Ripple",
+    "played": 2,
+    "shortest": [
+        [
+            279,
+            {
+                "comments": "",
+                "id": 274,
+                "length": 279,
+                "order": 2,
+                "seque": false,
+                "set": 660
+            }
+        ],
+        [
+            276,
+            {
+                "comments": "",
+                "id": 274,
+                "length": 276,
+                "order": 7,
+                "seque": false,
+                "set": 606
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

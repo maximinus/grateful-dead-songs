@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "Sex Change!",
+                "id": 367,
+                "length": 319,
+                "order": 16,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "\"It's a rotten stinkin' fucking shame!\" Get back Truckin' On: 7 Times",
+                "id": 367,
+                "length": 305,
+                "order": 8,
+                "seque": true,
+                "set": 643
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 367,
+                "length": 318,
+                "order": 4,
+                "seque": true,
+                "set": 871
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir, \"ever since she went and had all her pets changed.\" Get back Truckin' On 7 times ",
+                "id": 367,
+                "length": 307,
+                "order": 8,
+                "seque": true,
+                "set": 532
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Get Back Truckin' On - 7 Times",
+                "id": 367,
+                "length": 291,
+                "order": 10,
+                "seque": true,
+                "set": 1038
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "Sex Change!",
+                "id": 367,
+                "length": 319,
+                "order": 16,
+                "seque": true,
+                "set": 589
+            },
+            1
+        ],
+        [
+            {
+                "comments": "\"It's a rotten stinkin' fucking shame!\" Get back Truckin' On: 7 Times",
+                "id": 367,
+                "length": 305,
+                "order": 8,
+                "seque": true,
+                "set": 643
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 367,
+                "length": 318,
+                "order": 4,
+                "seque": true,
+                "set": 871
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Weir, \"ever since she went and had all her pets changed.\" Get back Truckin' On 7 times ",
+                "id": 367,
+                "length": 307,
+                "order": 8,
+                "seque": true,
+                "set": 532
+            },
+            1
+        ],
+        [
+            {
+                "comments": "Get Back Truckin' On - 7 Times",
+                "id": 367,
+                "length": 291,
+                "order": 10,
+                "seque": true,
+                "set": 1038
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            56,
+            {
+                "comments": "",
+                "id": 423,
+                "length": 56,
+                "order": 12,
+                "seque": true,
+                "set": 491
+            }
+        ],
+        [
+            58,
+            {
+                "comments": "",
+                "id": 423,
+                "length": 58,
+                "order": 10,
+                "seque": true,
+                "set": 936
+            }
+        ],
+        [
+            60,
+            {
+                "comments": "",
+                "id": 423,
+                "length": 60,
+                "order": 10,
+                "seque": true,
+                "set": 208
+            }
+        ],
+        [
+            61,
+            {
+                "comments": "",
+                "id": 423,
+                "length": 61,
+                "order": 5,
+                "seque": true,
+                "set": 665
+            }
+        ],
+        [
+            67,
+            {
+                "comments": "",
+                "id": 423,
+                "length": 67,
+                "order": 10,
+                "seque": true,
+                "set": 614
+            }
+        ]
+    ],
+    "name": "Truckin' Jam",
+    "played": 87,
+    "shortest": [
+        [
+            365,
+            {
+                "comments": "ascending riff",
+                "id": 423,
+                "length": 365,
+                "order": 10,
+                "seque": true,
+                "set": 512
+            }
+        ],
+        [
+            357,
+            {
+                "comments": "",
+                "id": 423,
+                "length": 357,
+                "order": 15,
+                "seque": true,
+                "set": 1006
+            }
+        ],
+        [
+            324,
+            {
+                "comments": "Ascending Riff",
+                "id": 423,
+                "length": 324,
+                "order": 13,
+                "seque": false,
+                "set": 356
+            }
+        ],
+        [
+            303,
+            {
+                "comments": "",
+                "id": 423,
+                "length": 303,
+                "order": 2,
+                "seque": true,
+                "set": 94
+            }
+        ],
+        [
+            279,
+            {
+                "comments": "",
+                "id": 423,
+                "length": 279,
+                "order": 9,
+                "seque": true,
+                "set": 1059
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        4,
+        10,
+        5,
+        1,
+        0,
+        8,
+        5,
+        5,
+        1,
+        5,
+        4,
+        4,
+        6,
+        4,
+        1,
+        3,
+        4,
+        1,
+        5,
+        2,
+        0,
+        0,
+        0,
+        2
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "after": [
+        [
+            {
+                "comments": "",
+                "id": 393,
+                "length": 435,
+                "order": 4,
+                "seque": false,
+                "set": 528
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 359,
+                "length": 551,
+                "order": 6,
+                "seque": false,
+                "set": 576
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 262,
+                "length": 364,
+                "order": 5,
+                "seque": false,
+                "set": 642
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 94,
+                "length": 355,
+                "order": 6,
+                "seque": false,
+                "set": 579
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 42,
+                "length": 291,
+                "order": 5,
+                "seque": false,
+                "set": 1011
+            },
+            1
+        ]
+    ],
+    "before": [
+        [
+            {
+                "comments": "",
+                "id": 393,
+                "length": 435,
+                "order": 4,
+                "seque": false,
+                "set": 528
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 359,
+                "length": 551,
+                "order": 6,
+                "seque": false,
+                "set": 576
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 262,
+                "length": 364,
+                "order": 5,
+                "seque": false,
+                "set": 642
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 94,
+                "length": 355,
+                "order": 6,
+                "seque": false,
+                "set": 579
+            },
+            1
+        ],
+        [
+            {
+                "comments": "",
+                "id": 42,
+                "length": 291,
+                "order": 5,
+                "seque": false,
+                "set": 1011
+            },
+            1
+        ]
+    ],
+    "longest": [
+        [
+            222,
+            {
+                "comments": "",
+                "id": 396,
+                "length": 222,
+                "order": 5,
+                "seque": false,
+                "set": 528
+            }
+        ],
+        [
+            238,
+            {
+                "comments": "",
+                "id": 396,
+                "length": 238,
+                "order": 4,
+                "seque": false,
+                "set": 651
+            }
+        ],
+        [
+            248,
+            {
+                "comments": "",
+                "id": 396,
+                "length": 248,
+                "order": 5,
+                "seque": false,
+                "set": 917
+            }
+        ],
+        [
+            256,
+            {
+                "comments": "",
+                "id": 396,
+                "length": 256,
+                "order": 4,
+                "seque": false,
+                "set": 773
+            }
+        ],
+        [
+            280,
+            {
+                "comments": "",
+                "id": 396,
+                "length": 280,
+                "order": 6,
+                "seque": false,
+                "set": 642
+            }
+        ]
+    ],
+    "name": "When I Paint My Masterpiece",
+    "played": 22,
+    "shortest": [
+        [
+            379,
+            {
+                "comments": "",
+                "id": 396,
+                "length": 379,
+                "order": 6,
+                "seque": false,
+                "set": 163
+            }
+        ],
+        [
+            325,
+            {
+                "comments": "",
+                "id": 396,
+                "length": 325,
+                "order": 8,
+                "seque": false,
+                "set": 1017
+            }
+        ],
+        [
+            318,
+            {
+                "comments": "",
+                "id": 396,
+                "length": 318,
+                "order": 4,
+                "seque": false,
+                "set": 1034
+            }
+        ],
+        [
+            316,
+            {
+                "comments": "",
+                "id": 396,
+                "length": 316,
+                "order": 5,
+                "seque": false,
+                "set": 756
+            }
+        ],
+        [
+            313,
+            {
+                "comments": "",
+                "id": 396,
+                "length": 313,
+                "order": 8,
+                "seque": false,
+                "set": 835
+            }
+        ]
+    ],
+    "years": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        6,
+        2,
+        3,
+        4,
+        1,
+        0,
+        1,
+        1
+    ],
+    "years_percent": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}
