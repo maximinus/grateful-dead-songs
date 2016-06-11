@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+	<link href="{% static "css/test_edit.css" %}" rel="stylesheet">
+{% endblock %}
+
+{% block main %}
+	<h3>Hello World</h3>
+	<div id='react-main'>
+	</div>
+{% endblock %}
+
+{% block scripts %}
+	<script src="{% static "js/react/react.js" %}"></script>
+	<script src="{% static "js/react/react-dom.js" %}"></script>
+	<script src="{% static "js/react/browser.min.js" %}"></script>
+	<script type="text/babel" src="{% static "jsx/edit_show.jsx" %}"></script>
+{% endblock %}
