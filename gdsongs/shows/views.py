@@ -240,3 +240,7 @@ def getShowYears(request, year):
 	results = {'year':str(year)}
 	results['shows'] = [{'date':str(x.date), 'id':x.id} for x in shows_in_year]
 	return(HttpResponse(json.dumps(results), content_type='application/json', status=200))
+
+@login_required
+def exampleEdit(request, show_id):
+	return(render(request, 'editing/edit_show_react.html', {}))

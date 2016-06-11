@@ -4,7 +4,7 @@
 var ShowDate = React.createClass({
 	render: function() {
 		return(
-			<a className="result" href={"/edit_show/" + this.props.id + '/'}>
+			<a className="result" href={this.props.id + '/'}>
 				{this.props.text}
 			</a>
 		);

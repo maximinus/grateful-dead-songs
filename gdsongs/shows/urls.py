@@ -14,4 +14,5 @@ urlpatterns = [
     url(r'^year/(?P<year>[0-9]+)/$', views.getShowYears, name='get_show_years'),
     # testing
     url(r'^test_edit/$', views.testEdit, name='test_edit'),
+    url(r'^test_edit/(?P<show_id>[0-9]+)/$', views.exampleEdit, name='test_edit_id'),
 ]
