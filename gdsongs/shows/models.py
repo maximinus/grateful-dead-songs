@@ -27,6 +27,7 @@ class ShowDate(models.Model):
 			end = day % 10;
 			if(end > 3):
 				end = 0;
+			print end
 			day = str(day) + ENDS[end]
 		return('{0} of {1}, {2}'.format(day, self.getMonth(), self.getYear()))
 

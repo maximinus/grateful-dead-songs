@@ -1,55 +1,39 @@
 /* For choosing the year to edit */
 
+<<<<<<< HEAD
 .year-display {
 	display:flex;
 	flex-direction: row;
 	width: 100%;
+=======
+.display-block {
+>>>>>>> parent of 30ee1dd... Tidy up of choose year page before react transition
 }
 
 .year-block {
 	display: flex;
 	flex-direction: row;
-	background-color: #EEF;
 }
 
-.year-column {
-	display: flex;
-	flex-direction: column;
-}
-
-.year {
-	color: #333;
-	margin: 8px;
-	cursor: default;
-}
-
-.year:hover {
-	color: #999;
-}
-
-.results-block {
-	display: flex;
-	flex-direction: column;
-}
-
-.results-table {
-	display: flex;
-	flex-flow: row wrap;
-}
-
-.results-title {
-	width: 100%;
-}
-
-.result {
+.col {
 	width: 20%;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	text-align: center;
-	color: #333;
-	text-decoration: none;
+	cursor: default;
 }
 
-.result:hover {
+.col:hover {
 	color: #999;
 }
+
+.col-center {
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	text-align: center;
+	cursor: default;
+}
+
