@@ -1,0 +1,27 @@
+
+This is a list of the extra management commands that have been added to manage.py.
+To run them, use this for the dev machine:
+
+	./manage.py command_name
+
+Or for the live server:
+
+	python2.7 manage.py command_name
+
+
+Shows management:
+-----------------
+
+	build_songs
+		Builds a series of static json files for all songs.
+		Takes about 2-3 minutes to run.
+
+	clearsets
+		Removes all PlayedSongs, PlayedSets and Shows from the database.
+
+Songs commands:
+---------------
+
+	addsongs
+	makeJSONsongs
+	song_list

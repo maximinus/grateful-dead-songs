@@ -18,4 +18,3 @@ class Command(BaseCommand):
 		ShowDate.objects.all().delete()
 		Show.objects.all().delete()
 		print('Deleted {0} songs, {1} sets, {2} shows and {3} dates.'.format(songs, sets, shows, dates))
-

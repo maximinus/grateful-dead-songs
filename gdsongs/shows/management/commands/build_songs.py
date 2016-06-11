@@ -6,7 +6,7 @@ from songs.models import Song
 
 import os, json
 
-FILENAME = 'templates/auto/json/{0}.json'
+FILENAME = u'templates/auto/json/{0}.json'
 
 # change this to make longer data tables
 MAXIMUM_TABLE_LENGTH = 5
@@ -86,6 +86,7 @@ class SongInformation(object):
 				'years':self.years,
 				'years_percent':self.years_percent}
 		data = json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))
+		print u'Building: {0}'.format(self.song.name)
 		json_file = open(os.path.join(settings.BASE_DIR, FILENAME.format(self.song.songUrl())), 'w')
 		json_file.write(data)
 		json_file.close()
