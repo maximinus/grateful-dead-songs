@@ -14,15 +14,11 @@
 			<p class="col">1967</p>
 			<p class="col">1968</p>
 			<p class="col">1969</p>
-		</div>
-		<div class="year-block">
 			<p class="col">1970</p>
 			<p class="col">1971</p>
 			<p class="col">1972</p>
 			<p class="col">1973</p>
 			<p class="col">1974</p>
-		</div>
-		<div class="year-block">
 			<p class="col">1975</p>
 			<p class="col">1976</p>
 			<p class="col">1977</p>
@@ -35,32 +31,34 @@
 			<p class="col">1982</p>
 			<p class="col">1983</p>
 			<p class="col">1984</p>
-		</div>
-		<div class="year-block">
 			<p class="col">1985</p>
 			<p class="col">1986</p>
 			<p class="col">1987</p>
 			<p class="col">1988</p>
 			<p class="col">1989</p>
-		</div>
-		<div class="year-block">
 			<p class="col">1990</p>
 			<p class="col">1991</p>
 			<p class="col">1992</p>
 			<p class="col">1993</p>
 			<p class="col">1994</p>
+			<p class="col">1995</p>
 		</div>
-		<div class="year-block">
-			<p class="col-center">1995</p>
-		</div>
-	</div>
-	<div class="display-block" id="list-shows">
+		<div id="list-shows"></div>
 	</div>
 {% endblock %}
 
 {% block scripts %}
-	<script src="{% static "js/react/react.js" %}"></script>
-	<script src="{% static "js/react/react-dom.js" %}"></script>
-	<script src="{% static "js/react/browser.min.js" %}"></script>
-	<script type="text/babel" src="{% static "jsx/choose-year.jsx" %}"></script>
+	<!-- handlebars template to display results -->
+	{% verbatim %}
+	<script id="shows-in-year" type="text/x-handlebars-template">
+		<h3 class="title">{{title}}</h3>
+		<div class="shows-block">
+			{{#each shows}}
+				<a class="show" href="/edit_show/{{id}}/">{{date}}</a>
+			{{/each}}
+		</div>
+	</script>
+	{% endverbatim %}
+	<script src="{% static "js/handlebars.js" %}"></script>
+	<script src="{% static "js/choose_year.js" %}"></script>
 {% endblock %}
