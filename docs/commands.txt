@@ -26,6 +26,5 @@ Shows management:
 Songs commands:
 ---------------
 
-	addsongs
 	makeJSONsongs
-	song_list
+		Writes all the songs out in a Javascript (NOT JSON!) file.
