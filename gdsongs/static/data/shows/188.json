@@ -1,0 +1,38 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Berkeley Community Theatre, Berkeley, California",
+	"venue_id": 63,
+	"show_date": "13rd of May, 1983",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Cold Rain & Snow", "length":"6:31", "trans":"/"},
+			{"name": "Greatest Story Ever Told", "length":"4:07", "trans":"/"},
+			{"name": "West L.A. Fadeaway", "length":"8:06", "trans":"/"},
+			{"name": "Hell In A Bucket", "length":"5:23", "trans":"/"},
+			{"name": "Loser", "length":"6:50", "trans":"/"},
+			{"name": "Little Red Rooster", "length":"8:46", "trans":"/"},
+			{"name": "Bird Song", "length":"10:30", "trans":"/"},
+			{"name": "Let It Grow", "length":"12:20", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "China Cat Sunflower", "length":"4:29", "trans":">"},
+			{"name": "Weir's Segue", "length":"4:11", "trans":">"},
+			{"name": "I Know You Rider", "length":"6:43", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"11:58", "trans":">"},
+			{"name": "Eyes Of The World", "length":"19:00", "trans":">"},
+			{"name": "Brent & Phil Interplay", "length":"1:11", "trans":">"},
+			{"name": "Drums", "length":"9:37", "trans":">"},
+			{"name": "Space", "length":"6:48", "trans":">"},
+			{"name": "Jerry, Bob & Phil Interplay", "length":"2:47", "trans":">"},
+			{"name": "Prelude", "length":"1:15", "trans":">"},
+			{"name": "Throwing Stones", "length":"9:43", "trans":">"},
+			{"name": "Other One", "length":"7:58", "trans":">"},
+			{"name": "Wharf Rat", "length":"9:05", "trans":">"},
+			{"name": "Around & Around", "length":"4:49", "trans":">"},
+			{"name": "Good Lovin'", "length":"9:41", "trans":"/"},
+		]},
+	],
+};

@@ -1,0 +1,46 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Boston Garden, Boston, Massachusetts",
+	"venue_id": 81,
+	"show_date": "9th of Jun, 1976",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Cold Rain & Snow", "length":"5:38", "trans":"/"},
+			{"name": "Cassidy", "length":"4:30", "trans":"/"},
+			{"name": "Scarlet Begonias", "length":"8:48", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"5:09", "trans":"/"},
+			{"name": "Crazy Fingers", "length":"10:58", "trans":"/"},
+			{"name": "Big River", "length":"5:31", "trans":"/"},
+			{"name": "They Love Each Other", "length":"6:25", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"7:45", "trans":"/"},
+			{"name": "Ship Of Fools", "length":"7:17", "trans":"/"},
+			{"name": "Promised Land", "length":"3:14", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "St. Stephen", "length":"0:00", "trans":">"},
+			{"name": "Improv", "length":"6:07", "trans":">"},
+			{"name": "St. Stephen", "length":"1:27", "trans":"/"},
+			{"name": "Eyes Of The World", "length":"14:47", "trans":">"},
+			{"name": "Improv", "length":"2:45", "trans":">"},
+			{"name": "Let It Grow", "length":"6:51", "trans":">"},
+			{"name": "Drums", "length":"0:51", "trans":">"},
+			{"name": "Let It Grow", "length":"2:23", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"4:40", "trans":"/"},
+			{"name": "Lazy Lightnin'", "length":"2:50", "trans":">"},
+			{"name": "Supplication", "length":"4:11", "trans":"/"},
+			{"name": "High Time", "length":"8:49", "trans":"/"},
+			{"name": "Samson & Delilah", "length":"5:55", "trans":"/"},
+			{"name": "It Must Have Been The Roses", "length":"6:59", "trans":"/"},
+			{"name": "Dancing In The Street", "length":"12:28", "trans":">"},
+			{"name": "Wharf Rat", "length":"10:52", "trans":">"},
+			{"name": "Around & Around", "length":"6:27", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Franklin's Tower", "length":"9:23", "trans":"/"},
+		]},
+	],
+};

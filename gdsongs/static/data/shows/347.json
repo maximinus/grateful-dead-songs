@@ -1,0 +1,43 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Winterland Arena, San Francisco, California",
+	"venue_id": 6,
+	"show_date": "18th of Oct, 1978",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Sugaree", "length":"14:14", "trans":"/"},
+			{"name": "Me & My Uncle", "length":"3:07", "trans":">"},
+			{"name": "Big River", "length":"5:46", "trans":"/"},
+			{"name": "Peggy-O", "length":"7:44", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"8:12", "trans":"/"},
+			{"name": "Stagger Lee", "length":"6:09", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"5:46", "trans":"/"},
+			{"name": "Candyman", "length":"6:46", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"7:56", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Bertha", "length":"7:05", "trans":">"},
+			{"name": "Good Lovin'", "length":"6:56", "trans":"/"},
+			{"name": "From The Heart Of Me", "length":"3:46", "trans":"/"},
+			{"name": "Ship Of Fools", "length":"6:36", "trans":"/"},
+			{"name": "Samson & Delilah", "length":"8:19", "trans":"/"},
+			{"name": "Terrapin Station", "length":"12:22", "trans":">"},
+			{"name": "Playing In The Band", "length":"2:51", "trans":">"},
+			{"name": "PITB Jam", "length":"6:06", "trans":">"},
+			{"name": "Jerry & Drums Jam", "length":"2:57", "trans":">"},
+			{"name": "Drums", "length":"10:39", "trans":">"},
+			{"name": "Got My Mojo Workin", "length":"1:04", "trans":">"},
+			{"name": "Descending Four Chord Sequence", "length":"3:02", "trans":">"},
+			{"name": "Wharf Rat", "length":"11:48", "trans":">"},
+			{"name": "Truckin'", "length":"5:20", "trans":">"},
+			{"name": "Truckin' Jam", "length":"5:57", "trans":">"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "I Need A Miracle", "length":"5:30", "trans":"/"},
+		]},
+	],
+};

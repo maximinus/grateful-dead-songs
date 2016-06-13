@@ -1,0 +1,42 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Sacramento Memorial Auditorium, Sacramento, California",
+	"venue_id": 235,
+	"show_date": "28th of Jun, 1979",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Don't Ease Me In", "length":"0:00", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"0:00", "trans":"/"},
+			{"name": "They Love Each Other", "length":"0:00", "trans":"/"},
+			{"name": "Mama Tried", "length":"0:00", "trans":">"},
+			{"name": "Mexicali Blues", "length":"0:00", "trans":"/"},
+			{"name": "Peggy-O", "length":"0:00", "trans":"/"},
+			{"name": "It's All Over Now", "length":"0:00", "trans":"/"},
+			{"name": "Stagger Lee", "length":"0:00", "trans":"/"},
+			{"name": "Passenger", "length":"0:00", "trans":"/"},
+			{"name": "Loser", "length":"0:00", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"0:00", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Scarlet Begonias", "length":"0:00", "trans":">"},
+			{"name": "Fire On The Mountain", "length":"0:00", "trans":"/"},
+			{"name": "Samson & Delilah", "length":"0:00", "trans":"/"},
+			{"name": "Ship Of Fools", "length":"0:00", "trans":"/"},
+			{"name": "Playing In The Band", "length":"2:44", "trans":">"},
+			{"name": "PITB Jam", "length":"4:08", "trans":">"},
+			{"name": "Eyes Of The World", "length":"0:00", "trans":">"},
+			{"name": "Improv", "length":"0:00", "trans":"/"},
+			{"name": "Drums", "length":"0:00", "trans":">"},
+			{"name": "Not Fade Away", "length":"0:00", "trans":">"},
+			{"name": "Black Peter", "length":"0:00", "trans":">"},
+			{"name": "Around & Around", "length":"0:00", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "U.S. Blues", "length":"0:00", "trans":"/"},
+		]},
+	],
+};

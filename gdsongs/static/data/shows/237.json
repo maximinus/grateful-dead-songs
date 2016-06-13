@@ -1,0 +1,38 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Paramount Theatre, Portland, Oregon",
+	"venue_id": 109,
+	"show_date": "1st of Oct, 1977",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Promised Land", "length":"4:21", "trans":"/"},
+			{"name": "They Love Each Other", "length":"6:51", "trans":"/"},
+			{"name": "Mexicali Blues", "length":"3:20", "trans":"/"},
+			{"name": "Dire Wolf", "length":"3:44", "trans":"/"},
+			{"name": "Cassidy", "length":"4:22", "trans":"/"},
+			{"name": "Deal", "length":"5:42", "trans":"/"},
+			{"name": "Passenger", "length":"3:26", "trans":"/"},
+			{"name": "Tennessee Jed", "length":"8:10", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"4:53", "trans":"/"},
+			{"name": "Peggy-O", "length":"9:07", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"7:53", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Bertha", "length":"6:09", "trans":">"},
+			{"name": "Good Lovin'", "length":"5:11", "trans":"/"},
+			{"name": "It Must Have Been The Roses", "length":"7:18", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"9:43", "trans":">"},
+			{"name": "Eyes Of The World", "length":"9:40", "trans":">"},
+			{"name": "Bob, Phil & Drums Jam", "length":"2:08", "trans":">"},
+			{"name": "Dancing In The Street", "length":"6:56", "trans":">"},
+			{"name": "Improv", "length":"3:57", "trans":">"},
+			{"name": "Drums", "length":"4:51", "trans":">"},
+			{"name": "Not Fade Away", "length":"10:40", "trans":">"},
+			{"name": "Black Peter", "length":"9:03", "trans":"/"},
+			{"name": "Around & Around", "length":"8:05", "trans":"/"},
+		]},
+	],
+};

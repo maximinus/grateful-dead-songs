@@ -1,0 +1,42 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Broome County Veterans Memorial Arena, Binghamton, New York",
+	"venue_id": 123,
+	"show_date": "12nd of Apr, 1983",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Alabama Getaway", "length":"4:42", "trans":"/"},
+			{"name": "Greatest Story Ever Told", "length":"3:58", "trans":"/"},
+			{"name": "Bird Song", "length":"7:47", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"7:47", "trans":"/"},
+			{"name": "Peggy-O", "length":"6:28", "trans":"/"},
+			{"name": "Cassidy", "length":"5:25", "trans":"/"},
+			{"name": "Loser", "length":"7:03", "trans":"/"},
+			{"name": "It's All Over Now", "length":"8:01", "trans":"/"},
+			{"name": "Dupree's Diamond Blues", "length":"4:32", "trans":"/"},
+			{"name": "Let It Grow", "length":"11:51", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Help On The Way", "length":"3:58", "trans":">"},
+			{"name": "Slipknot!", "length":"5:55", "trans":">"},
+			{"name": "Franklin's Tower", "length":"10:59", "trans":"/"},
+			{"name": "Lost Sailor", "length":"7:11", "trans":">"},
+			{"name": "Saint Of Circumstance", "length":"6:55", "trans":"/"},
+			{"name": "Terrapin Station", "length":"11:02", "trans":">"},
+			{"name": "Drums", "length":"8:21", "trans":">"},
+			{"name": "Space", "length":"8:10", "trans":">"},
+			{"name": "Prelude", "length":"3:07", "trans":">"},
+			{"name": "Other One", "length":"6:30", "trans":">"},
+			{"name": "Wharf Rat", "length":"8:48", "trans":">"},
+			{"name": "Not Fade Away", "length":"7:02", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "NFA Reprise", "length":"3:49", "trans":">"},
+			{"name": "It's All Over Now, Baby Blue", "length":"6:59", "trans":"/"},
+		]},
+	],
+};

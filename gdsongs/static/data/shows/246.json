@@ -1,0 +1,42 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Oakland-Alameda County Coliseum Stadium, Oakland, California",
+	"venue_id": 211,
+	"show_date": "9th of Oct, 1976",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Promised Land", "length":"3:52", "trans":"/"},
+			{"name": "Mississippi Half-Step", "length":"9:11", "trans":"/"},
+			{"name": "Cassidy", "length":"4:02", "trans":"/"},
+			{"name": "Tennessee Jed", "length":"8:30", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"8:15", "trans":"/"},
+			{"name": "They Love Each Other", "length":"6:50", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"4:36", "trans":"/"},
+			{"name": "Scarlet Begonias", "length":"12:00", "trans":"/"},
+			{"name": "Lazy Lightnin'", "length":"3:15", "trans":">"},
+			{"name": "Supplication", "length":"4:43", "trans":"/"},
+			{"name": "Sugaree", "length":"11:24", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "St. Stephen", "length":"4:32", "trans":">"},
+			{"name": "Not Fade Away", "length":"11:55", "trans":">"},
+			{"name": "St. Stephen", "length":"0:48", "trans":"/"},
+			{"name": "Help On The Way", "length":"5:36", "trans":">"},
+			{"name": "Slipknot!", "length":"3:17", "trans":">"},
+			{"name": "Improv", "length":"2:09", "trans":">"},
+			{"name": "Drums", "length":"3:30", "trans":">"},
+			{"name": "Samson & Delilah", "length":"7:15", "trans":"/"},
+			{"name": "Improv", "length":"0:34", "trans":">"},
+			{"name": "Slipknot!", "length":"6:14", "trans":">"},
+			{"name": "Franklin's Tower", "length":"12:43", "trans":"/"},
+			{"name": "One More Saturday Night", "length":"4:40", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "U.S. Blues", "length":"5:58", "trans":"/"},
+		]},
+	],
+};

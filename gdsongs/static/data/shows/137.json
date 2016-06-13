@@ -1,0 +1,43 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "St. Paul Civic Center Arena, St. Paul, Minnesota",
+	"venue_id": 125,
+	"show_date": "11st of May, 1977",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Promised Land", "length":"4:17", "trans":"/"},
+			{"name": "They Love Each Other", "length":"7:01", "trans":"/"},
+			{"name": "Big River", "length":"5:58", "trans":"/"},
+			{"name": "Loser", "length":"7:05", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"8:47", "trans":"/"},
+			{"name": "Ramble On Rose", "length":"7:23", "trans":"/"},
+			{"name": "Jack Straw", "length":"5:20", "trans":"/"},
+			{"name": "Peggy-O", "length":"8:20", "trans":"/"},
+			{"name": "El Paso", "length":"4:18", "trans":"/"},
+			{"name": "Deal", "length":"5:38", "trans":"/"},
+			{"name": "Lazy Lightnin'", "length":"3:26", "trans":">"},
+			{"name": "Supplication", "length":"4:51", "trans":"/"},
+			{"name": "Sugaree", "length":"13:27", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Samson & Delilah", "length":"6:34", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:00", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"8:26", "trans":"/"},
+			{"name": "Scarlet Begonias", "length":"9:34", "trans":">"},
+			{"name": "Fire On The Mountain", "length":"11:02", "trans":"/"},
+			{"name": "Good Lovin'", "length":"5:52", "trans":"/"},
+			{"name": "Uncle John's Band", "length":"9:11", "trans":">"},
+			{"name": "Improv", "length":"2:00", "trans":">"},
+			{"name": "Jerry Interplay", "length":"3:47", "trans":">"},
+			{"name": "Wharf Rat", "length":"9:53", "trans":">"},
+			{"name": "Around & Around", "length":"7:59", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Brokedown Palace", "length":"5:21", "trans":"/"},
+		]},
+	],
+};

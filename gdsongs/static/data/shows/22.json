@@ -1,0 +1,47 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Oakland-Alameda County Coliseum Arena, Oakland, California",
+	"venue_id": 39,
+	"show_date": "26th of Dec, 1979",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Cold Rain & Snow", "length":"6:15", "trans":"/"},
+			{"name": "C.C. Rider", "length":"5:53", "trans":"/"},
+			{"name": "Dire Wolf", "length":"3:32", "trans":"/"},
+			{"name": "Me & My Uncle", "length":"2:58", "trans":">"},
+			{"name": "Big River", "length":"5:34", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:02", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"7:00", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"7:40", "trans":"/"},
+			{"name": "Alabama Getaway", "length":"6:58", "trans":">"},
+			{"name": "Promised Land", "length":"4:03", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Uncle John's Band", "length":"9:56", "trans":">"},
+			{"name": "Estimated Prophet", "length":"12:40", "trans":">"},
+			{"name": "Improv", "length":"7:32", "trans":">"},
+			{"name": "He's Gone", "length":"10:03", "trans":">"},
+			{"name": "Other One Jam", "length":"1:34", "trans":">"},
+			{"name": "Other One", "length":"0:54", "trans":">"},
+			{"name": "Other One Jam", "length":"1:58", "trans":">"},
+			{"name": "Other One", "length":"0:50", "trans":">"},
+			{"name": "Improv", "length":"1:33", "trans":">"},
+			{"name": "Free Form Jam", "length":"1:56", "trans":">"},
+			{"name": "Drums", "length":"4:25", "trans":">"},
+			{"name": "Drums", "length":"1:07", "trans":">"},
+			{"name": "Space", "length":"4:50", "trans":">"},
+			{"name": "Not Fade Away", "length":"11:52", "trans":">"},
+			{"name": "Brokedown Palace", "length":"4:48", "trans":"/"},
+			{"name": "Around & Around", "length":"3:57", "trans":">"},
+			{"name": "Johnny B. Goode", "length":"4:12", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Shakedown Street", "length":"13:52", "trans":">"},
+			{"name": "Uncle John's Band", "length":"2:23", "trans":"/"},
+		]},
+	],
+};

@@ -1,0 +1,43 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Aladdin Theatre for the Performing Arts, Las Vegas, Nevada",
+	"venue_id": 92,
+	"show_date": "6th of Apr, 1984",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Bertha", "length":"6:30", "trans":">"},
+			{"name": "Greatest Story Ever Told", "length":"3:45", "trans":"/"},
+			{"name": "They Love Each Other", "length":"6:49", "trans":"/"},
+			{"name": "It's All Over Now", "length":"8:00", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:01", "trans":"/"},
+			{"name": "Hell In A Bucket", "length":"6:43", "trans":"/"},
+			{"name": "Ramble On Rose", "length":"7:50", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"8:30", "trans":"/"},
+			{"name": "Might As Well", "length":"4:18", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "China Cat Sunflower", "length":"3:21", "trans":">"},
+			{"name": "Weir's Segue", "length":"3:38", "trans":">"},
+			{"name": "I Know You Rider", "length":"5:12", "trans":"/"},
+			{"name": "Lost Sailor", "length":"6:19", "trans":">"},
+			{"name": "Saint Of Circumstance", "length":"6:23", "trans":">"},
+			{"name": "Improv", "length":"6:19", "trans":">"},
+			{"name": "Drums", "length":"8:32", "trans":">"},
+			{"name": "Space", "length":"7:30", "trans":">"},
+			{"name": "Eyes Of The World", "length":"8:36", "trans":">"},
+			{"name": "Black Peter", "length":"0:40", "trans":">"},
+			{"name": "Prelude", "length":"0:58", "trans":">"},
+			{"name": "Truckin'", "length":"5:16", "trans":">"},
+			{"name": "Truckin' Jam", "length":"1:43", "trans":">"},
+			{"name": "Black Peter", "length":"8:35", "trans":">"},
+			{"name": "Sugar Magnolia", "length":"11:15", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "U.S. Blues", "length":"4:57", "trans":"/"},
+		]},
+	],
+};

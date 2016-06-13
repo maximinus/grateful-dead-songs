@@ -1,0 +1,44 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Miami Jai-Alai Fronton, Miami, Florida",
+	"venue_id": 95,
+	"show_date": "23rd of Jun, 1974",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Ramble On Rose", "length":"5:57", "trans":"/"},
+			{"name": "Black-Throated Wind", "length":"6:45", "trans":"/"},
+			{"name": "Mississippi Half-Step", "length":"7:32", "trans":"/"},
+			{"name": "Beat It On Down The Line", "length":"3:11", "trans":"/"},
+			{"name": "Row Jimmy", "length":"7:38", "trans":"/"},
+			{"name": "Jack Straw", "length":"5:07", "trans":"/"},
+			{"name": "Let It Rock", "length":"3:05", "trans":"/"},
+			{"name": "Cumberland Blues", "length":"5:55", "trans":"/"},
+			{"name": "El Paso", "length":"4:05", "trans":"/"},
+			{"name": "To Lay Me Down", "length":"7:48", "trans":"/"},
+			{"name": "Weather Report Suite Prelude", "length":"1:32", "trans":">"},
+			{"name": "Weather Report Suite Part 1", "length":"4:02", "trans":">"},
+			{"name": "Let It Grow", "length":"10:36", "trans":">"},
+			{"name": "China Doll", "length":"5:20", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Prelude", "length":"4:05", "trans":">"},
+			{"name": "Ship Of Fools", "length":"5:57", "trans":"/"},
+			{"name": "Big River", "length":"4:37", "trans":"/"},
+			{"name": "Black Peter", "length":"9:17", "trans":"/"},
+			{"name": "Around & Around", "length":"5:06", "trans":"/"},
+			{"name": "Dark Star Jam", "length":"6:24", "trans":">"},
+			{"name": "Improv", "length":"11:46", "trans":">"},
+			{"name": "Malaguena Jam", "length":"3:49", "trans":">"},
+			{"name": "U.S. Blues", "length":"7:51", "trans":"/"},
+			{"name": "Uncle John's Band", "length":"7:51", "trans":"/"},
+			{"name": "One More Saturday Night", "length":"4:41", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Casey Jones", "length":"6:16", "trans":"/"},
+		]},
+	],
+};

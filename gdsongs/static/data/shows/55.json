@@ -1,0 +1,43 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Winterland Arena, San Francisco, California",
+	"venue_id": 6,
+	"show_date": "8th of Jun, 1977",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Minglewood Blues", "length":"5:33", "trans":"/"},
+			{"name": "Sugaree", "length":"16:24", "trans":"/"},
+			{"name": "Mexicali Blues", "length":"3:14", "trans":"/"},
+			{"name": "Row Jimmy", "length":"9:43", "trans":"/"},
+			{"name": "Passenger", "length":"3:14", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:10", "trans":"/"},
+			{"name": "It's All Over Now", "length":"8:19", "trans":"/"},
+			{"name": "Jack-A-Roe", "length":"6:12", "trans":"/"},
+			{"name": "Lazy Lightnin'", "length":"3:22", "trans":"/"},
+			{"name": "Supplication", "length":"5:24", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Bertha", "length":"6:36", "trans":">"},
+			{"name": "Good Lovin'", "length":"5:22", "trans":"/"},
+			{"name": "Ramble On Rose", "length":"7:21", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"9:40", "trans":">"},
+			{"name": "Eyes Of The World", "length":"19:21", "trans":">"},
+			{"name": "Drums", "length":"3:47", "trans":">"},
+			{"name": "Other One", "length":"11:08", "trans":">"},
+			{"name": "Jerry, Bob & Keith Interplay", "length":"2:50", "trans":">"},
+			{"name": "Wharf Rat", "length":"11:15", "trans":">"},
+			{"name": "Not Fade Away", "length":"9:35", "trans":">"},
+			{"name": "Improv", "length":"1:36", "trans":">"},
+			{"name": "Goin' Down The Road Feeling Bad", "length":"7:11", "trans":">"},
+			{"name": "And We Bid You Good Night Coda", "length":"1:02", "trans":">"},
+			{"name": "Johnny B. Goode", "length":"3:36", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Brokedown Palace", "length":"7:31", "trans":"/"},
+		]},
+	],
+};

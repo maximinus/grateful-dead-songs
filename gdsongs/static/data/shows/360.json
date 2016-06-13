@@ -1,0 +1,43 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Henry J. Kaiser Convention Center, Oakland, California",
+	"venue_id": 62,
+	"show_date": "1st of Mar, 1987",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Touch Of Grey", "length":"7:00", "trans":"/"},
+			{"name": "Little Red Rooster", "length":"8:22", "trans":"/"},
+			{"name": "Peggy-O", "length":"6:47", "trans":"/"},
+			{"name": "Me & My Uncle", "length":"3:00", "trans":">"},
+			{"name": "Mexicali Blues", "length":"4:35", "trans":"/"},
+			{"name": "When Push Comes To Shove", "length":"4:41", "trans":"/"},
+			{"name": "It's All Over Now", "length":"7:20", "trans":"/"},
+			{"name": "Row Jimmy", "length":"9:52", "trans":"/"},
+			{"name": "Let It Grow", "length":"11:00", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Hell In A Bucket", "length":"5:49", "trans":"/"},
+			{"name": "Scarlet Begonias", "length":"8:42", "trans":">"},
+			{"name": "Fire On The Mountain", "length":"11:00", "trans":"/"},
+			{"name": "Samson & Delilah", "length":"6:12", "trans":"/"},
+			{"name": "Black Muddy River", "length":"6:37", "trans":"/"},
+			{"name": "He's Gone", "length":"9:08", "trans":">"},
+			{"name": "Improv", "length":"2:26", "trans":">"},
+			{"name": "Drums", "length":"8:20", "trans":">"},
+			{"name": "Drums w/ Jerry", "length":"0:51", "trans":">"},
+			{"name": "Improv", "length":"4:52", "trans":">"},
+			{"name": "Prelude", "length":"2:20", "trans":">"},
+			{"name": "Other One", "length":"3:09", "trans":">"},
+			{"name": "Black Peter", "length":"12:36", "trans":">"},
+			{"name": "Around & Around", "length":"4:18", "trans":"/"},
+			{"name": "Good Lovin'", "length":"7:29", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Don't Ease Me In", "length":"3:12", "trans":"/"},
+		]},
+	],
+};

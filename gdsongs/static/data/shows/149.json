@@ -1,0 +1,46 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Uptown Theatre, Chicago, Illinois",
+	"venue_id": 24,
+	"show_date": "28th of Feb, 1981",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Jack Straw", "length":"6:25", "trans":"/"},
+			{"name": "They Love Each Other", "length":"7:15", "trans":"/"},
+			{"name": "Mama Tried", "length":"2:34", "trans":">"},
+			{"name": "Mexicali Blues", "length":"4:24", "trans":"/"},
+			{"name": "Candyman", "length":"7:15", "trans":"/"},
+			{"name": "Little Red Rooster", "length":"8:22", "trans":"/"},
+			{"name": "Big Railroad Blues", "length":"4:42", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"7:32", "trans":"/"},
+			{"name": "Althea", "length":"9:03", "trans":"/"},
+			{"name": "Let It Grow", "length":"11:53", "trans":"/"},
+			{"name": "Deal", "length":"7:40", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Cold Rain & Snow", "length":"6:11", "trans":"/"},
+			{"name": "Greatest Story Ever Told", "length":"4:12", "trans":"/"},
+			{"name": "Ship Of Fools", "length":"8:39", "trans":"/"},
+			{"name": "Lost Sailor", "length":"6:11", "trans":">"},
+			{"name": "Saint Of Circumstance", "length":"6:29", "trans":"/"},
+			{"name": "Terrapin Station", "length":"12:35", "trans":"/"},
+			{"name": "Brent & Phil Interplay", "length":"2:59", "trans":">"},
+			{"name": "Drums", "length":"12:59", "trans":">"},
+			{"name": "Space", "length":"5:08", "trans":">"},
+			{"name": "Jerry, Bob, Brent & Phil Interplay", "length":"1:47", "trans":">"},
+			{"name": "Improv", "length":"3:41", "trans":">"},
+			{"name": "Prelude", "length":"0:50", "trans":">"},
+			{"name": "Other One", "length":"5:49", "trans":">"},
+			{"name": "Stella Blue", "length":"8:00", "trans":">"},
+			{"name": "Around & Around", "length":"3:55", "trans":">"},
+			{"name": "Good Lovin'", "length":"8:07", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "One More Saturday Night", "length":"4:43", "trans":"/"},
+		]},
+	],
+};

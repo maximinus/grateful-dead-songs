@@ -1,0 +1,46 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Salt Palace, Salt Lake City, Utah",
+	"venue_id": 216,
+	"show_date": "28th of Feb, 1973",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Cold Rain & Snow", "length":"5:43", "trans":"/"},
+			{"name": "Beat It On Down The Line", "length":"3:07", "trans":"/"},
+			{"name": "They Love Each Other", "length":"5:20", "trans":"/"},
+			{"name": "Mexicali Blues", "length":"3:24", "trans":"/"},
+			{"name": "Sugaree", "length":"7:41", "trans":"/"},
+			{"name": "Box Of Rain", "length":"4:55", "trans":"/"},
+			{"name": "El Paso", "length":"4:11", "trans":"/"},
+			{"name": "He's Gone", "length":"11:37", "trans":"/"},
+			{"name": "Jack Straw", "length":"4:36", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "China Cat Sunflower", "length":"3:36", "trans":">"},
+			{"name": "Weir's Segue", "length":"4:07", "trans":">"},
+			{"name": "I Know You Rider", "length":"4:55", "trans":"/"},
+			{"name": "Big River", "length":"4:11", "trans":"/"},
+			{"name": "Row Jimmy", "length":"7:56", "trans":"/"},
+			{"name": "Promised Land", "length":"3:22", "trans":"/"},
+			{"name": "Truckin'", "length":"5:05", "trans":">"},
+			{"name": "Truckin' Jam", "length":"3:31", "trans":">"},
+			{"name": "Phil & Drums Jam", "length":"3:20", "trans":">"},
+			{"name": "Other One Jam", "length":"4:44", "trans":">"},
+			{"name": "Improv", "length":"1:22", "trans":">"},
+			{"name": "Other One", "length":"2:44", "trans":">"},
+			{"name": "Explorations", "length":"3:23", "trans":">"},
+			{"name": "Improv", "length":"2:53", "trans":">"},
+			{"name": "Eyes Of The World", "length":"9:13", "trans":">"},
+			{"name": "Untitled Post-Eyes Jam", "length":"7:49", "trans":">"},
+			{"name": "Morning Dew", "length":"12:18", "trans":"/"},
+			{"name": "Sugar Magnolia", "length":"8:34", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "And We Bid You Good Night", "length":"2:49", "trans":"/"},
+		]},
+	],
+};

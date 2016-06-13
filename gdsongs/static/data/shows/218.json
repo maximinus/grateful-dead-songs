@@ -1,0 +1,46 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "The Downs at Santa Fe, Santa Fe, New Mexico",
+	"venue_id": 239,
+	"show_date": "17th of Oct, 1982",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Mississippi Half-Step", "length":"8:15", "trans":">"},
+			{"name": "Franklin's Tower", "length":"8:10", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"6:58", "trans":"/"},
+			{"name": "Candyman", "length":"6:23", "trans":"/"},
+			{"name": "Me & My Uncle", "length":"3:16", "trans":"/"},
+			{"name": "Mexicali Blues", "length":"4:52", "trans":"/"},
+			{"name": "Althea", "length":"7:43", "trans":"/"},
+			{"name": "Man Smart, Woman Smarter", "length":"5:12", "trans":"/"},
+			{"name": "Ramble On Rose", "length":"6:29", "trans":"/"},
+			{"name": "Let It Grow", "length":"10:25", "trans":">"},
+			{"name": "Deal", "length":"6:19", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Shakedown Street", "length":"10:12", "trans":">"},
+			{"name": "Samson & Delilah", "length":"7:17", "trans":"/"},
+			{"name": "Never Trust A Woman", "length":"6:45", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"10:05", "trans":">"},
+			{"name": "He's Gone", "length":"8:24", "trans":">"},
+			{"name": "Improv", "length":"2:18", "trans":">"},
+			{"name": "Drums", "length":"6:24", "trans":">"},
+			{"name": "Jerry & Bob Interplay", "length":"4:36", "trans":">"},
+			{"name": "Prelude", "length":"0:48", "trans":">"},
+			{"name": "Throwing Stones", "length":"7:51", "trans":">"},
+			{"name": "Goin' Down The Road Feeling Bad", "length":"5:46", "trans":">"},
+			{"name": "Prelude", "length":"0:50", "trans":">"},
+			{"name": "The Wheel", "length":"4:37", "trans":">"},
+			{"name": "Other One", "length":"5:26", "trans":">"},
+			{"name": "Wharf Rat", "length":"8:48", "trans":">"},
+			{"name": "Good Lovin'", "length":"7:38", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Don't Ease Me In", "length":"3:02", "trans":"/"},
+		]},
+	],
+};

@@ -1,0 +1,45 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Roosevelt Stadium, Jersey City, New Jersey",
+	"venue_id": 8,
+	"show_date": "4th of Aug, 1976",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Sugaree", "length":"11:33", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"4:35", "trans":"/"},
+			{"name": "Row Jimmy", "length":"10:36", "trans":"/"},
+			{"name": "Big River", "length":"5:42", "trans":"/"},
+			{"name": "Loser", "length":"9:59", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"7:39", "trans":"/"},
+			{"name": "They Love Each Other", "length":"7:28", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"6:31", "trans":"/"},
+			{"name": "Scarlet Begonias", "length":"14:53", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Help On The Way", "length":"6:54", "trans":">"},
+			{"name": "Slipknot!", "length":"9:53", "trans":">"},
+			{"name": "Franklin's Tower", "length":"12:07", "trans":">"},
+			{"name": "Dancing In The Street", "length":"14:56", "trans":">"},
+			{"name": "The Wheel", "length":"5:45", "trans":">"},
+			{"name": "Samson & Delilah", "length":"7:02", "trans":"/"},
+			{"name": "It Must Have Been The Roses", "length":"7:19", "trans":"/"},
+			{"name": "Not Fade Away", "length":"6:43", "trans":">"},
+			{"name": "Drums", "length":"7:49", "trans":">"},
+			{"name": "Other One Jam", "length":"5:53", "trans":">"},
+			{"name": "Free Form Jam", "length":"1:54", "trans":">"},
+			{"name": "Jerry, Bob & Keith Interplay", "length":"3:34", "trans":">"},
+			{"name": "Improv", "length":"1:07", "trans":">"},
+			{"name": "Other One", "length":"1:48", "trans":">"},
+			{"name": "Free Form Jam", "length":"2:15", "trans":">"},
+			{"name": "Ship Of Fools", "length":"8:03", "trans":"/"},
+			{"name": "Sugar Magnolia", "length":"11:39", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Johnny B. Goode", "length":"4:21", "trans":"/"},
+		]},
+	],
+};

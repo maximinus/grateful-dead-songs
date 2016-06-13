@@ -1,0 +1,42 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Knickerbocker Arena, Albany, New York",
+	"venue_id": 21,
+	"show_date": "25th of Mar, 1990",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Greatest Story Ever Told", "length":"3:55", "trans":"/"},
+			{"name": "Touch Of Grey", "length":"6:18", "trans":"/"},
+			{"name": "Wang Dang Doodle", "length":"7:12", "trans":"/"},
+			{"name": "Never Trust A Woman", "length":"7:06", "trans":"/"},
+			{"name": "Jack-A-Roe", "length":"4:14", "trans":"/"},
+			{"name": "When I Paint My Masterpiece", "length":"5:02", "trans":"/"},
+			{"name": "Bird Song", "length":"12:53", "trans":"/"},
+			{"name": "Let It Grow", "length":"11:21", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Eyes Of The World", "length":"13:11", "trans":">"},
+			{"name": "Samson & Delilah", "length":"7:45", "trans":"/"},
+			{"name": "Crazy Fingers", "length":"7:21", "trans":">"},
+			{"name": "Truckin'", "length":"5:07", "trans":">"},
+			{"name": "Truckin' Jam", "length":"2:35", "trans":">"},
+			{"name": "Spoonful", "length":"4:02", "trans":">"},
+			{"name": "Improv", "length":"1:35", "trans":">"},
+			{"name": "Drums", "length":"9:59", "trans":">"},
+			{"name": "Space", "length":"7:57", "trans":">"},
+			{"name": "Prelude", "length":"1:01", "trans":">"},
+			{"name": "I Will Take You Home", "length":"4:12", "trans":"/"},
+			{"name": "Goin' Down The Road Feeling Bad", "length":"5:46", "trans":">"},
+			{"name": "And We Bid You Good Night Coda", "length":"1:12", "trans":">"},
+			{"name": "Black Peter", "length":"9:10", "trans":"/"},
+			{"name": "Around & Around", "length":"5:57", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:23", "trans":"/"},
+		]},
+	],
+};

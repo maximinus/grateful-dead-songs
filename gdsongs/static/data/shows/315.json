@@ -1,0 +1,45 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Onondaga County War Memorial, Syracuse, New York",
+	"venue_id": 119,
+	"show_date": "28th of Sep, 1976",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Cold Rain & Snow", "length":"6:09", "trans":"/"},
+			{"name": "Big River", "length":"5:37", "trans":"/"},
+			{"name": "Bertha", "length":"5:32", "trans":"/"},
+			{"name": "Cassidy", "length":"4:20", "trans":"/"},
+			{"name": "Tennessee Jed", "length":"8:35", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"5:37", "trans":"/"},
+			{"name": "Candyman", "length":"7:12", "trans":"/"},
+			{"name": "It's All Over Now", "length":"6:34", "trans":"/"},
+			{"name": "Friend Of The Devil", "length":"8:22", "trans":"/"},
+			{"name": "Let It Grow", "length":"11:41", "trans":">"},
+			{"name": "Goin' Down The Road Feeling Bad", "length":"6:31", "trans":">"},
+			{"name": "And We Bid You Good Night Coda", "length":"2:11", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Playing In The Band", "length":"2:50", "trans":">"},
+			{"name": "PITB Jam", "length":"7:52", "trans":">"},
+			{"name": "The Wheel", "length":"5:43", "trans":">"},
+			{"name": "Improv", "length":"2:13", "trans":">"},
+			{"name": "Samson & Delilah", "length":"7:11", "trans":">"},
+			{"name": "PITB Jam", "length":"5:16", "trans":">"},
+			{"name": "Prelude", "length":"0:23", "trans":">"},
+			{"name": "Comes A Time", "length":"7:50", "trans":">"},
+			{"name": "Drums", "length":"5:11", "trans":">"},
+			{"name": "Eyes Of The World", "length":"8:02", "trans":">"},
+			{"name": "Improv", "length":"5:19", "trans":">"},
+			{"name": "Dancing In The Street", "length":"8:58", "trans":">"},
+			{"name": "PITB Jam", "length":"1:46", "trans":">"},
+			{"name": "Playing Reprise", "length":"2:42", "trans":">"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Johnny B. Goode", "length":"4:27", "trans":"/"},
+		]},
+	],
+};

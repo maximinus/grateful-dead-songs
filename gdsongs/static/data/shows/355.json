@@ -1,0 +1,39 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Hampton Coliseum, Hampton, Virginia",
+	"venue_id": 64,
+	"show_date": "4th of May, 1979",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Mississippi Half-Step", "length":"10:47", "trans":">"},
+			{"name": "Franklin's Tower", "length":"12:13", "trans":"/"},
+			{"name": "Mama Tried", "length":"2:39", "trans":">"},
+			{"name": "Mexicali Blues", "length":"4:29", "trans":"/"},
+			{"name": "Candyman", "length":"7:15", "trans":"/"},
+			{"name": "Lazy Lightnin'", "length":"3:30", "trans":">"},
+			{"name": "Supplication", "length":"6:47", "trans":"/"},
+			{"name": "Loser", "length":"7:03", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"4:46", "trans":"/"},
+			{"name": "Don't Ease Me In", "length":"2:55", "trans":"/"},
+			{"name": "Passenger", "length":"5:15", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "I Need A Miracle", "length":"4:16", "trans":">"},
+			{"name": "Bertha", "length":"6:17", "trans":">"},
+			{"name": "Good Lovin'", "length":"6:33", "trans":"/"},
+			{"name": "Ship Of Fools", "length":"7:15", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"12:15", "trans":">"},
+			{"name": "Eyes Of The World", "length":"13:01", "trans":">"},
+			{"name": "Drums", "length":"9:41", "trans":">"},
+			{"name": "Space", "length":"3:48", "trans":">"},
+			{"name": "Prelude", "length":"0:55", "trans":">"},
+			{"name": "Truckin'", "length":"4:55", "trans":">"},
+			{"name": "Truckin' Jam", "length":"3:05", "trans":">"},
+			{"name": "Stella Blue", "length":"10:30", "trans":">"},
+			{"name": "Around & Around", "length":"6:58", "trans":"/"},
+		]},
+	],
+};

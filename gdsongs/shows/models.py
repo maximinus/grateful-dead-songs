@@ -185,10 +185,20 @@ class PlayedSong(models.Model):
 		return(self.played_set.show.date.year)
 
 	@property
+	def trans(self):
+		if(self.seque == True):
+			return('>')
+		else:
+			return('/')
+
+	@property
 	def length_string(self):
 		minutes = (self.length // 60)
 		seconds = (self.length - (minutes * 60))
-		return('{0}:{1}'.format(minutes, seconds))
+		if(seconds < 10):
+			return('{0}:0{1}'.format(minutes, seconds))
+		else:
+			return('{0}:{1}'.format(minutes, seconds))
 
 	def serialize(self):
 		"""We can't json this object automatically, so we build a dict ourselves"""

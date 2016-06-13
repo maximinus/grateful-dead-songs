@@ -1,0 +1,43 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Golden Hall, Community Concourse, San Diego, California",
+	"venue_id": 214,
+	"show_date": "19th of Feb, 1982",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Bertha", "length":"6:56", "trans":"/"},
+			{"name": "Greatest Story Ever Told", "length":"3:50", "trans":"/"},
+			{"name": "Dire Wolf", "length":"3:25", "trans":"/"},
+			{"name": "Little Red Rooster", "length":"8:32", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:22", "trans":"/"},
+			{"name": "Cassidy", "length":"5:02", "trans":"/"},
+			{"name": "Candyman", "length":"6:25", "trans":"/"},
+			{"name": "El Paso", "length":"5:29", "trans":"/"},
+			{"name": "Althea", "length":"7:43", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"6:48", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Alabama Getaway", "length":"5:44", "trans":">"},
+			{"name": "Promised Land", "length":"4:10", "trans":"/"},
+			{"name": "Ship Of Fools", "length":"7:39", "trans":"/"},
+			{"name": "Lost Sailor", "length":"0:00", "trans":">"},
+			{"name": "Saint Of Circumstance", "length":"6:44", "trans":">"},
+			{"name": "Improv", "length":"5:16", "trans":">"},
+			{"name": "Drums", "length":"11:32", "trans":">"},
+			{"name": "Space", "length":"5:28", "trans":">"},
+			{"name": "Jerry, Bob, Brent & Phil Interplay", "length":"2:47", "trans":">"},
+			{"name": "Prelude", "length":"2:21", "trans":">"},
+			{"name": "Other One", "length":"8:03", "trans":">"},
+			{"name": "Stella Blue", "length":"10:01", "trans":">"},
+			{"name": "Man Smart, Woman Smarter", "length":"5:30", "trans":"/"},
+			{"name": "Johnny B. Goode", "length":"3:47", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "U.S. Blues", "length":"5:10", "trans":"/"},
+		]},
+	],
+};

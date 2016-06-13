@@ -1,0 +1,44 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Uptown Theatre, Chicago, Illinois",
+	"venue_id": 24,
+	"show_date": "26th of Feb, 1981",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Feel Like A Stranger", "length":"9:11", "trans":"/"},
+			{"name": "Althea", "length":"8:30", "trans":"/"},
+			{"name": "Little Red Rooster", "length":"9:06", "trans":"/"},
+			{"name": "Bird Song", "length":"10:32", "trans":"/"},
+			{"name": "Me & My Uncle", "length":"2:57", "trans":">"},
+			{"name": "Mexicali Blues", "length":"5:36", "trans":"/"},
+			{"name": "Peggy-O", "length":"7:38", "trans":"/"},
+			{"name": "Passenger", "length":"4:55", "trans":"/"},
+			{"name": "Tennessee Jed", "length":"8:26", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"8:01", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "China Cat Sunflower", "length":"3:20", "trans":">"},
+			{"name": "Weir's Segue", "length":"2:43", "trans":">"},
+			{"name": "I Know You Rider", "length":"6:53", "trans":"/"},
+			{"name": "Samson & Delilah", "length":"7:14", "trans":"/"},
+			{"name": "He's Gone", "length":"11:03", "trans":">"},
+			{"name": "Improv", "length":"11:58", "trans":">"},
+			{"name": "Drums", "length":"12:41", "trans":">"},
+			{"name": "Prelude", "length":"1:37", "trans":">"},
+			{"name": "Truckin'", "length":"5:13", "trans":">"},
+			{"name": "Truckin' Jam", "length":"1:00", "trans":">"},
+			{"name": "Improv", "length":"1:41", "trans":">"},
+			{"name": "Black Peter", "length":"9:27", "trans":">"},
+			{"name": "Goin' Down The Road Feeling Bad", "length":"6:25", "trans":">"},
+			{"name": "And We Bid You Good Night Coda", "length":"1:14", "trans":">"},
+			{"name": "Johnny B. Goode", "length":"4:11", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "U.S. Blues", "length":"5:16", "trans":"/"},
+		]},
+	],
+};

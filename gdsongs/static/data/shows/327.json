@@ -1,0 +1,42 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "The Palladium, New York, New York",
+	"venue_id": 149,
+	"show_date": "3rd of May, 1977",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Promised Land", "length":"4:15", "trans":"/"},
+			{"name": "Bertha", "length":"7:09", "trans":"/"},
+			{"name": "Me & My Uncle", "length":"2:57", "trans":"/"},
+			{"name": "Peggy-O", "length":"7:50", "trans":"/"},
+			{"name": "Jack Straw", "length":"5:17", "trans":"/"},
+			{"name": "Row Jimmy", "length":"10:58", "trans":"/"},
+			{"name": "Lazy Lightnin'", "length":"3:38", "trans":">"},
+			{"name": "Supplication", "length":"4:18", "trans":"/"},
+			{"name": "Deal", "length":"6:31", "trans":"/"},
+			{"name": "Good Lovin'", "length":"5:47", "trans":"/"},
+			{"name": "Ship Of Fools", "length":"7:52", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"6:50", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Might As Well", "length":"5:41", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"8:11", "trans":"/"},
+			{"name": "Sugaree", "length":"13:12", "trans":"/"},
+			{"name": "Samson & Delilah", "length":"6:35", "trans":"/"},
+			{"name": "Friend Of The Devil", "length":"7:40", "trans":"/"},
+			{"name": "Eyes Of The World", "length":"10:55", "trans":">"},
+			{"name": "Jerry Interplay", "length":"3:43", "trans":">"},
+			{"name": "Wharf Rat", "length":"10:43", "trans":">"},
+			{"name": "Drums", "length":"3:14", "trans":">"},
+			{"name": "Not Fade Away", "length":"12:09", "trans":">"},
+			{"name": "Around & Around", "length":"7:34", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Uncle John's Band", "length":"8:59", "trans":"/"},
+		]},
+	],
+};

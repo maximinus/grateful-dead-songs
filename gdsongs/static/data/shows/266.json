@@ -1,0 +1,42 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Arlington Theatre, Santa Barbara, California",
+	"venue_id": 44,
+	"show_date": "13rd of Jan, 1978",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Mississippi Half-Step", "length":"8:54", "trans":"/"},
+			{"name": "Mexicali Blues", "length":"3:37", "trans":"/"},
+			{"name": "Big River", "length":"5:59", "trans":"/"},
+			{"name": "Candyman", "length":"7:00", "trans":"/"},
+			{"name": "It's All Over Now", "length":"7:17", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:15", "trans":"/"},
+			{"name": "Beat It On Down The Line", "length":"3:31", "trans":"/"},
+			{"name": "Friend Of The Devil", "length":"8:49", "trans":"/"},
+			{"name": "Lazy Lightnin'", "length":"3:32", "trans":">"},
+			{"name": "Supplication", "length":"6:08", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Bertha", "length":"6:42", "trans":">"},
+			{"name": "Good Lovin'", "length":"5:57", "trans":"/"},
+			{"name": "Sunrise", "length":"3:51", "trans":"/"},
+			{"name": "Dancing In The Street", "length":"13:19", "trans":">"},
+			{"name": "Phil & Drums Jam", "length":"2:52", "trans":">"},
+			{"name": "Drums", "length":"3:41", "trans":">"},
+			{"name": "Improv", "length":"5:52", "trans":">"},
+			{"name": "Jerry, Bob, Keith & Phil Interplay", "length":"1:40", "trans":">"},
+			{"name": "Improv", "length":"5:38", "trans":">"},
+			{"name": "Wharf Rat", "length":"12:08", "trans":">"},
+			{"name": "Truckin'", "length":"5:19", "trans":">"},
+			{"name": "Truckin' Jam", "length":"3:34", "trans":">"},
+			{"name": "Around & Around", "length":"8:01", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Sugar Magnolia", "length":"9:26", "trans":"/"},
+		]},
+	],
+};

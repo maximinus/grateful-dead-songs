@@ -18,7 +18,8 @@ def allShows(request):
 
 def singleShow(request, show_id):
 	show = get_object_or_404(Show, pk=int(show_id))
-	return(render(request, 'shows/single.html', {'show':show}))
+	# object data is found in the json file, we just need to pass the ID
+	return(render(request, 'shows/single.html', {'id':show.id}))
 
 @login_required
 def editShows(request):

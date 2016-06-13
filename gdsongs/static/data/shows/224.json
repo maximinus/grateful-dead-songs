@@ -1,0 +1,45 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Providence Civic Center, Providence, Rhode",
+	"venue_id": 32,
+	"show_date": "9th of Sep, 1987",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Hey Pocky Way", "length":"4:38", "trans":"/"},
+			{"name": "Jack Straw", "length":"6:08", "trans":"/"},
+			{"name": "West L.A. Fadeaway", "length":"7:23", "trans":"/"},
+			{"name": "When I Paint My Masterpiece", "length":"3:58", "trans":"/"},
+			{"name": "Friend Of The Devil", "length":"8:14", "trans":"/"},
+			{"name": "Cassidy", "length":"5:55", "trans":"/"},
+			{"name": "Althea", "length":"7:22", "trans":"/"},
+			{"name": "Greatest Story Ever Told", "length":"3:52", "trans":">"},
+			{"name": "Devil With The Blue Dress On", "length":"2:10", "trans":">"},
+			{"name": "Good Golly Miss Molly", "length":"0:57", "trans":">"},
+			{"name": "Devil With The Blue Dress On", "length":"0:59", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "China Cat Sunflower", "length":"3:19", "trans":">"},
+			{"name": "Weir's Segue", "length":"1:39", "trans":">"},
+			{"name": "I Know You Rider", "length":"5:21", "trans":"/"},
+			{"name": "Playing In The Band", "length":"2:44", "trans":">"},
+			{"name": "PITB Jam", "length":"3:32", "trans":">"},
+			{"name": "Improv", "length":"3:25", "trans":">"},
+			{"name": "China Doll", "length":"5:41", "trans":">"},
+			{"name": "PITB Jam", "length":"0:57", "trans":">"},
+			{"name": "Drums", "length":"7:15", "trans":">"},
+			{"name": "Space", "length":"6:55", "trans":">"},
+			{"name": "The Wheel", "length":"4:42", "trans":">"},
+			{"name": "Gimme Some Lovin'", "length":"4:25", "trans":">"},
+			{"name": "Throwing Stones", "length":"8:58", "trans":">"},
+			{"name": "Not Fade Away", "length":"8:00", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "NFA Jam", "length":"1:02", "trans":"/"},
+			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:13", "trans":"/"},
+		]},
+	],
+};

@@ -1,0 +1,45 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Alpine Valley Music Theatre, East Troy, Wisconsin",
+	"venue_id": 68,
+	"show_date": "17th of Jul, 1989",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Good Times", "length":"3:46", "trans":"/"},
+			{"name": "Feel Like A Stranger", "length":"6:43", "trans":"/"},
+			{"name": "Built To Last", "length":"4:45", "trans":"/"},
+			{"name": "Me & My Uncle", "length":"3:10", "trans":"/"},
+			{"name": "Cumberland Blues", "length":"5:23", "trans":"/"},
+			{"name": "It's All Over Now", "length":"7:57", "trans":"/"},
+			{"name": "Row Jimmy", "length":"9:54", "trans":"/"},
+			{"name": "When I Paint My Masterpiece", "length":"5:25", "trans":"/"},
+			{"name": "When Push Comes To Shove", "length":"4:28", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"8:45", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "China Cat Sunflower", "length":"3:38", "trans":">"},
+			{"name": "Weir's Segue", "length":"3:05", "trans":">"},
+			{"name": "I Know You Rider", "length":"5:31", "trans":"/"},
+			{"name": "Playing In The Band", "length":"2:57", "trans":">"},
+			{"name": "PITB Jam", "length":"4:50", "trans":">"},
+			{"name": "Improv", "length":"0:46", "trans":">"},
+			{"name": "Uncle John's Band", "length":"8:36", "trans":">"},
+			{"name": "Standing On The Moon", "length":"9:08", "trans":">"},
+			{"name": "Drums", "length":"11:21", "trans":">"},
+			{"name": "Space", "length":"10:44", "trans":">"},
+			{"name": "The Wheel", "length":"4:34", "trans":">"},
+			{"name": "Gimme Some Lovin'", "length":"4:30", "trans":">"},
+			{"name": "Goin' Down The Road Feeling Bad", "length":"5:30", "trans":">"},
+			{"name": "And We Bid You Good Night Coda", "length":"0:46", "trans":">"},
+			{"name": "Not Fade Away", "length":"9:36", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "And We Bid You Good Night", "length":"2:40", "trans":"/"},
+			{"name": "Johnny B. Goode", "length":"3:54", "trans":"/"},
+		]},
+	],
+};

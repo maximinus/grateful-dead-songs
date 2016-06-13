@@ -1,0 +1,42 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Oakland-Alameda County Coliseum Arena, Oakland, California",
+	"venue_id": 39,
+	"show_date": "19th of Feb, 1991",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Bertha", "length":"6:26", "trans":"/"},
+			{"name": "Greatest Story Ever Told", "length":"3:38", "trans":"/"},
+			{"name": "Althea", "length":"8:40", "trans":"/"},
+			{"name": "Queen Jane Approximately", "length":"5:53", "trans":"/"},
+			{"name": "Ramble On Rose", "length":"8:15", "trans":"/"},
+			{"name": "Picasso Moon", "length":"5:58", "trans":"/"},
+			{"name": "Peggy-O", "length":"5:40", "trans":"/"},
+			{"name": "Cassidy", "length":"7:01", "trans":"/"},
+			{"name": "New Speedway Boogie", "length":"9:05", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "China Cat Sunflower", "length":"3:44", "trans":">"},
+			{"name": "Weir's Segue", "length":"3:54", "trans":">"},
+			{"name": "I Know You Rider", "length":"6:08", "trans":"/"},
+			{"name": "Truckin'", "length":"5:18", "trans":">"},
+			{"name": "Truckin' Jam", "length":"2:50", "trans":">"},
+			{"name": "Crazy Fingers", "length":"8:27", "trans":">"},
+			{"name": "Improv", "length":"12:43", "trans":">"},
+			{"name": "Drums", "length":"14:08", "trans":">"},
+			{"name": "Space", "length":"8:06", "trans":">"},
+			{"name": "Prelude", "length":"0:30", "trans":">"},
+			{"name": "The Wheel", "length":"5:15", "trans":">"},
+			{"name": "All Along The Watchtower", "length":"7:34", "trans":">"},
+			{"name": "Black Peter", "length":"9:40", "trans":">"},
+			{"name": "Sugar Magnolia", "length":"9:16", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "U.S. Blues", "length":"5:09", "trans":"/"},
+		]},
+	],
+};

@@ -1,0 +1,42 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Starlight Theatre, Kansas City, Missouri",
+	"venue_id": 251,
+	"show_date": "3rd of Sep, 1985",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Feel Like A Stranger", "length":"7:24", "trans":"/"},
+			{"name": "They Love Each Other", "length":"7:48", "trans":"/"},
+			{"name": "Little Red Rooster", "length":"7:49", "trans":"/"},
+			{"name": "Dire Wolf", "length":"3:16", "trans":"/"},
+			{"name": "Cassidy", "length":"5:33", "trans":"/"},
+			{"name": "Big Railroad Blues", "length":"3:51", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"6:56", "trans":"/"},
+			{"name": "Don't Ease Me In", "length":"2:55", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Cryptical", "length":"1:52", "trans":">"},
+			{"name": "Other One", "length":"7:23", "trans":">"},
+			{"name": "Cryptical", "length":"2:04", "trans":"/"},
+			{"name": "Eyes Of The World", "length":"9:43", "trans":">"},
+			{"name": "Prelude", "length":"1:05", "trans":">"},
+			{"name": "Don't Need Love", "length":"6:04", "trans":">"},
+			{"name": "Drums", "length":"7:33", "trans":">"},
+			{"name": "Drums w/ Jerry", "length":"0:00", "trans":"/"},
+			{"name": "Space", "length":"0:00", "trans":"/"},
+			{"name": "Nobody's Fault But Mine", "length":"4:41", "trans":">"},
+			{"name": "Truckin'", "length":"5:00", "trans":">"},
+			{"name": "Truckin' Jam", "length":"1:12", "trans":">"},
+			{"name": "Smokestack Lightnin'", "length":"2:44", "trans":">"},
+			{"name": "Comes A Time", "length":"6:28", "trans":">"},
+			{"name": "Turn On Your Love Light", "length":"6:19", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "It's All Over Now, Baby Blue", "length":"7:55", "trans":"/"},
+		]},
+	],
+};

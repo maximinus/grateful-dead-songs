@@ -1,0 +1,43 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Fox Theatre, Atlanta, Georgia",
+	"venue_id": 41,
+	"show_date": "19th of May, 1977",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Promised Land", "length":"4:31", "trans":"/"},
+			{"name": "Sugaree", "length":"16:20", "trans":">"},
+			{"name": "El Paso", "length":"4:32", "trans":"/"},
+			{"name": "Peggy-O", "length":"8:06", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"8:25", "trans":"/"},
+			{"name": "Row Jimmy", "length":"10:48", "trans":"/"},
+			{"name": "Passenger", "length":"3:17", "trans":"/"},
+			{"name": "Loser", "length":"8:28", "trans":"/"},
+			{"name": "Dancing In The Street", "length":"13:21", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Samson & Delilah", "length":"6:49", "trans":"/"},
+			{"name": "Ramble On Rose", "length":"8:02", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"10:12", "trans":"/"},
+			{"name": "Terrapin Station", "length":"11:58", "trans":">"},
+			{"name": "Playing In The Band", "length":"2:49", "trans":">"},
+			{"name": "PITB Jam", "length":"5:33", "trans":">"},
+			{"name": "Free Form Jam", "length":"1:09", "trans":">"},
+			{"name": "Improv", "length":"1:41", "trans":">"},
+			{"name": "Uncle John's Band", "length":"11:14", "trans":">"},
+			{"name": "Prelude", "length":"0:33", "trans":">"},
+			{"name": "Drums", "length":"5:28", "trans":">"},
+			{"name": "The Wheel", "length":"7:24", "trans":">"},
+			{"name": "China Doll", "length":"7:45", "trans":">"},
+			{"name": "Improv", "length":"1:11", "trans":">"},
+			{"name": "Jerry & Bob Interplay", "length":"1:43", "trans":">"},
+			{"name": "Jerry, Bob & Phil Interplay", "length":"0:43", "trans":">"},
+			{"name": "Jerry, Bob & Keith Interplay", "length":"0:37", "trans":">"},
+			{"name": "Free Form Jam", "length":"2:00", "trans":">"},
+			{"name": "Playing Reprise", "length":"4:02", "trans":"/"},
+		]},
+	],
+};

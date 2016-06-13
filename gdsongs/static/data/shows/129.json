@@ -1,0 +1,44 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "The Mosque, Richmond, Virginia",
+	"venue_id": 153,
+	"show_date": "25th of May, 1977",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Mississippi Half-Step", "length":"9:54", "trans":"/"},
+			{"name": "Jack Straw", "length":"5:44", "trans":"/"},
+			{"name": "They Love Each Other", "length":"6:52", "trans":"/"},
+			{"name": "Mexicali Blues", "length":"3:11", "trans":"/"},
+			{"name": "Peggy-O", "length":"7:16", "trans":"/"},
+			{"name": "Cassidy", "length":"4:48", "trans":"/"},
+			{"name": "Loser", "length":"8:04", "trans":"/"},
+			{"name": "Lazy Lightnin'", "length":"3:11", "trans":">"},
+			{"name": "Supplication", "length":"4:24", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:29", "trans":"/"},
+			{"name": "Promised Land", "length":"4:17", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Scarlet Begonias", "length":"10:17", "trans":">"},
+			{"name": "Fire On The Mountain", "length":"11:11", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"8:52", "trans":">"},
+			{"name": "He's Gone", "length":"13:39", "trans":">"},
+			{"name": "Drums", "length":"5:12", "trans":">"},
+			{"name": "Other One", "length":"10:56", "trans":">"},
+			{"name": "Improv", "length":"2:21", "trans":">"},
+			{"name": "Jerry Interplay", "length":"1:44", "trans":">"},
+			{"name": "Prelude", "length":"0:30", "trans":">"},
+			{"name": "Wharf Rat", "length":"9:48", "trans":">"},
+			{"name": "Prelude", "length":"0:51", "trans":">"},
+			{"name": "Other One", "length":"3:38", "trans":">"},
+			{"name": "The Wheel", "length":"5:24", "trans":">"},
+			{"name": "Around & Around", "length":"8:36", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Johnny B. Goode", "length":"4:06", "trans":"/"},
+		]},
+	],
+};

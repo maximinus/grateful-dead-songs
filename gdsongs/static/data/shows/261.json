@@ -1,0 +1,42 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Soldier Field, Chicago, Illinois",
+	"venue_id": 20,
+	"show_date": "22nd of Jun, 1991",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Hell In A Bucket", "length":"6:16", "trans":"/"},
+			{"name": "Shakedown Street", "length":"15:43", "trans":"/"},
+			{"name": "Wang Dang Doodle", "length":"6:24", "trans":"/"},
+			{"name": "Friend Of The Devil", "length":"8:50", "trans":"/"},
+			{"name": "When I Paint My Masterpiece", "length":"5:16", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:01", "trans":"/"},
+			{"name": "Let It Grow", "length":"12:54", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Foolish Heart", "length":"12:23", "trans":">"},
+			{"name": "Looks Like Rain", "length":"8:01", "trans":"/"},
+			{"name": "Crazy Fingers", "length":"8:26", "trans":">"},
+			{"name": "Improv", "length":"1:08", "trans":">"},
+			{"name": "Playing In The Band", "length":"2:40", "trans":">"},
+			{"name": "PITB Jam", "length":"5:11", "trans":">"},
+			{"name": "Terrapin Station", "length":"13:24", "trans":">"},
+			{"name": "Improv", "length":"5:56", "trans":">"},
+			{"name": "Drums", "length":"12:15", "trans":">"},
+			{"name": "Space", "length":"8:53", "trans":">"},
+			{"name": "Dark Star Jam", "length":"6:23", "trans":">"},
+			{"name": "Improv", "length":"0:52", "trans":">"},
+			{"name": "PITB Jam", "length":"1:57", "trans":">"},
+			{"name": "Playing Reprise", "length":"2:09", "trans":">"},
+			{"name": "Black Peter", "length":"10:12", "trans":"/"},
+			{"name": "One More Saturday Night", "length":"5:06", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "The Weight", "length":"5:38", "trans":"/"},
+		]},
+	],
+};

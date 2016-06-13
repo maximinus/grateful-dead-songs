@@ -1,0 +1,41 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Golden Hall, Community Concourse, San Diego, California",
+	"venue_id": 214,
+	"show_date": "7th of Aug, 1971",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Big Railroad Blues", "length":"3:12", "trans":"/"},
+			{"name": "El Paso", "length":"5:08", "trans":"/"},
+			{"name": "Mr. Charlie", "length":"3:14", "trans":"/"},
+			{"name": "Sugaree", "length":"7:00", "trans":"/"},
+			{"name": "Mama Tried", "length":"2:38", "trans":"/"},
+			{"name": "Bertha", "length":"5:55", "trans":"/"},
+			{"name": "Big Boss Man", "length":"5:20", "trans":"/"},
+			{"name": "Promised Land", "length":"3:12", "trans":"/"},
+			{"name": "Hard To Handle", "length":"8:03", "trans":"/"},
+			{"name": "Cumberland Blues", "length":"5:05", "trans":"/"},
+			{"name": "Casey Jones", "length":"5:30", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Truckin'", "length":"5:39", "trans":">"},
+			{"name": "Truckin' Jam", "length":"2:21", "trans":">"},
+			{"name": "Truckin' Reprise", "length":"1:30", "trans":"/"},
+			{"name": "China Cat Sunflower", "length":"3:28", "trans":">"},
+			{"name": "Weir's Segue", "length":"2:32", "trans":">"},
+			{"name": "I Know You Rider", "length":"4:53", "trans":"/"},
+			{"name": "Next Time You See Me", "length":"4:03", "trans":"/"},
+			{"name": "Sugar Magnolia", "length":"5:58", "trans":"/"},
+			{"name": "Me & My Uncle", "length":"3:19", "trans":"/"},
+			{"name": "Not Fade Away", "length":"5:40", "trans":">"},
+			{"name": "Improv", "length":"0:46", "trans":">"},
+			{"name": "Goin' Down The Road Feeling Bad", "length":"5:05", "trans":">"},
+			{"name": "And We Bid You Good Night Coda", "length":"1:03", "trans":">"},
+			{"name": "Improv", "length":"4:08", "trans":">"},
+			{"name": "Johnny B. Goode", "length":"4:12", "trans":"/"},
+		]},
+	],
+};

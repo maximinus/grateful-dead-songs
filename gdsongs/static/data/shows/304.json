@@ -1,0 +1,48 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Winterland Arena, San Francisco, California",
+	"venue_id": 6,
+	"show_date": "10th of Nov, 1973",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Bertha", "length":"6:01", "trans":"/"},
+			{"name": "Jack Straw", "length":"4:40", "trans":"/"},
+			{"name": "Loser", "length":"6:12", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"7:40", "trans":"/"},
+			{"name": "Deal", "length":"4:25", "trans":"/"},
+			{"name": "Mexicali Blues", "length":"3:18", "trans":"/"},
+			{"name": "Tennessee Jed", "length":"7:55", "trans":"/"},
+			{"name": "El Paso", "length":"4:16", "trans":"/"},
+			{"name": "Brokedown Palace", "length":"5:36", "trans":"/"},
+			{"name": "Beat It On Down The Line", "length":"3:12", "trans":"/"},
+			{"name": "Row Jimmy", "length":"8:36", "trans":"/"},
+			{"name": "Weather Report Suite Prelude", "length":"1:27", "trans":">"},
+			{"name": "Weather Report Suite Part 1", "length":"5:02", "trans":">"},
+			{"name": "Let It Grow", "length":"10:04", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Playing In The Band", "length":"2:49", "trans":">"},
+			{"name": "PITB Jam", "length":"9:25", "trans":">"},
+			{"name": "Uncle John's Band", "length":"9:29", "trans":">"},
+			{"name": "Morning Dew", "length":"12:24", "trans":">"},
+			{"name": "Uncle John's Band", "length":"1:50", "trans":">"},
+			{"name": "PITB Jam", "length":"4:51", "trans":">"},
+			{"name": "Playing Reprise", "length":"2:31", "trans":"/"},
+			{"name": "Big River", "length":"4:24", "trans":"/"},
+			{"name": "Stella Blue", "length":"8:02", "trans":"/"},
+			{"name": "Truckin'", "length":"5:08", "trans":">"},
+			{"name": "Truckin' Jam", "length":"2:25", "trans":">"},
+			{"name": "Improv", "length":"4:43", "trans":">"},
+			{"name": "Wharf Rat", "length":"8:43", "trans":">"},
+			{"name": "Sugar Magnolia", "length":"9:23", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "One More Saturday Night", "length":"4:58", "trans":"/"},
+			{"name": "Casey Jones", "length":"6:50", "trans":"/"},
+		]},
+	],
+};

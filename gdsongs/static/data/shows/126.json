@@ -1,0 +1,48 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Recreation Hall, Penn State University, University Park, Pennsylvania",
+	"venue_id": 193,
+	"show_date": "8th of May, 1979",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Promised Land", "length":"4:38", "trans":"/"},
+			{"name": "They Love Each Other", "length":"7:16", "trans":"/"},
+			{"name": "Mama Tried", "length":"3:03", "trans":">"},
+			{"name": "Mexicali Blues", "length":"4:16", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:33", "trans":"/"},
+			{"name": "It's All Over Now", "length":"8:07", "trans":"/"},
+			{"name": "Row Jimmy", "length":"11:44", "trans":"/"},
+			{"name": "El Paso", "length":"4:24", "trans":"/"},
+			{"name": "Stagger Lee", "length":"7:43", "trans":"/"},
+			{"name": "Lazy Lightnin'", "length":"3:55", "trans":">"},
+			{"name": "Supplication", "length":"7:27", "trans":"/"},
+			{"name": "Deal", "length":"5:38", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Scarlet Begonias", "length":"13:53", "trans":">"},
+			{"name": "Fire On The Mountain", "length":"11:53", "trans":"/"},
+			{"name": "Samson & Delilah", "length":"8:10", "trans":"/"},
+			{"name": "Terrapin Station", "length":"12:39", "trans":">"},
+			{"name": "Playing In The Band", "length":"2:44", "trans":">"},
+			{"name": "PITB Jam", "length":"5:35", "trans":">"},
+			{"name": "Improv", "length":"2:27", "trans":">"},
+			{"name": "Jerry, Bob & Brent Interplay", "length":"1:25", "trans":">"},
+			{"name": "Drums", "length":"5:52", "trans":"/"},
+			{"name": "Drums", "length":"5:33", "trans":"/"},
+			{"name": "Space", "length":"8:12", "trans":">"},
+			{"name": "Prelude", "length":"0:54", "trans":">"},
+			{"name": "Other One", "length":"5:43", "trans":">"},
+			{"name": "Improv", "length":"4:27", "trans":">"},
+			{"name": "China Doll", "length":"6:40", "trans":">"},
+			{"name": "Playing Reprise", "length":"4:55", "trans":">"},
+			{"name": "Good Lovin'", "length":"6:49", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Shakedown Street", "length":"10:23", "trans":"/"},
+		]},
+	],
+};

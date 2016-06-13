@@ -1,0 +1,42 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Capitol Theatre, Passaic, New Jersey",
+	"venue_id": 113,
+	"show_date": "25th of Apr, 1977",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Minglewood Blues", "length":"5:03", "trans":"/"},
+			{"name": "Deal", "length":"5:02", "trans":"/"},
+			{"name": "Mama Tried", "length":"2:45", "trans":"/"},
+			{"name": "They Love Each Other", "length":"6:47", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"7:57", "trans":"/"},
+			{"name": "Peggy-O", "length":"8:59", "trans":"/"},
+			{"name": "Lazy Lightnin'", "length":"3:28", "trans":">"},
+			{"name": "Supplication", "length":"3:26", "trans":"/"},
+			{"name": "Ship Of Fools", "length":"6:08", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"7:46", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:13", "trans":"/"},
+			{"name": "The Music Never Stopped", "length":"6:19", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Scarlet Begonias", "length":"8:33", "trans":">"},
+			{"name": "Fire On The Mountain", "length":"10:51", "trans":"/"},
+			{"name": "Samson & Delilah", "length":"7:00", "trans":"/"},
+			{"name": "Terrapin Station", "length":"9:35", "trans":">"},
+			{"name": "Playing In The Band", "length":"2:49", "trans":"/"},
+			{"name": "PITB Jam", "length":"3:37", "trans":">"},
+			{"name": "Improv", "length":"2:56", "trans":">"},
+			{"name": "Drums", "length":"4:01", "trans":">"},
+			{"name": "Wharf Rat", "length":"10:36", "trans":">"},
+			{"name": "PITB Jam", "length":"5:39", "trans":">"},
+			{"name": "Playing Reprise", "length":"4:17", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "U.S. Blues", "length":"0:00", "trans":"/"},
+		]},
+	],
+};

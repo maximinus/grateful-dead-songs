@@ -1,0 +1,43 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Scope, Norfolk, Virginia",
+	"venue_id": 249,
+	"show_date": "3rd of Apr, 1982",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Alabama Getaway", "length":"5:34", "trans":">"},
+			{"name": "Greatest Story Ever Told", "length":"3:59", "trans":"/"},
+			{"name": "They Love Each Other", "length":"8:04", "trans":"/"},
+			{"name": "Me & My Uncle", "length":"2:56", "trans":">"},
+			{"name": "Big River", "length":"5:24", "trans":"/"},
+			{"name": "Peggy-O", "length":"8:09", "trans":"/"},
+			{"name": "C.C. Rider", "length":"8:42", "trans":"/"},
+			{"name": "Bird Song", "length":"10:36", "trans":"/"},
+			{"name": "It's All Over Now", "length":"7:33", "trans":"/"},
+			{"name": "Althea", "length":"7:41", "trans":"/"},
+			{"name": "Let It Grow", "length":"13:00", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Scarlet Begonias", "length":"14:15", "trans":">"},
+			{"name": "Fire On The Mountain", "length":"11:05", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"11:24", "trans":">"},
+			{"name": "Eyes Of The World", "length":"8:07", "trans":">"},
+			{"name": "Improv", "length":"1:21", "trans":">"},
+			{"name": "Never Trust A Woman", "length":"7:25", "trans":">"},
+			{"name": "Jerry & Bob Interplay", "length":"0:54", "trans":">"},
+			{"name": "Drums", "length":"7:17", "trans":">"},
+			{"name": "Jerry, Bob & Phil Interplay", "length":"2:25", "trans":">"},
+			{"name": "Space", "length":"0:30", "trans":">"},
+			{"name": "Not Fade Away", "length":"10:56", "trans":">"},
+			{"name": "Stella Blue", "length":"8:57", "trans":">"},
+			{"name": "One More Saturday Night", "length":"4:36", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "U.S. Blues", "length":"5:17", "trans":"/"},
+		]},
+	],
+};

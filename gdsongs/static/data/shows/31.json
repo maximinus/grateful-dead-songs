@@ -1,0 +1,39 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Capitol Theater, Port Chester, New York",
+	"venue_id": 209,
+	"show_date": "19th of Feb, 1971",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Truckin'", "length":"5:02", "trans":">"},
+			{"name": "Truckin' Jam", "length":"1:53", "trans":">"},
+			{"name": "Truckin' Reprise", "length":"0:58", "trans":"/"},
+			{"name": "Loser", "length":"5:57", "trans":"/"},
+			{"name": "Cumberland Blues", "length":"4:38", "trans":"/"},
+			{"name": "It Hurts Me Too", "length":"5:45", "trans":"/"},
+			{"name": "Bertha", "length":"4:51", "trans":"/"},
+			{"name": "Playing In The Band", "length":"4:47", "trans":"/"},
+			{"name": "Dark Hollow", "length":"2:58", "trans":"/"},
+			{"name": "Smokestack Lightnin'", "length":"14:31", "trans":"/"},
+			{"name": "China Cat Sunflower", "length":"3:19", "trans":">"},
+			{"name": "Weir's Segue", "length":"1:18", "trans":">"},
+			{"name": "I Know You Rider", "length":"5:12", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Greatest Story Ever Told", "length":"4:21", "trans":"/"},
+			{"name": "Johnny B. Goode", "length":"3:12", "trans":"/"},
+			{"name": "Bird Song", "length":"6:45", "trans":"/"},
+			{"name": "Easy Wind", "length":"8:12", "trans":"/"},
+			{"name": "Deal", "length":"4:09", "trans":"/"},
+			{"name": "Cryptical", "length":"1:49", "trans":">"},
+			{"name": "Drums", "length":"2:26", "trans":">"},
+			{"name": "Other One", "length":"11:52", "trans":">"},
+			{"name": "Wharf Rat", "length":"8:48", "trans":"/"},
+			{"name": "Good Lovin'", "length":"18:40", "trans":"/"},
+			{"name": "Casey Jones", "length":"4:46", "trans":"/"},
+		]},
+	],
+};

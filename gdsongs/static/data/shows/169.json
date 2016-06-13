@@ -1,0 +1,43 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Brendan Bryne Arena, East Rutherford, New Jersey",
+	"venue_id": 104,
+	"show_date": "17th of Oct, 1984",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Iko Iko", "length":"6:44", "trans":"/"},
+			{"name": "Promised Land", "length":"4:04", "trans":"/"},
+			{"name": "West L.A. Fadeaway", "length":"7:36", "trans":"/"},
+			{"name": "My Brother Esau", "length":"4:19", "trans":"/"},
+			{"name": "Brown-Eyed Women", "length":"5:30", "trans":"/"},
+			{"name": "Minglewood Blues", "length":"8:08", "trans":"/"},
+			{"name": "Row Jimmy", "length":"10:53", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"8:33", "trans":"/"},
+			{"name": "Might As Well", "length":"4:50", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Help On The Way", "length":"3:19", "trans":">"},
+			{"name": "Slipknot!", "length":"8:14", "trans":">"},
+			{"name": "Franklin's Tower", "length":"10:25", "trans":"/"},
+			{"name": "Man Smart, Woman Smarter", "length":"7:09", "trans":"/"},
+			{"name": "Terrapin Station", "length":"11:40", "trans":">"},
+			{"name": "Jerry, Bob, Brent & Phil Interplay", "length":"4:12", "trans":">"},
+			{"name": "Drums", "length":"9:48", "trans":">"},
+			{"name": "Space", "length":"6:36", "trans":">"},
+			{"name": "Prelude", "length":"1:54", "trans":">"},
+			{"name": "Other One", "length":"4:47", "trans":">"},
+			{"name": "Truckin'", "length":"5:04", "trans":">"},
+			{"name": "Truckin' Jam", "length":"0:56", "trans":">"},
+			{"name": "Smokestack Lightnin' Jam", "length":"0:49", "trans":">"},
+			{"name": "Stella Blue", "length":"8:15", "trans":">"},
+			{"name": "Goin' Down The Road Feeling Bad", "length":"6:27", "trans":">"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "Brokedown Palace", "length":"5:12", "trans":"/"},
+		]},
+	],
+};

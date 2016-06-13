@@ -1,0 +1,45 @@
+"use strict";
+
+var SHOW_DATA = {
+	"venue_name": "Winterland Arena, San Francisco, California",
+	"venue_id": 6,
+	"show_date": "19th of Mar, 1977",
+	"sets": [
+		{"set_title": "1st set",
+		 "songs": [
+			{"name": "Bertha", "length":"6:30", "trans":"/"},
+			{"name": "Mama Tried", "length":"2:40", "trans":"/"},
+			{"name": "Loser", "length":"7:49", "trans":"/"},
+			{"name": "Big River", "length":"6:38", "trans":"/"},
+			{"name": "They Love Each Other", "length":"7:01", "trans":"/"},
+			{"name": "Looks Like Rain", "length":"8:14", "trans":"/"},
+			{"name": "Tennessee Jed", "length":"8:24", "trans":"/"},
+			{"name": "Estimated Prophet", "length":"8:23", "trans":"/"},
+			{"name": "Terrapin Station", "length":"10:20", "trans":">"},
+			{"name": "Playing In The Band", "length":"2:42", "trans":">"},
+			{"name": "PITB Jam", "length":"3:56", "trans":">"},
+			{"name": "Improv", "length":"5:49", "trans":">"},
+			{"name": "Samson & Delilah", "length":"7:01", "trans":">"},
+			{"name": "Improv", "length":"0:49", "trans":">"},
+			{"name": "Jerry & Phil Interplay", "length":"2:42", "trans":">"},
+			{"name": "Improv", "length":"3:36", "trans":">"},
+			{"name": "PITB Jam", "length":"1:06", "trans":">"},
+			{"name": "Playing Reprise", "length":"2:45", "trans":"/"},
+		]},
+		{"set_title": "2nd set",
+		 "songs": [
+			{"name": "Eyes Of The World", "length":"10:21", "trans":">"},
+			{"name": "Improv", "length":"1:30", "trans":">"},
+			{"name": "Jerry, Bob & Keith Interplay", "length":"2:44", "trans":">"},
+			{"name": "Dancing In The Street", "length":"10:36", "trans":">"},
+			{"name": "Wharf Rat", "length":"9:51", "trans":">"},
+			{"name": "Franklin's Tower", "length":"13:21", "trans":">"},
+			{"name": "Sugar Magnolia", "length":"9:09", "trans":"/"},
+		]},
+		{"set_title": "3rd set",
+		 "songs": [
+			{"name": "One More Saturday Night", "length":"4:59", "trans":"/"},
+			{"name": "Uncle John's Band", "length":"9:00", "trans":"/"},
+		]},
+	],
+};
