@@ -3,7 +3,7 @@
 $(document).ready(function() {
 	if (typeof SHOW_DATA == 'undefined') {
 		// we couldn't load the data
-		console.log('Data import error');
+		$('#show-display').html("Error: Couldn't load show data");
 		return;
 	}
 	// show data exists
