@@ -5,7 +5,7 @@ from shows.models import PlayedSong, PlayedSet, Show
 
 import os, codecs
 
-FILENAME = './static/data/shows/{0}.json'
+FILENAME = './static/data/shows/{0}.js'
 
 def writeJSfile(show):
 	# now we have to translate the info into the json
