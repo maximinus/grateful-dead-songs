@@ -3,8 +3,35 @@
 
 {% block main %}
 	<!-- Show one venue -->
-	<h3>{{ show }}</h3>
-	<p>{{ show.setlist | safe }}</p>
+	<h3>Show information</h3>
+	<div id="show-display"></div>
 	<p><a href="{% url 'all_shows' %}">Back to all shows</a></p>
 {% endblock %}
 
+{% block scripts %}
+	<!-- js file that contains the show information -->
+	<script src="{% static "data/shows/" %}{{ id }}.json"></script>
+
+	<!-- handlebars template for rendering the show
+		 We need the verbatim tag to prevent Django trying to render the data -->
+	{% verbatim %}
+	<script id="show-template" type="text/x-handlebars-template">
+		<div class="show">
+			<h3>{{show_date}}, {{venue_name}}</h3>
+			{{#each sets}}
+				<div class="set">
+					<p class="set-title">{{set_title}}</p>
+					<div class="songs">
+						{{#each songs}}
+							{{name}} {{trans}}
+						{{/each}}
+					</div>
+				</div>
+			{{/each}}
+		</div>
+	</script>
+	{% endverbatim %}
+	<script src="{% static "js/handlebars.js" %}"></script>
+	<script src="{% static "js/single_show.js" %}"></script>
+
+{% endblock %}
