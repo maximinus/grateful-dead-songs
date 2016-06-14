@@ -6,12 +6,45 @@
 {% endblock %}
 
 {% block main %}
+	<div id="show-show">
+	</div>
 	<div class="instructions">
 		Click to edit, or drag and drop to re-order
 	</div>
 {% endblock %}
 
 {% block scripts %}
+	<!-- let's have the json file for the show -->
+	<script src="{% static "data/shows/" %}{{ id }}.js"></script>
+
+	{% verbatim %}
+	<script id="show-display" type="text/x-handlebars-template">
+		{{#each sets}}
+		<div class="set">
+			<div class="set-header">
+				{{set_title}}
+			</div>
+			<ul class="set-body sortable">
+			{{#each songs}}
+				<li class="song ui-state-default">
+					<div class="song-index">
+						{{counter @index}}
+					</div>
+					<div class="song-name">
+						{{name}} {{trans}} 
+					</div>
+					<div class="song-timing">
+						{{length}}
+					</div>
+				</li>
+			{{/each}}
+			</ul>
+		</div>
+		{{/each}}
+	</script>
+	{% endverbatim %}
+
+	<script src="{% static "js/handlebars.js" %}"></script>
 	<script src="{% static "js/jquery-ui.js" %}"></script>
 	<script src="{% static "js/test_edit.js" %}"></script>
 {% endblock %}

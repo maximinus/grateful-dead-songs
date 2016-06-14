@@ -240,4 +240,5 @@ def getShowYears(request, year):
 
 @login_required
 def exampleEdit(request, show_id):
-	return(render(request, 'editing/edit_show_react.html', {}))
+	show = get_object_or_404(Show, pk=int(show_id))
+	return(render(request, 'editing/test_edit.html', {'id':show_id}))

@@ -7,11 +7,11 @@ urlpatterns = [
     url(r'^(?P<show_id>[0-9]+)/$', views.singleShow, name='single_show'),
     url(r'^upload_show/$', views.uploadShow, name='upload_show'),
     url(r'^edit_shows/$', views.editShows, name='edit_shows'),
-    url(r'^edit_shows/(?P<year>[0-9]+)/$', views.editYearShows, name='edit_shows_year'),
-    url(r'^edit/(?P<show_id>[0-9]+)/$', views.editSingleShow, name='edit_single_show'),
+    #url(r'^edit_shows/(?P<year>[0-9]+)/$', views.editYearShows, name='edit_shows_year'),
+    #url(r'^edit/(?P<show_id>[0-9]+)/$', views.editSingleShow, name='edit_single_show'),
     url(r'^upload_edited_show/$', views.uploadEditedShow, name='upload_edited_show'),
     url(r'^year/(?P<year>[0-9]+)/$', views.getShowYears, name='get_show_years'),
-    # testing
-    url(r'^test_edit/$', views.testEdit, name='test_edit'),
-    url(r'^test_edit/(?P<show_id>[0-9]+)/$', views.exampleEdit, name='test_edit_id'),
+    # change names after completion
+    url(r'^edit/$', views.testEdit, name='test_edit'),
+    url(r'^edit/(?P<show_id>[0-9]+)/$', views.exampleEdit, name='test_edit_id'),
 ]

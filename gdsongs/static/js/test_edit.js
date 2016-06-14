@@ -28,6 +28,7 @@ var SHOW = {'venue':'Spartan Stadium, San Jose, CA',
 					[["U.S. Blues", 347, 0],
 					 ["Shakedown Street", 782, 0]]]};
 
+
 var TRANSITIONS = ['', ' >'];
 var SET_NAMES = ['First', 'Second', 'Third', 'Fourth'];
 
@@ -113,7 +114,16 @@ function addShow(sets) {
 	}
 };
 
+// add helper for songs index counting
+Handlebars.registerHelper('counter', function (index){
+    return(index + 1);
+});
+
 $(document).ready(function() {
-	addShow();
+	// get the template html, compile it, add out context, put into DOM
+	var template_data = $('#show-display').html();
+	var show_template = Handlebars.compile(template_data);
+	var compiled_html = show_template(SHOW_DATA);
+	$('#show-show').html(compiled_html);
 	$('.sortable').sortable({update: updateIndexOrder});
 });
