@@ -26,11 +26,16 @@
 
 .song {
 	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
 	border-bottom: 1px solid #CCF;
 	padding: 8px;
 	display: flex;
 	flex-direction: row;
 	color: #444;
+	background-color: #FFF;
+	font-weight: normal;
 }
 
 .song:hover {
@@ -59,4 +64,19 @@
 	color: #444;
 	padding: 12px;
 	margin-left: auto;
+}
+
+/* fix the jquery-ui dialog close button */
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.dialog-menu {
+	display: flex;
+	flex-direction: row;
+}
+
+.song-dialog-title {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 400;
 }
