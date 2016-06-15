@@ -24,10 +24,13 @@ class ShowDate(models.Model):
 		day = self.getDay()
 		if(day != '??'):
 			# number, so add the extension
-			end = day % 10;
-			if(end > 3):
-				end = 0;
-			day = str(day) + ENDS[end]
+			if((day > 9) and (day < 20)):
+				day = str(day) + 'th'
+			else:
+				end = day % 10;
+				if(end > 3):
+					end = 0;
+				day = str(day) + ENDS[end]
 		return('{0} of {1}, {2}'.format(day, self.getMonth(), self.getYear()))
 
 	def getYear(self):

@@ -19,7 +19,6 @@ function yearOK(data) {
 		data.title = 'Found ' + data.total.toString() + ' shows - click one to edit'; }
 	else {
 		data.title = 'No shows found'; }
-	console.log(data);
 	$('#list-shows').html(SHOWS_TEMPLATE(data));
 };
 
