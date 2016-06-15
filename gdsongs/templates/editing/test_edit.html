@@ -2,7 +2,6 @@
 {% load static %}
 
 {% block css %}
-	<link href="{% static "css/jquery-ui.css" %}" rel="stylesheet">
 	<link href="{% static "css/test_edit.css" %}" rel="stylesheet">
 {% endblock %}
 
@@ -11,20 +10,6 @@
 	</div>
 	<div class="instructions">
 		Click to edit, or drag and drop to re-order
-	</div>
-
-	<!-- modal dialogs -->
-	<div id="edit-song-dialog" title="edit-song">
-  		<p>You clicked me!</p>
-  	</div>
-	<!-- Here is the dialog -->
-	<div class="popup" data-popup="popup-1">
-    	<div class="popup-inner">
-        	<h2>Wow! This is Awesome! (Popup #1)</h2>
-       		<p>Donec in volutpat nisi. In quam lectus, aliquet rhoncus cursus a, congue et arcu. Vestibulum tincidunt neque id nisi pulvinar aliquam. Nulla luctus luctus ipsum at ultricies. Nullam nec velit dui. Nullam sem eros, pulvinar sed pellentesque ac, feugiat et turpis. Donec gravida ipsum cursus massa malesuada tincidunt. Nullam finibus nunc mauris, quis semper neque ultrices in. Ut ac risus eget eros imperdiet posuere nec eu lectus.</p>
-        	<p><a data-popup-close="popup-1" href="#">Close</a></p>
-        	<a class="popup-close" data-popup-close="popup-1" href="#">x</a>
-    <	/div>
 	</div>
 {% endblock %}
 
@@ -58,17 +43,46 @@
 		{{/each}}
 	</script>
 
-	<!-- main core of the dialog -->
-	<script id="dialog-display" type="text/x-handlebars-template">
-		<p class="song-dialog-title">{{title}}</p>
-		<div class="dialog-menu">
-			<input id="dialog-song-name" type="text" />
-			<input id="dialog-song-trans" type="text" />
-			<input id="dialog-song-length" type="text" />
+	<!-- The actual dialog -->
+	<script id="dialog-template" type="text/x-handlebars-template">
+		<div id="overlay"></div>
+		<div id="dialog">
+			<div id="dialog-header">
+				{{title}}
+			</div>
+    		<div id="dialog-content">
+    			<!-- 3 simple inputs -->
+				<div class="dialog-input">
+					<p class="dialog-input-title">Song name</p>
+					<input type="text" id="dialog-song-name" autocomplete="on" list="songs-datalist">
+				</div>
+				<div class="dialog-input">
+					<p class="dialog-input-title">Seque?</p>
+					<input type="checkbox" id="dialog-song-seque">
+				</div>
+				<div class="dialog-input">
+					<p class="dialog-input-title">Length (mm:ss)</p>
+					<input type="text" id="dialog-song-length">
+				</div>
+    		</div>
+    		<div id="dialog-buttons">
+    			<button id="dialog-close">Cancel</button>
+    			<button id="dialog-save">Save</button>
+    		</div>
 		</div>
+	</script>
+
+	<!-- use handlebars to build the datalist for the songs autocomplete -->
+	<script id="datalist-template" type="text/x-handlebars-template">
+		<datalist id="songs-datalist">
+			{{#each songs}}
+				<option>{{this.[0]}}</option>
+			{{/each}}
+		</datalist>
 	</script>
 	{% endverbatim %}
 
+	<script src="{% static "js/songs.js" %}"></script>
 	<script src="{% static "js/handlebars.js" %}"></script>
 	<script src="{% static "js/jquery-ui.js" %}"></script>
 	<script src="{% static "js/test_edit.js" %}"></script>

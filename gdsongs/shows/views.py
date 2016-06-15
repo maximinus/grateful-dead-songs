@@ -220,10 +220,10 @@ def saveShowData(show, set_data, encore):
 		index += 1
 	return(show.setlist)
 
+@login_required
 def testEdit(request):
 	return(render(request, 'editing/choose_year.html', {}))
 
-@login_required
 def getShowYears(request, year):
 	if(request.method != 'GET'):
 		return(HttpResponse(status=404))

@@ -65,3 +65,61 @@
 	padding: 12px;
 	margin-left: auto;
 }
+
+/* modal dialog settings */
+#overlay {
+	display: none;
+	position: fixed; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
+#dialog {
+	margin: 12px;
+	box-shadow: 0px 0px 3px 2px rgba(153,153,153,1);
+	border: 1px solid #666;
+	width: auto;
+	height: auto;
+	position:absolute;
+	display: none;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+#dialog-header {
+	background-color: #CCF;
+	color: #444;
+	padding: 8px;
+	font-size: 1.5em;
+	font-weight: bold;
+	border-bottom: 1px solid #666;
+}
+
+#dialog-content {
+	padding: 8px;
+	background-color: #DDD;
+	display: flex;
+	flex-direction: row;
+}
+
+.dialog-input {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.dialog-input-title {
+	font-style: italic;
+	color: #333;
+	margin: 4px;
+}
+
+#dialog-buttons {
+	padding: 12px;
+	text-align: right;
+	background-color: #DDD;
+}
