@@ -65,18 +65,3 @@
 	padding: 12px;
 	margin-left: auto;
 }
-
-/* fix the jquery-ui dialog close button */
-.no-close .ui-dialog-titlebar-close {
-  display: none;
-}
-
-.dialog-menu {
-	display: flex;
-	flex-direction: row;
-}
-
-.song-dialog-title {
-	font-family: 'Alegreya Sans', sans-serif;
-	font-weight: 400;
-}
