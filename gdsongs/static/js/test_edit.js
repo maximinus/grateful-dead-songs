@@ -2,12 +2,12 @@
 
 // dialog closure for the dialogs
 var modal = function() {
-	var method = {};
+	var methods = {};
 
 	var template_data = $('#dialog-template').html();
 	var dialog_template = Handlebars.compile(template_data);
 
-	method.center = function() {
+	methods.center = function() {
 		var top = Math.max($(window).height() - $('#dialog').outerHeight(), 0) / 2;
 		var left = Math.max($(window).width() - $('#dialog').outerWidth(), 0) / 2;
     	$('#dialog').css({
@@ -16,10 +16,10 @@ var modal = function() {
 		});
 	};
 
-	method.open = function(title) {
+	methods.open = function(title) {
 		// generate the html and add to the page
 		$('body').append(dialog_template({'title':title}));
-		method.center();
+		methods.center();
 		// add the callbacks
 		$('#dialog-close').click(function() {
 			$('#dialog').remove();
@@ -30,7 +30,7 @@ var modal = function() {
 		$('#overlay').show();
 	};
 
-	return(method);
+	return(methods);
 }();
 
 function updateIndexOrder(event, ui) {
@@ -42,6 +42,31 @@ function updateIndexOrder(event, ui) {
 	});
 };
 
+function getSongData(element) {
+	// given the element that contains the song row, return the data
+	var details = $(element).find('.song-name').first().html();
+	var length = $(element).find('.song-timing').first().html();
+	// details is a string with both song name and the trans
+	// if the last char is a '>' than trans is true
+
+	// unfortunatly, handlebars refuses to escape the > character (even with triple parens)
+	// so we have to do some hacky code to work around this bug
+
+	// a transition will have ';' as the last character
+	// this slice will remove the end character
+	if(details.slice(-1) === ';') {
+		var trans = true;
+		// the song name will be the original string minus 4 chars
+		var name = details.substring(0, details.length - 4);
+	}
+	else {
+		var trans = false;
+		// the song name will be the original string minus 1 chars
+		var name = details.substring(0, details.length - 1);
+	}
+	return({'name':name, 'trans':trans, 'length':length});
+};
+
 function updateSet(set) {
 	// scan through the songs
 	var songs = $(set).find('li').each(function(i) {
@@ -49,8 +74,9 @@ function updateSet(set) {
 	});
 };
 
-function editSong() {
-	modal.open('Edit Song');
+function editSong(event) {
+	getSongData(event.currentTarget);
+	//modal.open('Edit Song');
 };
 
 // add helper for songs index counting
