@@ -44,26 +44,15 @@ function updateIndexOrder(event, ui) {
 
 function getSongData(element) {
 	// given the element that contains the song row, return the data
-	var details = $(element).find('.song-name').first().html();
-	var length = $(element).find('.song-timing').first().html();
+	var details = $(element).find('.song-name').first().text();
+	var length = $(element).find('.song-timing').first().text();
 	// details is a string with both song name and the trans
 	// if the last char is a '>' than trans is true
-
-	// unfortunatly, handlebars refuses to escape the > character (even with triple parens)
-	// so we have to do some hacky code to work around this bug
-
-	// a transition will have ';' as the last character
-	// this slice will remove the end character
-	if(details.slice(-1) === ';') {
-		var trans = true;
-		// the song name will be the original string minus 4 chars
-		var name = details.substring(0, details.length - 4);
-	}
+	if(details.slice(-1) == '>') {
+		var trans = true; }
 	else {
-		var trans = false;
-		// the song name will be the original string minus 1 chars
-		var name = details.substring(0, details.length - 1);
-	}
+		var trans = false; }
+	var name = details.substring(0, details.length - 2);
 	return({'name':name, 'trans':trans, 'length':length});
 };
 
