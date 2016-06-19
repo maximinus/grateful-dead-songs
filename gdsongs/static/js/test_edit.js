@@ -4,8 +4,10 @@
 var modal = function() {
 	var methods = {};
 
-	var template_data = $('#dialog-template').html();
-	var dialog_template = Handlebars.compile(template_data);
+	var dialog_template = Handlebars.compile($('#dialog-template').html());
+	var song_template = Handlebars.compile($('#single-song').html());
+	// we use these values to force out errors
+	var element = null;
 
 	methods.center = function() {
 		var top = Math.max($(window).height() - $('#dialog').outerHeight(), 0) / 2;
@@ -16,18 +18,56 @@ var modal = function() {
 		});
 	};
 
-	methods.open = function(title) {
+	methods.open = function(data, node) {
+		// store data for later
+		element = node;
 		// generate the html and add to the page
-		$('body').append(dialog_template({'title':title}));
+		$('body').append(dialog_template(data));
 		methods.center();
 		// add the callbacks
 		$('#dialog-close').click(function() {
-			$('#dialog').remove();
-			$('#overlay').remove();			
+			methods.close();
 		});
+		$('#dialog-save').click(methods.save);
+		$('#dialog-delete').click(methods.delete);
 		// show everything
 		$('#dialog').show();
 		$('#overlay').show();
+	};
+
+	methods.save = function() {
+		// There's no fancy model, we just need to change the particular element
+		if(element != null) {
+			// get the first class, grab the text, trim the whitespace and convert to an int
+			var index = parseInt($(element).find('.song-index').first().text().trim());
+			// grab the data
+			var song = {'name':$('#dialog-song-name').val(),
+						'length':$('#dialog-song-length').val(),
+						// carry over the index number
+						'index':index,
+						'trans':'/',};
+			if($('#dialog-song-seque').is(':checked')) {
+				song.trans = '>'; }
+			// add new element to row past this element, then delete the old element
+			$(song_template(song)).insertAfter(element);
+			$(element).remove();
+			addSongDoubleClick();
+		}
+		methods.close();
+	};
+
+	methods.delete = function() {
+		// delete this node if it exists
+		if(element != null) {
+			$(element).remove();
+		}
+		methods.close();
+		updateIndexOrder();
+	};
+
+	methods.close = function() {
+		$('#dialog').remove();
+		$('#overlay').remove();
 	};
 
 	return(methods);
@@ -49,9 +89,9 @@ function getSongData(element) {
 	// details is a string with both song name and the trans
 	// if the last char is a '>' than trans is true
 	if(details.slice(-1) == '>') {
-		var trans = true; }
+		var trans = 'checked'; }
 	else {
-		var trans = false; }
+		var trans = ''; }
 	var name = details.substring(0, details.length - 2);
 	return({'name':name, 'trans':trans, 'length':length});
 };
@@ -64,16 +104,39 @@ function updateSet(set) {
 };
 
 function editSong(event) {
-	getSongData(event.currentTarget);
-	//modal.open('Edit Song');
+	var data = getSongData(event.currentTarget);
+	data.title = 'Edit song';
+	modal.open(data, event.currentTarget);
+};
+
+function addSong(event) {
+	//the current target must be manually created
+	// to do this, the fathers fathers first ul
+	var song_list = ($(event.currentTarget).parent().parent().find('ul').first());
+	var song_template = Handlebars.compile($('#single-song').html());
+	var data = {length:'0:01', trans:'/', name:'Drums', 'index':song_list.children().length + 1};
+	$(song_list).append(song_template(data));
+	$(song_list).children().last()[0];
+	data.title = 'Add Song';
+	// don't show the cancel button
+	data.create = true;
+	// set the li to be sortable and clickable
+	$('.sortable').sortable({update: updateIndexOrder});
+	addSongDoubleClick();
+	modal.open(data, $(song_list).children().last()[0]);
+};
+
+function addSongDoubleClick() {
+	$(document).off('dblclick', ',song').on('dblclick', '.song', editSong);
 };
 
 // add helper for songs index counting
-Handlebars.registerHelper('counter', function (index){
+Handlebars.registerHelper('counter', function(index){
     return(index + 1);
 });
 
 $(document).ready(function() {
+	Handlebars.registerPartial('song', $('#song-display').html());
 	// prepare the dialog - first build the datalist and add it
 	var template_data = $('#datalist-template').html();
 	var template = Handlebars.compile(template_data);
@@ -85,6 +148,6 @@ $(document).ready(function() {
 	$('#show-show').html(compiled_html);
 	// setup the drag and drop for songs
 	$('.sortable').sortable({update: updateIndexOrder});
-	// allow double-clicking ona song
-	$('.song').dblclick(editSong);
+	addSongDoubleClick();
+	$('.add-song').click(addSong);
 });

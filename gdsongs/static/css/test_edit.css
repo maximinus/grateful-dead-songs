@@ -24,6 +24,14 @@
 	flex-direction: row;
 }
 
+.set-footer {
+	background-color: #CCF;
+	color: #444;
+	margin: 0px;
+	padding: 16px;
+	text-align: right;
+}
+
 .song {
 	margin: 0px;
 	border-top: none;
@@ -120,6 +128,12 @@
 
 #dialog-buttons {
 	padding: 12px;
-	text-align: right;
 	background-color: #DDD;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#dialog-delete {
+	align: left;
 }

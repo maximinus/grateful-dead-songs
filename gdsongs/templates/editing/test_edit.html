@@ -18,6 +18,26 @@
 	<script src="{% static "data/shows/" %}{{ id }}.js"></script>
 
 	{% verbatim %}
+	<script id="single-song" type="text/x-handlebars-template">
+		<li class="song ui-state-default">
+			<div class="song-index">
+				{{index}}
+			</div>
+			<div class="song-name">{{name}} {{{trans}}}</div>
+			<div class="song-timing">{{length}}</div>
+		</li>
+	</script>
+
+	<script id="song-display" type="text/x-handlebars-template">
+		<li class="song ui-state-default">
+			<div class="song-index">
+				{{counter @index}}
+			</div>
+			<div class="song-name">{{name}} {{{trans}}}</div>
+			<div class="song-timing">{{length}}</div>
+		</li>
+	</script>
+
 	<script id="show-display" type="text/x-handlebars-template">
 		{{#each sets}}
 		<div class="set">
@@ -26,15 +46,12 @@
 			</div>
 			<ul class="set-body sortable">
 			{{#each songs}}
-				<li class="song ui-state-default">
-					<div class="song-index">
-						{{counter @index}}
-					</div>
-					<div class="song-name">{{name}} {{{trans}}}</div>
-					<div class="song-timing">{{length}}</div>
-				</li>
+				{{> song}}
 			{{/each}}
 			</ul>
+			<div class="set-footer">
+				<button class="add-song">Add Song</button>
+			</div>
 		</div>
 		{{/each}}
 	</script>
@@ -50,19 +67,22 @@
     			<!-- 3 simple inputs -->
 				<div class="dialog-input">
 					<p class="dialog-input-title">Song name</p>
-					<input type="text" id="dialog-song-name" autocomplete="on" list="songs-datalist">
+					<input type="text" id="dialog-song-name" autocomplete="on" list="songs-datalist" value="{{name}}">
 				</div>
 				<div class="dialog-input">
 					<p class="dialog-input-title">Seque?</p>
-					<input type="checkbox" id="dialog-song-seque">
+					<input type="checkbox" id="dialog-song-seque" {{trans}}>
 				</div>
 				<div class="dialog-input">
 					<p class="dialog-input-title">Length (mm:ss)</p>
-					<input type="text" id="dialog-song-length">
+					<input type="text" id="dialog-song-length" value="{{length}}">
 				</div>
     		</div>
     		<div id="dialog-buttons">
-    			<button id="dialog-close">Cancel</button>
+    			<button id="dialog-delete">Delete</button>
+    			{{#unless create}}
+    				<button id="dialog-close">Cancel</button>
+    			{{/unless}}
     			<button id="dialog-save">Save</button>
     		</div>
 		</div>
