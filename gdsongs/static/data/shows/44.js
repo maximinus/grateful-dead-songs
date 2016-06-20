@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Feb, 1990",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:50", "trans":"/"},
 			{"name": "Peggy-O", "length":"6:34", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:40", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"12:58", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"15:57", "trans":"/"},
@@ -31,7 +31,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"6:02", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"7:14", "trans":"/"},
 		]},

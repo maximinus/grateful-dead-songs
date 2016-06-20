@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Sep, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"4:17", "trans":"/"},
 			{"name": "Alabama Getaway", "length":"5:08", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:50", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Box Of Rain", "length":"4:48", "trans":"/"},
 			{"name": "Victim Or The Crime", "length":"5:04", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"10:54", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"6:09", "trans":"/"},
 		]},

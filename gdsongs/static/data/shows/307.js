@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of Nov, 1985",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:16", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:17", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:31", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:29", "trans":">"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"5:49", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"7:29", "trans":"/"},
 		]},

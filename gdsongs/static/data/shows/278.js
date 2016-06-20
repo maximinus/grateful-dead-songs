@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Sep, 1975",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"5:15", "trans":">"},
 			{"name": "Slipknot!", "length":"6:53", "trans":"/"},

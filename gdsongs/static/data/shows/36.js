@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "23rd of Apr, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Sugaree", "length":"11:28", "trans":"/"},
 			{"name": "Cassidy", "length":"4:32", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Fire On The Mountain", "length":"10:47", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Estimated Prophet", "length":"7:42", "trans":"/"},
 			{"name": "Bertha", "length":"7:21", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"11:20", "trans":">"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:40", "trans":"/"},
 		]},

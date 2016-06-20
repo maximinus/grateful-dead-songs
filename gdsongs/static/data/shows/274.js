@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "12th of Jun, 1984",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"4:59", "trans":">"},
 			{"name": "Greatest Story Ever Told", "length":"3:56", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"3:54", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"9:00", "trans":"/"},
 			{"name": "Touch Of Grey", "length":"5:52", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:58", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"4:34", "trans":"/"},
 		]},

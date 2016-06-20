@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Jul, 1990",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"12:48", "trans":"/"},
 			{"name": "Walkin' Blues", "length":"5:48", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:53", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"14:05", "trans":">"},
 			{"name": "Estimated Prophet", "length":"12:09", "trans":">"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:51", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Last Time", "length":"6:26", "trans":"/"},
 			{"name": "And We Bid You Good Night", "length":"2:33", "trans":"/"},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Oct, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"5:11", "trans":"/"},
 			{"name": "They Love Each Other", "length":"6:50", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:37", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:08", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"10:53", "trans":">"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:57", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"9:48", "trans":"/"},
 		]},

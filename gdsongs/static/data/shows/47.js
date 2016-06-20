@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "6th of Feb, 1989",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Not Fade Away", "length":"3:42", "trans":"/"},
 			{"name": "Sugaree", "length":"10:32", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Tennessee Jed", "length":"7:43", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"5:52", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"10:04", "trans":">"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:43", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"6:57", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Jan, 1978",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"6:13", "trans":"/"},
 			{"name": "Dire Wolf", "length":"4:13", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:27", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:46", "trans":"/"},
 			{"name": "Candyman", "length":"8:04", "trans":"/"},

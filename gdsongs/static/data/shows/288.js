@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Oct, 1973",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Here Comes Sunshine", "length":"11:22", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"2:56", "trans":"/"},
@@ -27,7 +27,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:59", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:50", "trans":"/"},
 			{"name": "Big River", "length":"4:37", "trans":"/"},
@@ -51,7 +51,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:52", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"5:05", "trans":"/"},
 		]},

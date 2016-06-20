@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Jun, 1974",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Big River", "length":"4:52", "trans":"/"},
 			{"name": "Brown-Eyed Women", "length":"4:56", "trans":"/"},
@@ -26,7 +26,7 @@ var SHOW_DATA = {
 			{"name": "It Must Have Been The Roses", "length":"5:53", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:30", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"2:41", "trans":"/"},
@@ -51,7 +51,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:41", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"9:39", "trans":">"},
 			{"name": "Untitled Post-Eyes Jam", "length":"1:47", "trans":"/"},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Dec, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"6:46", "trans":">"},
 			{"name": "Promised Land", "length":"3:56", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"5:38", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"14:24", "trans":">"},
 			{"name": "Samson & Delilah", "length":"7:21", "trans":"/"},
@@ -40,7 +40,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:17", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"3:25", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Apr, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"0:00", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"0:00", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"0:00", "trans":">"},
 			{"name": "Weir's Segue", "length":"0:00", "trans":">"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"0:00", "trans":"/"},
 		]},

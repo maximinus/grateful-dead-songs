@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of May, 1981",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:14", "trans":"/"},
 			{"name": "Tennessee Jed", "length":"8:24", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:56", "trans":"/"},
 			{"name": "Terrapin Station", "length":"13:38", "trans":">"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:38", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:49", "trans":"/"},
 		]},

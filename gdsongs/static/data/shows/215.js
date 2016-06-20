@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "23rd of Nov, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"7:18", "trans":">"},
 			{"name": "Promised Land", "length":"4:07", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"5:10", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Music Never Stopped", "length":"6:05", "trans":">"},
 			{"name": "Sugaree", "length":"15:10", "trans":"/"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:03", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:17", "trans":"/"},
 		]},

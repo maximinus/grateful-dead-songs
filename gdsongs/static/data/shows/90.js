@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "2nd of Apr, 1973",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"2:58", "trans":"/"},
 			{"name": "Deal", "length":"4:18", "trans":"/"},
@@ -30,7 +30,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:41", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Ramble On Rose", "length":"6:07", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"2:55", "trans":"/"},
@@ -54,7 +54,7 @@ var SHOW_DATA = {
 			{"name": "Casey Jones", "length":"6:40", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"3:35", "trans":"/"},
 			{"name": "And We Bid You Good Night", "length":"2:00", "trans":"/"},

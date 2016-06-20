@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of Feb, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:01", "trans":"/"},
 			{"name": "Candyman", "length":"6:52", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:27", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"11:34", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"10:43", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Casey Jones", "length":"6:16", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:31", "trans":"/"},
 		]},

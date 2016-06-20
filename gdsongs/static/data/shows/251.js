@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Feb, 1991",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:10", "trans":"/"},
 			{"name": "Sugaree", "length":"12:39", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"12:21", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"11:15", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"13:04", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:43", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:51", "trans":"/"},
 		]},

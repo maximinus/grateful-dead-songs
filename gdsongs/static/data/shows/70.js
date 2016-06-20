@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "21st of Jun, 1976",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Music Never Stopped", "length":"6:01", "trans":"/"},
 			{"name": "Sugaree", "length":"12:51", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"3:55", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Wheel", "length":"4:35", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"6:12", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"6:33", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:06", "trans":"/"},
 		]},

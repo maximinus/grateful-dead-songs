@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Jul, 1978",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:45", "trans":">"},
 			{"name": "Good Lovin'", "length":"6:07", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Big River", "length":"5:37", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Terrapin Station", "length":"10:54", "trans":">"},
 			{"name": "Playing In The Band", "length":"2:35", "trans":">"},
@@ -30,7 +30,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:47", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"3:59", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "6th of Apr, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Dancing In The Street", "length":"6:36", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"8:56", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:25", "trans":"/"},
 			{"name": "Cumberland Blues", "length":"4:45", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"7:38", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"6:33", "trans":"/"},
 		]},

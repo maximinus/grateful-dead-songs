@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "25th of Sep, 1976",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"4:55", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"4:40", "trans":"/"},
@@ -23,7 +23,7 @@ var SHOW_DATA = {
 			{"name": "Sugaree", "length":"10:43", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Lazy Lightnin'", "length":"2:42", "trans":">"},
 			{"name": "Supplication", "length":"4:21", "trans":"/"},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of Mar, 1981",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"13:15", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:12", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"9:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:41", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"7:48", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:07", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"3:14", "trans":"/"},
 		]},

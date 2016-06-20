@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "23rd of Mar, 1974",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:28", "trans":"/"},
 			{"name": "Promised Land", "length":"3:20", "trans":"/"},
@@ -28,7 +28,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"9:30", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Playing In The Band", "length":"2:47", "trans":">"},
 			{"name": "PITB Jam", "length":"9:33", "trans":">"},
@@ -46,7 +46,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:37", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"7:39", "trans":"/"},
 			{"name": "One More Saturday Night", "length":"4:47", "trans":"/"},

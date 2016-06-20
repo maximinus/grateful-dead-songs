@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "12th of Apr, 1983",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"4:42", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"3:58", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:51", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:58", "trans":">"},
 			{"name": "Slipknot!", "length":"5:55", "trans":">"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"7:02", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "NFA Reprise", "length":"3:49", "trans":">"},
 			{"name": "It's All Over Now, Baby Blue", "length":"6:59", "trans":"/"},

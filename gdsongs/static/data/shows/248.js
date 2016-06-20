@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "27th of Mar, 1993",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:02", "trans":"/"},
 			{"name": "Bertha", "length":"6:45", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Casey Jones", "length":"5:37", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"12:00", "trans":"/"},
 			{"name": "Estimated Prophet", "length":"11:32", "trans":">"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:42", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "I Fought The Law", "length":"2:39", "trans":"/"},
 		]},

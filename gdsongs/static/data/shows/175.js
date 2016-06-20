@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Mar, 1980",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:43", "trans":"/"},
 			{"name": "They Love Each Other", "length":"6:48", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Saint Of Circumstance", "length":"5:58", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"3:14", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"8:09", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:17", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:25", "trans":"/"},
 		]},

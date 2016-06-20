@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Mar, 1994",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Here Comes Sunshine", "length":"6:04", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"9:44", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"5:10", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"10:56", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"17:53", "trans":"/"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Liberty", "length":"0:00", "trans":"/"},
 		]},

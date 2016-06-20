@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Nov, 1973",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Big Railroad Blues", "length":"3:54", "trans":"/"},
 			{"name": "Jack Straw", "length":"4:40", "trans":"/"},
@@ -28,7 +28,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"5:04", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"5:08", "trans":">"},
 			{"name": "Truckin' Jam", "length":"2:31", "trans":">"},

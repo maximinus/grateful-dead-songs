@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "11th of Feb, 1969",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Good Morning, School Girl", "length":"7:41", "trans":"/"},
 			{"name": "Cryptical", "length":"1:51", "trans":">"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"11:51", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hey Jude", "length":"7:06", "trans":"/"},
 		]},

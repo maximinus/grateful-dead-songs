@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Oct, 1994",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:43", "trans":">"},
 			{"name": "Slipknot!", "length":"5:24", "trans":">"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"11:31", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"15:59", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:51", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Liberty", "length":"7:52", "trans":"/"},
 		]},

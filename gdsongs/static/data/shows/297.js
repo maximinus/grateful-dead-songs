@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Jan, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"11:36", "trans":"/"},
 			{"name": "Get Back", "length":"5:45", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Jack Straw", "length":"5:23", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "When Push Comes To Shove", "length":"4:26", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"7:02", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:04", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:14", "trans":"/"},
 		]},

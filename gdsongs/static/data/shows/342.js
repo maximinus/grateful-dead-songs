@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "25th of Apr, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"5:03", "trans":"/"},
 			{"name": "Deal", "length":"5:02", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"6:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"8:33", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"10:51", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"4:17", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"0:00", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"4:47", "trans":"/"},
 			{"name": "Loser", "length":"7:30", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "Dancing In The Street", "length":"15:43", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"9:14", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"15:21", "trans":"/"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"13:29", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"0:00", "trans":"/"},
 		]},

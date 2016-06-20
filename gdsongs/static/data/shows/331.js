@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "29th of Jan, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:14", "trans":"/"},
 			{"name": "Sugaree", "length":"9:20", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:25", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"7:48", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:02", "trans":"/"},
@@ -31,7 +31,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:56", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"7:52", "trans":"/"},
 		]},

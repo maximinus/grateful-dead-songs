@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Aug, 1981",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:33", "trans":"/"},
 			{"name": "They Love Each Other", "length":"6:45", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "I Know You Rider", "length":"5:06", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"15:17", "trans":"/"},
 			{"name": "Lost Sailor", "length":"7:00", "trans":">"},
@@ -45,7 +45,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:37", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:13", "trans":"/"},
 		]},

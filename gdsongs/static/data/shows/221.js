@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Sep, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"6:16", "trans":"/"},
 			{"name": "Althea", "length":"7:01", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:49", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"7:02", "trans":"/"},
 			{"name": "Cumberland Blues", "length":"5:05", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"10:24", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:10", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "11th of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:17", "trans":"/"},
 			{"name": "They Love Each Other", "length":"7:01", "trans":"/"},
@@ -23,7 +23,7 @@ var SHOW_DATA = {
 			{"name": "Sugaree", "length":"13:27", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:34", "trans":"/"},
 			{"name": "Brown-Eyed Women", "length":"5:00", "trans":"/"},
@@ -38,7 +38,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:59", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:21", "trans":"/"},
 		]},

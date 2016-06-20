@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Oct, 1984",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"14:40", "trans":"/"},
 			{"name": "Mama Tried", "length":"2:22", "trans":">"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:29", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"0:00", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"0:00", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"3:39", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "(I Can't Get No) Satisfaction", "length":"5:20", "trans":"/"},
 		]},

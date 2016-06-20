@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:24", "trans":"/"},
 			{"name": "West L.A. Fadeaway", "length":"7:16", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:15", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"8:07", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:14", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"7:44", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"6:53", "trans":"/"},
 		]},

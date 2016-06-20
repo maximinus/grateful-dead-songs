@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "6th of Jan, 1978",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:16", "trans":"/"},
 			{"name": "Dire Wolf", "length":"3:43", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "Supplication", "length":"5:25", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Playing In The Band", "length":"2:45", "trans":">"},
 			{"name": "PITB Jam", "length":"8:00", "trans":">"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Truckin' Jam", "length":"6:05", "trans":">"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:20", "trans":"/"},
 		]},

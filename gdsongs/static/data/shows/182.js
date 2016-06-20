@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Jul, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"5:27", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:21", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:10", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"11:47", "trans":"/"},
 			{"name": "Looks Like Rain", "length":"8:21", "trans":"/"},
@@ -31,7 +31,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"7:30", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:22", "trans":"/"},
 		]},

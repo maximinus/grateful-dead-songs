@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "21st of Oct, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"4:28", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"6:32", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Jack Straw", "length":"5:28", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Wang Dang Doodle", "length":"6:15", "trans":"/"},
 			{"name": "Victim Or The Crime", "length":"6:02", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:09", "trans":"/"},
 		]},

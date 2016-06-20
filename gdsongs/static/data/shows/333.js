@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of Jul, 1986",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:14", "trans":"/"},
 			{"name": "Dupree's Diamond Blues", "length":"6:23", "trans":"/"},
@@ -16,7 +16,7 @@ var SHOW_DATA = {
 			{"name": "Touch Of Grey", "length":"5:35", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:54", "trans":"/"},
 			{"name": "Fire On The Mountain", "length":"9:42", "trans":"/"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"4:13", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"4:32", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of Oct, 1983",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Sugaree", "length":"16:24", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"9:04", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"10:35", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:12", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"8:57", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:53", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Revolution", "length":"5:04", "trans":"/"},
 		]},

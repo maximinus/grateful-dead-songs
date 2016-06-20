@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Mar, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:30", "trans":"/"},
 			{"name": "Mama Tried", "length":"2:40", "trans":"/"},
@@ -28,7 +28,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:45", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"10:21", "trans":">"},
 			{"name": "Improv", "length":"1:30", "trans":">"},
@@ -39,7 +39,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:09", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:59", "trans":"/"},
 			{"name": "Uncle John's Band", "length":"9:00", "trans":"/"},

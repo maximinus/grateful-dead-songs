@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Mar, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:00", "trans":"/"},
 			{"name": "Sugaree", "length":"8:28", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"7:39", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:53", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "All Along The Watchtower", "length":"4:19", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"8:14", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "25th of Mar, 1983",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:07", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:47", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"10:55", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:16", "trans":">"},
 			{"name": "Slipknot!", "length":"4:20", "trans":">"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:11", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"3:12", "trans":"/"},
 		]},

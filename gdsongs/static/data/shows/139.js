@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of May, 1986",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"5:58", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"3:27", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:42", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:57", "trans":"/"},
 			{"name": "Sugaree", "length":"10:53", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:51", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:35", "trans":"/"},
 		]},

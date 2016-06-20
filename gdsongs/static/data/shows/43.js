@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "2nd of Apr, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:18", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"6:53", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"6:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"7:40", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"10:00", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"8:08", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"6:22", "trans":"/"},
 		]},

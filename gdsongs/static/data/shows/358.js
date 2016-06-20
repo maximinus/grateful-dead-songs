@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Apr, 1990",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:20", "trans":"/"},
 			{"name": "Walkin' Blues", "length":"6:20", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:39", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:10", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:24", "trans":">"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:21", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"7:27", "trans":"/"},
 		]},

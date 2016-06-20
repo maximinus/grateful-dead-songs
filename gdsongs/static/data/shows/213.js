@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "27th of Feb, 1981",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"4:23", "trans":">"},
 			{"name": "Promised Land", "length":"4:01", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Minglewood Blues", "length":"7:03", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"0:00", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"12:16", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:10", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"3:17", "trans":"/"},
 		]},

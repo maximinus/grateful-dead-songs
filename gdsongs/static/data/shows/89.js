@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Feb, 1985",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:17", "trans":"/"},
 			{"name": "Dupree's Diamond Blues", "length":"6:39", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:29", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"4:48", "trans":">"},
 			{"name": "Truckin' Jam", "length":"2:10", "trans":">"},
@@ -30,7 +30,7 @@ var SHOW_DATA = {
 			{"name": "Touch Of Grey", "length":"6:26", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:04", "trans":"/"},
 		]},

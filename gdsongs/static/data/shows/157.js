@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Apr, 1970",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "I Know You Rider", "length":"4:40", "trans":"/"},
 			{"name": "Don't Ease Me In", "length":"2:55", "trans":"/"},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Oct, 1976",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:03", "trans":"/"},
 			{"name": "They Love Each Other", "length":"6:56", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "Scarlet Begonias", "length":"9:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"4:27", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"10:00", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:10", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"3:49", "trans":"/"},
 		]},

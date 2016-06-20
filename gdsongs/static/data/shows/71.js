@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Feb, 1981",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"9:11", "trans":"/"},
 			{"name": "Althea", "length":"8:30", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"8:01", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:20", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:43", "trans":">"},
@@ -39,7 +39,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:11", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:16", "trans":"/"},
 		]},

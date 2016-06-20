@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Feb, 1981",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"6:25", "trans":"/"},
 			{"name": "They Love Each Other", "length":"7:15", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"7:40", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:11", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"4:12", "trans":"/"},
@@ -41,7 +41,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"8:07", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:43", "trans":"/"},
 		]},

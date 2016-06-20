@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "25th of Nov, 1973",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"3:00", "trans":"/"},
 			{"name": "Sugaree", "length":"6:57", "trans":"/"},
@@ -28,7 +28,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:34", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Around & Around", "length":"4:57", "trans":"/"},
 			{"name": "Eyes Of The World", "length":"11:00", "trans":">"},
@@ -44,7 +44,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:35", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "And We Bid You Good Night", "length":"3:13", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Jul, 1995",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"7:12", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"7:40", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"13:40", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"7:34", "trans":"/"},
@@ -30,7 +30,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:23", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"4:26", "trans":"/"},
 			{"name": "Box Of Rain", "length":"4:48", "trans":"/"},

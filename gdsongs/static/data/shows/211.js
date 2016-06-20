@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "12th of May, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:39", "trans":"/"},
 			{"name": "They Love Each Other", "length":"7:23", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:18", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"2:45", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"8:49", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:24", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"11:31", "trans":">"},
 			{"name": "One More Saturday Night", "length":"4:07", "trans":"/"},

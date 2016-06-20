@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Feb, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Terrapin Station", "length":"10:35", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"4:36", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"4:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"5:58", "trans":"/"},
 			{"name": "Tennessee Jed", "length":"8:34", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"6:46", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:53", "trans":"/"},
 		]},

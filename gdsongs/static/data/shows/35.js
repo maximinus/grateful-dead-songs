@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Mar, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:10", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"11:48", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Fire On The Mountain", "length":"10:16", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:41", "trans":"/"},
 			{"name": "Brown-Eyed Women", "length":"5:10", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:57", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"8:31", "trans":"/"},
 		]},

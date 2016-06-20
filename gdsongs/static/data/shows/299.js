@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Apr, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"0:00", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"10:15", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"7:47", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"12:13", "trans":"/"},

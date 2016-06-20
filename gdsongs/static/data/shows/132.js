@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "24th of Mar, 1973",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"5:30", "trans":"/"},
 			{"name": "Beat It On Down The Line", "length":"3:02", "trans":"/"},
@@ -30,7 +30,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:11", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"2:48", "trans":"/"},
 			{"name": "China Cat Sunflower", "length":"3:24", "trans":">"},
@@ -57,7 +57,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:41", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"3:41", "trans":"/"},
 		]},

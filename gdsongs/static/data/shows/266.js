@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of Jan, 1978",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"8:54", "trans":"/"},
 			{"name": "Mexicali Blues", "length":"3:37", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Supplication", "length":"6:08", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:42", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:57", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:01", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Sugar Magnolia", "length":"9:26", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "16th of Nov, 1985",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:28", "trans":"/"},
 			{"name": "Sugaree", "length":"10:52", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:43", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Tennessee Jed", "length":"7:42", "trans":"/"},
 			{"name": "Cumberland Blues", "length":"5:19", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:18", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"3:47", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of Aug, 1982",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"8:01", "trans":"/"},
 			{"name": "Friend Of The Devil", "length":"8:14", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "Bertha", "length":"6:02", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:29", "trans":">"},
 			{"name": "Weir's Segue", "length":"3:58", "trans":">"},
@@ -38,7 +38,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"10:37", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"6:46", "trans":">"},
 			{"name": "Johnny B. Goode", "length":"4:02", "trans":"/"},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "16th of Dec, 1992",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"8:00", "trans":"/"},
 			{"name": "Brown-Eyed Women", "length":"4:58", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:48", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"12:35", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"7:12", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:43", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"5:20", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Jun, 1991",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:16", "trans":"/"},
 			{"name": "Shakedown Street", "length":"15:43", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:54", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"12:23", "trans":">"},
 			{"name": "Looks Like Rain", "length":"8:01", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"5:06", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Weight", "length":"5:38", "trans":"/"},
 		]},

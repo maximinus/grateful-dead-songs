@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Sep, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"10:04", "trans":">"},
 			{"name": "Franklin's Tower", "length":"10:33", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Saint Of Circumstance", "length":"6:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"13:09", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"16:42", "trans":">"},
@@ -31,7 +31,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"6:34", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:42", "trans":"/"},
 		]},

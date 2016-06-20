@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Jun, 1984",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"5:59", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"7:32", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:47", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:32", "trans":">"},
 			{"name": "Weir's Segue", "length":"3:53", "trans":">"},
@@ -38,7 +38,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:28", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"4:14", "trans":"/"},
 		]},

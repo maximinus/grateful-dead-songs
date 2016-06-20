@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Feb, 1985",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"6:24", "trans":"/"},
 			{"name": "C.C. Rider", "length":"8:11", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "I Know You Rider", "length":"4:47", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:08", "trans":"/"},
 			{"name": "He's Gone", "length":"12:58", "trans":">"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:20", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"4:19", "trans":"/"},
 		]},

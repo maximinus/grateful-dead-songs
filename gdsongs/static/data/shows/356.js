@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of Jun, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:10", "trans":"/"},
 			{"name": "Tennessee Jed", "length":"8:47", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"6:34", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:07", "trans":"/"},
 			{"name": "Ship Of Fools", "length":"7:52", "trans":"/"},
@@ -43,7 +43,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:50", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"5:12", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of Oct, 1974",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"3:15", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"7:52", "trans":"/"},
@@ -26,7 +26,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"10:53", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"10:12", "trans":"/"},
 			{"name": "Big River", "length":"3:54", "trans":"/"},
@@ -45,7 +45,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:30", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"5:23", "trans":"/"},
 			{"name": "U.S. Blues", "length":"0:00", "trans":"/"},

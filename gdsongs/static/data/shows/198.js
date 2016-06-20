@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "16th of Sep, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hey Pocky Way", "length":"5:30", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:17", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"11:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:34", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:48", "trans":">"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:29", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"6:48", "trans":"/"},
 		]},

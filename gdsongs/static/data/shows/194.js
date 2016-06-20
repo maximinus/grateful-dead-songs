@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "21st of Feb, 1982",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"12:18", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:11", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Man Smart, Woman Smarter", "length":"5:02", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"0:01", "trans":">"},
 			{"name": "Weir's Segue", "length":"1:15", "trans":">"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:59", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:38", "trans":"/"},
 		]},

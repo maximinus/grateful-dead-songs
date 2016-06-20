@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Nov, 1973",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"2:56", "trans":"/"},
 			{"name": "Brown-Eyed Women", "length":"4:38", "trans":"/"},
@@ -26,7 +26,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Here Comes Sunshine", "length":"10:38", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"2:49", "trans":"/"},
@@ -47,7 +47,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:13", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"0:00", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Oct, 1980",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Deep Elem Blues", "length":"4:59", "trans":"/"},
 			{"name": "Dark Hollow", "length":"3:57", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Ripple", "length":"4:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"4:41", "trans":">"},
 			{"name": "Promised Land", "length":"4:20", "trans":"/"},
@@ -31,7 +31,7 @@ var SHOW_DATA = {
 			{"name": "Saint Of Circumstance", "length":"6:30", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"12:48", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"6:51", "trans":"/"},
@@ -47,7 +47,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"6:44", "trans":"/"},
 		]},
 		{"set_title": "4th set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:16", "trans":"/"},
 		]},

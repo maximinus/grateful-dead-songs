@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "11th of Feb, 1986",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:12", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:26", "trans":">"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Drums", "length":"3:58", "trans":">"},
 			{"name": "Iko Iko", "length":"11:44", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"8:10", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Not Fade Away", "length":"2:21", "trans":">"},
 			{"name": "Hey Bo Diddley", "length":"5:49", "trans":">"},

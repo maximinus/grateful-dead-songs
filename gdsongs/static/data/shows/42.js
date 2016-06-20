@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of Sep, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"3:57", "trans":"/"},
 			{"name": "They Love Each Other", "length":"6:50", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"6:34", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"8:36", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:10", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Truckin'", "length":"8:30", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Terrapin Station", "length":"10:40", "trans":"/"},
 		]},

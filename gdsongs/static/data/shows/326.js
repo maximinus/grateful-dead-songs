@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of May, 1978",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"6:23", "trans":"/"},
 			{"name": "Dire Wolf", "length":"4:03", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"8:17", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"10:22", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"9:30", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:12", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:34", "trans":"/"},
 		]},

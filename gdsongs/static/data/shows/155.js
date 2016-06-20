@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of Aug, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"11:15", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"3:08", "trans":">"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"4:55", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "I Need A Miracle", "length":"4:55", "trans":">"},
 			{"name": "Bertha", "length":"6:20", "trans":">"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Truckin' Jam", "length":"3:19", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Sugar Magnolia", "length":"8:29", "trans":"/"},
 		]},

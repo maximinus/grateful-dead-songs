@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of Feb, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hey Pocky Way", "length":"5:33", "trans":"/"},
 			{"name": "Desolation Row", "length":"10:41", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:19", "trans":"/"},
 			{"name": "Man Smart, Woman Smarter", "length":"7:19", "trans":"/"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:23", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:15", "trans":"/"},
 		]},

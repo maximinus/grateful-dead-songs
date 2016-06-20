@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Music Never Stopped", "length":"6:16", "trans":"/"},
 			{"name": "Ramble On Rose", "length":"7:08", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "Fire On The Mountain", "length":"13:02", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:50", "trans":"/"},
 			{"name": "Bertha", "length":"6:31", "trans":"/"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:48", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:43", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"5:51", "trans":"/"},
 			{"name": "Bertha", "length":"6:42", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:22", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Box Of Rain", "length":"5:05", "trans":"/"},
 			{"name": "Foolish Heart", "length":"11:31", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"5:40", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"4:34", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "27th of Mar, 1989",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"8:24", "trans":"/"},
 			{"name": "Walkin' Blues", "length":"6:57", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Touch Of Grey", "length":"6:12", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"8:54", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:12", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"8:09", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:31", "trans":"/"},
 		]},

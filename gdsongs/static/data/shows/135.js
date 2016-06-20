@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Dec, 1971",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"5:12", "trans":">"},
 			{"name": "Truckin' Jam", "length":"2:23", "trans":">"},
@@ -26,7 +26,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:22", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Ramble On Rose", "length":"5:54", "trans":"/"},
 			{"name": "Mexicali Blues", "length":"3:08", "trans":"/"},

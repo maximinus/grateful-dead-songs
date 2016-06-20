@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Oct, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:26", "trans":">"},
 			{"name": "Weir's Segue", "length":"4:13", "trans":">"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Saint Of Circumstance", "length":"5:35", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"17:12", "trans":"/"},
 			{"name": "Passenger", "length":"5:11", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Truckin' Jam", "length":"5:24", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:30", "trans":"/"},
 		]},

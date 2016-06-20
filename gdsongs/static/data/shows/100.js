@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of Nov, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"7:48", "trans":">"},
 			{"name": "Good Lovin'", "length":"6:00", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"13:52", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:23", "trans":"/"},
 			{"name": "Cold Rain & Snow", "length":"5:55", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"4:37", "trans":">"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"0:00", "trans":"/"},
 		]},

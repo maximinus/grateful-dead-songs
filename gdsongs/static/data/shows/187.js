@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Oct, 1989",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"8:36", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:28", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:07", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Blow Away", "length":"10:00", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"7:00", "trans":"/"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"9:48", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"0:00", "trans":"/"},
 		]},

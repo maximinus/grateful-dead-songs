@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Aug, 1983",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"5:14", "trans":">"},
 			{"name": "Greatest Story Ever Told", "length":"3:59", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:57", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"13:24", "trans":"/"},
 			{"name": "Man Smart, Woman Smarter", "length":"6:48", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"9:18", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:28", "trans":"/"},
 		]},

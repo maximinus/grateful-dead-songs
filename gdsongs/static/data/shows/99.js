@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Mar, 1980",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"5:09", "trans":">"},
 			{"name": "Promised Land", "length":"4:18", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "Saint Of Circumstance", "length":"6:54", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"9:01", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"9:03", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:42", "trans":"/"},
 		]},

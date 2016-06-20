@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "16th of Sep, 1993",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Rain", "length":"4:23", "trans":"/"},
 			{"name": "Shakedown Street", "length":"12:40", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:10", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:39", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:32", "trans":">"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"6:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Liberty", "length":"6:45", "trans":"/"},
 		]},

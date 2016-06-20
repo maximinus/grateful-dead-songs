@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Apr, 1983",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:15", "trans":">"},
 			{"name": "Promised Land", "length":"3:50", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "I Know You Rider", "length":"6:02", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:48", "trans":">"},
 			{"name": "Slipknot!", "length":"4:18", "trans":">"},
@@ -45,7 +45,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:11", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "(I Can't Get No) Satisfaction", "length":"5:01", "trans":"/"},
 		]},

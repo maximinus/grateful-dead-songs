@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Dec, 1984",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"16:30", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:45", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:12", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Sugar Magnolia", "length":"5:54", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"12:13", "trans":">"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"7:57", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Gimme Some Lovin'", "length":"5:00", "trans":">"},
 			{"name": "Uncle John's Band", "length":"7:36", "trans":">"},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of Apr, 1984",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"4:10", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:48", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:05", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"12:51", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"10:56", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:42", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"4:59", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Dec, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"4:25", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"8:21", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:11", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"8:20", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"9:22", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "All Along The Watchtower", "length":"6:06", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:45", "trans":"/"},
 		]},

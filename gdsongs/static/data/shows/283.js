@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of Sep, 1985",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:24", "trans":"/"},
 			{"name": "C.C. Rider", "length":"8:07", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:46", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"9:13", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"10:00", "trans":"/"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:29", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"0:00", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of May, 1978",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"11:11", "trans":"/"},
 			{"name": "Cassidy", "length":"5:25", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"17:16", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"10:01", "trans":"/"},
 			{"name": "Ship Of Fools", "length":"7:10", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:13", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:10", "trans":"/"},
 		]},

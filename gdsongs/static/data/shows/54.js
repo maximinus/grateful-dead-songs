@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of Aug, 1976",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Sugaree", "length":"11:33", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"4:35", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Scarlet Begonias", "length":"14:53", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"6:54", "trans":">"},
 			{"name": "Slipknot!", "length":"9:53", "trans":">"},
@@ -40,7 +40,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"11:39", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:21", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Jul, 1982",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"0:00", "trans":"/"},
 			{"name": "Beat It On Down The Line", "length":"3:04", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"7:18", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Man Smart, Woman Smarter", "length":"7:39", "trans":"/"},
 			{"name": "Althea", "length":"7:33", "trans":"/"},
@@ -39,7 +39,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:49", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"6:44", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "16th of Apr, 1978",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:35", "trans":"/"},
 			{"name": "Dire Wolf", "length":"3:51", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Fire On The Mountain", "length":"9:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:05", "trans":"/"},
 			{"name": "Ship Of Fools", "length":"7:40", "trans":"/"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:50", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:07", "trans":"/"},
 		]},

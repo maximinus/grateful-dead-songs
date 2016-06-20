@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of Dec, 1989",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"3:46", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"7:54", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Blow Away", "length":"11:41", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"4:13", "trans":">"},
 			{"name": "Slipknot!", "length":"6:38", "trans":">"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"7:43", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:39", "trans":"/"},
 		]},

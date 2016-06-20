@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Apr, 1984",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:41", "trans":"/"},
 			{"name": "Friend Of The Devil", "length":"8:22", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:09", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:48", "trans":">"},
 			{"name": "Slipknot!", "length":"5:01", "trans":">"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"8:25", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:27", "trans":"/"},
 		]},

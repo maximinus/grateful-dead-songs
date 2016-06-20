@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of Feb, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:17", "trans":"/"},
 			{"name": "Sugaree", "length":"10:28", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Loser", "length":"6:45", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"6:01", "trans":"/"},
 			{"name": "Looks Like Rain", "length":"8:23", "trans":"/"},

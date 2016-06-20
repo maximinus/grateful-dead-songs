@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "29th of Apr, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"4:43", "trans":">"},
 			{"name": "Slipknot!", "length":"8:39", "trans":">"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:05", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:53", "trans":"/"},
 			{"name": "Sugaree", "length":"13:57", "trans":">"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:23", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"8:25", "trans":"/"},
 		]},

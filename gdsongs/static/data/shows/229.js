@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Aug, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"5:58", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"7:53", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "In The Midnight Hour", "length":"5:49", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"5:57", "trans":"/"},
 			{"name": "When Push Comes To Shove", "length":"4:43", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:32", "trans":">"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:11", "trans":"/"},
 		]},

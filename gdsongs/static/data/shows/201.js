@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "11th of Sep, 1983",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"5:05", "trans":">"},
 			{"name": "Greatest Story Ever Told", "length":"4:08", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:23", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:51", "trans":">"},
 			{"name": "Slipknot!", "length":"7:03", "trans":">"},
@@ -38,7 +38,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"10:12", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"4:59", "trans":"/"},
 		]},

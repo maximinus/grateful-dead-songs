@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "2nd of Apr, 1989",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"5:55", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"8:37", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:49", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"11:41", "trans":"/"},
 			{"name": "Man Smart, Woman Smarter", "length":"8:20", "trans":">"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:19", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"6:29", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Apr, 1986",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Gimme Some Lovin'", "length":"4:47", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"7:54", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"6:55", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"12:45", "trans":"/"},
 			{"name": "Estimated Prophet", "length":"10:04", "trans":">"},
@@ -30,7 +30,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"7:40", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Box Of Rain", "length":"4:48", "trans":"/"},
 		]},

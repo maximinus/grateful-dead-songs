@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "23rd of Jun, 1974",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Ramble On Rose", "length":"5:57", "trans":"/"},
 			{"name": "Black-Throated Wind", "length":"6:45", "trans":"/"},
@@ -24,7 +24,7 @@ var SHOW_DATA = {
 			{"name": "China Doll", "length":"5:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Prelude", "length":"4:05", "trans":">"},
 			{"name": "Ship Of Fools", "length":"5:57", "trans":"/"},
@@ -39,7 +39,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:41", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"6:16", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of Mar, 1985",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"8:13", "trans":"/"},
 			{"name": "Peggy-O", "length":"6:26", "trans":"/"},
@@ -16,7 +16,7 @@ var SHOW_DATA = {
 			{"name": "Big Railroad Blues", "length":"5:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:58", "trans":"/"},
 			{"name": "Terrapin Station", "length":"12:20", "trans":">"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:58", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"4:21", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of Jul, 1984",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:13", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"3:50", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:25", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"11:51", "trans":">"},
 			{"name": "Touch Of Grey", "length":"6:30", "trans":">"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:57", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Dark Star", "length":"15:50", "trans":"/"},
 		]},

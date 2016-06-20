@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Aug, 1991",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:54", "trans":"/"},
 			{"name": "Jack-A-Roe", "length":"5:02", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:42", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Deal", "length":"8:47", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"8:39", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"7:37", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:37", "trans":"/"},
 		]},

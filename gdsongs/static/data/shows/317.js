@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Sep, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:14", "trans":"/"},
 			{"name": "Sugaree", "length":"10:32", "trans":"/"},
@@ -16,7 +16,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"9:57", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"11:56", "trans":"/"},
 			{"name": "Man Smart, Woman Smarter", "length":"6:58", "trans":"/"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"2:33", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"8:12", "trans":"/"},
 		]},

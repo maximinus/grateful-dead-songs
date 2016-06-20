@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of Jul, 1989",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:37", "trans":"/"},
 			{"name": "Cold Rain & Snow", "length":"6:22", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:23", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "He's Gone", "length":"10:06", "trans":"/"},
 			{"name": "Looks Like Rain", "length":"9:08", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:46", "trans":"/"},
 		]},

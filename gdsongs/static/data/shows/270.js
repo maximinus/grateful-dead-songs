@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "25th of Jun, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:58", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"7:50", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"7:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Victim Or The Crime", "length":"6:21", "trans":"/"},
 			{"name": "Blow Away", "length":"6:48", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"6:21", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"8:37", "trans":"/"},
 		]},

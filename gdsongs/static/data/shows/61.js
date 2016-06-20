@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "16th of Apr, 1984",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"12:12", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"8:25", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:12", "trans":"/"},
 			{"name": "Ship Of Fools", "length":"7:29", "trans":"/"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:53", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"4:14", "trans":"/"},
 		]},

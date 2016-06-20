@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "16th of Jun, 1974",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"5:12", "trans":"/"},
 			{"name": "Mexicali Blues", "length":"3:14", "trans":"/"},
@@ -25,7 +25,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"4:14", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:20", "trans":"/"},
 			{"name": "The Race Is On", "length":"2:52", "trans":"/"},
@@ -44,7 +44,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"1:41", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Tennessee Jed", "length":"7:55", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"2:48", "trans":"/"},
@@ -61,7 +61,7 @@ var SHOW_DATA = {
 			{"name": "And We Bid You Good Night Coda", "length":"1:10", "trans":"/"},
 		]},
 		{"set_title": "4th set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"6:58", "trans":"/"},
 		]},

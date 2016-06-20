@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "2nd of Sep, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:00", "trans":"/"},
 			{"name": "They Love Each Other", "length":"6:42", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:18", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"8:23", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"10:24", "trans":"/"},
@@ -31,7 +31,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:27", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"6:34", "trans":"/"},
 		]},

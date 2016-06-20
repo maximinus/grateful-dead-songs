@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of Aug, 1971",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Big Railroad Blues", "length":"3:12", "trans":"/"},
 			{"name": "El Paso", "length":"5:08", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "Casey Jones", "length":"5:30", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"5:39", "trans":">"},
 			{"name": "Truckin' Jam", "length":"2:21", "trans":">"},

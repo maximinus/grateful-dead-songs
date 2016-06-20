@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Might As Well", "length":"5:43", "trans":"/"},
 			{"name": "El Paso", "length":"4:28", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "Samson & Delilah", "length":"6:28", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Dancing In The Street", "length":"11:45", "trans":">"},
 			{"name": "Brown-Eyed Women", "length":"4:56", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"3:11", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:51", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of Jul, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:05", "trans":"/"},
 			{"name": "Sugaree", "length":"8:40", "trans":"/"},
@@ -16,7 +16,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"11:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:19", "trans":"/"},
 			{"name": "Hey Pocky Way", "length":"6:04", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Hey Jude Finale", "length":"2:35", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Not Fade Away", "length":"7:06", "trans":"/"},
 		]},

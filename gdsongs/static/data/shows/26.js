@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "21st of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"8:05", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:07", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:38", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hey Pocky Way", "length":"6:32", "trans":"/"},
 			{"name": "Crazy Fingers", "length":"7:37", "trans":">"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"6:06", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"6:56", "trans":"/"},
 		]},

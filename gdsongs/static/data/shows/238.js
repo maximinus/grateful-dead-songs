@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of Mar, 1985",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"6:34", "trans":"/"},
 			{"name": "Althea", "length":"7:55", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:06", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Music Never Stopped", "length":"8:12", "trans":">"},
 			{"name": "Franklin's Tower", "length":"11:11", "trans":"/"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:31", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:15", "trans":"/"},
 		]},

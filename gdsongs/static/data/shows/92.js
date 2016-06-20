@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "25th of Feb, 1990",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:21", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"4:05", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:23", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:34", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:16", "trans":">"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:41", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"8:52", "trans":"/"},
 		]},

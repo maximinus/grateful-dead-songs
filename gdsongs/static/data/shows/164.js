@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "24th of Oct, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:08", "trans":"/"},
 			{"name": "Loser", "length":"6:48", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Saint Of Circumstance", "length":"5:40", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"9:48", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"12:50", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:09", "trans":"/"},
 		]},

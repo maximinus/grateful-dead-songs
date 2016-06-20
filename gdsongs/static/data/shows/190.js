@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of May, 1974",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:31", "trans":"/"},
 			{"name": "Mexicali Blues", "length":"3:22", "trans":"/"},
@@ -28,7 +28,7 @@ var SHOW_DATA = {
 			{"name": "I Know You Rider", "length":"5:17", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"3:17", "trans":">"},
 			{"name": "Bertha", "length":"6:12", "trans":">"},
@@ -54,7 +54,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"5:12", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:20", "trans":"/"},
 		]},

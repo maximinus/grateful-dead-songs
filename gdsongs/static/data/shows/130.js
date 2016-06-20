@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Nov, 1985",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:10", "trans":"/"},
 			{"name": "Sugaree", "length":"10:06", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:48", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:06", "trans":"/"},
 			{"name": "Estimated Prophet", "length":"10:20", "trans":">"},
@@ -29,7 +29,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"4:39", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:09", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Dec, 1985",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Gimme Some Lovin'", "length":"4:20", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"4:18", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:05", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"6:45", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"6:40", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"6:45", "trans":"/"},
 		]},

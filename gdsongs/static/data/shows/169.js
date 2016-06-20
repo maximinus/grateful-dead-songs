@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of Oct, 1984",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"6:44", "trans":"/"},
 			{"name": "Promised Land", "length":"4:04", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:50", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:19", "trans":">"},
 			{"name": "Slipknot!", "length":"8:14", "trans":">"},
@@ -38,7 +38,7 @@ var SHOW_DATA = {
 			{"name": "Goin' Down The Road Feeling Bad", "length":"6:27", "trans":">"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:12", "trans":"/"},
 		]},

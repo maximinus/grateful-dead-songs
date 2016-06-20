@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "6th of Apr, 1982",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:57", "trans":"/"},
 			{"name": "Promised Land", "length":"4:28", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"12:56", "trans":">"},
 			{"name": "Lost Sailor", "length":"6:24", "trans":">"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:36", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"7:17", "trans":"/"},
 		]},

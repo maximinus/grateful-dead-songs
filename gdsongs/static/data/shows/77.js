@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of Apr, 1983",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"6:20", "trans":"/"},
 			{"name": "They Love Each Other", "length":"8:02", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:25", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"14:27", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:26", "trans":"/"},
@@ -37,7 +37,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"8:40", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:05", "trans":"/"},
 		]},

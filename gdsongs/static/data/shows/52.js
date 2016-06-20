@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Jun, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"10:20", "trans":"/"},
 			{"name": "Jack Straw", "length":"5:29", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:24", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:34", "trans":"/"},
 			{"name": "Funiculì, Funiculà", "length":"1:57", "trans":"/"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:35", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:25", "trans":"/"},
 			{"name": "One More Saturday Night", "length":"5:01", "trans":"/"},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "21st of Feb, 1995",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Salt Lake City", "length":"4:32", "trans":"/"},
 			{"name": "Friend Of The Devil", "length":"7:32", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"8:50", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"10:23", "trans":"/"},
 			{"name": "Samba In The Rain", "length":"6:54", "trans":"/"},
@@ -33,7 +33,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:21", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Liberty", "length":"6:51", "trans":"/"},
 		]},

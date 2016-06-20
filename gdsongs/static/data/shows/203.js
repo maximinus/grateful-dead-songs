@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "16th of Feb, 1982",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"9:40", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"3:46", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:07", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:24", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:35", "trans":">"},
@@ -43,7 +43,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:15", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"3:07", "trans":"/"},
 		]},

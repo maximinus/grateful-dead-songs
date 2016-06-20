@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Oct, 1991",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Picasso Moon", "length":"0:00", "trans":"/"},
 			{"name": "Friend Of The Devil", "length":"0:00", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"14:09", "trans":">"},
 			{"name": "Estimated Prophet", "length":"9:54", "trans":">"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:45", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"0:00", "trans":"/"},
 		]},

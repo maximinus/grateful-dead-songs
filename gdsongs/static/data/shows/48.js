@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Music Never Stopped", "length":"6:52", "trans":"/"},
 			{"name": "Sugaree", "length":"14:51", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "Bertha", "length":"7:09", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:02", "trans":"/"},
 			{"name": "High Time", "length":"7:32", "trans":"/"},
@@ -38,7 +38,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"6:45", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"7:40", "trans":"/"},
 		]},

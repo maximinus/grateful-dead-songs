@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "11th of Dec, 1988",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"5:42", "trans":"/"},
 			{"name": "Jack Straw", "length":"5:37", "trans":"/"},
@@ -16,7 +16,7 @@ var SHOW_DATA = {
 			{"name": "Hell In A Bucket", "length":"5:56", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Box Of Rain", "length":"5:10", "trans":"/"},
 			{"name": "Victim Or The Crime", "length":"6:05", "trans":"/"},
@@ -31,7 +31,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:55", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:31", "trans":"/"},
 		]},

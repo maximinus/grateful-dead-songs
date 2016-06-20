@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of Apr, 1982",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"5:34", "trans":">"},
 			{"name": "Greatest Story Ever Told", "length":"3:59", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"13:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"14:15", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:05", "trans":"/"},
@@ -38,7 +38,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:36", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:17", "trans":"/"},
 		]},

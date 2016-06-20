@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Dec, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:15", "trans":"/"},
 			{"name": "C.C. Rider", "length":"5:53", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:03", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"9:56", "trans":">"},
 			{"name": "Estimated Prophet", "length":"12:40", "trans":">"},
@@ -41,7 +41,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:12", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"13:52", "trans":">"},
 			{"name": "Uncle John's Band", "length":"2:23", "trans":"/"},

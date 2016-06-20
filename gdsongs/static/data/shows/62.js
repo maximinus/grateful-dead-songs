@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of Jun, 1974",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"3:07", "trans":"/"},
 			{"name": "Brown-Eyed Women", "length":"4:28", "trans":"/"},
@@ -24,7 +24,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"4:57", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:29", "trans":"/"},
 			{"name": "Big River", "length":"5:05", "trans":"/"},
@@ -41,7 +41,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:48", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"5:47", "trans":">"},
 			{"name": "One More Saturday Night", "length":"4:46", "trans":"/"},

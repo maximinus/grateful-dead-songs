@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of Nov, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:10", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:53", "trans":">"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"8:50", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Althea", "length":"12:13", "trans":"/"},
 			{"name": "Easy To Love You", "length":"3:27", "trans":"/"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:44", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"5:48", "trans":"/"},
 		]},

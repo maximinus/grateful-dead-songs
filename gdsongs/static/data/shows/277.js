@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Jun, 1976",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:38", "trans":"/"},
 			{"name": "Cassidy", "length":"4:30", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"3:14", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "St. Stephen", "length":"0:00", "trans":">"},
 			{"name": "Improv", "length":"6:07", "trans":">"},
@@ -41,7 +41,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"6:27", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Franklin's Tower", "length":"9:23", "trans":"/"},
 		]},

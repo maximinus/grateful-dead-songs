@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "13th of Oct, 1994",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:39", "trans":"/"},
 			{"name": "Wang Dang Doodle", "length":"6:16", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"10:38", "trans":"/"},
 			{"name": "Playing In The Band", "length":"2:48", "trans":">"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:41", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"7:02", "trans":"/"},
 		]},

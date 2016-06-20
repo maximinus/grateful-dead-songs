@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Mar, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"7:00", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"8:22", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"5:49", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"8:42", "trans":">"},
@@ -38,7 +38,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:29", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"3:12", "trans":"/"},
 		]},

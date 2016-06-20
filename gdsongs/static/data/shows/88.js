@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "2nd of Mar, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"4:46", "trans":"/"},
 			{"name": "Althea", "length":"7:48", "trans":"/"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Feel Like A Stranger", "length":"9:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:30", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:15", "trans":">"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"9:46", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:01", "trans":"/"},
 		]},

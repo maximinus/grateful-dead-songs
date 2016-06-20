@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Oct, 1971",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"5:49", "trans":"/"},
 			{"name": "Playing In The Band", "length":"3:16", "trans":">"},
@@ -28,7 +28,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:22", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Ramble On Rose", "length":"6:19", "trans":"/"},
 			{"name": "Sugar Magnolia", "length":"5:56", "trans":"/"},

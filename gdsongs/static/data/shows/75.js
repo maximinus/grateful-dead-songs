@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of May, 1978",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:43", "trans":"/"},
 			{"name": "They Love Each Other", "length":"6:52", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:37", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"7:47", "trans":"/"},
 			{"name": "Good Lovin'", "length":"6:05", "trans":"/"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:18", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:21", "trans":"/"},
 		]},

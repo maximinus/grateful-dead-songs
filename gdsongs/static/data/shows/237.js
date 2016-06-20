@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Oct, 1977",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:21", "trans":"/"},
 			{"name": "They Love Each Other", "length":"6:51", "trans":"/"},
@@ -21,7 +21,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:53", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:09", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:11", "trans":"/"},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Dec, 1989",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"4:25", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"8:30", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:41", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"9:07", "trans":">"},
 			{"name": "Looks Like Rain", "length":"8:44", "trans":"/"},
@@ -31,7 +31,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:43", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:17", "trans":"/"},
 		]},

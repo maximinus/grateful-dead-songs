@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "15th of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:23", "trans":"/"},
 			{"name": "Sugaree", "length":"10:12", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:22", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:36", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:33", "trans":">"},
@@ -36,7 +36,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"5:32", "trans":"/"},
 		]},
 		{"set_title": "Encore",
-		{"encore": true,
+		 "encore": true,
 		 "songs": [
 			{"name": "Revolution", "length":"4:53", "trans":"/"},
 		]},

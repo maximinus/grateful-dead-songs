@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Jan, 1979",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:37", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"5:47", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "Supplication", "length":"6:43", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "I Need A Miracle", "length":"8:05", "trans":">"},
 			{"name": "Bertha", "length":"6:54", "trans":">"},

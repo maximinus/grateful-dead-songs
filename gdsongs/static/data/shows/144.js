@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "16th of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"3:53", "trans":"/"},
 			{"name": "Touch Of Grey", "length":"6:17", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Blow Away", "length":"11:46", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"11:08", "trans":">"},
 			{"name": "Estimated Prophet", "length":"9:07", "trans":">"},
@@ -34,7 +34,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:11", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "The Last Time", "length":"5:04", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Jun, 1987",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:07", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"7:15", "trans":"/"},
@@ -16,7 +16,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"9:14", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Space", "length":"1:32", "trans":">"},
 			{"name": "Iko Iko", "length":"6:48", "trans":"/"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"7:57", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:35", "trans":"/"},
 		]},

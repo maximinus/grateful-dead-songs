@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "24th of Jan, 1993",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:24", "trans":"/"},
 			{"name": "Sugaree", "length":"10:50", "trans":"/"},
@@ -16,7 +16,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"14:41", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Playing In The Band", "length":"2:48", "trans":">"},
 			{"name": "PITB Jam", "length":"5:06", "trans":">"},
@@ -31,7 +31,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:10", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"6:25", "trans":"/"},
 		]},

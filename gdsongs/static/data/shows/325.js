@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Feb, 1986",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"8:37", "trans":"/"},
 			{"name": "Cold Rain & Snow", "length":"6:36", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:15", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Keep On Growing", "length":"4:35", "trans":"/"},
 			{"name": "Lost Sailor", "length":"7:13", "trans":">"},
@@ -32,7 +32,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:26", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"4:55", "trans":"/"},
 		]},

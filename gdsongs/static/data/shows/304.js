@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of Nov, 1973",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:01", "trans":"/"},
 			{"name": "Jack Straw", "length":"4:40", "trans":"/"},
@@ -24,7 +24,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"10:04", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Playing In The Band", "length":"2:49", "trans":">"},
 			{"name": "PITB Jam", "length":"9:25", "trans":">"},
@@ -42,7 +42,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:23", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:58", "trans":"/"},
 			{"name": "Casey Jones", "length":"6:50", "trans":"/"},

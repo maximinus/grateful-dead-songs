@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Sep, 1976",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:09", "trans":"/"},
 			{"name": "Big River", "length":"5:37", "trans":"/"},
@@ -22,7 +22,7 @@ var SHOW_DATA = {
 			{"name": "And We Bid You Good Night Coda", "length":"2:11", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Playing In The Band", "length":"2:50", "trans":">"},
 			{"name": "PITB Jam", "length":"7:52", "trans":">"},
@@ -40,7 +40,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:42", "trans":">"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:27", "trans":"/"},
 		]},

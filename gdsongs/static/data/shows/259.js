@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "6th of Apr, 1984",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:30", "trans":">"},
 			{"name": "Greatest Story Ever Told", "length":"3:45", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:18", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:21", "trans":">"},
 			{"name": "Weir's Segue", "length":"3:38", "trans":">"},
@@ -38,7 +38,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"11:15", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"4:57", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Oct, 1983",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:17", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"3:34", "trans":"/"},
@@ -19,7 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:47", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:33", "trans":">"},
 			{"name": "Slipknot!", "length":"5:47", "trans":">"},
@@ -38,7 +38,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"8:27", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"4:26", "trans":"/"},
 		]},

@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Feb, 1973",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"2:58", "trans":"/"},
 			{"name": "Deal", "length":"0:00", "trans":"/"},
@@ -29,7 +29,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:12", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "They Love Each Other", "length":"5:18", "trans":"/"},
 			{"name": "Big River", "length":"4:13", "trans":"/"},

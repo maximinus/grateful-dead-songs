@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of Jul, 1989",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"3:46", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"6:43", "trans":"/"},
@@ -20,7 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"8:45", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:38", "trans":">"},
 			{"name": "Weir's Segue", "length":"3:05", "trans":">"},
@@ -39,7 +39,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"9:36", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "And We Bid You Good Night", "length":"2:40", "trans":"/"},
 			{"name": "Johnny B. Goode", "length":"3:54", "trans":"/"},

@@ -25,7 +25,7 @@ def writeJSfile(show):
 			encore = 'true'
 		else:
 			encore = 'false'
-		js_file.write(u'\t\t{{"encore": {0},\n'.format(encore));
+		js_file.write(u'\t\t "encore": {0},\n'.format(encore));
 		# now we have the sets, run through all the songs
 		js_file.write(u'\t\t "songs": [\n')
 		for j in PlayedSong.objects.filter(played_set=i).order_by('order'):

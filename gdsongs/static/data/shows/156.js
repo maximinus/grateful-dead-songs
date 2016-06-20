@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of Jul, 1995",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:38", "trans":"/"},
 			{"name": "Sugaree", "length":"11:06", "trans":"/"},
@@ -18,7 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:04", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:31", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:48", "trans":">"},
@@ -35,7 +35,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:56", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:12", "trans":"/"},
 		]},

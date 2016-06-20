@@ -6,7 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Feb, 1969",
 	"sets": [
 		{"set_title": "1st set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Dupree's Diamond Blues", "length":"3:57", "trans":">"},
 			{"name": "Mountains Of The Moon", "length":"5:22", "trans":">"},
@@ -17,7 +17,7 @@ var SHOW_DATA = {
 			{"name": "Death Don't Have No Mercy", "length":"6:40", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
-		{"encore": false,
+		 "encore": false,
 		 "songs": [
 			{"name": "Doin' That Rag", "length":"6:49", "trans":"/"},
 			{"name": "St. Stephen", "length":"5:54", "trans":">"},
