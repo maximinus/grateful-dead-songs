@@ -58,6 +58,25 @@
 			{{/each}}
 		</div>
 	</script>
+
+	<!-- Dialog for delete / edit option -->
+	<script id="dialog-template" type="text/x-handlebars-template">
+		<div id="overlay"></div>
+		<div id="dialog">
+			<div id="dialog-header">
+				{{title}}
+			</div>
+    		<div id="dialog-content">
+    			<p>Do you with to edit or delete this show?</p>
+    			<p>Choosing delete will delete the entire show.</p>
+    		</div>
+    		<div id="dialog-buttons">
+    			<button id="dialog-close">Cancel</button>
+    			<button id="dialog-delete">Delete</button>
+    			<button id="dialog-edit">Edit Show</button>
+    		</div>
+		</div>
+	</script>
 	{% endverbatim %}
 	<script src="{% static "js/handlebars.js" %}"></script>
 	<script src="{% static "js/choose_year.js" %}"></script>
