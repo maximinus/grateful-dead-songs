@@ -42,7 +42,8 @@
 		{{#each sets}}
 		<div class="set">
 			<div class="set-header">
-				{{set_title}}
+				<span class="set-title">{{set_title}}</span>
+				<button class="set-delete-button">Delete Set</button>
 			</div>
 			<ul class="set-body sortable">
 			{{#each songs}}
@@ -53,7 +54,7 @@
 				<div class="encore">
 					<input type="checkbox" class="encore-check" {{#if encore}}checked{{/if}}>Encore
 				</div>
-				<button class="add-song">Add Song</button>
+				<button class="add-song">Add another song</button>
 			</div>
 		</div>
 		{{/each}}
@@ -82,11 +83,28 @@
 				</div>
     		</div>
     		<div id="dialog-buttons">
-    			<button id="dialog-delete">Delete</button>
+				<button id="dialog-delete">Delete</button>
     			{{#unless create}}
-    				<button id="dialog-close">Cancel</button>
+				<button id="dialog-close">Cancel</button>
     			{{/unless}}
-    			<button id="dialog-save">Save</button>
+				<button id="dialog-save">Save</button>
+    		</div>
+		</div>
+	</script>
+
+	<!-- Confirm something -->
+	<script id="dialog-confirm" type="text/x-handlebars-template">
+		<div id="overlay"></div>
+		<div id="dialog">
+			<div id="dialog-header">
+				{{title}}
+			</div>
+    		<div id="dialog-content">
+    			{{message}}
+    		</div>
+    		<div id="dialog-buttons">
+				<button id="dialog-cancel">Cancel</button>
+				<button id="dialog-ok">OK</button>
     		</div>
 		</div>
 	</script>
