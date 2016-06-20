@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "16th of Oct, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"8:27", "trans":"/"},
 			{"name": "Never Trust A Woman", "length":"7:00", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Box Of Rain", "length":"4:56", "trans":"/"},
 			{"name": "Victim Or The Crime", "length":"5:19", "trans":">"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"10:32", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:33", "trans":"/"},
 		]},

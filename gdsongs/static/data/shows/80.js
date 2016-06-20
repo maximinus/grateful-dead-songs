@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of Feb, 1989",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hey Pocky Way", "length":"5:49", "trans":"/"},
 			{"name": "Jack Straw", "length":"5:45", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"10:34", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"11:39", "trans":"/"},
 			{"name": "Victim Or The Crime", "length":"6:30", "trans":"/"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:19", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"8:09", "trans":"/"},
 		]},

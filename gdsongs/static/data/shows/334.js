@@ -3,9 +3,10 @@
 var SHOW_DATA = {
 	"venue_name": "McNichols Arena, Denver, Colorado",
 	"venue_id": 49,
-	"show_date": "13rd of Jul, 1981",
+	"show_date": "13th of Jul, 1981",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:53", "trans":"/"},
 			{"name": "They Love Each Other", "length":"6:41", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:06", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Man Smart, Woman Smarter", "length":"4:37", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"9:43", "trans":">"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:52", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "(I Can't Get No) Satisfaction", "length":"5:50", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of Oct, 1976",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugaree", "length":"0:00", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"0:00", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:43", "trans":"/"},
 			{"name": "It Must Have Been The Roses", "length":"6:48", "trans":"/"},

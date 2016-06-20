@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:31", "trans":"/"},
 			{"name": "Sugaree", "length":"16:20", "trans":">"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Dancing In The Street", "length":"13:21", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:49", "trans":"/"},
 			{"name": "Ramble On Rose", "length":"8:02", "trans":"/"},

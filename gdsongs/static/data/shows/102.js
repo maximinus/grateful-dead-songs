@@ -3,9 +3,10 @@
 var SHOW_DATA = {
 	"venue_name": "Miami Jai-Alai Fronton, Miami, Florida",
 	"venue_id": 95,
-	"show_date": "12nd of Dec, 1978",
+	"show_date": "12th of Dec, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"8:37", "trans":">"},
 			{"name": "Franklin's Tower", "length":"10:42", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:10", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:40", "trans":">"},
 			{"name": "Good Lovin'", "length":"6:03", "trans":"/"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:32", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:28", "trans":"/"},
 		]},

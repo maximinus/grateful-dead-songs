@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of Dec, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"7:10", "trans":">"},
 			{"name": "Greatest Story Ever Told", "length":"4:09", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Saint Of Circumstance", "length":"6:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"15:29", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"10:28", "trans":"/"},
@@ -37,6 +39,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:20", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:08", "trans":"/"},
 			{"name": "Don't Ease Me In", "length":"3:33", "trans":"/"},

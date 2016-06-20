@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Apr, 1981",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:32", "trans":"/"},
 			{"name": "Peggy-O", "length":"6:44", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "I Know You Rider", "length":"5:51", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"12:12", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"7:59", "trans":"/"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:53", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"5:35", "trans":"/"},
 		]},

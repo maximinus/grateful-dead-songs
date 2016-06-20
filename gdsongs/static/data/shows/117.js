@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "15th of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:29", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:32", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Dancing In The Street", "length":"18:29", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Estimated Prophet", "length":"11:14", "trans":">"},
 			{"name": "Eyes Of The World", "length":"12:48", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:13", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"8:41", "trans":"/"},
 		]},

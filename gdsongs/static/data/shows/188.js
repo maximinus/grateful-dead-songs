@@ -3,9 +3,10 @@
 var SHOW_DATA = {
 	"venue_name": "Berkeley Community Theatre, Berkeley, California",
 	"venue_id": 63,
-	"show_date": "13rd of May, 1983",
+	"show_date": "13th of May, 1983",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:31", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"4:07", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"4:29", "trans":">"},
 			{"name": "Weir's Segue", "length":"4:11", "trans":">"},

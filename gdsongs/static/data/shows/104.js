@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Jun, 1985",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:37", "trans":"/"},
 			{"name": "Promised Land", "length":"4:01", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:14", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Music Never Stopped", "length":"9:33", "trans":"/"},
 			{"name": "Just Like Tom Thumb's Blues", "length":"4:52", "trans":"/"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"7:08", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"4:06", "trans":"/"},
 		]},

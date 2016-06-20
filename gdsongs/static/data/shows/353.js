@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Sep, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:29", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"9:08", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:31", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Victim Or The Crime", "length":"5:53", "trans":"/"},
 			{"name": "Foolish Heart", "length":"11:12", "trans":"/"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"6:54", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:33", "trans":"/"},
 		]},

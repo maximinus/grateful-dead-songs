@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of May, 1981",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:37", "trans":"/"},
 			{"name": "Peggy-O", "length":"6:19", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:01", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"11:42", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"10:41", "trans":"/"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:13", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:05", "trans":"/"},
 		]},

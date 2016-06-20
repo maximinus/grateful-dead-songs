@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of Sep, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:46", "trans":"/"},
 			{"name": "Sugaree", "length":"12:51", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:07", "trans":">"},
 			{"name": "Weir's Segue", "length":"4:11", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:22", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"11:12", "trans":"/"},
 		]},

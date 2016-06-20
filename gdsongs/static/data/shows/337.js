@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of May, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"9:12", "trans":">"},
 			{"name": "Franklin's Tower", "length":"14:06", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Supplication", "length":"6:34", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:05", "trans":"/"},
 			{"name": "Friend Of The Devil", "length":"8:44", "trans":"/"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:57", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Werewolves Of London", "length":"7:06", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of Jul, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"5:06", "trans":"/"},
 			{"name": "Loser", "length":"7:05", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"8:05", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"10:01", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"9:03", "trans":"/"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:40", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Werewolves Of London", "length":"0:00", "trans":"/"},
 		]},

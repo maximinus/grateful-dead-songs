@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Mar, 1991",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:33", "trans":"/"},
 			{"name": "Cold Rain & Snow", "length":"6:46", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"20:16", "trans":">"},
 			{"name": "Foolish Heart", "length":"10:36", "trans":"/"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:30", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Weight", "length":"5:40", "trans":"/"},
 		]},

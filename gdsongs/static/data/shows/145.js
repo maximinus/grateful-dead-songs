@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"12:32", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"9:08", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:24", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"7:58", "trans":"/"},
 			{"name": "Looks Like Rain", "length":"8:13", "trans":"/"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"11:33", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:16", "trans":"/"},
 		]},

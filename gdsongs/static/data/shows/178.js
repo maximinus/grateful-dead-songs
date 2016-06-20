@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of May, 1986",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:58", "trans":"/"},
 			{"name": "The Race Is On", "length":"3:01", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:07", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"9:35", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"9:34", "trans":"/"},

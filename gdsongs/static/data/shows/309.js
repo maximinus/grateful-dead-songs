@@ -3,9 +3,10 @@
 var SHOW_DATA = {
 	"venue_name": "Winterland Arena, San Francisco, California",
 	"venue_id": 6,
-	"show_date": "11st of Nov, 1973",
+	"show_date": "11th of Nov, 1973",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"2:57", "trans":">"},
 			{"name": "Bertha", "length":"6:04", "trans":"/"},
@@ -27,6 +28,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"8:49", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:51", "trans":"/"},
 			{"name": "Big River", "length":"5:22", "trans":"/"},
@@ -45,6 +47,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:50", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"7:04", "trans":"/"},
 			{"name": "Johnny B. Goode", "length":"3:54", "trans":"/"},

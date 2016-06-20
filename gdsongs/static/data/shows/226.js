@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of Sep, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"4:00", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"0:00", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"13:08", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Box Of Rain", "length":"4:54", "trans":"/"},
 			{"name": "Victim Or The Crime", "length":"5:31", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"10:43", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:59", "trans":"/"},
 			{"name": "Ripple", "length":"4:39", "trans":"/"},

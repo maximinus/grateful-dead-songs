@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Nov, 1980",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:21", "trans":"/"},
 			{"name": "Peggy-O", "length":"6:27", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:31", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"0:00", "trans":"/"},
 			{"name": "To Lay Me Down", "length":"0:00", "trans":"/"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"0:00", "trans":"/"},
 		]},

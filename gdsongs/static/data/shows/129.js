@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "25th of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"9:54", "trans":"/"},
 			{"name": "Jack Straw", "length":"5:44", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:17", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"10:17", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:11", "trans":"/"},
@@ -37,6 +39,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:36", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:06", "trans":"/"},
 		]},

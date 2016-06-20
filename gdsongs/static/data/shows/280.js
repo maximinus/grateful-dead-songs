@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of Jun, 1976",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"3:19", "trans":"/"},
 			{"name": "Sugaree", "length":"9:08", "trans":"/"},
@@ -22,6 +23,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"5:35", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:12", "trans":"/"},
 			{"name": "Help On The Way", "length":"4:14", "trans":">"},

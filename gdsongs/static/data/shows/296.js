@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "27th of Feb, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"4:25", "trans":"/"},
 			{"name": "Loser", "length":"6:58", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Scarlet Begonias", "length":"12:48", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:39", "trans":"/"},
 			{"name": "St. Stephen", "length":"8:20", "trans":">"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:13", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:11", "trans":"/"},
 		]},

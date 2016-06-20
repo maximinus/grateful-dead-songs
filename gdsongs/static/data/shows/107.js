@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Nov, 1985",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:28", "trans":"/"},
 			{"name": "Peggy-O", "length":"6:54", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"2:59", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"6:37", "trans":"/"},
 			{"name": "Lost Sailor", "length":"7:03", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:14", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"4:42", "trans":"/"},
 		]},

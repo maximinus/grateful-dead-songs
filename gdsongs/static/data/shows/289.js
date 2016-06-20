@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of Sep, 1991",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"0:00", "trans":"/"},
 			{"name": "Jack Straw", "length":"5:52", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"5:04", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"14:00", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"14:14", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"7:17", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Weight", "length":"0:00", "trans":"/"},
 		]},

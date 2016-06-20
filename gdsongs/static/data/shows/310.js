@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "24th of Aug, 1968",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Good Morning, School Girl", "length":"15:23", "trans":"/"},
 			{"name": "Dark Star", "length":"11:20", "trans":">"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"16:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Morning Dew", "length":"6:46", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Aug, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:12", "trans":"/"},
 			{"name": "Sugaree", "length":"17:15", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"7:46", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "I Need A Miracle", "length":"8:38", "trans":"/"},
 			{"name": "Brown-Eyed Women", "length":"4:59", "trans":"/"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:47", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:49", "trans":"/"},
 		]},

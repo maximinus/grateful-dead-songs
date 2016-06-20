@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of May, 1991",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:45", "trans":">"},
 			{"name": "Slipknot!", "length":"8:15", "trans":">"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:55", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"14:26", "trans":">"},
 			{"name": "Man Smart, Woman Smarter", "length":"7:48", "trans":"/"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"8:41", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"0:00", "trans":"/"},
 		]},

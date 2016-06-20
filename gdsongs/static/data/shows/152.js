@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "2nd of Nov, 1984",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"6:31", "trans":"/"},
 			{"name": "Peggy-O", "length":"7:18", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Iko Iko", "length":"8:23", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:22", "trans":">"},
 			{"name": "Slipknot!", "length":"7:16", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:52", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"5:21", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Mar, 1983",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:17", "trans":"/"},
 			{"name": "Friend Of The Devil", "length":"9:01", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"3:56", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"12:17", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"10:13", "trans":"/"},
@@ -37,6 +39,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"5:10", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:29", "trans":"/"},
 		]},

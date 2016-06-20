@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Mar, 1987",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:08", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"7:04", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:07", "trans":"/"},
 			{"name": "Estimated Prophet", "length":"10:42", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"4:58", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:43", "trans":"/"},
 		]},

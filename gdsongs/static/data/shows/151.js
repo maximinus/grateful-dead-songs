@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Nov, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Might As Well", "length":"5:23", "trans":"/"},
 			{"name": "Jack Straw", "length":"5:28", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Terrapin Station", "length":"10:50", "trans":">"},
 			{"name": "Estimated Prophet", "length":"9:49", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:58", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:27", "trans":"/"},
 		]},

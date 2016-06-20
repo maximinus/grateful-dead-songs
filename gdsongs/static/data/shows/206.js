@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of Jul, 1976",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:07", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"9:04", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:14", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:09", "trans":"/"},
 			{"name": "Comes A Time", "length":"8:01", "trans":">"},
@@ -37,6 +39,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"5:14", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"6:22", "trans":"/"},
 			{"name": "Not Fade Away", "length":"13:55", "trans":"/"},

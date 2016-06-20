@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Jul, 1989",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"0:00", "trans":"/"},
 			{"name": "Jack Straw", "length":"0:00", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"6:37", "trans":">"},
 			{"name": "I Know You Rider", "length":"6:29", "trans":"/"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"0:00", "trans":"/"},
 		]},

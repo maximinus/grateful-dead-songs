@@ -3,9 +3,10 @@
 var SHOW_DATA = {
 	"venue_name": "Fillmore East, New York, New York",
 	"venue_id": 243,
-	"show_date": "11st of Feb, 1969",
+	"show_date": "11th of Feb, 1969",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Good Morning, School Girl", "length":"7:41", "trans":"/"},
 			{"name": "Cryptical", "length":"1:51", "trans":">"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"11:51", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hey Jude", "length":"7:06", "trans":"/"},
 		]},

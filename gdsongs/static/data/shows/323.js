@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of Sep, 1987",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:52", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"7:59", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:54", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"6:00", "trans":"/"},
 			{"name": "Saint Of Circumstance", "length":"6:53", "trans":"/"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"1:41", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"6:51", "trans":"/"},
 		]},

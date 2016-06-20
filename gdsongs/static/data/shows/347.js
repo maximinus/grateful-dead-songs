@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Oct, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugaree", "length":"14:14", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"3:07", "trans":">"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:56", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"7:05", "trans":">"},
 			{"name": "Good Lovin'", "length":"6:56", "trans":"/"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Truckin' Jam", "length":"5:57", "trans":">"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "I Need A Miracle", "length":"5:30", "trans":"/"},
 		]},

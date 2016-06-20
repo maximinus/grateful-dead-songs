@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Jun, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"3:19", "trans":"/"},
 			{"name": "Hell In A Bucket", "length":"6:15", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:30", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"6:52", "trans":"/"},
 			{"name": "Looks Like Rain", "length":"10:30", "trans":"/"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"6:54", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:44", "trans":"/"},
 		]},

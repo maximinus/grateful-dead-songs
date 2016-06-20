@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "2nd of Mar, 1981",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"13:28", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:41", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:25", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Ramble On Rose", "length":"7:47", "trans":"/"},
 			{"name": "Playing In The Band", "length":"2:54", "trans":">"},
@@ -39,6 +41,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:38", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"0:00", "trans":"/"},
 		]},

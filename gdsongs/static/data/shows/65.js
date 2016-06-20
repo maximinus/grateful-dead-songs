@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Feb, 1973",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:43", "trans":"/"},
 			{"name": "Beat It On Down The Line", "length":"3:07", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Jack Straw", "length":"4:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:36", "trans":">"},
 			{"name": "Weir's Segue", "length":"4:07", "trans":">"},
@@ -39,6 +41,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:34", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "And We Bid You Good Night", "length":"2:49", "trans":"/"},
 		]},

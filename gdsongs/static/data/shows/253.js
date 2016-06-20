@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of Sep, 1985",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:24", "trans":"/"},
 			{"name": "They Love Each Other", "length":"7:48", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"2:55", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cryptical", "length":"1:52", "trans":">"},
 			{"name": "Other One", "length":"7:23", "trans":">"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"6:19", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"7:55", "trans":"/"},
 		]},

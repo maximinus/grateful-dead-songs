@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of Oct, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"0:01", "trans":"/"},
 			{"name": "Jack Straw", "length":"0:01", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"0:01", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"0:01", "trans":"/"},
 			{"name": "Sunrise", "length":"0:01", "trans":"/"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:33", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:51", "trans":"/"},
 		]},

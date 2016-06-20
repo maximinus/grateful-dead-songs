@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Mar, 1984",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"4:58", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"7:43", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"14:11", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"13:38", "trans":"/"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"9:15", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"7:19", "trans":"/"},
 		]},

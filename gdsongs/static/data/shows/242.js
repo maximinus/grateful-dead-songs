@@ -3,9 +3,10 @@
 var SHOW_DATA = {
 	"venue_name": "Berkeley Community Theatre, Berkeley, California",
 	"venue_id": 63,
-	"show_date": "11st of Sep, 1981",
+	"show_date": "11th of Sep, 1981",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"6:23", "trans":"/"},
 			{"name": "They Love Each Other", "length":"7:01", "trans":"/"},
@@ -21,6 +22,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:04", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:21", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"13:46", "trans":"/"},
@@ -40,6 +42,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:24", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"3:03", "trans":"/"},
 		]},

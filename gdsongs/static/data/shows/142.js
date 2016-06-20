@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "25th of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Greatest Story Ever Told", "length":"3:55", "trans":"/"},
 			{"name": "Touch Of Grey", "length":"6:18", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:21", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"13:11", "trans":">"},
 			{"name": "Samson & Delilah", "length":"7:45", "trans":"/"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"5:57", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:23", "trans":"/"},
 		]},

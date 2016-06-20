@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Oct, 1984",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Dancing In The Street", "length":"6:29", "trans":"/"},
 			{"name": "Dire Wolf", "length":"3:20", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:06", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"10:13", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"12:32", "trans":"/"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:07", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"4:47", "trans":"/"},
 		]},

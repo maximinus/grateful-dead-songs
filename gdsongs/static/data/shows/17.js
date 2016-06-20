@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of Jun, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:24", "trans":"/"},
 			{"name": "Jack Straw", "length":"5:17", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:04", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"10:00", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"9:03", "trans":">"},
@@ -30,10 +32,12 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:15", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"10:51", "trans":"/"},
 		]},
 		{"set_title": "4th set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:36", "trans":"/"},
 		]},

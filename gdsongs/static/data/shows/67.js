@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of May, 1989",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"6:24", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"7:43", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"11:18", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"9:15", "trans":"/"},
 			{"name": "Victim Or The Crime", "length":"5:42", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"6:43", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"6:23", "trans":"/"},
 		]},

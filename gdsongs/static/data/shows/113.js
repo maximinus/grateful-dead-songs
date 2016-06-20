@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Jun, 1991",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:14", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"4:04", "trans":"/"},
@@ -15,6 +16,7 @@ var SHOW_DATA = {
 			{"name": "Bird Song", "length":"14:05", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Throwing Stones", "length":"6:38", "trans":">"},
 			{"name": "Iko Iko", "length":"9:05", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"8:39", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"4:48", "trans":"/"},
 		]},

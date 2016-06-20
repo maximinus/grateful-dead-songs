@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Nov, 1981",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"6:50", "trans":"/"},
 			{"name": "Bird Song", "length":"9:32", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:16", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Man Smart, Woman Smarter", "length":"5:29", "trans":"/"},
 			{"name": "It Must Have Been The Roses", "length":"5:45", "trans":"/"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:24", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Might As Well", "length":"4:19", "trans":"/"},
 		]},

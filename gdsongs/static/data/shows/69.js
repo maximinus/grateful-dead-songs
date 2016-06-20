@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Jun, 1995",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"9:04", "trans":"/"},
 			{"name": "Good Morning, School Girl", "length":"5:30", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"8:13", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"4:01", "trans":">"},
 			{"name": "Weir's Segue", "length":"3:58", "trans":">"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"6:39", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Lucy In The Sky With Diamonds", "length":"3:55", "trans":"/"},
 		]},

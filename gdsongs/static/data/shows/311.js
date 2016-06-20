@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of May, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:27", "trans":"/"},
 			{"name": "Dire Wolf", "length":"4:05", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Supplication", "length":"5:28", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:58", "trans":">"},
 			{"name": "Good Lovin'", "length":"6:20", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:59", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Werewolves Of London", "length":"7:14", "trans":"/"},
 		]},

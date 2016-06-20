@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Jun, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"0:00", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"0:00", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"0:00", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"0:00", "trans":"/"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"0:00", "trans":"/"},
 		]},

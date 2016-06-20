@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "24th of Feb, 1992",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:51", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"9:57", "trans":"/"},
@@ -15,6 +16,7 @@ var SHOW_DATA = {
 			{"name": "Cassidy", "length":"6:01", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"9:02", "trans":">"},
 			{"name": "Corrina", "length":"8:07", "trans":">"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:51", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:28", "trans":"/"},
 		]},

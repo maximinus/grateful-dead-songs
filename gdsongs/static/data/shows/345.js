@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of Jul, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:25", "trans":"/"},
 			{"name": "Candyman", "length":"6:24", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:56", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:29", "trans":"/"},
 			{"name": "Beat It On Down The Line", "length":"3:08", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:05", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:13", "trans":"/"},
 			{"name": "Johnny B. Goode", "length":"4:04", "trans":"/"},

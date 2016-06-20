@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Nov, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugaree", "length":"10:01", "trans":"/"},
 			{"name": "El Paso", "length":"4:41", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "I Need A Miracle", "length":"5:50", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:42", "trans":">"},
 			{"name": "Good Lovin'", "length":"6:42", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "And We Bid You Good Night Coda", "length":"1:24", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"3:59", "trans":"/"},
 		]},

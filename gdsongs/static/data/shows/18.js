@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Apr, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Music Never Stopped", "length":"6:14", "trans":"/"},
 			{"name": "Bertha", "length":"5:34", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:26", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"8:49", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:27", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:46", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Terrapin Station", "length":"9:40", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:22", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:04", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:05", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"10:22", "trans":">"},
 			{"name": "Looks Like Rain", "length":"8:09", "trans":"/"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:16", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Revolution", "length":"4:43", "trans":"/"},
 		]},

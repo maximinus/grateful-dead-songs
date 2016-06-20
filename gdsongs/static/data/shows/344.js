@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of Oct, 1982",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"7:23", "trans":"/"},
 			{"name": "Sugaree", "length":"10:11", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "I Know You Rider", "length":"6:13", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Playing In The Band", "length":"2:40", "trans":">"},
 			{"name": "PITB Jam", "length":"4:26", "trans":">"},
@@ -41,6 +43,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"10:05", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "(I Can't Get No) Satisfaction", "length":"6:16", "trans":"/"},
 			{"name": "It's All Over Now, Baby Blue", "length":"6:37", "trans":"/"},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Mar, 1981",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:46", "trans":"/"},
 			{"name": "Sugaree", "length":"12:11", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "I Know You Rider", "length":"6:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"5:12", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"4:01", "trans":"/"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:17", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"0:00", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Sep, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:15", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"8:46", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:24", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Not Fade Away", "length":"3:20", "trans":">"},
 			{"name": "Scarlet Begonias", "length":"6:40", "trans":">"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"2:35", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"6:01", "trans":"/"},
 		]},

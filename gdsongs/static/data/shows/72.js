@@ -3,9 +3,10 @@
 var SHOW_DATA = {
 	"venue_name": "The Spectrum, Philadelphia, Pennsylvania",
 	"venue_id": 61,
-	"show_date": "11st of Sep, 1988",
+	"show_date": "11th of Sep, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"6:47", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"7:29", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:34", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"8:59", "trans":"/"},
 			{"name": "Victim Or The Crime", "length":"5:26", "trans":"/"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"8:14", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"6:51", "trans":"/"},
 		]},

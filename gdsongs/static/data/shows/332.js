@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of May, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Franklin's Tower", "length":"10:13", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"5:13", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:51", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:50", "trans":"/"},
 			{"name": "Ship Of Fools", "length":"7:14", "trans":"/"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:56", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Werewolves Of London", "length":"6:25", "trans":"/"},
 		]},

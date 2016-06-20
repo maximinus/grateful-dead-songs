@@ -3,9 +3,10 @@
 var SHOW_DATA = {
 	"venue_name": "Shrine Auditorium, Los Angeles, California",
 	"venue_id": 234,
-	"show_date": "11st of Jan, 1978",
+	"show_date": "11th of Jan, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"5:32", "trans":"/"},
 			{"name": "Dire Wolf", "length":"3:47", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:56", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:45", "trans":"/"},
 			{"name": "Sunrise", "length":"4:06", "trans":"/"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:56", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Passenger", "length":"4:43", "trans":"/"},
 		]},

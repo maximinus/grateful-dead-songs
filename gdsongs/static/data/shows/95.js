@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Oct, 1983",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"6:01", "trans":">"},
 			{"name": "Greatest Story Ever Told", "length":"4:13", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Keep Your Day Job", "length":"5:47", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"14:17", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"15:24", "trans":"/"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:15", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:21", "trans":"/"},
 		]},

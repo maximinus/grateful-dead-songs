@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of May, 1973",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"0:00", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"0:00", "trans":"/"},
@@ -25,6 +26,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"2:55", "trans":"/"},
 			{"name": "Brown-Eyed Women", "length":"4:55", "trans":"/"},
@@ -40,6 +42,7 @@ var SHOW_DATA = {
 			{"name": "Casey Jones", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"5:08", "trans":">"},
 			{"name": "Truckin' Jam", "length":"3:25", "trans":">"},
@@ -58,6 +61,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:44", "trans":"/"},
 		]},
 		{"set_title": "4th set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"0:00", "trans":"/"},
 		]},

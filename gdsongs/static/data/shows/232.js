@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of Dec, 1971",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:39", "trans":"/"},
 			{"name": "Beat It On Down The Line", "length":"3:09", "trans":"/"},
@@ -22,6 +23,7 @@ var SHOW_DATA = {
 			{"name": "Casey Jones", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugar Magnolia", "length":"6:20", "trans":"/"},
 			{"name": "Ramble On Rose", "length":"6:04", "trans":"/"},
@@ -40,6 +42,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"3:19", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:43", "trans":"/"},
 		]},

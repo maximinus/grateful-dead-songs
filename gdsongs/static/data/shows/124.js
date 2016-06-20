@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:43", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:35", "trans":">"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:07", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:01", "trans":"/"},
 			{"name": "Tennessee Jed", "length":"8:50", "trans":"/"},
@@ -37,6 +39,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:50", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:34", "trans":"/"},
 		]},

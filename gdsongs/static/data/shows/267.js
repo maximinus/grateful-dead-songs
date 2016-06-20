@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Mar, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"6:20", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"8:57", "trans":"/"},
@@ -15,6 +16,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"6:43", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "When Push Comes To Shove", "length":"4:31", "trans":"/"},
 			{"name": "Man Smart, Woman Smarter", "length":"7:26", "trans":"/"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"7:33", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Not Fade Away", "length":"0:47", "trans":">"},
 			{"name": "Brokedown Palace", "length":"5:00", "trans":"/"},

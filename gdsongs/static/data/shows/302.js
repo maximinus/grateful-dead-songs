@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "24th of Apr, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:37", "trans":"/"},
 			{"name": "Ramble On Rose", "length":"7:16", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"8:31", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"12:41", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:07", "trans":">"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:26", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Werewolves Of London", "length":"7:25", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Oct, 1973",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"3:01", "trans":"/"},
 			{"name": "Sugaree", "length":"7:43", "trans":"/"},
@@ -22,6 +23,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:22", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:26", "trans":">"},
 			{"name": "Weir's Segue", "length":"3:49", "trans":">"},
@@ -41,12 +43,14 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"7:30", "trans":">"},
 			{"name": "Untitled Post-Eyes Jam", "length":"7:00", "trans":">"},
 			{"name": "Stella Blue", "length":"7:40", "trans":"/"},
 		]},
 		{"set_title": "4th set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"3:49", "trans":"/"},
 		]},

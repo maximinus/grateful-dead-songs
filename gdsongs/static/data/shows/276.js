@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "15th of Oct, 1976",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Might As Well", "length":"6:08", "trans":"/"},
 			{"name": "Mama Tried", "length":"2:34", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:05", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"10:23", "trans":">"},
 			{"name": "The Music Never Stopped", "length":"6:05", "trans":"/"},

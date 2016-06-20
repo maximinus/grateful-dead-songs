@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Oct, 1976",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"3:52", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"9:11", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Sugaree", "length":"11:24", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "St. Stephen", "length":"4:32", "trans":">"},
 			{"name": "Not Fade Away", "length":"11:55", "trans":">"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:40", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:58", "trans":"/"},
 		]},

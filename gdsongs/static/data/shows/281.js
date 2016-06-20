@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "23rd of Mar, 1987",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"5:56", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"7:26", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:09", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Box Of Rain", "length":"4:46", "trans":"/"},
 			{"name": "Man Smart, Woman Smarter", "length":"7:02", "trans":"/"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"4:43", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"4:54", "trans":"/"},
 		]},

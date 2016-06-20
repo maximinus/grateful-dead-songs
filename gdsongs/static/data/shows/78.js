@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of Feb, 1989",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:12", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"7:33", "trans":">"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:34", "trans":"/"},
 			{"name": "Man Smart, Woman Smarter", "length":"7:58", "trans":"/"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"11:42", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"3:48", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of Nov, 1967",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Viola Lee Blues", "length":"14:16", "trans":"/"},
 			{"name": "It Hurts Me Too", "length":"3:53", "trans":"/"},

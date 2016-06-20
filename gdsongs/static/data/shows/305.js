@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "15th of Jan, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"6:44", "trans":"/"},
 			{"name": "Jack-A-Roe", "length":"5:34", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"7:04", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "I Need A Miracle", "length":"6:50", "trans":">"},
 			{"name": "Shakedown Street", "length":"11:49", "trans":"/"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Casey Jones", "length":"5:48", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:10", "trans":"/"},
 		]},

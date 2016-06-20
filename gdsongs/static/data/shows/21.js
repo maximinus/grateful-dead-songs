@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of Oct, 1989",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"7:30", "trans":"/"},
 			{"name": "Walkin' Blues", "length":"6:55", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:26", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"4:10", "trans":">"},
 			{"name": "Slipknot!", "length":"4:54", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"11:48", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "And We Bid You Good Night", "length":"0:00", "trans":"/"},
 		]},

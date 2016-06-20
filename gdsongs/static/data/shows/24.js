@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "25th of Sep, 1991",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:48", "trans":">"},
 			{"name": "Slipknot!", "length":"5:30", "trans":">"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"8:06", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Victim Or The Crime", "length":"8:25", "trans":">"},
 			{"name": "Crazy Fingers", "length":"9:39", "trans":">"},
@@ -37,6 +39,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"7:30", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:22", "trans":"/"},
 		]},

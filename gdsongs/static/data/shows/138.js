@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of May, 1987",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:20", "trans":"/"},
 			{"name": "Promised Land", "length":"4:43", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:27", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"7:14", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"7:48", "trans":"/"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"9:10", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "NFA Reprise", "length":"0:44", "trans":"/"},
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:20", "trans":"/"},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "21st of Nov, 1973",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Me & My Uncle", "length":"3:01", "trans":"/"},
 			{"name": "Sugaree", "length":"6:58", "trans":"/"},
@@ -24,6 +25,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"8:39", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:35", "trans":">"},
 			{"name": "Playing In The Band", "length":"2:45", "trans":">"},
@@ -49,6 +51,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:40", "trans":"/"},
 		]},
 		{"set_title": "Encore",
+		{"encore": true,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"7:20", "trans":"/"},
 		]},

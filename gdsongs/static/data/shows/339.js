@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Feb, 1982",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:56", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"3:50", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Minglewood Blues", "length":"6:48", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"5:44", "trans":">"},
 			{"name": "Promised Land", "length":"4:10", "trans":"/"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:47", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:10", "trans":"/"},
 		]},

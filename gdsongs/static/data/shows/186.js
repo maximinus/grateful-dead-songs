@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "27th of Oct, 1990",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:09", "trans":"/"},
 			{"name": "Sugaree", "length":"11:15", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"4:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:38", "trans":">"},
 			{"name": "Weir's Segue", "length":"3:00", "trans":">"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"6:58", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"5:09", "trans":"/"},
 		]},

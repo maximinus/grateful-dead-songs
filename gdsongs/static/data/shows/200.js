@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "29th of Jul, 1982",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"7:10", "trans":"/"},
 			{"name": "Friend Of The Devil", "length":"8:24", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:37", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"6:54", "trans":"/"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:57", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:10", "trans":"/"},
 		]},

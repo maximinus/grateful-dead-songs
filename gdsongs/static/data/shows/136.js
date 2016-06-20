@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Jul, 1982",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"7:15", "trans":"/"},
 			{"name": "Friend Of The Devil", "length":"9:09", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"7:14", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:43", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"9:08", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:30", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "(I Can't Get No) Satisfaction", "length":"4:41", "trans":">"},
 			{"name": "Brokedown Palace", "length":"5:18", "trans":"/"},

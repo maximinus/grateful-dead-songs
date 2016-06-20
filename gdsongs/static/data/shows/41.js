@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Dec, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"9:44", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"3:12", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:24", "trans":"/"},
 			{"name": "Ship Of Fools", "length":"6:26", "trans":"/"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:31", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:30", "trans":"/"},
 			{"name": "Good Lovin'", "length":"6:21", "trans":"/"},

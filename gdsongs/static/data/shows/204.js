@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Dec, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"5:55", "trans":"/"},
 			{"name": "Walkin' Blues", "length":"6:52", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Jack Straw", "length":"5:16", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:31", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:45", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"7:45", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"7:05", "trans":"/"},
 		]},

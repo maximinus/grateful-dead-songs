@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "2nd of Oct, 1976",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"0:00", "trans":"/"},
 			{"name": "They Love Each Other", "length":"0:00", "trans":"/"},
@@ -21,6 +22,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"5:54", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Music Never Stopped", "length":"8:12", "trans":"/"},
 			{"name": "Candyman", "length":"6:56", "trans":"/"},

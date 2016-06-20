@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Sep, 1987",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hey Pocky Way", "length":"4:38", "trans":"/"},
 			{"name": "Jack Straw", "length":"6:08", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Devil With The Blue Dress On", "length":"0:59", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:19", "trans":">"},
 			{"name": "Weir's Segue", "length":"1:39", "trans":">"},
@@ -37,6 +39,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"8:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "NFA Jam", "length":"1:02", "trans":"/"},
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"4:13", "trans":"/"},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Feb, 1991",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:26", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"3:38", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "New Speedway Boogie", "length":"9:05", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:44", "trans":">"},
 			{"name": "Weir's Segue", "length":"3:54", "trans":">"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:16", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:09", "trans":"/"},
 		]},

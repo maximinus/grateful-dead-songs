@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "2nd of Apr, 1990",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"8:08", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"7:02", "trans":">"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:06", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"9:05", "trans":">"},
 			{"name": "Looks Like Rain", "length":"8:26", "trans":">"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"6:15", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"6:13", "trans":"/"},
 		]},

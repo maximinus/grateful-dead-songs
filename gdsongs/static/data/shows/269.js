@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of Feb, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:26", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:33", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"10:54", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"12:46", "trans":">"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:12", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:11", "trans":"/"},
 		]},

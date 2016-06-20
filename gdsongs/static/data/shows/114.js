@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Dec, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Music Never Stopped", "length":"7:36", "trans":"/"},
 			{"name": "Tennessee Jed", "length":"8:46", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Supplication", "length":"5:11", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugar Magnolia", "length":"11:02", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"8:51", "trans":">"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:53", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"5:02", "trans":"/"},
 			{"name": "Casey Jones", "length":"7:22", "trans":"/"},

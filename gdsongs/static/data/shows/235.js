@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Jan, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:12", "trans":"/"},
 			{"name": "Dire Wolf", "length":"3:26", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Supplication", "length":"5:20", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:22", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:14", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:53", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"3:55", "trans":"/"},
 		]},

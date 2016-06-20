@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "21st of Oct, 1973",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Here Comes Sunshine", "length":"0:00", "trans":"/"},
 			{"name": "Beat It On Down The Line", "length":"3:02", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"10:16", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Playing In The Band", "length":"2:48", "trans":">"},
 			{"name": "PITB Jam", "length":"7:04", "trans":">"},

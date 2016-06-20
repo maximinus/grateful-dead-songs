@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of Apr, 1986",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:08", "trans":"/"},
 			{"name": "Dire Wolf", "length":"2:45", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Keep Your Day Job", "length":"3:56", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"5:29", "trans":"/"},
 			{"name": "Looks Like Rain", "length":"9:25", "trans":"/"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"4:42", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Box Of Rain", "length":"4:51", "trans":"/"},
 		]},

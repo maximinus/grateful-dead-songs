@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Dec, 1989",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:15", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:30", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:47", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Foolish Heart", "length":"9:12", "trans":"/"},
 			{"name": "Playing In The Band", "length":"2:44", "trans":">"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"6:27", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Knockin' On Heaven's Door", "length":"7:35", "trans":"/"},
 		]},

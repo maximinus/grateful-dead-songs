@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of Nov, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"5:00", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"11:37", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:27", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"14:42", "trans":">"},
 			{"name": "Samson & Delilah", "length":"7:45", "trans":"/"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:55", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:44", "trans":"/"},
 		]},

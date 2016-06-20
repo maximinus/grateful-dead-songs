@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:34", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"7:22", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Crazy Fingers", "length":"7:59", "trans":"/"},
 			{"name": "Playing In The Band", "length":"2:41", "trans":">"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:02", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"5:45", "trans":"/"},
 		]},

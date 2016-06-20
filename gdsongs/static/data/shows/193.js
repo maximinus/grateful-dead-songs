@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:52", "trans":">"},
 			{"name": "Slipknot!", "length":"5:48", "trans":">"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:13", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"6:51", "trans":"/"},
 			{"name": "Playing In The Band", "length":"2:42", "trans":">"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"6:30", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Attics Of My Life", "length":"4:59", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Apr, 1984",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"8:41", "trans":"/"},
 			{"name": "Cold Rain & Snow", "length":"6:50", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"14:50", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"12:12", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"15:25", "trans":"/"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:05", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"4:20", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of May, 1981",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"4:49", "trans":">"},
 			{"name": "Promised Land", "length":"3:57", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"7:09", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"9:37", "trans":"/"},
 			{"name": "Franklin's Tower", "length":"11:17", "trans":"/"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:31", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"0:00", "trans":"/"},
 		]},

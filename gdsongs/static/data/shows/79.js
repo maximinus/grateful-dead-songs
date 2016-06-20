@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"5:38", "trans":">"},
 			{"name": "Slipknot!", "length":"7:04", "trans":">"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:55", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"7:19", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:42", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:35", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"9:05", "trans":"/"},
 		]},

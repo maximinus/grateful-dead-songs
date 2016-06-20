@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Jul, 1973",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:40", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"2:58", "trans":"/"},
@@ -22,6 +23,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"4:46", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Playing In The Band", "length":"0:00", "trans":">"},
 			{"name": "PITB Jam", "length":"0:00", "trans":">"},

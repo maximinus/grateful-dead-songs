@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:19", "trans":"/"},
 			{"name": "Sugaree", "length":"15:02", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"6:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:44", "trans":"/"},
 			{"name": "Estimated Prophet", "length":"8:42", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:14", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:07", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Feb, 1974",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:20", "trans":"/"},
 			{"name": "Beat It On Down The Line", "length":"3:08", "trans":"/"},
@@ -25,6 +26,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Tennessee Jed", "length":"7:49", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"2:58", "trans":"/"},
@@ -40,6 +42,7 @@ var SHOW_DATA = {
 			{"name": "Goin' Down The Road Feeling Bad", "length":"6:04", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:50", "trans":"/"},
 			{"name": "Promised Land", "length":"3:37", "trans":"/"},
@@ -52,6 +55,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:42", "trans":"/"},
 		]},
 		{"set_title": "4th set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"6:26", "trans":"/"},
 		]},

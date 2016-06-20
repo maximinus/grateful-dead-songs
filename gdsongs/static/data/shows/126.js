@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of May, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:38", "trans":"/"},
 			{"name": "They Love Each Other", "length":"7:16", "trans":"/"},
@@ -21,6 +22,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"5:38", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"13:53", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:53", "trans":"/"},
@@ -41,6 +43,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"6:49", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"10:23", "trans":"/"},
 		]},

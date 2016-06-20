@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of Feb, 1982",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"0:00", "trans":"/"},
 			{"name": "Sugaree", "length":"0:00", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Man Smart, Woman Smarter", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"13:00", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"9:09", "trans":"/"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:02", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "(I Can't Get No) Satisfaction", "length":"6:29", "trans":"/"},
 		]},

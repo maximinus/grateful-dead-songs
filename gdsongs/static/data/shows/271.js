@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Dec, 1973",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"3:20", "trans":"/"},
 			{"name": "Sugaree", "length":"7:57", "trans":"/"},
@@ -24,6 +25,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:45", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:28", "trans":">"},
 			{"name": "Me & Bobby McGee", "length":"5:48", "trans":"/"},
@@ -45,6 +47,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"5:34", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"7:13", "trans":"/"},
 		]},

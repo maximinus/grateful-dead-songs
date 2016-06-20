@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "27th of Dec, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"5:28", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:03", "trans":"/"},
@@ -21,6 +22,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"6:52", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:29", "trans":"/"},
 			{"name": "Lazy Lightnin'", "length":"3:29", "trans":">"},
@@ -37,6 +39,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:32", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:51", "trans":"/"},
 		]},

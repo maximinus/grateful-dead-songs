@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of Jan, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"9:26", "trans":">"},
 			{"name": "Franklin's Tower", "length":"9:39", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Supplication", "length":"5:49", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"11:08", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"10:15", "trans":"/"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"6:20", "trans":">"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:21", "trans":"/"},
 		]},

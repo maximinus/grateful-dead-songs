@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "14th of Sep, 1990",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"8:15", "trans":"/"},
 			{"name": "Sugaree", "length":"11:17", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"9:48", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"14:09", "trans":">"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"9:12", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:08", "trans":"/"},
 		]},

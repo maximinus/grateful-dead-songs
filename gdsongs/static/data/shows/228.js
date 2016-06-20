@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of Sep, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Good Times", "length":"4:22", "trans":"/"},
 			{"name": "Shakedown Street", "length":"11:12", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"13:42", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:59", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"3:54", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:53", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Black Muddy River", "length":"6:35", "trans":"/"},
 		]},

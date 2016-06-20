@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Oct, 1974",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"5:32", "trans":"/"},
 			{"name": "Mama Tried", "length":"2:22", "trans":"/"},
@@ -23,6 +24,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"4:59", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Playing In The Band", "length":"2:49", "trans":">"},
 			{"name": "PITB Jam", "length":"10:17", "trans":">"},
@@ -40,6 +42,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:57", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Good Lovin'", "length":"11:49", "trans":"/"},
 			{"name": "It Must Have Been The Roses", "length":"5:31", "trans":"/"},
@@ -51,6 +54,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:29", "trans":"/"},
 		]},
 		{"set_title": "4th set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:30", "trans":">"},
 			{"name": "And We Bid You Good Night", "length":"1:36", "trans":"/"},

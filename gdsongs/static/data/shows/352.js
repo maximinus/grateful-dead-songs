@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Mar, 1995",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"5:03", "trans":"/"},
 			{"name": "Walkin' Blues", "length":"5:22", "trans":"/"},
@@ -15,6 +16,7 @@ var SHOW_DATA = {
 			{"name": "Unbroken Chain", "length":"5:58", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:35", "trans":"/"},
 			{"name": "Way To Go Home", "length":"6:15", "trans":"/"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"7:17", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"4:23", "trans":"/"},
 		]},

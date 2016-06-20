@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of May, 1987",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:07", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"7:38", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:27", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:01", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"9:36", "trans":">"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Turn On Your Love Light", "length":"5:31", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Not Fade Away", "length":"5:22", "trans":"/"},
 			{"name": "Black Muddy River", "length":"6:17", "trans":"/"},

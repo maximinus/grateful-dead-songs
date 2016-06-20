@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "2nd of Nov, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"11:03", "trans":">"},
 			{"name": "Franklin's Tower", "length":"18:26", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"5:33", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "I Need A Miracle", "length":"5:29", "trans":">"},
 			{"name": "Bertha", "length":"6:45", "trans":">"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:10", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"6:12", "trans":"/"},
 		]},

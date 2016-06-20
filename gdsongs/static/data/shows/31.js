@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Feb, 1971",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"5:02", "trans":">"},
 			{"name": "Truckin' Jam", "length":"1:53", "trans":">"},
@@ -22,6 +23,7 @@ var SHOW_DATA = {
 			{"name": "I Know You Rider", "length":"5:12", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Greatest Story Ever Told", "length":"4:21", "trans":"/"},
 			{"name": "Johnny B. Goode", "length":"3:12", "trans":"/"},

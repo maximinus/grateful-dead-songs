@@ -3,9 +3,10 @@
 var SHOW_DATA = {
 	"venue_name": "University of Nevada, Reno, Nevada",
 	"venue_id": 80,
-	"show_date": "12nd of May, 1974",
+	"show_date": "12th of May, 1974",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"3:16", "trans":"/"},
 			{"name": "Sugaree", "length":"7:09", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Beat It On Down The Line", "length":"3:04", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:20", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:52", "trans":">"},
@@ -30,6 +32,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"5:12", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:38", "trans":"/"},
 			{"name": "Truckin'", "length":"4:54", "trans":">"},

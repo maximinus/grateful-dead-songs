@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of May, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"10:47", "trans":">"},
 			{"name": "Franklin's Tower", "length":"12:13", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Passenger", "length":"5:15", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "I Need A Miracle", "length":"4:16", "trans":">"},
 			{"name": "Bertha", "length":"6:17", "trans":">"},

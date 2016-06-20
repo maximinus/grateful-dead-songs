@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Dec, 1984",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:49", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"3:44", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:33", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:15", "trans":">"},
 			{"name": "Weir's Segue", "length":"4:06", "trans":">"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Day Tripper", "length":"3:20", "trans":"/"},
 		]},

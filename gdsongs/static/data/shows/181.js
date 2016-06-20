@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Mar, 1989",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:04", "trans":"/"},
 			{"name": "Sugaree", "length":"8:53", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Standing On The Moon", "length":"7:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hey Pocky Way", "length":"5:49", "trans":"/"},
 			{"name": "Truckin'", "length":"5:09", "trans":">"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"6:58", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:25", "trans":"/"},
 		]},

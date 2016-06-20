@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of Sep, 1972",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"2:54", "trans":"/"},
 			{"name": "Sugaree", "length":"7:06", "trans":"/"},
@@ -25,6 +26,7 @@ var SHOW_DATA = {
 			{"name": "Casey Jones", "length":"5:50", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"5:13", "trans":">"},
 			{"name": "Truckin' Jam", "length":"4:15", "trans":">"},
@@ -53,6 +55,7 @@ var SHOW_DATA = {
 			{"name": "Uncle John's Band", "length":"6:58", "trans":"/"},
 		]},
 		{"set_title": "Encore",
+		{"encore": true,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:38", "trans":"/"},
 		]},

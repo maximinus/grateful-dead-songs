@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of Jun, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"5:33", "trans":"/"},
 			{"name": "Sugaree", "length":"16:24", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Supplication", "length":"5:24", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:36", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:22", "trans":"/"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:36", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"7:31", "trans":"/"},
 		]},

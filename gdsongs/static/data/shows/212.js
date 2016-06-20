@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "15th of Nov, 1971",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"5:07", "trans":">"},
 			{"name": "Truckin' Jam", "length":"2:43", "trans":">"},
@@ -29,6 +30,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Me & My Uncle", "length":"3:02", "trans":"/"},
 			{"name": "Ramble On Rose", "length":"6:08", "trans":"/"},
@@ -45,6 +47,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"3:11", "trans":">"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:03", "trans":"/"},
 		]},

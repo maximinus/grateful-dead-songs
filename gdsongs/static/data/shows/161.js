@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Dec, 1976",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:04", "trans":"/"},
 			{"name": "Bertha", "length":"6:23", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"2:28", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugar Magnolia", "length":"8:24", "trans":"/"},
 			{"name": "Eyes Of The World", "length":"12:26", "trans":">"},
@@ -40,6 +42,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"14:54", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:48", "trans":"/"},
 			{"name": "Uncle John's Band", "length":"8:18", "trans":">"},

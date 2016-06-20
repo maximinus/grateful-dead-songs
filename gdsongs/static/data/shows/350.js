@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of Apr, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:37", "trans":"/"},
 			{"name": "Feel Like A Stranger", "length":"8:07", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"5:36", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugar Magnolia", "length":"5:32", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"8:42", "trans":">"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Sunshine Daydream", "length":"3:25", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Box Of Rain", "length":"5:05", "trans":"/"},
 		]},

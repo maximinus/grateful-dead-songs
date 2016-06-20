@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of Jul, 1989",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"7:10", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"4:05", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"7:38", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:30", "trans":"/"},
 			{"name": "Man Smart, Woman Smarter", "length":"8:37", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"8:04", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:40", "trans":"/"},
 		]},

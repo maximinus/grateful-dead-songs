@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of Jul, 1984",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:15", "trans":"/"},
 			{"name": "Dire Wolf", "length":"3:05", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:40", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:57", "trans":"/"},
 			{"name": "Cold Rain & Snow", "length":"7:51", "trans":"/"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"3:48", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:21", "trans":"/"},
 		]},

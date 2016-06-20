@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "3rd of May, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:15", "trans":"/"},
 			{"name": "Bertha", "length":"7:09", "trans":"/"},
@@ -21,6 +22,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"6:50", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Might As Well", "length":"5:41", "trans":"/"},
 			{"name": "Estimated Prophet", "length":"8:11", "trans":"/"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:34", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"8:59", "trans":"/"},
 		]},

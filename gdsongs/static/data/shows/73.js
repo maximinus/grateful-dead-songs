@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "9th of Feb, 1986",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:11", "trans":"/"},
 			{"name": "They Love Each Other", "length":"7:44", "trans":"/"},
@@ -15,6 +16,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:42", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "The Mighty Quinn (Quinn The Eskimo)", "length":"3:56", "trans":">"},
 			{"name": "Samson & Delilah", "length":"7:36", "trans":"/"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"8:39", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"6:35", "trans":"/"},
 		]},

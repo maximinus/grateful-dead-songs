@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Mar, 1990",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"0:00", "trans":"/"},
 			{"name": "Dupree's Diamond Blues", "length":"0:00", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Blow Away", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Built To Last", "length":"4:42", "trans":"/"},
 			{"name": "Victim Or The Crime", "length":"9:52", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"11:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:20", "trans":"/"},
 		]},

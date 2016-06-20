@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "17th of Oct, 1982",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"8:15", "trans":">"},
 			{"name": "Franklin's Tower", "length":"8:10", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"6:19", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"10:12", "trans":">"},
 			{"name": "Samson & Delilah", "length":"7:17", "trans":"/"},
@@ -39,6 +41,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:38", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Don't Ease Me In", "length":"3:02", "trans":"/"},
 		]},

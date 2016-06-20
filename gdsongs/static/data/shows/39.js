@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "27th of Apr, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:29", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"8:37", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"6:56", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Estimated Prophet", "length":"8:19", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"7:53", "trans":">"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"12:41", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:08", "trans":"/"},
 		]},

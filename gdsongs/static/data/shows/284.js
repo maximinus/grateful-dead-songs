@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "29th of Apr, 1984",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"9:11", "trans":"/"},
 			{"name": "Friend Of The Devil", "length":"8:30", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"12:09", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:24", "trans":">"},
 			{"name": "Weir's Segue", "length":"4:16", "trans":">"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:28", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"4:11", "trans":"/"},
 		]},

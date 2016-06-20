@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "27th of Mar, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Iko Iko", "length":"4:48", "trans":"/"},
 			{"name": "Little Red Rooster", "length":"8:12", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:09", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugar Magnolia", "length":"5:13", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"10:55", "trans":">"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Sunshine Daydream", "length":"3:51", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:25", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Feb, 1992",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"7:00", "trans":"/"},
 			{"name": "Promised Land", "length":"4:39", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:25", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:55", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"7:29", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"7:59", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:14", "trans":"/"},
 		]},

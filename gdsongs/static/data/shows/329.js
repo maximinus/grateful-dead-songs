@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "31st of Aug, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Promised Land", "length":"4:34", "trans":"/"},
 			{"name": "Dire Wolf", "length":"3:31", "trans":"/"},
@@ -21,6 +22,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"5:33", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"13:39", "trans":"/"},
 			{"name": "Greatest Story Ever Told", "length":"4:44", "trans":"/"},

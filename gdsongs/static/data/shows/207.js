@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of Apr, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"10:52", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"3:02", "trans":">"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Supplication", "length":"5:09", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:43", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"11:33", "trans":">"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"10:33", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:59", "trans":"/"},
 		]},

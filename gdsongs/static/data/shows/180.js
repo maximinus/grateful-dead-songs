@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "6th of Nov, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"11:31", "trans":"/"},
 			{"name": "Jack Straw", "length":"5:54", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:46", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"7:38", "trans":"/"},
 			{"name": "Sunrise", "length":"3:54", "trans":"/"},
@@ -38,6 +40,7 @@ var SHOW_DATA = {
 			{"name": "Truckin' Jam", "length":"2:08", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"4:53", "trans":"/"},
 		]},

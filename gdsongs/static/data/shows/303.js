@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Jun, 1974",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Mississippi Half-Step", "length":"7:30", "trans":">"},
 			{"name": "It Must Have Been The Roses", "length":"4:59", "trans":">"},
@@ -21,6 +22,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"5:07", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugar Magnolia", "length":"5:53", "trans":"/"},
 			{"name": "Scarlet Begonias", "length":"8:48", "trans":"/"},
@@ -48,6 +50,7 @@ var SHOW_DATA = {
 			{"name": "Sunshine Daydream", "length":"3:33", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Ship Of Fools", "length":"6:16", "trans":"/"},
 		]},

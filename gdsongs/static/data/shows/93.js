@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "7th of Jan, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"0:00", "trans":"/"},
 			{"name": "Cassidy", "length":"0:00", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Promised Land", "length":"0:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"7:09", "trans":"/"},
 			{"name": "Dancing In The Street", "length":"9:16", "trans":">"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:59", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:52", "trans":">"},
 		]},

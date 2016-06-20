@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "27th of Mar, 1983",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"12:00", "trans":"/"},
 			{"name": "Minglewood Blues", "length":"7:30", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"8:11", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:26", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:33", "trans":">"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"8:14", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"4:57", "trans":"/"},
 		]},

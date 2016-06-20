@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of Apr, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"5:41", "trans":">"},
 			{"name": "Johnny B. Goode", "length":"4:29", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:26", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"6:05", "trans":"/"},
 			{"name": "Looks Like Rain", "length":"10:04", "trans":"/"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Hey Jude Finale", "length":"1:27", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"4:57", "trans":"/"},
 		]},

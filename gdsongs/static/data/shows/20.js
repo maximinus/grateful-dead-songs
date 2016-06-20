@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "22nd of Jun, 1985",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:14", "trans":"/"},
 			{"name": "Sugaree", "length":"9:47", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "One More Saturday Night", "length":"4:40", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Keep On Growing", "length":"5:01", "trans":"/"},
 			{"name": "Mississippi Half-Step", "length":"7:26", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"6:37", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:22", "trans":"/"},
 		]},

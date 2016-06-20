@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Feb, 1995",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"6:17", "trans":"/"},
 			{"name": "Sugaree", "length":"7:07", "trans":"/"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:09", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:26", "trans":">"},
 			{"name": "Weir's Segue", "length":"3:10", "trans":">"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:27", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"6:44", "trans":"/"},
 		]},

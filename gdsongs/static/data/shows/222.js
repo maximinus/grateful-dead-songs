@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "30th of May, 1981",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"4:19", "trans":"/"},
 			{"name": "Promised Land", "length":"4:03", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"5:13", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:40", "trans":"/"},
 			{"name": "Ship Of Fools", "length":"7:53", "trans":"/"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:05", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:15", "trans":"/"},
 			{"name": "Brokedown Palace", "length":"6:11", "trans":"/"},

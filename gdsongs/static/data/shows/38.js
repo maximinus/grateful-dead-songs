@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of Oct, 1976",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Might As Well", "length":"5:42", "trans":"/"},
 			{"name": "Mama Tried", "length":"2:38", "trans":"/"},
@@ -22,6 +23,7 @@ var SHOW_DATA = {
 			{"name": "Dancing In The Street", "length":"3:52", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"6:42", "trans":"/"},
 			{"name": "Brown-Eyed Women", "length":"4:48", "trans":"/"},
@@ -41,6 +43,7 @@ var SHOW_DATA = {
 			{"name": "Sugar Magnolia", "length":"8:47", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Johnny B. Goode", "length":"3:50", "trans":"/"},
 		]},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Mar, 1977",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Minglewood Blues", "length":"4:54", "trans":"/"},
 			{"name": "Ramble On Rose", "length":"7:33", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Scarlet Begonias", "length":"12:59", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Samson & Delilah", "length":"8:24", "trans":"/"},
 			{"name": "Row Jimmy", "length":"10:14", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"8:01", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"6:01", "trans":"/"},
 			{"name": "Terrapin Station", "length":"10:53", "trans":"/"},

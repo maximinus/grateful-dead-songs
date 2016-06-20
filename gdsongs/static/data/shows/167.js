@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of Jan, 1978",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"6:57", "trans":">"},
 			{"name": "Good Lovin'", "length":"5:52", "trans":"/"},
@@ -21,6 +22,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:06", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:46", "trans":"/"},
 			{"name": "It Must Have Been The Roses", "length":"6:52", "trans":"/"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "Around & Around", "length":"7:44", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:25", "trans":"/"},
 		]},

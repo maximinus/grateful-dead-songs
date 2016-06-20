@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "6th of May, 1984",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"5:59", "trans":"/"},
 			{"name": "Dire Wolf", "length":"3:20", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Touch Of Grey", "length":"6:44", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Uncle John's Band", "length":"9:58", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"7:24", "trans":"/"},
@@ -37,6 +39,7 @@ var SHOW_DATA = {
 			{"name": "Playing Reprise", "length":"3:01", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Keep Your Day Job", "length":"0:00", "trans":"/"},
 		]},

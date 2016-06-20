@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "26th of Apr, 1972",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"5:31", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"2:54", "trans":"/"},
@@ -29,6 +30,7 @@ var SHOW_DATA = {
 			{"name": "Casey Jones", "length":"5:30", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"5:00", "trans":">"},
 			{"name": "Truckin' Jam", "length":"5:03", "trans":">"},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "24th of Apr, 1972",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"5:20", "trans":">"},
 			{"name": "Truckin' Jam", "length":"3:22", "trans":">"},
@@ -28,6 +29,7 @@ var SHOW_DATA = {
 			{"name": "Casey Jones", "length":"5:49", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Dark Star Jam", "length":"4:30", "trans":">"},
 			{"name": "Improv", "length":"2:10", "trans":">"},
@@ -57,6 +59,7 @@ var SHOW_DATA = {
 			{"name": "Not Fade Away", "length":"2:30", "trans":">"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"4:21", "trans":"/"},
 		]},

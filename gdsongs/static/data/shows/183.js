@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "19th of Apr, 1983",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"7:01", "trans":"/"},
 			{"name": "Friend Of The Devil", "length":"8:58", "trans":"/"},
@@ -20,6 +21,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:23", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugaree", "length":"17:20", "trans":"/"},
 			{"name": "Samson & Delilah", "length":"8:09", "trans":"/"},
@@ -35,6 +37,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"8:43", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:12", "trans":"/"},
 		]},

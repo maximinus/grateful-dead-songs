@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "20th of Aug, 1980",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:54", "trans":"/"},
 			{"name": "Loser", "length":"7:26", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"4:25", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Greatest Story Ever Told", "length":"4:15", "trans":"/"},
 			{"name": "Althea", "length":"8:14", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:44", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:10", "trans":"/"},
 		]},

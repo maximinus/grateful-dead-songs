@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "24th of May, 1969",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Turn On Your Love Light", "length":"26:46", "trans":"/"},
 			{"name": "Doin' That Rag", "length":"6:42", "trans":"/"},

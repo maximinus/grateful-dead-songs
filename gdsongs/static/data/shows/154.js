@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of May, 1980",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"4:24", "trans":">"},
 			{"name": "Promised Land", "length":"4:00", "trans":"/"},
@@ -21,6 +22,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"4:18", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Feel Like A Stranger", "length":"7:56", "trans":"/"},
 			{"name": "Don't Ease Me In", "length":"3:08", "trans":"/"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:48", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Brokedown Palace", "length":"5:05", "trans":"/"},
 		]},

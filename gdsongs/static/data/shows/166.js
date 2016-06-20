@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "29th of Mar, 1983",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:32", "trans":"/"},
 			{"name": "Bird Song", "length":"8:14", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Greatest Story Ever Told", "length":"4:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:46", "trans":">"},
 			{"name": "Slipknot!", "length":"4:04", "trans":">"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:51", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "It's All Over Now, Baby Blue", "length":"7:24", "trans":"/"},
 		]},

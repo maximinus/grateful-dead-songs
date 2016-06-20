@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "8th of May, 1984",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"6:01", "trans":"/"},
 			{"name": "Cold Rain & Snow", "length":"5:47", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Might As Well", "length":"4:00", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"10:41", "trans":">"},
 			{"name": "Touch Of Grey", "length":"5:54", "trans":"/"},
@@ -34,6 +36,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"11:30", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugar Magnolia", "length":"5:07", "trans":"/"},
 			{"name": "Brokedown Palace", "length":"5:03", "trans":"/"},

@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "18th of Apr, 1986",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"4:17", "trans":">"},
 			{"name": "Greatest Story Ever Told", "length":"4:03", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"7:41", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Shakedown Street", "length":"11:19", "trans":"/"},
 			{"name": "Man Smart, Woman Smarter", "length":"9:20", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:56", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:15", "trans":"/"},
 		]},

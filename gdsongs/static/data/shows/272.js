@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "1st of Oct, 1988",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Hell In A Bucket", "length":"6:28", "trans":"/"},
 			{"name": "Sugaree", "length":"8:27", "trans":"/"},
@@ -17,6 +18,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:17", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Victim Or The Crime", "length":"5:28", "trans":">"},
 			{"name": "Scarlet Begonias", "length":"8:47", "trans":">"},
@@ -29,6 +31,7 @@ var SHOW_DATA = {
 			{"name": "Morning Dew", "length":"10:51", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "One More Saturday Night", "length":"5:01", "trans":"/"},
 		]},

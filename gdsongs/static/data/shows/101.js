@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "10th of Dec, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Cold Rain & Snow", "length":"6:13", "trans":">"},
 			{"name": "Greatest Story Ever Told", "length":"4:02", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Deal", "length":"4:25", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Scarlet Begonias", "length":"10:11", "trans":">"},
 			{"name": "Fire On The Mountain", "length":"11:36", "trans":"/"},
@@ -33,6 +35,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"4:11", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:22", "trans":"/"},
 		]},

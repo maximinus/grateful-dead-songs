@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "28th of Dec, 1979",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Sugaree", "length":"15:32", "trans":"/"},
 			{"name": "Mama Tried", "length":"2:26", "trans":">"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "The Music Never Stopped", "length":"8:33", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Alabama Getaway", "length":"6:43", "trans":">"},
 			{"name": "Greatest Story Ever Told", "length":"4:55", "trans":"/"},
@@ -32,6 +34,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"7:00", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Casey Jones", "length":"4:54", "trans":"/"},
 			{"name": "One More Saturday Night", "length":"4:44", "trans":"/"},

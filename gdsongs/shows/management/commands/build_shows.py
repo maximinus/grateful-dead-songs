@@ -21,6 +21,11 @@ def writeJSfile(show):
 	# now get all the sets played at this show and render them
 	for i in PlayedSet.objects.filter(show=show).order_by('order'):
 		js_file.write(u'\t\t{{"set_title": "{0}",\n'.format(i.set_text))
+		if(i.encore == True):
+			encore = 'true'
+		else:
+			encore = 'false'
+		js_file.write(u'\t\t{{"encore": {0},\n'.format(encore));
 		# now we have the sets, run through all the songs
 		js_file.write(u'\t\t "songs": [\n')
 		for j in PlayedSong.objects.filter(played_set=i).order_by('order'):

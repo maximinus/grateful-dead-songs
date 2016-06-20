@@ -3,9 +3,10 @@
 var SHOW_DATA = {
 	"venue_name": "Ventura County Fairgrounds, Ventura, California",
 	"venue_id": 77,
-	"show_date": "12nd of Jun, 1987",
+	"show_date": "12th of Jun, 1987",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Jack Straw", "length":"5:42", "trans":"/"},
 			{"name": "West L.A. Fadeaway", "length":"7:20", "trans":"/"},
@@ -18,6 +19,7 @@ var SHOW_DATA = {
 			{"name": "Don't Ease Me In", "length":"3:17", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "China Cat Sunflower", "length":"3:16", "trans":">"},
 			{"name": "Weir's Segue", "length":"2:17", "trans":">"},
@@ -36,6 +38,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"6:55", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Touch Of Grey", "length":"5:54", "trans":"/"},
 		]},

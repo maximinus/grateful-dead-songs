@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "5th of Mar, 1992",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Help On The Way", "length":"3:54", "trans":">"},
 			{"name": "Slipknot!", "length":"6:29", "trans":">"},
@@ -16,6 +17,7 @@ var SHOW_DATA = {
 			{"name": "Let It Grow", "length":"11:38", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Eyes Of The World", "length":"14:25", "trans":">"},
 			{"name": "Way To Go Home", "length":"6:17", "trans":"/"},
@@ -31,6 +33,7 @@ var SHOW_DATA = {
 			{"name": "Good Lovin'", "length":"8:08", "trans":"/"},
 		]},
 		{"set_title": "3rd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "U.S. Blues", "length":"5:33", "trans":"/"},
 		]},

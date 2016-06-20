@@ -6,6 +6,7 @@ var SHOW_DATA = {
 	"show_date": "4th of Apr, 1971",
 	"sets": [
 		{"set_title": "1st set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Bertha", "length":"5:30", "trans":"/"},
 			{"name": "Me & My Uncle", "length":"3:06", "trans":"/"},
@@ -19,6 +20,7 @@ var SHOW_DATA = {
 			{"name": "Johnny B. Goode", "length":"3:32", "trans":"/"},
 		]},
 		{"set_title": "2nd set",
+		{"encore": false,
 		 "songs": [
 			{"name": "Truckin'", "length":"5:11", "trans":">"},
 			{"name": "Truckin' Jam", "length":"1:48", "trans":">"},
