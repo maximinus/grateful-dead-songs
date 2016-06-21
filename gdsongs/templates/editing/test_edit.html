@@ -8,6 +8,10 @@
 {% block main %}
 	<div id="show-show">
 	</div>
+	<div class="end-buttons">
+		<button id="save-data">Save show</button>
+		<button id="add-set">Add another set</button>
+	</div>
 	<div class="instructions">
 		Click to edit, or drag and drop to re-order
 	</div>
@@ -103,7 +107,9 @@
     			{{message}}
     		</div>
     		<div id="dialog-buttons">
-				<button id="dialog-cancel">Cancel</button>
+    			{{#if cancel}}
+					<button id="dialog-cancel">Cancel</button>
+				{{/if}}
 				<button id="dialog-ok">OK</button>
     		</div>
 		</div>

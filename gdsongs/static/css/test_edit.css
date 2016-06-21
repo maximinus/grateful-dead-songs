@@ -69,6 +69,13 @@
 	width: 20%;
 }
 
+.end-buttons {
+	padding: 12px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .instructions {
 	font-style: italic;
 	font-size: 0.9em;
@@ -143,4 +150,8 @@
 
 .encore {
 	float: left;
+}
+
+#save-data {
+	background-color: #F99;
 }

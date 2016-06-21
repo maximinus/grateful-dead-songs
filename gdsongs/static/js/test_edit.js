@@ -130,11 +130,6 @@ function updateIndexOrder(event, ui) {
 	});
 };
 
-function removeSet(set_element) {
-	// deleting the set is easy
-
-};
-
 function getSongData(element) {
 	// given the element that contains the song row, return the data
 	var details = $(element).find('.song-name').first().text();
@@ -187,13 +182,35 @@ function deleteSet(event) {
 	// the event is from the button, so let's move that to the set
 	var set = $(event.currentTarget).parent().parent();
 	var message = 'Delete this set? Changes to database will not be made until you save.'
-	choose_dialog.open({'title':'Delete Set', 'message':message}, function() {
+	choose_dialog.open({'title':'Delete Set', 'message':message, 'cancel':true}, function() {
 		set.remove();
 		// now loop through the sets and rename them
 		$('.set-title').each(function(index, element) {
 			$(element).html(SET_NAMES[index]);
 		});
 	}, null);
+};
+
+function addEmptySet(event) {
+	// count the number of sets so far
+	var index = $('.set').length;
+	if(index >= SET_NAMES.length) {
+		// error
+		var message = "You shouldn't need to enter this many sets";
+		choose_dialog.open({'title':'Too many sets', 'message':message});
+		return;
+	}
+	var empty_set = {"sets": [{"set_title": SET_NAMES[index],
+							   "encore": false,
+							   "songs": []}]};
+	// so we nned to make the rendered html
+	$('#show-show').append(this(empty_set));
+	addSetButtons();
+};
+
+function addSetButtons() {
+	$('.add-song').off('click').on('click', addSong);
+	$('.set-delete-button').off('click').on('click', deleteSet);
 };
 
 // add helper for songs index counting
@@ -215,6 +232,6 @@ $(document).ready(function() {
 	// setup the drag and drop for songs
 	$('.sortable').sortable({update: updateIndexOrder});
 	addSongDoubleClick();
-	$('.add-song').click(addSong);
-	$('.set-delete-button').click(deleteSet);
+	addSetButtons();
+	$('#add-set').click(addEmptySet.bind(show_template));
 });
