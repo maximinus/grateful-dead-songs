@@ -62,8 +62,9 @@ COUNTRIES = [['USA', 0],
 			 ['Sweden', 6],
 			 ['Netherlands', 7],
 			 ['Luxembourg', 8],
-			 ['Eygpt', 9],
+			 ['Egypt', 9],
 			 ['Jamaica', 10],
+			 ['Spain', 11],
 			 ['Unknown', -1]]
 
 def getStateList():
