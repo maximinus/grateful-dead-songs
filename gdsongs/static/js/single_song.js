@@ -12,6 +12,12 @@ function getYearList() {
 };
 
 $(document).ready(function() {
+	// make the canvas width equal to the screen width
+	var canvas_width = $('#use-width').width();
+	// account for margins
+	var margin = parseInt($('#song-canvas').css('margin-top'));
+	canvas_width -= (margin * 2);
+	$('#song-canvas').prop({width: canvas_width});
 	// setup the graph
 	var ctx = $('#song-canvas');
 	var data = {labels: getYearList(),
@@ -26,6 +32,7 @@ $(document).ready(function() {
 		data: data,
 		options: {
 			responsive: false,
+			maintainAspectRatio: true,
 		}
 	});
 });

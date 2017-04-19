@@ -13,8 +13,8 @@
 
 #song-canvas {
 	border: 1px solid #CCF;
-	margin: 4px;
-	width: 50%;
+	margin-top: 8px;
+	margin: 8px;
 }
 
 .song-header {

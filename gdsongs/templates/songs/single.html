@@ -9,10 +9,10 @@
 	<!-- Show one song -->
 	<h3>{{ song.name}}</h3>
 	
-	<div class='top-display'>
+	<div class='top-display' id="use-width">
 		<div class="song-table">
 			<div class="song-header">
-				Songs into
+				Previous song
 			</div>
 			<div class="song-body">
 				{% for song in songs_into %}
@@ -29,7 +29,7 @@
 		</div><!-- End of song table -->
 		<div class="song-table">
 			<div class="song-header">
-				Songs out of
+				Following song
 			</div>
 			<div class="song-body">
 				{% for song in songs_out %}
@@ -44,7 +44,7 @@
 				{% endfor %}
 			</div>
 		</div><!-- End of song table -->
-	</div>
+	</div><!-- End of top display -->
 	<canvas id="song-canvas">
 	<p><a href="{% url 'all_songs' %}">Back to all songs</a></p>
 {% endblock %}
