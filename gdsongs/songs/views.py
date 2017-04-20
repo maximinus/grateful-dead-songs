@@ -16,5 +16,6 @@ def singleSong(request, song_id):
 	context = {'song':song,
 			   'years': data[0],
 			   'songs_into': data[1],
-			   'songs_out': data[2]}
+			   'songs_out': data[2],
+			   'every_show': data[3]}
 	return(render(request, 'songs/single.html', context))

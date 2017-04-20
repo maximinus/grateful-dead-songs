@@ -1,9 +1,11 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
+from rest_framework import generics
 
 import json
 
 from venues.models import Venue
+from venues.serializers import VenueSerializer
 from locations import getStateCode, getCountryCode, getStateName, getCountryName
 
 def allVenues(request):
@@ -111,3 +113,13 @@ def addNewVenue(request):
 							'venue_index':venue})
 	return(HttpResponse(json_data, content_type='application/json', status=200))
 
+
+# REST object configurations
+class VenueList(generics.ListCreateAPIView):
+    queryset = Venue.objects.all()
+    serializer_class = VenueSerializer
+
+
+class VenueDetail(generics.RetrieveAPIView):
+    queryset = Venue.objects.all()
+    serializer_class = VenueSerializer

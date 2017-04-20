@@ -35,7 +35,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'dbbackup',
+    'rest_framework',
     'songs',
     'venues',
     'tours',

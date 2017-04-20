@@ -45,14 +45,39 @@
 			</div>
 		</div><!-- End of song table -->
 	</div><!-- End of top display -->
-	<canvas id="song-canvas">
+	<canvas id="song-canvas"></canvas>
+	<h3>Every Time Played</h3>
+	<div class="every-time-played"></div>
 	<p><a href="{% url 'all_songs' %}">Back to all songs</a></p>
+	<div id="every-show">
+		{% for show in every_show %}
+			<a href="{{ show.id }}">{{ show.date }}</a>
+		{% endfor %}
+	</div>
 {% endblock %}
 
 {% block scripts %}
+	{% verbatim %}
+	<script id="single-year" type="text/x-handlebars-template">
+		<div class="year-display">
+			<div class="year-string">
+				{{year}}
+			</div>
+			<div class="year-shows"></div>
+		</div>
+	</script>
+
+	<script id="single-show" type="text/x-handlebars-template"></script>
+		<div class="date-display">
+			{{date}}
+		</div>
+	</script>
+	{% endverbatim %}
+
 	<script>
 		YEAR_DATA = {{ years|safe }};
 	</script>
 	<script src="{% static "js/Chart.js" %}"></script>
 	<script src="{% static "js/single_song.js" %}"></script>
+	<script src="{% static "js/handlebars.js" %}"></script>
 {% endblock %}

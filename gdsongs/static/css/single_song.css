@@ -52,3 +52,16 @@
 .song-times {
 	width: 30%;
 }
+
+.every-time-played {
+	display: flex;
+	flex-direction: row;
+}
+
+.every-time-column {
+	margin: 4px;
+}
+
+#every-show {
+	display: none;
+}

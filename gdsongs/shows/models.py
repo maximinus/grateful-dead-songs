@@ -215,6 +215,9 @@ class PlayedSong(models.Model):
 	def __unicode__(self):
 		return('{0}, in {1}, {2}'.format(self.song, self.played_set.set_text, self.played_set.show.date))
 
+	def date_display(self):
+		return self.played_set.show.date
+
 
 # some functions to get data relating to all the songs
 def getSongData(song):
@@ -259,7 +262,21 @@ def getSongData(song):
 	for key, value in sorted(out_songs.iteritems(), key=lambda (k,v): (v,k)):
 		songs_out.append([key, value])
 	# -5 means 'the last 5 elements'
-	return([json.dumps(years), reversed(songs_into[-5:]), reversed(songs_out[-5:])])
+	return([json.dumps(years),
+		    reversed(songs_into[-5:]),
+		    reversed(songs_out[-5:]),
+		    get_shows_from_songs(all_versions)])
+
+
+def get_shows_from_songs(songs):
+	"""Given a list of PlayedSongs, return a list of shows"""
+	# get all unique shows
+	shows = list(set([x.played_set.show for x in songs]))
+	# sort by date
+	shows = sorted(shows, cmp=showCompare)
+	# extract the dates and return
+	return shows
+
 
 class OfficalReleaseLink(models.Model):
 	show = models.ForeignKey(Show)

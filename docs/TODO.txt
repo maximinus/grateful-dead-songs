@@ -1,0 +1,17 @@
+
+Current jobs and moving forward:
+
+1: Add a REST environment to read and write values
+2: Add authentication to the write values
+3: Build pages with React
+
+Part 1: What to serialise with REST
+
+	Read this data:
+		Show
+		PlayedSet
+		PlayedSong
+		Song
+		AlternateName
+		Tour
+		Venue
