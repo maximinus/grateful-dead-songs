@@ -10,9 +10,11 @@ SET_NAMES = ['Unknown', '1st', '2nd', '3rd', '4th']
 ENDS = ['th', 'st', 'nd', 'rd']
 
 class ShowDate(models.Model):
-	"""Because the database has to handle shows with unknown or inaccurate dates, we need a seperate class
-	   We store a year, month and day. Zero is used to show that we do not know the date.
-	   For example: 0-3-1968 would show that the show was in March of 1968 but we do not know they day"""
+	"""Because the database has to handle shows with unknown or inaccurate dates,
+	   we need a seperate class. We store a year, month and day. 
+	   Zero is used to show that we do not know the date.
+	   For example: 0-3-1968 would show that the show was in March of 1968
+	   but we do not know what day"""
 	year = models.IntegerField(default=0, null=False)
 	month = models.IntegerField(default=0, null=False)
 	day = models.IntegerField(default=0, null=False)

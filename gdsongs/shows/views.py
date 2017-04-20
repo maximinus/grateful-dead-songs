@@ -4,11 +4,13 @@ from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ObjectDoesNotExist
 
 import json, datetime
+from rest_framework import generics
 
 from .models import ShowDate, Show, PlayedSet, PlayedSong, showCompare
 from songs.models import Song
 from venues.models import Venue
 from venues.locations import getStateList, getCountryList
+from shows.serializers import ShowSerializer
 
 def allShows(request):
 	shows = [x for x in Show.objects.all()]
@@ -242,3 +244,14 @@ def getShowYears(request, year):
 def exampleEdit(request, show_id):
 	show = get_object_or_404(Show, pk=int(show_id))
 	return(render(request, 'editing/test_edit.html', {'id':show_id}))
+
+
+# REST object configurations
+class ShowList(generics.ListCreateAPIView):
+    queryset = Show.objects.all()
+    serializer_class = ShowSerializer
+
+
+class ShowDetail(generics.RetrieveAPIView):
+    queryset = Show.objects.all()
+    serializer_class = ShowSerializer
